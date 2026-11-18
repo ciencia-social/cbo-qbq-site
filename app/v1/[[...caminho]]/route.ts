@@ -4,7 +4,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 /** Endereço antigo. O caminho e a consulta seguem para /api/v1. */
-export function redirecionar(req: Request) {
+function redirecionar(req: Request) {
   const url = new URL(req.url);
   const resto = url.pathname.replace(/^\/v1(?=\/|$)/, "");
   url.pathname = `${PREFIXO_API}${resto}`;

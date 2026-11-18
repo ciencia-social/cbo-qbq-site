@@ -1,0 +1,19 @@
+/* O botão de tema mostra o ícone do destino conforme data-theme, sem esperar o React. */
+.cs-theme [data-quando="claro"] { display: none; }
+.cs-theme [data-quando="escuro"] { display: inline-flex; }
+[data-theme="dark"] .cs-theme [data-quando="claro"] { display: inline-flex; }
+[data-theme="dark"] .cs-theme [data-quando="escuro"] { display: none; }
+
+/* Segmento que é link, para trocar de vista sem JavaScript. */
+.cs-seg__opt a {
+  display: flex;
+  align-items: center;
+  min-height: calc(var(--control-height, 44px) - 2px);
+  padding: 0 var(--space-3);
+  font: 500 14px/20px var(--font-sans);
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.cs-seg__opt a:hover { color: var(--ink); }
+.cs-seg__opt a[aria-current="true"] { background: var(--accent); color: var(--on-accent); }
+.cs-seg__opt a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
