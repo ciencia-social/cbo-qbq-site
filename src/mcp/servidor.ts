@@ -4,13 +4,13 @@ import { Problema } from "@/http/erros";
 
 export function criarServidor() {
   const servidor = new McpServer({ name: "cbo-qbq", version: "0.1.0" }, { instructions: INSTRUCOES });
-  for (const [nome, descricao, schema] of definicoes) {
+  for (const ferramenta of definicoes) {
     servidor.registerTool(
-      nome,
-      { description: descricao, inputSchema: schema, annotations: somenteLeitura },
+      ferramenta.nome,
+      { title: ferramenta.title, description: ferramenta.descricao, inputSchema: ferramenta.schema, annotations: somenteLeitura },
       async (args: Record<string, unknown>) => {
         try {
-          const resultado = executarTool(nome, args as Record<string, unknown>);
+          const resultado = executarTool(ferramenta.nome, args as Record<string, unknown>);
           return {
             content: [
               { type: "text" as const, text: resultado.texto },

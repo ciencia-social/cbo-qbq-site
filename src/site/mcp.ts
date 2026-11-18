@@ -23,15 +23,15 @@ const REST: Record<string, { rotas: string; grupo: "nucleo" | "exploracao" | "de
 
 export function carregarMcp(grupo?: string) {
   const filtro = grupo === "nucleo" || grupo === "exploracao" || grupo === "derivado" ? grupo : "todas";
-  const tools = definicoes.map(([nome, descricao, forma]) => {
-    const mapa = REST[nome] ?? { rotas: "sem rota única", grupo: "exploracao" as const };
+  const tools = definicoes.map((ferramenta) => {
+    const mapa = REST[ferramenta.nome] ?? { rotas: "sem rota única", grupo: "exploracao" as const };
     return {
-      nome,
-      descricao,
+      nome: ferramenta.nome,
+      descricao: ferramenta.descricao,
       rotas: mapa.rotas,
       grupo: mapa.grupo,
       natureza: mapa.grupo === "derivado" ? "derivado" : "oficial",
-      argumentos: Object.keys(forma),
+      argumentos: Object.keys(ferramenta.schema),
     };
   });
   return {

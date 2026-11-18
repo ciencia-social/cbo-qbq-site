@@ -46,6 +46,25 @@ const casos: [string, Record<string, unknown>][] = [
   ["cobertura_consultar", {}],
 ];
 
+describe("T2 descrição das tools", () => {
+  it("tools/list descreve cada parâmetro, enumera dimensao e dá title", async () => {
+    const lista = await cliente.listTools();
+    expect(lista.tools).toHaveLength(15);
+    for (const tool of lista.tools) {
+      expect(tool.title, tool.name).toBeTruthy();
+      const propriedades = ((tool.inputSchema as { properties?: Record<string, { description?: string }> }).properties) ?? {};
+      for (const [campo, propriedade] of Object.entries(propriedades)) {
+        expect(propriedade.description, `${tool.name}.${campo}`).toBeTruthy();
+      }
+    }
+    for (const nome of ["ocupacao_comparar", "ocupacao_similares", "cbo_resumir_grupo"]) {
+      const tool = lista.tools.find((item) => item.name === nome);
+      const dimensao = (tool?.inputSchema as { properties: { dimensao: { enum?: string[] } } }).properties.dimensao;
+      expect(dimensao.enum).toEqual(["habilidades", "atitudes", "conhecimentos", "conhecimentos-i", "conhecimentos-ii"]);
+    }
+  });
+});
+
 describe("T1 texto acompanha o JSON", () => {
   it.each(casos)("%s devolve o structuredContent no segundo bloco de texto", async (nome, args) => {
     const { resultado, blocos } = await chamar(nome, args);
