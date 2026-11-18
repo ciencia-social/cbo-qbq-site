@@ -1,5 +1,5 @@
 import { todos } from "@/dados/banco";
-import type { Fonte } from "@/tipos";
+import { normalizarArquivo, type Fonte } from "@/tipos";
 
 export type NoCbo = {
   nivel: string;
@@ -203,13 +203,13 @@ export function divergenciaDe(nivel: string, codigo: string) {
 
 export function fonteCbo(ocupacao: OcupacaoLista): Fonte | null {
   if (!ocupacao.fonte_cbo_arquivo || ocupacao.fonte_cbo_linha == null) return null;
-  return { arquivo: ocupacao.fonte_cbo_arquivo, linha: ocupacao.fonte_cbo_linha };
+  return { arquivo: normalizarArquivo(ocupacao.fonte_cbo_arquivo), linha: ocupacao.fonte_cbo_linha };
 }
 
 export function fonteQbq(ocupacao: OcupacaoLista): Fonte | null {
   if (!ocupacao.fonte_qbq_arquivo || ocupacao.fonte_qbq_linha == null) return null;
   return {
-    arquivo: ocupacao.fonte_qbq_arquivo,
+    arquivo: normalizarArquivo(ocupacao.fonte_qbq_arquivo),
     aba: ocupacao.fonte_qbq_aba ?? undefined,
     linha: ocupacao.fonte_qbq_linha,
   };

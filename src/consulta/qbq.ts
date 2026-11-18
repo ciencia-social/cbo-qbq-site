@@ -20,7 +20,7 @@ import { todos } from "@/dados/banco";
 import { parametro, Problema } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { ehBalde, ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
-import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, type Faixa, type Saida } from "@/tipos";
+import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, abaCompetencia, type Faixa, type Saida } from "@/tipos";
 import { api } from "@/versao";
 
 const APLICA: Record<string, string> = {
@@ -250,7 +250,7 @@ export function ocupacoesDoTermo(
       importancia: melhorItem.importancia,
       frequencia: melhorItem.frequencia,
       profundidade: melhorItem.profundidade,
-      fonte: fonteItem(melhorItem.linha),
+      fonte: fonteItem(melhorItem.linha, abaCompetencia(vocabulario)),
     }];
   });
   const desc = (opcoes.ordenar ?? "-importancia").startsWith("-");
@@ -395,7 +395,7 @@ export function buscarItens(opcoes: {
       importancia: cha?.importancia ?? null,
       frequencia: cha?.frequencia ?? null,
       profundidade: cha?.profundidade ?? null,
-      fonte: fonteItem(linha.linha),
+      fonte: fonteItem(linha.linha, abaCompetencia(linha.dimensao, ocupacao.taxonomia_conhecimento)),
       casou_em: "descricao_item",
       trecho: trecho(linha.descricao, termos),
     });

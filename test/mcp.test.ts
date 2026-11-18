@@ -3,6 +3,7 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { criarServidor } from "@/mcp/servidor";
 import { competencias } from "@/consulta/ocupacao";
+import { tratar } from "@/http/dispatcher";
 
 let cliente: Client;
 let fechar: () => Promise<void>;
@@ -217,5 +218,77 @@ describe("T1 texto acompanha o JSON", () => {
     expect(blocos[0].text).toMatch(/62 conhecimentos/);
     expect(blocos[0].text).toMatch(/46 habilidades/);
     expect(blocos[0].text).toMatch(/4 atitudes/);
+  });
+});
+
+function arquivosFonte(valor: unknown, achados: string[] = []): string[] {
+  if (!valor || typeof valor !== "object") return achados;
+  if (Array.isArray(valor)) {
+    for (const item of valor) arquivosFonte(item, achados);
+    return achados;
+  }
+  const registro = valor as Record<string, unknown>;
+  for (const [chave, item] of Object.entries(registro)) {
+    if ((chave === "fonte" || chave === "fonte_justificativa") && item && typeof item === "object") {
+      const fonte = item as { arquivo?: string; cbo?: { arquivo?: string }; qbq?: { arquivo?: string } };
+      if (fonte.arquivo) achados.push(fonte.arquivo);
+      if (fonte.cbo?.arquivo) achados.push(fonte.cbo.arquivo);
+      if (fonte.qbq?.arquivo) achados.push(fonte.qbq.arquivo);
+    }
+    arquivosFonte(item, achados);
+  }
+  return achados;
+}
+
+describe("T10 caminhos de fonte", () => {
+  async function api(caminho: string) {
+    const resposta = await tratar(new Request(`http://localhost${caminho}`));
+    return { status: resposta.status, corpo: await resposta.json() };
+  }
+
+  it("prefixa fontes/ na API e no MCP e marca a aba da competência", async () => {
+    const [lista, codigo, atividadesApi, oficiais, habilidadesApi, conhecimentosApi, atitudesApi, conhecimentosIi, habilidadesIi] = await Promise.all([
+      api("/api/v1/ocupacoes?limite=1"),
+      api("/api/v1/codigos/2124"),
+      api("/api/v1/ocupacoes/212405/atividades?modo=resumo"),
+      api("/api/v1/fontes"),
+      api("/api/v1/ocupacoes/212405/competencias?dimensao=habilidades&limite=1"),
+      api("/api/v1/ocupacoes/212405/competencias?dimensao=conhecimentos&limite=1"),
+      api("/api/v1/ocupacoes/212405/competencias?dimensao=atitudes&limite=1"),
+      api("/api/v1/ocupacoes/111325/competencias?dimensao=conhecimentos&limite=1"),
+      api("/api/v1/ocupacoes/111325/competencias?dimensao=habilidades&limite=1"),
+    ]);
+    for (const resposta of [lista, codigo, atividadesApi, oficiais, habilidadesApi, conhecimentosApi, atitudesApi, conhecimentosIi, habilidadesIi]) {
+      expect(resposta.status).toBe(200);
+    }
+    const arquivosApi = [lista, codigo, atividadesApi, habilidadesApi].flatMap((resposta) => arquivosFonte(resposta.corpo));
+    const catalogo = (oficiais.corpo as { dados: { arquivo: string }[] }).dados.map((item) => item.arquivo);
+    expect(arquivosApi.length).toBeGreaterThan(0);
+    expect([...arquivosApi, ...catalogo].every((arquivo) => arquivo.startsWith("fontes/"))).toBe(true);
+    expect((habilidadesApi.corpo as { dados: { habilidades: { itens: { fonte: { aba: string } }[] } } }).dados.habilidades.itens[0].fonte.aba).toBe("Habilidade");
+    expect((conhecimentosApi.corpo as { dados: { conhecimentos: { itens: { fonte: { aba: string } }[] } } }).dados.conhecimentos.itens[0].fonte.aba).toBe("Conhecimento I");
+    expect((atitudesApi.corpo as { dados: { atitudes: { itens: { fonte: { aba: string } }[] } } }).dados.atitudes.itens[0].fonte.aba).toBe("Atitude");
+    expect((conhecimentosIi.corpo as { dados: { conhecimentos: { itens: { fonte: { aba: string } }[] } } }).dados.conhecimentos.itens[0].fonte.aba).toBe("Conhecimento II");
+    expect((habilidadesIi.corpo as { dados: { habilidades: { itens: { fonte: { aba: string } }[] } } }).dados.habilidades.itens[0].fonte.aba).toBe("Habilidade");
+
+    const ficha = await chamar("ocupacao_obter", { codigo: "212405" });
+    const nav = await chamar("cbo_navegar", { codigo: "2124" });
+    const atividades = await chamar("cbo_atividades", { codigo: "212405", modo: "resumo" });
+    const competenciasMcp = await chamar("qbq_competencias", { codigo: "212405", limite: 5 });
+    const fontes = await chamar("dados_sobre", { topico: "fontes" });
+    const arquivosMcp = [ficha, nav, atividades, competenciasMcp].flatMap((chamada) => arquivosFonte(chamada.resultado.structuredContent));
+    const listaFontes = (fontes.resultado.structuredContent as { resultado: { arquivo: string }[] }).resultado.map((item) => item.arquivo);
+    expect(arquivosMcp.length).toBeGreaterThan(0);
+    expect([...arquivosMcp, ...listaFontes].every((arquivo) => arquivo.startsWith("fontes/"))).toBe(true);
+    const itens = (competenciasMcp.resultado.structuredContent as {
+      resultado: {
+        conhecimentos: { itens: { fonte: { aba: string } }[] };
+        habilidades: { itens: { fonte: { aba: string } }[] };
+        atitudes: { itens: { fonte: { aba: string } }[] };
+      };
+    }).resultado;
+    expect(itens.habilidades.itens[0].fonte.aba).toBe("Habilidade");
+    expect(itens.conhecimentos.itens[0].fonte.aba).toBe("Conhecimento I");
+    expect(itens.atitudes.itens[0].fonte.aba).toBe("Atitude");
   });
 });

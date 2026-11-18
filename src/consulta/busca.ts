@@ -1,5 +1,5 @@
 import { noCbo, nosDoNivel, ocupacaoPorCodigo } from "@/consulta/cache";
-import { resumoOcupacao } from "@/consulta/formatar";
+import { fonteDe, resumoOcupacao } from "@/consulta/formatar";
 import { listarOcupacoes, type FiltroOcupacao } from "@/consulta/ocupacao";
 import { listarConceitos, listarTermos } from "@/consulta/qbq";
 import { todos } from "@/dados/banco";
@@ -160,7 +160,7 @@ export function buscarAtividades(opcoes: {
         numero: linha.numero,
         descricao: linha.descricao,
         nivel_qualificacao: ocupacao.nivel_qualificacao,
-        fonte: linha.fonte_arquivo ? { arquivo: linha.fonte_arquivo, linha: linha.fonte_linha } : null,
+        fonte: fonteDe(linha.fonte_arquivo, linha.fonte_linha),
         casou_em,
         trecho: trecho(casou_em === "atividade" ? linha.descricao : linha.area, termos),
       })),

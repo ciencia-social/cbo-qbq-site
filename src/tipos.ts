@@ -79,3 +79,18 @@ export const METODO_NIVEIS =
   "Média e mediana usam só ocupações com nível na dimensão pedida. Quem não tem nível entra na contagem à parte, nunca como zero.";
 
 export const ARQUIVO_QBQ = "fontes/qbq/qbq-2025-03.xlsx";
+
+export function normalizarArquivo(arquivo: string): string {
+  if (arquivo.startsWith("fontes/")) return arquivo;
+  if (arquivo.startsWith("cbo/") || arquivo.startsWith("qbq/")) return `fontes/${arquivo}`;
+  if (arquivo.startsWith("cbo2002-")) return `fontes/cbo/${arquivo}`;
+  return arquivo;
+}
+
+export function abaCompetencia(dimensao: string, taxonomia?: string | null): string | undefined {
+  if (dimensao === "habilidades") return "Habilidade";
+  if (dimensao === "atitudes") return "Atitude";
+  if (dimensao === "conhecimentos-ii" || (dimensao === "conhecimentos" && taxonomia === "conhecimentos-ii")) return "Conhecimento II";
+  if (dimensao === "conhecimentos" || dimensao === "conhecimentos-i") return "Conhecimento I";
+  return undefined;
+}

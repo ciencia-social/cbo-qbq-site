@@ -10,13 +10,13 @@ import {
   type TermoRow,
 } from "@/consulta/cache";
 import { Problema } from "@/http/erros";
-import { ARQUIVO_QBQ, FOLHA, NIVEL_POR_TAMANHO, URL_DO_NIVEL, type Aviso, type Fonte } from "@/tipos";
+import { ARQUIVO_QBQ, FOLHA, NIVEL_POR_TAMANHO, URL_DO_NIVEL, normalizarArquivo, type Aviso, type Fonte } from "@/tipos";
 import { normalizarBusca, textoCasa, trecho } from "@/texto";
 import { api } from "@/versao";
 
 export function fonteDe(arquivo: string | null, linha?: number | null, aba?: string | null): Fonte | null {
   if (!arquivo) return null;
-  return { arquivo, ...(aba ? { aba } : {}), ...(linha != null ? { linha } : {}) };
+  return { arquivo: normalizarArquivo(arquivo), ...(aba ? { aba } : {}), ...(linha != null ? { linha } : {}) };
 }
 
 export function avisosOcupacao(ocupacao: OcupacaoLista, ficha = false): Aviso[] {
@@ -224,8 +224,8 @@ export function termoPublico(item: TermoRow) {
   };
 }
 
-export function fonteItem(linha: number | null): Fonte {
-  return { arquivo: ARQUIVO_QBQ, ...(linha != null ? { linha } : {}) };
+export function fonteItem(linha: number | null, aba?: string): Fonte {
+  return { arquivo: ARQUIVO_QBQ, ...(aba ? { aba } : {}), ...(linha != null ? { linha } : {}) };
 }
 
 export function motivoConceito(balde: boolean, dimensao: string): Aviso | null {

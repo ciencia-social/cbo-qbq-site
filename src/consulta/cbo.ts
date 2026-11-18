@@ -1,4 +1,4 @@
-import { noCbo, nosDoNivel, ocupacaoPorCodigo, type NoCbo } from "@/consulta/cache";
+import { fonteCbo, fonteQbq, noCbo, nosDoNivel, ocupacaoPorCodigo, type NoCbo } from "@/consulta/cache";
 import {
   ancestralDe,
   caminhoOcupacao,
@@ -69,10 +69,8 @@ export function descreverCodigo(codigo: string) {
       situacao_qbq: ocupacao.situacao_qbq,
       divergencia: ocupacao.divergencia,
       fonte: {
-        cbo: ocupacao.fonte_cbo_arquivo ? { arquivo: ocupacao.fonte_cbo_arquivo, linha: ocupacao.fonte_cbo_linha } : null,
-        qbq: ocupacao.fonte_qbq_arquivo
-          ? { arquivo: ocupacao.fonte_qbq_arquivo, aba: ocupacao.fonte_qbq_aba, linha: ocupacao.fonte_qbq_linha }
-          : null,
+        cbo: fonteCbo(ocupacao),
+        qbq: fonteQbq(ocupacao),
       },
     };
   }

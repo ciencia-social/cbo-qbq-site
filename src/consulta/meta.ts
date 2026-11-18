@@ -1,6 +1,7 @@
 import { todos } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
+import { normalizarArquivo } from "@/tipos";
 import { api, LICENCA, REPOSITORIO_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Saida } from "@/tipos";
@@ -29,7 +30,7 @@ export function fontes(): Saida {
   const linhas = todos<{ arquivo: string; origem: string | null; capturado_em: string | null; sha256: string | null }>(
     "SELECT arquivo, origem, capturado_em, sha256 FROM fonte_oficial ORDER BY ordem",
   );
-  return { dados: linhas };
+  return { dados: linhas.map((linha) => ({ ...linha, arquivo: normalizarArquivo(linha.arquivo) })) };
 }
 
 export function decisoes(q?: string, limite = 20, deslocamento = 0): Saida {

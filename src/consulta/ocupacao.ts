@@ -21,6 +21,7 @@ import { api } from "@/versao";
 import {
   FOLHA,
   METODO_SIMILARIDADE,
+  abaCompetencia,
   type Aviso,
   type Faixa,
   type Saida,
@@ -486,7 +487,7 @@ function itemCompetencia(linha: ChaRow, dimensao: string, taxonomia: string | nu
       ...(linha.descricao_item ? { descricao_item: linha.descricao_item } : {}),
       graus,
       balde,
-      fonte: fonteItem(linha.linha),
+      fonte: fonteItem(linha.linha, abaCompetencia(dimensao, taxonomia)),
     };
   }
   return {
@@ -499,7 +500,7 @@ function itemCompetencia(linha: ChaRow, dimensao: string, taxonomia: string | nu
     balde,
     ...(incluirConceitos || motivo ? { conceito: conceito ? { termo: conceito.termo, conceito: conceito.conceito, fonte: fonteDe(conceito.fonte_arquivo) } : null, ...(motivo ? { motivo_conceito: motivo } : {}) } : {}),
     ...(divergenciaDe(linha.nivel_vocabulario, linha.codigo) ? { divergencia_de_grafia: divergenciaDe(linha.nivel_vocabulario, linha.codigo) } : {}),
-    fonte: fonteItem(linha.linha),
+    fonte: fonteItem(linha.linha, abaCompetencia(dimensao, taxonomia)),
   };
 }
 
