@@ -195,6 +195,20 @@ export function arvore(raiz: string | undefined, profundidade: number): Saida {
     };
   }
   const limpo = raiz.replace(/[\s-]/g, "");
+  const candidato = limpo.length === 5 ? limpo.padStart(6, "0") : limpo;
+  if (/^\d{6}$/.test(candidato) && (limpo.length === 6 || ocupacaoPorCodigo(candidato))) {
+    const ocupacao = ocupacaoPorCodigo(candidato);
+    if (ocupacao) {
+      const familia = ocupacao.familia ?? candidato.slice(0, 4);
+      throw new Problema(
+        400,
+        api("/problemas/parametro-invalido"),
+        "Use a ficha da ocupação",
+        `cbo_navegar percorre grande grupo, subgrupo principal, subgrupo e família. ${candidato} é uma ocupação: use ocupacao_obter. Para navegar, a família é ${familia}.`,
+      );
+    }
+    throw inexistente(raiz, candidato);
+  }
   if (!/^\d{1,4}$/.test(limpo)) throw codigoMalformado(raiz);
   const nivel = NIVEL_POR_TAMANHO[limpo.length];
   const no = noCbo(nivel, limpo);

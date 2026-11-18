@@ -66,6 +66,17 @@ describe("T2 descrição das tools", () => {
   });
 });
 
+describe("T6 navegação com código de ocupação", () => {
+  it("212405 aponta ocupacao_obter e a família, sem negar o código", async () => {
+    const resultado = await cliente.callTool({ name: "cbo_navegar", arguments: { codigo: "212405" } });
+    const texto = (resultado.content as { text: string }[]).map((bloco) => bloco.text).join("\n");
+    expect(resultado.isError).toBe(true);
+    expect(texto).toContain("ocupacao_obter");
+    expect(texto).toContain("2124");
+    expect(texto).not.toContain("não é um código CBO");
+  });
+});
+
 describe("T5 total da busca de termos", () => {
   it("direito ambiental conta as descrições de item", async () => {
     const { resultado, blocos } = await chamar("qbq_buscar_termos", {
