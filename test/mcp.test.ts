@@ -2,6 +2,7 @@ import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { criarServidor } from "@/mcp/servidor";
+import { competencias } from "@/consulta/ocupacao";
 
 let cliente: Client;
 let fechar: () => Promise<void>;
@@ -62,6 +63,32 @@ describe("T2 descrição das tools", () => {
       const dimensao = (tool?.inputSchema as { properties: { dimensao: { enum?: string[] } } }).properties.dimensao;
       expect(dimensao.enum).toEqual(["habilidades", "atitudes", "conhecimentos", "conhecimentos-i", "conhecimentos-ii"]);
     }
+  });
+});
+
+describe("T3 tamanho das respostas", () => {
+  it("qbq_competencias de 212405 fica abaixo de 15 KB e avisa o corte", async () => {
+    const { resultado, blocos } = await chamar("qbq_competencias", { codigo: "212405" });
+    const corpo = resultado.structuredContent as {
+      avisos: { mensagem: string }[];
+      resultado: { truncado?: boolean; habilidades: { itens: Record<string, unknown>[] } };
+    };
+    expect(Buffer.byteLength(blocos[1].text)).toBeLessThan(15 * 1024);
+    expect(corpo.resultado.truncado).toBe(true);
+    expect(corpo.avisos.some((aviso) => aviso.mensagem.includes("restante"))).toBe(true);
+    expect(corpo.resultado.habilidades.itens[0]).not.toHaveProperty("caminho");
+    const cheia = competencias("212405", { dimensao: "habilidades", incluirConceitos: true, limite: 5 });
+    const item = (cheia.dados as { habilidades: { itens: { caminho: unknown[] }[] } }).habilidades.itens[0];
+    expect(item.caminho.length).toBeGreaterThan(0);
+  });
+
+  it("ocupacao_comparar fica abaixo de 8 KB e informa os 42 termos em comum", async () => {
+    const { resultado, blocos } = await chamar("ocupacao_comparar", { codigos: ["212420", "212405"], dimensao: "habilidades" });
+    const corpo = resultado.structuredContent as { resultado: { total_em_comum: number; truncado?: boolean }; avisos: { mensagem: string }[] };
+    expect(Buffer.byteLength(blocos[1].text)).toBeLessThan(8 * 1024);
+    expect(corpo.resultado.total_em_comum).toBe(42);
+    expect(corpo.resultado.truncado).toBe(true);
+    expect(corpo.avisos.some((aviso) => aviso.mensagem.includes("42") && aviso.mensagem.includes("restante"))).toBe(true);
   });
 });
 

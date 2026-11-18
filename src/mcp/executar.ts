@@ -33,9 +33,11 @@ function embrulho(saida: Saida, texto: string): ResultadoTool {
   const total = saida.total;
   const limite = saida.limite;
   const avisos = [...(saida.avisos ?? [])];
-  if (total != null && limite != null && total > limite) {
+  const cortado = (total != null && limite != null && total > limite) || temTruncado(saida.dados);
+  if (cortado && !avisos.some((aviso) => aviso.mensagem.includes("restante"))) {
+    const quanto = total != null && limite != null && total > limite ? `Mostrando ${limite} de ${total}. ` : "";
     avisos.push({
-      mensagem: `Mostrando ${limite} de ${total}. Aumente limite (máximo 50) ou peça o restante.`,
+      mensagem: `${quanto}A lista foi cortada. Aumente limite (máximo 50) ou peça o restante.`,
     });
   }
   return {
@@ -54,6 +56,24 @@ function embrulho(saida: Saida, texto: string): ResultadoTool {
 function textoLista(prefixo: string, itens: { codigo?: string; titulo_cbo?: string | null; titulo?: string | null }[]) {
   const linhas = itens.slice(0, 5).map((item) => `${item.codigo ?? ""} ${item.titulo_cbo ?? item.titulo ?? ""}`.trim());
   return [prefixo, ...linhas].filter(Boolean).join("\n");
+}
+
+function enxugarGraus(dados: unknown) {
+  const corpo = dados as { em_comum?: { graus?: Record<string, Record<string, unknown>> }[]; exclusivos?: Record<string, { graus?: Record<string, Record<string, unknown>> }[]> };
+  const listas = [...(corpo.em_comum ?? []), ...Object.values(corpo.exclusivos ?? {}).flat()];
+  for (const item of listas) {
+    for (const grau of Object.values(item.graus ?? {})) {
+      for (const chave of Object.keys(grau)) if (grau[chave] == null) delete grau[chave];
+    }
+  }
+}
+
+function temTruncado(valor: unknown): boolean {
+  if (!valor || typeof valor !== "object") return false;
+  if (Array.isArray(valor)) return valor.some(temTruncado);
+  const registro = valor as Record<string, unknown>;
+  if (registro.truncado === true) return true;
+  return Object.values(registro).some(temTruncado);
 }
 
 function corte(saida: Saida): string {
@@ -135,10 +155,12 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
     }
     case "ocupacao_obter": {
       const incluir = (args.incluir as string[]) ?? ["sinonimos"];
+      const principais = incluir.includes("principais_competencias");
       const saida = obterOcupacao(String(args.codigo), {
         perfil: incluir.includes("perfil_ocupacional"),
         atividades: incluir.includes("resumo_atividades") ? "resumo" : incluir.includes("atividades"),
-        competencias: incluir.includes("principais_competencias") ? "principais" : incluir.includes("competencias"),
+        competencias: principais ? "principais" : incluir.includes("competencias"),
+        ...(principais ? { detalhe: args.detalhe === "completo" ? "completo" as const : "resumido" as const } : {}),
       });
       const ficha = saida.dados as { codigo: string; cbo: { titulo?: string } | null; qbq: { titulo?: string } | null; situacao_qbq: string };
       return embrulho(saida, `${ficha.codigo}: CBO ${ficha.cbo?.titulo ?? "ausente"}; QBQ ${ficha.qbq?.titulo ?? "ausente"}; situação ${ficha.situacao_qbq}.`);
@@ -153,10 +175,12 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
       return embrulho(saida, dados.motivo ?? `${dados.total_atividades} atividades em ${dados.areas?.length ?? 0} áreas. A sigla da área não se compara entre ocupações.`);
     }
     case "qbq_competencias": {
+      const completo = args.detalhe === "completo" || Boolean(args.incluir_conceitos);
       const saida = competencias(String(args.codigo), {
         dimensao: args.dimensao as "conhecimentos" | "habilidades" | "atitudes" | undefined,
         importanciaMin: args.importancia_min as number | undefined,
-        incluirConceitos: Boolean(args.incluir_conceitos),
+        incluirConceitos: completo,
+        detalhe: completo ? "completo" : "resumido",
         limite: Number(args.limite ?? 20),
       });
       const dados = saida.dados as {
@@ -243,16 +267,21 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
       return embrulho(saida, `${saida.total} ocupações exigem ${args.codigo}.${corte(saida)}`);
     }
     case "ocupacao_comparar": {
-      const saida = comparar((args.codigos as string[]) ?? [], String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined);
+      const pedido = Number(args.limite ?? 20);
+      const limite = Math.min(50, Math.max(1, Number.isFinite(pedido) ? pedido : 20));
+      const saida = comparar((args.codigos as string[]) ?? [], String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined, limite);
+      enxugarGraus(saida.dados);
       const dados = saida.dados as {
         comparavel: boolean;
         ocupacoes: { codigo: string }[];
         em_comum: unknown[];
+        total_em_comum?: number;
         similaridade: { similaridade: number | null }[];
       };
       const similaridade = dados.similaridade[0]?.similaridade;
+      const emComum = dados.total_em_comum ?? dados.em_comum.length;
       const texto = dados.comparavel
-        ? `${dados.ocupacoes.map((item) => item.codigo).join(" e ")}: ${dados.em_comum.length} termos em comum${similaridade != null ? `, similaridade ${similaridade}` : ""}. Cálculo derivado.`
+        ? `${dados.ocupacoes.map((item) => item.codigo).join(" e ")}: ${emComum} termos em comum${similaridade != null ? `, similaridade ${similaridade}` : ""}. Cálculo derivado.`
         : "Comparação não calculada: as ocupações usam taxonomias de conhecimento diferentes.";
       return embrulho(saida, texto);
     }
@@ -337,6 +366,7 @@ export const definicoes: Definicao[] = [
     schema: {
       codigo: codigoOcupacao(),
       incluir: z.array(z.enum(["sinonimos", "perfil_ocupacional", "resumo_atividades", "principais_competencias"])).optional().describe("Blocos extras da ficha. perfil_ocupacional é texto longo; resumo_atividades traz só as áreas; principais_competencias traz os itens de maior importância. Padrão: sinonimos. Exemplo: [\"sinonimos\"]."),
+      detalhe: z.enum(["resumido", "completo"]).optional().describe("completo devolve caminho e conceito das principais competências. Padrão: resumido. Exemplo: completo."),
     },
   },
   {
@@ -358,7 +388,8 @@ export const definicoes: Definicao[] = [
       codigo: codigoOcupacao(),
       dimensao: z.enum(["conhecimentos", "habilidades", "atitudes"]).optional().describe("Qual dimensão devolver. Ausente: as três. Exemplo: habilidades."),
       importancia_min: grauMinimo("importância"),
-      incluir_conceitos: z.boolean().optional().describe("Inclui a definição oficial de cada habilidade. Padrão: false. Exemplo: true."),
+      incluir_conceitos: z.boolean().optional().describe("Inclui a definição oficial de cada habilidade e o caminho do termo. Padrão: false. Exemplo: true."),
+      detalhe: z.enum(["resumido", "completo"]).optional().describe("completo devolve caminho e conceito de cada item. Equivale a incluir_conceitos. Padrão: resumido. Exemplo: completo."),
       limite: limiteItens(20),
     },
   },
@@ -448,6 +479,7 @@ export const definicoes: Definicao[] = [
       codigos: z.array(z.string()).min(2).max(5).describe("De 2 a 5 códigos de ocupação, com ou sem hífen. Exemplo: [\"212420\", \"212405\"]."),
       dimensao: dimensaoComparavel(),
       importancia_min: grauMinimo("importância"),
+      limite: z.number().int().min(1).max(50).optional().describe("Quantos termos em comum e exclusivos devolver, ordenados pela maior diferença de importância. Padrão 20, máximo 50. Exemplo: 20."),
     },
   },
   {

@@ -165,7 +165,7 @@ function cheia(codigo: string) {
 
 export function obterOcupacao(
   entrada: string,
-  opcoes: { perfil?: boolean; atividades?: boolean | "resumo"; competencias?: boolean | "principais" } = {},
+  opcoes: { perfil?: boolean; atividades?: boolean | "resumo"; competencias?: boolean | "principais"; detalhe?: "resumido" | "completo" } = {},
 ): Saida {
   const { ocupacao, avisos } = exigirOcupacao(entrada);
   const row = cheia(ocupacao.codigo);
@@ -224,10 +224,11 @@ export function obterOcupacao(
   };
   if (opcoes.atividades) dados.atividades = atividades(row.codigo, { modo: opcoes.atividades === "resumo" ? "resumo" : "completo" }).dados;
   if (opcoes.competencias) {
+    const detalhe = opcoes.detalhe ?? "completo";
     dados.competencias = competencias(row.codigo, {
-      incluirConceitos: true,
+      incluirConceitos: detalhe !== "resumido",
+      detalhe,
       limite: opcoes.competencias === "principais" ? 10 : 100,
-      importanciaMin: opcoes.competencias === "principais" ? undefined : undefined,
     }).dados;
   }
   return { dados, avisos: [...avisos, ...avisosOcupacao(row, true)] };
@@ -389,6 +390,7 @@ export function competencias(
     nivelRamo?: string;
     excluirBaldes?: boolean;
     incluirConceitos?: boolean;
+    detalhe?: "resumido" | "completo";
     limite?: number;
     deslocamento?: number;
   } = {},
@@ -454,7 +456,7 @@ export function competencias(
     blocos[dimensao] = {
       total,
       ...(motivo ? { motivo_conceito: motivo } : {}),
-      itens: fatia.map((linha) => itemCompetencia(linha, dimensao, row.taxonomia_conhecimento, opcoes.incluirConceitos === true)),
+      itens: fatia.map((linha) => itemCompetencia(linha, dimensao, row.taxonomia_conhecimento, opcoes.incluirConceitos === true, opcoes.detalhe === "resumido")),
     };
   }
   return {
@@ -465,23 +467,35 @@ export function competencias(
   };
 }
 
-function itemCompetencia(linha: ChaRow, dimensao: string, taxonomia: string | null, incluirConceitos: boolean) {
+function itemCompetencia(linha: ChaRow, dimensao: string, taxonomia: string | null, incluirConceitos: boolean, resumido = false) {
   const vocabulario = dimensao === "conhecimentos" ? taxonomia : dimensao;
   const termo = vocabulario ? termoDe(vocabulario, linha.nivel_vocabulario, linha.codigo) : undefined;
   const balde = linha.balde === 1 || ehBalde(linha.codigo);
   const conceito = !balde && dimensao === "habilidades" ? conceitoDe(linha.nivel_vocabulario, linha.codigo) : undefined;
   const motivo = motivoConceito(balde, dimensao);
+  const graus = {
+    ...(dimensao === "conhecimentos" ? { profundidade: linha.profundidade } : {}),
+    ...(dimensao !== "atitudes" ? { frequencia: linha.frequencia } : {}),
+    importancia: linha.importancia,
+  };
+  if (resumido && !incluirConceitos) {
+    return {
+      codigo: linha.codigo,
+      nivel_vocabulario: linha.nivel_vocabulario,
+      termo: termo?.descricao ?? null,
+      ...(linha.descricao_item ? { descricao_item: linha.descricao_item } : {}),
+      graus,
+      balde,
+      fonte: fonteItem(linha.linha),
+    };
+  }
   return {
     codigo: linha.codigo,
     nivel_vocabulario: linha.nivel_vocabulario,
     termo: termo?.descricao ?? null,
     descricao_item: linha.descricao_item,
     caminho: vocabulario ? caminhoTermo(vocabulario, linha.nivel_vocabulario, linha.codigo) : [],
-    graus: {
-      ...(dimensao === "conhecimentos" ? { profundidade: linha.profundidade } : {}),
-      ...(dimensao !== "atitudes" ? { frequencia: linha.frequencia } : {}),
-      importancia: linha.importancia,
-    },
+    graus,
     balde,
     ...(incluirConceitos || motivo ? { conceito: conceito ? { termo: conceito.termo, conceito: conceito.conceito, fonte: fonteDe(conceito.fonte_arquivo) } : null, ...(motivo ? { motivo_conceito: motivo } : {}) } : {}),
     ...(divergenciaDe(linha.nivel_vocabulario, linha.codigo) ? { divergencia_de_grafia: divergenciaDe(linha.nivel_vocabulario, linha.codigo) } : {}),
@@ -586,7 +600,7 @@ export function mapaDimensao(nome: string) {
   throw parametro("dimensao", `Dimensão desconhecida: ${nome}.`, ["habilidades", "atitudes", "conhecimentos", "conhecimentos-i", "conhecimentos-ii"]);
 }
 
-export function comparar(entradas: string[], dimensao: string, importanciaMin?: number): Saida {
+export function comparar(entradas: string[], dimensao: string, importanciaMin?: number, limite?: number): Saida {
   if (entradas.length < 2 || entradas.length > 5) throw parametro("codigos", "A comparação pede de 2 a 5 códigos.");
   const lidos = entradas.map((entrada) => exigirOcupacao(entrada));
   const mapa = mapaDimensao(dimensao);
@@ -664,6 +678,21 @@ export function comparar(entradas: string[], dimensao: string, importanciaMin?: 
     }
   }
   if (mapa.dimensao === "atitudes") avisos.push({ mensagem: "Atitudes têm baixa resolução: são 22 termos, cerca de 2,75 por ocupação." });
+  const totalEmComum = emComum.length;
+  const totaisExclusivos = Object.fromEntries(Object.entries(exclusivos).map(([codigo, itens]) => [codigo, itens.length]));
+  let emComumSaida = emComum;
+  let exclusivosSaida: Record<string, unknown[]> = exclusivos;
+  let truncado = false;
+  if (limite != null) {
+    emComumSaida = [...emComum].sort((a, b) => Math.abs(b.diferenca?.importancia ?? 0) - Math.abs(a.diferenca?.importancia ?? 0)).slice(0, limite);
+    exclusivosSaida = Object.fromEntries(Object.entries(exclusivos).map(([codigo, itens]) => [codigo, itens.slice(0, limite)]));
+    truncado = totalEmComum > limite || Object.values(totaisExclusivos).some((total) => total > limite);
+    if (truncado) {
+      avisos.push({
+        mensagem: `Mostrando até ${limite} de ${totalEmComum} termos em comum. Aumente limite (máximo 50) ou peça o restante.`,
+      });
+    }
+  }
   return {
     dados: {
       ocupacoes: lidos.map((lido) => ({
@@ -681,9 +710,11 @@ export function comparar(entradas: string[], dimensao: string, importanciaMin?: 
       dimensao: mapa.nome,
       comparavel,
       similaridade: pares,
-      em_comum: emComum,
-      exclusivos,
+      em_comum: emComumSaida,
+      exclusivos: exclusivosSaida,
+      ...(limite != null ? { total_em_comum: totalEmComum, totais_exclusivos: totaisExclusivos, ...(truncado ? { truncado: true } : {}) } : {}),
     },
+    ...(limite != null ? { limite } : {}),
     avisos,
     derivado: true,
     metodo: `${METODO_SIMILARIDADE} ${"Diferença de graus: subtração simples, na ordem dos códigos, sem índice sintético. Atividades são apenas contadas."}`,
