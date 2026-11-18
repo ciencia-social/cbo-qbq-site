@@ -17,7 +17,7 @@ import {
   termoPublico,
 } from "@/consulta/formatar";
 import { todos } from "@/dados/banco";
-import { parametro } from "@/http/erros";
+import { parametro, Problema } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { ehBalde, ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
 import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, type Faixa, type Saida } from "@/tipos";
@@ -108,8 +108,27 @@ function noArvore(vocabulario: string, nivel: string, codigo: string, profundida
   return { ...base, filhos: filhos.map((filho) => noArvore(vocabulario, filho.nivel, filho.codigo, profundidade - 1, excluirBaldes)) };
 }
 
+function exigirNivel(vocabulario: string, nivel: string | undefined) {
+  if (nivel && !NIVEIS_VOCAB[vocabulario].includes(nivel)) {
+    throw parametro("nivel", `Nível desconhecido em ${vocabulario}.`, NIVEIS_VOCAB[vocabulario]);
+  }
+}
+
+function termoAusente(vocabulario: string, nivel: string | undefined, codigo: string): never {
+  const outros = termosDoCodigo(vocabulario, codigo).map((item) => item.nivel);
+  const onde = nivel ? `${vocabulario}/${nivel}` : vocabulario;
+  const noutros = outros.length ? ` Ele existe em ${outros.join(", ")}.` : "";
+  throw new Problema(
+    400,
+    api("/problemas/parametro-invalido"),
+    "Termo inexistente",
+    `O código ${codigo} não existe em ${onde}.${noutros} Use qbq_buscar_termos para localizar o termo.`,
+  );
+}
+
 export function obterTermo(vocabulario: string, nivel: string | undefined, codigo: string, incluirUso: boolean): Saida {
   exigirVocabulario(vocabulario);
+  exigirNivel(vocabulario, nivel);
   const candidatos = nivel ? [termoDe(vocabulario, nivel, codigo)].filter((item) => item != null) : termosDoCodigo(vocabulario, codigo);
   if (!nivel && candidatos.length > 1) {
     throw parametro(
@@ -119,7 +138,7 @@ export function obterTermo(vocabulario: string, nivel: string | undefined, codig
     );
   }
   const item = candidatos[0];
-  if (!item) throw parametro("codigo", `O termo ${codigo} não existe em ${vocabulario}${nivel ? `/${nivel}` : ""}.`);
+  if (!item) termoAusente(vocabulario, nivel, codigo);
   const balde = item.balde === 1;
   const conceito = !balde && vocabulario === "habilidades" ? conceitoDe(item.nivel, item.codigo) : undefined;
   const motivo = balde
@@ -187,8 +206,9 @@ export function ocupacoesDoTermo(
     ordenar?: string;
   },
 ): Saida {
-  const termo = termoDe(exigirVocabulario(vocabulario), nivel, codigo);
-  if (!termo) throw parametro("codigo", `O termo ${codigo} não existe em ${vocabulario}/${nivel}.`, NIVEIS_VOCAB[vocabulario]);
+  exigirNivel(exigirVocabulario(vocabulario), nivel);
+  const termo = termoDe(vocabulario, nivel, codigo);
+  if (!termo) termoAusente(vocabulario, nivel, codigo);
   const folha = FOLHA[vocabulario] === nivel;
   const codigos = !folha && opcoes.incluirDescendentes !== false ? codigosFolha(vocabulario, nivel, codigo) : [codigo];
   const dimensao = vocabulario.startsWith("conhecimentos") ? "conhecimentos" : vocabulario;

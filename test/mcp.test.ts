@@ -66,6 +66,25 @@ describe("T2 descrição das tools", () => {
   });
 });
 
+describe("T7 erros de vocabulário", () => {
+  async function erro(nome: string, args: Record<string, unknown>) {
+    const resultado = await cliente.callTool({ name: nome, arguments: args });
+    return (resultado.content as { text: string }[]).map((bloco) => bloco.text).join("\n");
+  }
+
+  it("não chama níveis de valores aceitos para codigo", async () => {
+    const codigo = await erro("qbq_ocupacoes_por_competencia", { vocabulario: "habilidades", nivel: "habilidades", codigo: "99.99.99" });
+    expect(codigo).toMatch(/não existe/);
+    expect(codigo).toContain("qbq_buscar_termos");
+    expect(codigo).not.toMatch(/valores aceitos para codigo/i);
+    const nivel = await erro("qbq_vocabulario", { vocabulario: "habilidades", nivel: "xx", codigo: "01.01.01" });
+    expect(nivel).toMatch(/dominios/);
+    expect(nivel).toMatch(/categorias/);
+    expect(nivel).toMatch(/habilidades/);
+    expect(nivel).not.toMatch(/valores aceitos para codigo/i);
+  });
+});
+
 describe("T6 navegação com código de ocupação", () => {
   it("212405 aponta ocupacao_obter e a família, sem negar o código", async () => {
     const resultado = await cliente.callTool({ name: "cbo_navegar", arguments: { codigo: "212405" } });
