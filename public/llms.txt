@@ -2,7 +2,7 @@
 
 API somente leitura (dados-2026.11.1, schema-v0.3.0) da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações.
 
-- Não cite código, título, nível ou competência sem tê-lo obtido de /v1 ou do servidor MCP nesta conversa.
+- Não cite código, título, nível ou competência sem tê-lo obtido de /api/v1 ou do servidor MCP nesta conversa.
 - CBO e QBQ são fontes distintas. Diga de qual vem cada afirmação. Se divergirem, relate os dois lados.
 - Nível vai de 1 a 8 e graus de 1 a 5. São escalas ordinais oficiais.
 - Similaridade, rankings e resumos são cálculos derivados, marcados com derivado=true.
@@ -10,8 +10,8 @@ API somente leitura (dados-2026.11.1, schema-v0.3.0) da Classificação Brasilei
 - Código é string, com zero à esquerda. A forma de exibição da ocupação é 2124-05.
 - As duas taxonomias de conhecimento (conhecimentos-i e conhecimentos-ii) não se misturam.
 
-Índice: /v1
-OpenAPI: /v1/openapi.json
+Índice: /api/v1
+OpenAPI: /api/v1/openapi.json
 MCP: /mcp
 Dados: https://github.com/ciencia-social/cbo-qbq-dados
 Licença dos dados compilados: CC BY 4.0

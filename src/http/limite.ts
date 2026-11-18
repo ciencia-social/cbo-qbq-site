@@ -1,4 +1,5 @@
 import { Problema } from "@/http/erros";
+import { api } from "@/versao";
 
 const baldes = new Map<string, { n: number; ate: number }>();
 
@@ -14,7 +15,7 @@ export function limitar(ip: string) {
     const espera = Math.ceil((balde.ate - agora) / 1000);
     throw new Problema(
       429,
-      "/v1/problemas/limite-de-taxa",
+      api("/problemas/limite-de-taxa"),
       "Limite de taxa",
       `Este endereço passou de ${maximo} pedidos por minuto.`,
       "Espere e tente de novo. A API não tem chave para elevar o limite.",

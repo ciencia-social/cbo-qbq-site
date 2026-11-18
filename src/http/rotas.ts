@@ -30,7 +30,7 @@ import { inexistente } from "@/consulta/formatar";
 import { parametro, Problema } from "@/http/erros";
 import { booleano, escolha, faixa, inteiro, limite, lista, texto, deslocamento } from "@/http/parametros";
 import { DIVERGENCIAS, NIVEL_POR_TAMANHO, SITUACOES_QBQ, type Saida } from "@/tipos";
-import { REPOSITORIO_DADOS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import { api, PREFIXO_API, REPOSITORIO_DADOS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 
 export type Ctx = { params: Record<string, string>; query: URLSearchParams; url: URL };
 
@@ -110,7 +110,7 @@ export const rotas: Rota[] = [
         versao_schema: VERSAO_SCHEMA,
         grupos: agrupar(),
         links: {
-          openapi: "/v1/openapi.json",
+          openapi: api("/openapi.json"),
           mcp: "/mcp",
           llms: "/llms.txt",
           repositorio_dados: REPOSITORIO_DADOS,
@@ -492,7 +492,7 @@ function agrupar() {
   for (const rota of rotas) {
     if (rota.caminho === "/openapi.json") continue;
     const listaRotas = grupos.get(rota.grupo) ?? [];
-    listaRotas.push({ id: rota.id, caminho: `/v1${rota.caminho === "/" ? "" : rota.caminho}`, resumo: rota.resumo });
+    listaRotas.push({ id: rota.id, caminho: rota.caminho === "/" ? PREFIXO_API : api(rota.caminho), resumo: rota.resumo });
     grupos.set(rota.grupo, listaRotas);
   }
   return [...grupos.entries()].map(([nome, itens]) => ({ nome, rotas: itens }));
@@ -501,7 +501,7 @@ function agrupar() {
 export function documentoOpenApi() {
   const paths: Record<string, unknown> = {};
   for (const rota of rotas) {
-    const caminho = `/v1${rota.caminho === "/" ? "" : rota.caminho}`.replace(/:([A-Za-z_]+)/g, "{$1}");
+    const caminho = (rota.caminho === "/" ? PREFIXO_API : api(rota.caminho)).replace(/:([A-Za-z_]+)/g, "{$1}");
     const item = (paths[caminho] ??= { get: undefined }) as { get?: unknown };
     item.get = {
       operationId: `${rota.id}_${rota.caminho.replace(/\W+/g, "_")}`,

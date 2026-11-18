@@ -1,5 +1,12 @@
 /** Release fixada. As camadas mantêm a publicação em que foram geradas (D016). */
 export const VERSAO_DADOS = "dados-2026.11.1";
+
+/** Prefixo público da API. Pedidos a /v1 recebem redirecionamento permanente. */
+export const PREFIXO_API = "/api/v1";
+
+export function api(caminho: string) {
+  return `${PREFIXO_API}${caminho}`;
+}
 export const VERSAO_SCHEMA = "schema-v0.3.0";
 export const GERADOR = "1";
 

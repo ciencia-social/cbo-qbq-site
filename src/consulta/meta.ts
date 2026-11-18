@@ -1,7 +1,7 @@
 import { todos } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
-import { LICENCA, REPOSITORIO_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import { api, LICENCA, REPOSITORIO_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Saida } from "@/tipos";
 import { estatisticas } from "@/consulta/derivado";
@@ -44,7 +44,7 @@ export function decisoes(q?: string, limite = 20, deslocamento = 0): Saida {
   return {
     dados: pagina.fatia.map((item) => ({
       ...item,
-      link: `/v1/decisoes/${item.id}`,
+      link: api(`/decisoes/${item.id}`),
       ...(termos.length ? { trecho: trecho(`${item.titulo}. ${item.decisao}`, termos) } : {}),
     })),
     total: pagina.total,
@@ -100,9 +100,9 @@ export function sobre(topico?: string, id?: string): Saida {
     return {
       dados: {
         texto: "CBO e QBQ divergem em 64 códigos: 25 só na CBO, 4 só no QBQ e 35 com título diferente. Nenhuma camada é corrigida.",
-        link: "/v1/cobertura/resumo",
+        link: api("/cobertura/resumo"),
       },
-      avisos: [{ codigo: "D015", mensagem: "Divergência é dado.", link: "/v1/decisoes/D015" }],
+      avisos: [{ codigo: "D015", mensagem: "Divergência é dado.", link: api("/decisoes/D015") }],
     };
   }
   throw parametro("topico", `Tópico desconhecido: ${topico}.`, ["versao", "fontes", "cobertura", "decisoes", "licenca"]);

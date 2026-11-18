@@ -19,7 +19,17 @@ async function atender(req: Request) {
   }
 }
 
+function pedidoDePagina(req: Request) {
+  const accept = req.headers.get("accept") ?? "";
+  if (!accept.includes("text/html")) return false;
+  if (req.headers.get("mcp-session-id") || req.headers.get("mcp-protocol-version")) return false;
+  return true;
+}
+
 export function GET(req: Request) {
+  if (pedidoDePagina(req)) {
+    return new Response(null, { status: 307, headers: { location: "/docs/mcp" } });
+  }
   return atender(req);
 }
 

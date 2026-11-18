@@ -3,7 +3,7 @@ import { Problema, parametro } from "@/http/erros";
 import { limitar } from "@/http/limite";
 import { lista } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
-import { VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import { api, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import type { Saida } from "@/tipos";
 
 const CORS = {
@@ -17,7 +17,7 @@ export async function tratar(req: Request): Promise<Response> {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
   if (req.method !== "GET" && req.method !== "HEAD") {
     return responderProblema(
-      new Problema(405, "/v1/problemas/metodo", "Método não permitido", "Esta API é somente leitura.", "Use GET."),
+      new Problema(405, api("/problemas/metodo"), "Método não permitido", "Esta API é somente leitura.", "Use GET."),
       req,
     );
   }
@@ -28,10 +28,16 @@ export async function tratar(req: Request): Promise<Response> {
     if (url.searchParams.get("formato") === "csv") {
       throw parametro("formato", "O formato CSV não está disponível nesta versão.", ["json"]);
     }
-    const relativo = url.pathname === "/v1" ? "/" : url.pathname.replace(/^\/v1/, "");
+    const relativo = caminhoRelativo(url.pathname);
     const casou = casar(relativo);
     if (!casou) {
-      throw new Problema(404, "/v1/problemas/rota-inexistente", "Rota não encontrada", `Não há recurso em ${url.pathname}.`, "O índice está em /v1.");
+      throw new Problema(
+        404,
+        api("/problemas/rota-inexistente"),
+        "Rota não encontrada",
+        `Não há recurso em ${url.pathname}.`,
+        `O índice está em ${PREFIXO_API}.`,
+      );
     }
     const ctx: Ctx = { params: casou.params, query: url.searchParams, url };
     const saida = casou.rota.handle(ctx);
@@ -46,10 +52,16 @@ export async function tratar(req: Request): Promise<Response> {
     if (erro instanceof Problema) return responderProblema(erro, req);
     console.error(erro);
     return responderProblema(
-      new Problema(500, "/v1/problemas/erro-interno", "Erro interno", "A consulta não pôde ser concluída."),
+      new Problema(500, api("/problemas/erro-interno"), "Erro interno", "A consulta não pôde ser concluída."),
       req,
     );
   }
+}
+
+function caminhoRelativo(pathname: string) {
+  if (pathname === PREFIXO_API) return "/";
+  if (pathname.startsWith(`${PREFIXO_API}/`)) return pathname.slice(PREFIXO_API.length);
+  return pathname;
 }
 
 function casar(caminho: string) {

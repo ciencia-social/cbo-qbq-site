@@ -7,6 +7,7 @@ import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Faixa, Saida } from "@/tipos";
+import { api } from "@/versao";
 
 export function buscaUnificada(q: string, tipos: string[], limite: number): Saida {
   const aceitos = ["ocupacao", "sinonimo", "familia", "atividade", "termo", "conceito"];
@@ -26,7 +27,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
       rotulo: item.titulo_cbo,
       casou_em: item.casou_em,
       trecho: item.trecho,
-      link: `/v1/ocupacoes/${item.codigo}`,
+      link: api(`/ocupacoes/${item.codigo}`),
     }));
   }
   if (tipos.includes("sinonimo")) {
@@ -39,7 +40,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
         rotulo: item.trecho,
         casou_em: "sinonimo",
         trecho: item.trecho,
-        link: `/v1/ocupacoes/${item.codigo}`,
+        link: api(`/ocupacoes/${item.codigo}`),
       }));
   }
   if (tipos.includes("familia")) {
@@ -53,7 +54,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
         rotulo: no.titulo,
         casou_em: "titulo",
         trecho: trecho(no.titulo, termos),
-        link: `/v1/cbo/familias/${no.codigo}`,
+        link: api(`/cbo/familias/${no.codigo}`),
       }));
   }
   if (tipos.includes("atividade")) {
@@ -64,7 +65,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
       rotulo: item.descricao,
       casou_em: "atividade",
       trecho: item.trecho,
-      link: `/v1/ocupacoes/${item.ocupacao}/atividades`,
+      link: api(`/ocupacoes/${item.ocupacao}/atividades`),
     }));
   }
   if (tipos.includes("termo")) {
@@ -77,7 +78,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
         rotulo: item.descricao,
         casou_em: "termo",
         trecho: item.trecho,
-        link: `/v1/qbq/vocabularios/${item.vocabulario}/${item.nivel}/${encodeURIComponent(item.codigo)}`,
+        link: api(`/qbq/vocabularios/${item.vocabulario}/${item.nivel}/${encodeURIComponent(item.codigo)}`),
       }));
     });
     grupos.termo = todosVoc.slice(0, limite);
@@ -91,7 +92,7 @@ export function buscaUnificada(q: string, tipos: string[], limite: number): Said
       rotulo: item.termo,
       casou_em: "conceito",
       trecho: item.trecho,
-      link: `/v1/qbq/vocabularios/habilidades/${item.nivel}/${encodeURIComponent(item.codigo)}`,
+      link: api(`/qbq/vocabularios/habilidades/${item.nivel}/${encodeURIComponent(item.codigo)}`),
     }));
   }
   return { dados: grupos };

@@ -12,6 +12,7 @@ import { codigoMalformado, parametro, Problema } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { NIVEL_POR_TAMANHO, NIVEL_URL, URL_DO_NIVEL, type Aviso, type Saida } from "@/tipos";
 import { textoCasa, trecho } from "@/texto";
+import { api } from "@/versao";
 
 export function interpretarCodigo(entrada: string): { codigo: string; avisos: Aviso[] } {
   const limpo = entrada.replace(/[\s-]/g, "");
@@ -31,10 +32,10 @@ export function exigirOcupacao(entrada: string) {
     const no = nivel ? noCbo(nivel, lido.codigo) : undefined;
     throw new Problema(
       400,
-      "/v1/problemas/codigo-malformado",
+      api("/problemas/codigo-malformado"),
       "Código de ocupação esperado",
       `Esta rota espera uma ocupação de 6 dígitos. "${entrada}" tem ${lido.codigo.length}.`,
-      no ? `Esse código é ${nivel}. Veja /v1/cbo/${URL_DO_NIVEL[nivel]}/${lido.codigo}.` : "Use 212405 ou 2124-05.",
+      no ? `Esse código é ${nivel}. Veja ${api(`/cbo/${URL_DO_NIVEL[nivel]}/${lido.codigo}`)}.` : "Use 212405 ou 2124-05.",
     );
   }
   const ocupacao = ocupacaoPorCodigo(lido.codigo);

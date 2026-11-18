@@ -15,7 +15,7 @@ import { buscarTermos, listarTermos, naoClassificadas, obterTermo, ocupacoesDoTe
 import { Problema } from "@/http/erros";
 import { faixaDeParams } from "@/http/parametros";
 import type { Saida } from "@/tipos";
-import { VERSAO_DADOS } from "@/versao";
+import { api, VERSAO_DADOS } from "@/versao";
 
 export const INSTRUCOES = [
   "Nunca cite código CBO, título, nível ou competência sem tê-lo obtido de uma tool nesta conversa.",
@@ -110,7 +110,7 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
     }
     case "codigo_decodificar": {
       const codigos = (args.codigos as string[]) ?? [];
-      if (codigos.length > 100) throw new Problema(400, "/v1/problemas/parametro-invalido", "Parâmetro inválido", "A tool aceita até 100 códigos.");
+      if (codigos.length > 100) throw new Problema(400, api("/problemas/parametro-invalido"), "Parâmetro inválido", "A tool aceita até 100 códigos.");
       const saida = decodificar(codigos, "lote");
       const dados = saida.dados as { validos?: number; invalidos?: number };
       return embrulho(saida, `${dados.validos ?? 0} válidos, ${dados.invalidos ?? 0} inválidos.`);
@@ -188,7 +188,7 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
       return embrulho(saida, "Divergências entre CBO e QBQ. Ver D010 e D015.");
     }
     default:
-      throw new Problema(400, "/v1/problemas/parametro-invalido", "Tool desconhecida", `Não há tool ${nome}.`);
+      throw new Problema(400, api("/problemas/parametro-invalido"), "Tool desconhecida", `Não há tool ${nome}.`);
   }
 }
 

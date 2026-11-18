@@ -12,6 +12,7 @@ import {
 import { Problema } from "@/http/erros";
 import { ARQUIVO_QBQ, FOLHA, NIVEL_POR_TAMANHO, URL_DO_NIVEL, type Aviso, type Fonte } from "@/tipos";
 import { normalizarBusca, textoCasa, trecho } from "@/texto";
+import { api } from "@/versao";
 
 export function fonteDe(arquivo: string | null, linha?: number | null, aba?: string | null): Fonte | null {
   if (!arquivo) return null;
@@ -24,33 +25,33 @@ export function avisosOcupacao(ocupacao: OcupacaoLista, ficha = false): Aviso[] 
     avisos.push({
       codigo: "D015",
       mensagem: "Título difere entre CBO e QBQ; nenhuma camada é corrigida.",
-      link: "/v1/decisoes/D015",
+      link: api("/decisoes/D015"),
     });
   } else if (ocupacao.divergencia === "so_cbo") {
     avisos.push({
       codigo: "D015",
       mensagem: "O código existe na CBO e não no QBQ. A ausência é dado, não lacuna a preencher.",
-      link: "/v1/decisoes/D015",
+      link: api("/decisoes/D015"),
     });
   } else if (ocupacao.divergencia === "so_qbq") {
     avisos.push({
       codigo: "D015",
       mensagem: "O código existe no QBQ e não na CBO. A ausência é dado, não lacuna a preencher.",
-      link: "/v1/decisoes/D015",
+      link: api("/decisoes/D015"),
     });
   }
   if (ocupacao.situacao_qbq === "sem_nivel_sem_justificativa") {
     avisos.push({
       codigo: "D010",
       mensagem: "Ocupação sem nível no QBQ e sem justificativa oficial. A lacuna é da fonte.",
-      link: "/v1/decisoes/D010",
+      link: api("/decisoes/D010"),
     });
   }
   if (ficha && ocupacao.situacao_qbq === "nao_classificada") {
     avisos.push({
       codigo: "D008",
       mensagem: "Ocupação sem nível no QBQ, com a justificativa oficial.",
-      link: "/v1/decisoes/D008",
+      link: api("/decisoes/D008"),
     });
   }
   return avisos;
@@ -60,7 +61,7 @@ export function avisoNormalizacao(entrada: string, codigo: string): Aviso {
   return {
     codigo: "D001",
     mensagem: `A entrada "${entrada}" foi normalizada para "${codigo}", com zero à esquerda.`,
-    link: "/v1/decisoes/D001",
+    link: api("/decisoes/D001"),
   };
 }
 
@@ -131,7 +132,7 @@ export function ancestralDe(codigo: string) {
       nivel: no.nivel,
       codigo: no.codigo,
       titulo: no.titulo,
-      link: `/v1/cbo/${url}/${no.codigo}`,
+      link: api(`/cbo/${url}/${no.codigo}`),
       filhos: filhosDoNo(no.nivel, no.codigo).slice(0, 30),
     };
   }
@@ -142,10 +143,10 @@ export function inexistente(entrada: string, codigo: string): Problema {
   const ancestral = ancestralDe(codigo);
   const dica = ancestral
     ? `O ancestral mais profundo é ${ancestral.nivel} ${ancestral.codigo} (${ancestral.titulo}). Veja ${ancestral.link}.`
-    : "Confira o código em /v1/cbo/grandes-grupos.";
+    : `Confira o código em ${api("/cbo/grandes-grupos")}.`;
   return new Problema(
     404,
-    "/v1/problemas/codigo-inexistente",
+    api("/problemas/codigo-inexistente"),
     "Código não encontrado",
     `O código ${entrada} não existe na CBO nem no QBQ.`,
     dica,
@@ -232,14 +233,14 @@ export function motivoConceito(balde: boolean, dimensao: string): Aviso | null {
     return {
       codigo: "D012",
       mensagem: "Balde de “outros”: o conteúdo está na descrição do item, e não há conceito oficial.",
-      link: "/v1/decisoes/D012",
+      link: api("/decisoes/D012"),
     };
   }
   if (dimensao !== "habilidades") {
     return {
       codigo: "D011",
       mensagem: "Só a dimensão habilidades tem conceitos oficiais neste dataset.",
-      link: "/v1/decisoes/D011",
+      link: api("/decisoes/D011"),
     };
   }
   return null;

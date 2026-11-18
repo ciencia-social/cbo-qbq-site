@@ -21,6 +21,7 @@ import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
 import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, type Faixa, type Saida } from "@/tipos";
+import { api } from "@/versao";
 
 const APLICA: Record<string, string> = {
   "conhecimentos-i": "Ocupações com nível de qualificação de 1 a 5.",
@@ -122,12 +123,12 @@ export function obterTermo(vocabulario: string, nivel: string | undefined, codig
   const balde = item.balde === 1;
   const conceito = !balde && vocabulario === "habilidades" ? conceitoDe(item.nivel, item.codigo) : undefined;
   const motivo = balde
-    ? { codigo: "D012", mensagem: "Balde de “outros”: não há conceito oficial.", link: "/v1/decisoes/D012" }
+    ? { codigo: "D012", mensagem: "Balde de “outros”: não há conceito oficial.", link: api("/decisoes/D012") }
     : vocabulario !== "habilidades"
-      ? { codigo: "D011", mensagem: "Só a dimensão habilidades tem conceitos oficiais neste dataset.", link: "/v1/decisoes/D011" }
+      ? { codigo: "D011", mensagem: "Só a dimensão habilidades tem conceitos oficiais neste dataset.", link: api("/decisoes/D011") }
       : conceito
         ? null
-        : { codigo: "D012", mensagem: "Este termo não tem conceito oficial.", link: "/v1/decisoes/D012" };
+        : { codigo: "D012", mensagem: "Este termo não tem conceito oficial.", link: api("/decisoes/D012") };
   const dados: Record<string, unknown> = {
     ...termoPublico(item),
     caminho: caminhoTermo(vocabulario, item.nivel, item.codigo),
@@ -312,7 +313,7 @@ export function naoClassificadas(q: string | undefined, prefixo: string | undefi
     total: pagina.total,
     limite,
     deslocamento,
-    avisos: [{ codigo: "D008", mensagem: "Estas ocupações permanecem sem nível, com a justificativa oficial.", link: "/v1/decisoes/D008" }],
+    avisos: [{ codigo: "D008", mensagem: "Estas ocupações permanecem sem nível, com a justificativa oficial.", link: api("/decisoes/D008") }],
   };
 }
 
@@ -324,7 +325,7 @@ export function niveis(): Saida {
     dados: linhas.map((linha) => ({
       nivel: linha.nivel,
       total: linha.n,
-      ...(linha.nivel != null ? { link: `/v1/ocupacoes?nivel_qualificacao=${linha.nivel}` } : {}),
+      ...(linha.nivel != null ? { link: `${api("/ocupacoes")}?nivel_qualificacao=${linha.nivel}` } : {}),
     })),
   };
 }
@@ -438,7 +439,7 @@ export function buscarTermos(opcoes: { q: string; vocabularios?: string[]; busca
       {
         codigo: "D004",
         mensagem: "O mesmo assunto pode existir nas duas taxonomias de conhecimento, com códigos diferentes. O resultado de uma não vale para a outra.",
-        link: "/v1/decisoes/D004",
+        link: api("/decisoes/D004"),
       },
     ],
   };

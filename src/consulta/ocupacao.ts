@@ -17,6 +17,7 @@ import { todos, um } from "@/dados/banco";
 import { parametro, Problema } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { ehBalde, termosDaConsulta, textoCasa, trecho } from "@/texto";
+import { api } from "@/versao";
 import {
   FOLHA,
   METODO_SIMILARIDADE,
@@ -98,7 +99,7 @@ export function listarOcupacoes(filtro: FiltroOcupacao): Saida {
   const avisos: Aviso[] = [];
   if (termos.length && pagina.total === 0) {
     avisos.push({
-      mensagem: "Nenhuma ocupação casou no título ou no sinônimo. Tente um termo mais curto ou busque pela tarefa em /v1/atividades.",
+      mensagem: `Nenhuma ocupação casou no título ou no sinônimo. Tente um termo mais curto ou busque pela tarefa em ${api("/atividades")}.`,
     });
   }
   return {
@@ -214,11 +215,11 @@ export function obterOcupacao(
       atitudes: row.n_atitudes,
     },
     links: {
-      sinonimos: `/v1/ocupacoes/${row.codigo}/sinonimos`,
-      atividades: `/v1/ocupacoes/${row.codigo}/atividades`,
-      competencias: `/v1/ocupacoes/${row.codigo}/competencias`,
-      similares: `/v1/ocupacoes/${row.codigo}/similares`,
-      familia: `/v1/cbo/familias/${row.familia}`,
+      sinonimos: api(`/ocupacoes/${row.codigo}/sinonimos`),
+      atividades: api(`/ocupacoes/${row.codigo}/atividades`),
+      competencias: api(`/ocupacoes/${row.codigo}/competencias`),
+      similares: api(`/ocupacoes/${row.codigo}/similares`),
+      familia: api(`/cbo/familias/${row.familia}`),
     },
   };
   if (opcoes.atividades) dados.atividades = atividades(row.codigo, { modo: opcoes.atividades === "resumo" ? "resumo" : "completo" }).dados;
@@ -233,7 +234,7 @@ export function obterOcupacao(
 }
 
 function inexistenteSilencioso(): Problema {
-  return new Problema(404, "/v1/problemas/codigo-inexistente", "Código não encontrado", "Ocupação ausente.");
+  return new Problema(404, api("/problemas/codigo-inexistente"), "Código não encontrado", "Ocupação ausente.");
 }
 
 export function listarSinonimosDaOcupacao(entrada: string): Saida {
@@ -358,7 +359,7 @@ export function atividades(
       {
         codigo: "D017",
         mensagem: "A sigla da área ordena o perfil dentro da ocupação e não é comparável entre ocupações. O número da atividade é o da fonte, com lacunas e repetições.",
-        link: "/v1/decisoes/D017",
+        link: api("/decisoes/D017"),
       },
     ],
   };
@@ -597,7 +598,7 @@ export function comparar(entradas: string[], dimensao: string, importanciaMin?: 
     avisos.push({
       codigo: "D004",
       mensagem: "As ocupações usam taxonomias de conhecimento diferentes. Os conhecimentos não são comparáveis.",
-      link: "/v1/decisoes/D004",
+      link: api("/decisoes/D004"),
     });
   }
   const conjuntos = new Map<string, Map<string, ChaRow>>();

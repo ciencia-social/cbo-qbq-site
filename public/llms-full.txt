@@ -17,17 +17,17 @@ Este serviço expõe a release dados-2026.11.1 (schema-v0.3.0). A fonte canônic
 
 ## Onde perguntar
 
-- Nome de mercado para código: GET /v1/sinonimos?q= e GET /v1/ocupacoes?q=
-- Ficha: GET /v1/ocupacoes/{codigo}
-- O que a ocupação faz: GET /v1/ocupacoes/{codigo}/atividades
-- O que ela exige: GET /v1/ocupacoes/{codigo}/competencias
-- Validar códigos de RAIS ou CAGED: GET /v1/codigos?codigos=
-- Termo e conceito: GET /v1/qbq/vocabularios/{vocabulario}/{nivel}/{codigo}
+- Nome de mercado para código: GET /api/v1/sinonimos?q= e GET /api/v1/ocupacoes?q=
+- Ficha: GET /api/v1/ocupacoes/{codigo}
+- O que a ocupação faz: GET /api/v1/ocupacoes/{codigo}/atividades
+- O que ela exige: GET /api/v1/ocupacoes/{codigo}/competencias
+- Validar códigos de RAIS ou CAGED: GET /api/v1/codigos?codigos=
+- Termo e conceito: GET /api/v1/qbq/vocabularios/{vocabulario}/{nivel}/{codigo}
 - Ocupações que exigem um termo: .../ocupacoes?importancia_min=4
-- Tarefa descrita em texto livre: GET /v1/atividades?q=
-- Texto dentro de balde: GET /v1/qbq/itens?q=
-- Divergências: GET /v1/cobertura e GET /v1/cobertura/resumo
-- Versão, licença e citação: GET /v1/versao
+- Tarefa descrita em texto livre: GET /api/v1/atividades?q=
+- Texto dentro de balde: GET /api/v1/qbq/itens?q=
+- Divergências: GET /api/v1/cobertura e GET /api/v1/cobertura/resumo
+- Versão, licença e citação: GET /api/v1/versao
 
 O servidor MCP em /mcp expõe as mesmas consultas, com limite menor. Tools: ocupacao_buscar, ocupacao_obter, cbo_atividades, qbq_competencias, cbo_navegar, codigo_decodificar, qbq_vocabulario, dados_sobre, cbo_buscar_atividades, qbq_buscar_termos, qbq_ocupacoes_por_competencia, ocupacao_comparar, ocupacao_similares, cbo_resumir_grupo, cobertura_consultar.
 

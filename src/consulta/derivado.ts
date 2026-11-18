@@ -5,6 +5,7 @@ import { todos } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { METODO_DISTINGUE, METODO_NIVEIS, NIVEL_POR_TAMANHO, type Saida } from "@/tipos";
+import { api } from "@/versao";
 
 export function estatisticas(): Saida {
   const n = (sql: string) => (todos<{ n: number }>(sql)[0]?.n ?? 0);
@@ -251,7 +252,7 @@ export function cobertura(situacao: string | undefined, prefixo: string | undefi
     total: pagina.total,
     limite,
     deslocamento,
-    avisos: [{ codigo: "D015", mensagem: "Nenhuma camada é corrigida quando CBO e QBQ divergem.", link: "/v1/decisoes/D015" }],
+    avisos: [{ codigo: "D015", mensagem: "Nenhuma camada é corrigida quando CBO e QBQ divergem.", link: api("/decisoes/D015") }],
   };
 }
 
@@ -291,8 +292,8 @@ export function coberturaResumo(): Saida {
       leitura: "docs/cobertura-qbq-cbo.md",
     },
     avisos: [
-      { codigo: "D015", mensagem: "As divergências entre as camadas são dado.", link: "/v1/decisoes/D015" },
-      { codigo: "D010", mensagem: "Três ocupações não têm nível nem justificativa.", link: "/v1/decisoes/D010" },
+      { codigo: "D015", mensagem: "As divergências entre as camadas são dado.", link: api("/decisoes/D015") },
+      { codigo: "D010", mensagem: "Três ocupações não têm nível nem justificativa.", link: api("/decisoes/D010") },
     ],
   };
 }

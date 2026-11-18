@@ -12,7 +12,7 @@ async function get(caminho: string) {
 
 describe("gabarito dados-2026.11.1", () => {
   it("expõe a versão em toda resposta e no cabeçalho", async () => {
-    const { status, headers, corpo } = await get("/v1/ocupacoes?limite=1");
+    const { status, headers, corpo } = await get("/api/v1/ocupacoes?limite=1");
     expect(status).toBe(200);
     expect(headers.get("x-versao-dados")).toBe(VERSAO_DADOS);
     expect(corpo.meta.versao_dados).toBe(VERSAO_DADOS);
@@ -20,7 +20,7 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("R60 conta os conjuntos", async () => {
-    const { corpo } = await get("/v1/estatisticas");
+    const { corpo } = await get("/api/v1/estatisticas");
     expect(corpo.dados).toMatchObject({
       grandes_grupos: 10,
       subgrupos_principais: 49,
@@ -41,7 +41,7 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("R20 lista 2698 ocupações e as quatro situações", async () => {
-    const todas = await get("/v1/ocupacoes?limite=1");
+    const todas = await get("/api/v1/ocupacoes?limite=1");
     expect(todas.corpo.meta.total).toBe(2698);
     for (const [situacao, total] of [
       ["classificada", 2618],
@@ -49,13 +49,13 @@ describe("gabarito dados-2026.11.1", () => {
       ["sem_nivel_sem_justificativa", 3],
       ["ausente_no_qbq", 25],
     ] as const) {
-      const resposta = await get(`/v1/ocupacoes?situacao_qbq=${situacao}&limite=1`);
+      const resposta = await get(`/api/v1/ocupacoes?situacao_qbq=${situacao}&limite=1`);
       expect(resposta.corpo.meta.total).toBe(total);
     }
   });
 
   it("R21 de 212405 traz caminho, níveis e contagens", async () => {
-    const { corpo } = await get("/v1/ocupacoes/212405");
+    const { corpo } = await get("/api/v1/ocupacoes/212405");
     expect(corpo.dados.caminho.map((item: { codigo: string }) => item.codigo)).toEqual(["2", "21", "212", "2124"]);
     expect(corpo.dados.qbq.niveis).toEqual({ conhecimento: 5, habilidade: 5, atitude: 5, qualificacao: 5 });
     expect(corpo.dados.qbq.taxonomia_conhecimento).toBe("conhecimentos-i");
@@ -70,19 +70,19 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("normaliza as formas do código e o zero à esquerda", async () => {
-    const a = await get("/v1/ocupacoes/2124-05");
-    const b = await get("/v1/ocupacoes/2124%2005");
-    const c = await get("/v1/ocupacoes/212405");
+    const a = await get("/api/v1/ocupacoes/2124-05");
+    const b = await get("/api/v1/ocupacoes/2124%2005");
+    const c = await get("/api/v1/ocupacoes/212405");
     expect(a.corpo.dados.codigo).toBe("212405");
     expect(b.corpo.dados.codigo).toBe("212405");
     expect(c.corpo.dados.codigo).toBe("212405");
-    const curto = await get("/v1/ocupacoes/10105");
+    const curto = await get("/api/v1/ocupacoes/10105");
     expect(curto.corpo.dados.codigo).toBe("010105");
     expect(curto.corpo.meta.avisos.some((aviso: { codigo?: string }) => aviso.codigo === "D001")).toBe(true);
   });
 
   it("R15 da família 2124 devolve as seis ocupações", async () => {
-    const { corpo } = await get("/v1/cbo/familias/2124/ocupacoes?limite=20");
+    const { corpo } = await get("/api/v1/cbo/familias/2124/ocupacoes?limite=20");
     expect(corpo.dados.map((item: { codigo: string }) => item.codigo)).toEqual([
       "212405",
       "212410",
@@ -94,54 +94,54 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("acha programador e capoteiro", async () => {
-    const programador = await get("/v1/sinonimos?q=programador&limite=100");
+    const programador = await get("/api/v1/sinonimos?q=programador&limite=100");
     expect(programador.corpo.meta.total).toBe(17);
     expect(programador.corpo.dados[0].fonte.arquivo).toBeTruthy();
-    const capoteiro = await get("/v1/sinonimos?q=capoteiro&limite=10");
+    const capoteiro = await get("/api/v1/sinonimos?q=capoteiro&limite=10");
     expect(capoteiro.corpo.dados.map((item: { codigo: string }) => item.codigo).sort()).toEqual(["765240", "991310"]);
   });
 
   it("212499 não existe e aponta a família 2124", async () => {
-    const unico = await get("/v1/codigos/212499");
+    const unico = await get("/api/v1/codigos/212499");
     expect(unico.status).toBe(404);
     expect(JSON.stringify(unico.corpo)).toContain("2124");
-    const lote = await get("/v1/codigos?codigos=212499");
+    const lote = await get("/api/v1/codigos?codigos=212499");
     expect(lote.status).toBe(200);
     expect(lote.corpo.dados.itens[0].existe).toBe(false);
     expect(lote.corpo.dados.itens[0].ancestral.codigo).toBe("2124");
   });
 
   it("distingue ausência de nível e ocupação só do QBQ", async () => {
-    const militar = await get("/v1/ocupacoes/010105");
+    const militar = await get("/api/v1/ocupacoes/010105");
     expect(militar.corpo.dados.situacao_qbq).toBe("nao_classificada");
     expect(militar.corpo.dados.justificativa.length).toBeGreaterThan(20);
-    const sem = await get("/v1/ocupacoes/113005");
+    const sem = await get("/api/v1/ocupacoes/113005");
     expect(sem.corpo.dados.situacao_qbq).toBe("sem_nivel_sem_justificativa");
     expect(sem.corpo.meta.avisos.some((aviso: { codigo?: string }) => aviso.codigo === "D010")).toBe(true);
-    const pedicure = await get("/v1/ocupacoes/516140");
+    const pedicure = await get("/api/v1/ocupacoes/516140");
     expect(pedicure.corpo.dados.cbo).toBeNull();
     expect(pedicure.corpo.dados.divergencia).toBe("so_qbq");
   });
 
   it("R50 separa as divergências e mostra 114210", async () => {
-    const todas = await get("/v1/cobertura?limite=100");
+    const todas = await get("/api/v1/cobertura?limite=100");
     expect(todas.corpo.meta.total).toBe(64);
     for (const [situacao, total] of [
       ["so_cbo", 25],
       ["so_qbq", 4],
       ["titulo_divergente", 35],
     ] as const) {
-      const resposta = await get(`/v1/cobertura?situacao=${situacao}&limite=1`);
+      const resposta = await get(`/api/v1/cobertura?situacao=${situacao}&limite=1`);
       expect(resposta.corpo.meta.total).toBe(total);
     }
-    const dirigente = (await get("/v1/ocupacoes/114210")).corpo.dados;
+    const dirigente = (await get("/api/v1/ocupacoes/114210")).corpo.dados;
     expect(dirigente.cbo.titulo).toBe("Dirigente de entidade patronal");
     expect(dirigente.qbq.titulo).toBe("Dirigentes de entidades patronais");
     expect(dirigente.divergencia).toBe("titulo_divergente");
   });
 
   it("R61 reproduz a distribuição de níveis", async () => {
-    const { corpo } = await get("/v1/estatisticas/niveis");
+    const { corpo } = await get("/api/v1/estatisticas/niveis");
     expect(corpo.dados[0].niveis).toEqual({
       "1": 96,
       "2": 869,
@@ -156,7 +156,7 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("R40 conta os vocabulários", async () => {
-    const { corpo } = await get("/v1/qbq/vocabularios");
+    const { corpo } = await get("/api/v1/qbq/vocabularios");
     const porId = Object.fromEntries(corpo.dados.map((item: { id: string; niveis: { nivel: string; total: number }[] }) => [item.id, item.niveis]));
     expect(porId["conhecimentos-i"].map((item: { total: number }) => item.total)).toEqual([2, 22, 211, 1446]);
     expect(porId["conhecimentos-ii"].map((item: { total: number }) => item.total)).toEqual([9, 86, 448, 1417]);
@@ -165,32 +165,32 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("código de vocabulário ambíguo pede o nível", async () => {
-    const sem = await get("/v1/qbq/vocabularios/conhecimentos-i/23.01.00");
+    const sem = await get("/api/v1/qbq/vocabularios/conhecimentos-i/23.01.00");
     expect(sem.status).toBe(400);
     expect(sem.corpo.sugestoes).toEqual(expect.arrayContaining(["campos", "conhecimentos"]));
-    const campo = await get("/v1/qbq/vocabularios/conhecimentos-i/campos/23.01.00");
+    const campo = await get("/api/v1/qbq/vocabularios/conhecimentos-i/campos/23.01.00");
     expect(campo.status).toBe(200);
     expect(campo.corpo.dados.descricao).toContain("FINANCEIROS");
   });
 
   it("BANCO DE DADOS com importância >= 4 tem 29 ocupações", async () => {
-    const { corpo } = await get("/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.01.02/ocupacoes?importancia_min=4&limite=50");
+    const { corpo } = await get("/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.01.02/ocupacoes?importancia_min=4&limite=50");
     expect(corpo.meta.total).toBe(29);
     expect(corpo.dados.termo.descricao).toBe("BANCO DE DADOS");
   });
 
   it("conceito oficial e balde sem conceito", async () => {
-    const oral = await get("/v1/qbq/vocabularios/habilidades/habilidades/01.01.01");
+    const oral = await get("/api/v1/qbq/vocabularios/habilidades/habilidades/01.01.01");
     expect(oral.corpo.dados.conceito.conceito).toBe(
       "Capacidade desenvolvida de ouvir e compreender informações e ideias apresentadas por meio de palavras faladas e frases.",
     );
-    const balde = await get("/v1/qbq/vocabularios/habilidades/habilidades/01.90.01");
+    const balde = await get("/api/v1/qbq/vocabularios/habilidades/habilidades/01.90.01");
     expect(balde.corpo.dados.conceito).toBeNull();
     expect(balde.corpo.dados.motivo_conceito.codigo).toBe("D012");
   });
 
   it("habilidades de 212405 marcam os baldes", async () => {
-    const { corpo } = await get("/v1/ocupacoes/212405/competencias?dimensao=habilidades&limite=100");
+    const { corpo } = await get("/api/v1/ocupacoes/212405/competencias?dimensao=habilidades&limite=100");
     const baldes = corpo.dados.habilidades.itens.filter((item: { balde: boolean }) => item.balde);
     const codigos = baldes.map((item: { codigo: string }) => item.codigo).sort();
     expect(codigos).toEqual(["01.90.01", "01.90.01", "02.90.01", "03.90.01"]);
@@ -199,7 +199,7 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("similares de 212405 seguem o gabarito", async () => {
-    const { corpo } = await get("/v1/ocupacoes/212405/similares?dimensao=habilidades&escopo=todas&limite=5");
+    const { corpo } = await get("/api/v1/ocupacoes/212405/similares?dimensao=habilidades&escopo=todas&limite=5");
     expect(corpo.dados.termos_origem).toBe(42);
     expect(corpo.dados.similares.map((item: { codigo: string; similaridade: number }) => [item.codigo, item.similaridade])).toEqual([
       ["212415", 0.955],
@@ -212,10 +212,10 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("atividade e item de competência trazem fonte", async () => {
-    const perfil = await get("/v1/ocupacoes/212405/atividades");
+    const perfil = await get("/api/v1/ocupacoes/212405/atividades");
     expect(perfil.corpo.dados.areas[0].fonte.arquivo).toBeTruthy();
     expect(perfil.corpo.dados.areas[0].atividades[0].fonte.linha).toBeTypeOf("number");
-    const busca = await get("/v1/atividades?q=programar&transversais=excluir&agrupar_por=ocupacao&limite=5");
+    const busca = await get("/api/v1/atividades?q=programar&transversais=excluir&agrupar_por=ocupacao&limite=5");
     expect(busca.status).toBe(200);
     expect(busca.corpo.meta.total).toBeGreaterThan(0);
     expect(busca.corpo.dados[0].fonte.cbo.arquivo).toBeTruthy();
@@ -224,45 +224,45 @@ describe("gabarito dados-2026.11.1", () => {
   });
 
   it("decisão, escala e resumo de cobertura", async () => {
-    const decisao = await get("/v1/decisoes/D004");
+    const decisao = await get("/api/v1/decisoes/D004");
     expect(decisao.status).toBe(200);
     expect(decisao.corpo.dados.id).toBe("D004");
-    const escalas = await get("/v1/escalas");
+    const escalas = await get("/api/v1/escalas");
     expect(escalas.corpo.dados.niveis).toMatchObject({ minimo: 1, maximo: 8, descritores: null });
     expect(escalas.corpo.dados.graus).toMatchObject({ minimo: 1, maximo: 5, descritores: null });
-    const resumo = await get("/v1/cobertura/resumo");
+    const resumo = await get("/api/v1/cobertura/resumo");
     expect(resumo.corpo.dados.por_divergencia).toEqual({ so_cbo: 25, so_qbq: 4, titulo_divergente: 35 });
     const tool = executarTool("cobertura_consultar", {});
     expect(tool.dados.resultado).toEqual(resumo.corpo.dados);
   });
 
   it("ocupação sem perfil não é 404", async () => {
-    const { status, corpo } = await get("/v1/ocupacoes/010105/atividades");
+    const { status, corpo } = await get("/api/v1/ocupacoes/010105/atividades");
     expect(status).toBe(200);
     expect(corpo.dados.areas).toEqual([]);
     expect(corpo.dados.motivo).toMatch(/não descreve/);
   });
 
   it("código malformado explica o formato", async () => {
-    const { status, corpo } = await get("/v1/codigos/21240");
+    const { status, corpo } = await get("/api/v1/codigos/21240");
     expect(status).toBe(400);
     expect(corpo.dica).toMatch(/6 dígitos|212405/);
   });
 
   it("OpenAPI 3.1 e ETag", async () => {
-    const spec = await get("/v1/openapi.json");
+    const spec = await get("/api/v1/openapi.json");
     expect(spec.corpo.openapi).toBe("3.1.0");
-    expect(spec.corpo.paths["/v1/ocupacoes"]).toBeTruthy();
-    const deNovo = await tratar(new Request("http://localhost/v1/versao", { headers: { "if-none-match": spec.headers.get("etag")! } }));
+    expect(spec.corpo.paths["/api/v1/ocupacoes"]).toBeTruthy();
+    const deNovo = await tratar(new Request("http://localhost/api/v1/versao", { headers: { "if-none-match": spec.headers.get("etag")! } }));
     expect(deNovo.status).not.toBe(304);
-    const versao = await get("/v1/versao");
-    const condicional = await tratar(new Request("http://localhost/v1/versao", { headers: { "if-none-match": versao.headers.get("etag")! } }));
+    const versao = await get("/api/v1/versao");
+    const condicional = await tratar(new Request("http://localhost/api/v1/versao", { headers: { "if-none-match": versao.headers.get("etag")! } }));
     expect(condicional.status).toBe(304);
   });
 
   it("tools devolvem os mesmos valores da rota", async () => {
     const ficha = executarTool("ocupacao_obter", { codigo: "2124-05" });
-    const rest = await get("/v1/ocupacoes/212405");
+    const rest = await get("/api/v1/ocupacoes/212405");
     expect((ficha.dados.resultado as { contagens: unknown }).contagens).toEqual(rest.corpo.dados.contagens);
     const similares = executarTool("ocupacao_similares", { codigo: "212405", limite: 5 });
     expect((similares.dados.resultado as { similares: { codigo: string }[] }).similares[0].codigo).toBe("212415");
@@ -322,5 +322,18 @@ describe("gabarito dados-2026.11.1", () => {
       ]),
     );
     expect(tools.every((tool) => tool.annotations.readOnlyHint)).toBe(true);
+  });
+
+  it("redireciona /v1 para /api/v1 e manda o navegador do MCP ao guia", async () => {
+    const { GET } = await import("../app/v1/[[...caminho]]/route");
+    const resposta = await GET(new Request("http://localhost/v1/ocupacoes/212405?limite=1"));
+    expect(resposta.status).toBe(308);
+    expect(resposta.headers.get("location")).toBe("http://localhost/api/v1/ocupacoes/212405?limite=1");
+    const indice = await GET(new Request("http://localhost/v1"));
+    expect(indice.headers.get("location")).toBe("http://localhost/api/v1");
+    const { GET: mcp } = await import("../app/mcp/route");
+    const pagina = await mcp(new Request("http://localhost/mcp", { headers: { accept: "text/html" } }));
+    expect(pagina.status).toBe(307);
+    expect(pagina.headers.get("location")).toBe("/docs/mcp");
   });
 });

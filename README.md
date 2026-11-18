@@ -1,6 +1,6 @@
 # CBO e QBQ
 
-API somente leitura da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações. Os dados vêm de `cbo-qbq-dados` na release `dados-2026.11.1`. Não há interface: a consulta é a API REST em `/v1` e o servidor MCP em `/mcp` (HTTP) ou por stdio.
+API somente leitura da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações. Os dados vêm de `cbo-qbq-dados` na release `dados-2026.11.1`. A consulta é a API REST em `/api/v1` e o servidor MCP em `/mcp` (HTTP) ou por stdio. O prefixo antigo `/v1` redireciona para `/api/v1`.
 
 CBO e QBQ são fontes distintas. Quando divergem, a resposta mostra os dois lados. Similaridade, rankings e resumos são cálculos derivados.
 
@@ -16,8 +16,8 @@ npm run dev
 npm run mcp
 ```
 
-- Índice: `GET /v1`
-- OpenAPI: `GET /v1/openapi.json`
+- Índice: `GET /api/v1`
+- OpenAPI: `GET /api/v1/openapi.json`
 - Regras para agentes: `/llms.txt` e `/llms-full.txt`
 
 ## Vercel
