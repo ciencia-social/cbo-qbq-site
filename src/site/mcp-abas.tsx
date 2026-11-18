@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { CodeBlock, Icon } from "@/ui/componentes";
-import { CLIENTES } from "@/site/mcp";
+import { CLIENTES } from "@/site/mcp-clientes";
 
 export function AbasCliente() {
   const [atual, setAtual] = useState<(typeof CLIENTES)[number]["id"]>("code");

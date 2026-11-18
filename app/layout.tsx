@@ -5,8 +5,8 @@ import { SiteFooter } from "@/ui/componentes";
 import { SCRIPT_TEMA } from "@/ui/tema";
 import { LICENCA, REPOSITORIO_DADOS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import "@/ui/tokens.css";
-import "../../design/ds/bundle.css";
-import "../../design/telas/site.css";
+import "../design/ds/bundle.css";
+import "../design/telas/site.css";
 import "@/ui/tema.css";
 
 const serif = Source_Serif_4({
