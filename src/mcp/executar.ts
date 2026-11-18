@@ -56,6 +56,63 @@ function textoLista(prefixo: string, itens: { codigo?: string; titulo_cbo?: stri
   return [prefixo, ...linhas].filter(Boolean).join("\n");
 }
 
+function corte(saida: Saida): string {
+  if (saida.total != null && saida.limite != null && saida.total > saida.limite) {
+    return ` Mostrando ${saida.limite} de ${saida.total}.`;
+  }
+  const dados = saida.dados;
+  if (dados && typeof dados === "object" && !Array.isArray(dados) && (dados as { truncado?: boolean }).truncado) {
+    return " A lista foi cortada; aumente limite para ver o restante.";
+  }
+  return "";
+}
+
+function juntar(partes: string[]): string {
+  if (partes.length <= 1) return partes[0] ?? "";
+  return `${partes.slice(0, -1).join(", ")} e ${partes[partes.length - 1]}`;
+}
+
+function resumoNavegar(dados: unknown): string {
+  if (Array.isArray(dados)) {
+    const nomes = dados.slice(0, 3).map((no: { codigo: string; titulo: string }) => `${no.codigo} ${no.titulo}`);
+    return `${dados.length} grandes grupos.\n${nomes.join("; ")}.`;
+  }
+  const no = dados as { codigo: string; titulo: string; nivel: string; total_ocupacoes: number; filhos?: unknown[] };
+  return `${no.codigo} ${no.titulo} (${no.nivel}): ${no.filhos?.length ?? 0} filhos, ${no.total_ocupacoes} ocupações.`;
+}
+
+function resumoDecodificar(dados: unknown): string {
+  const lote = dados as {
+    validos?: number;
+    invalidos?: number;
+    itens?: { entrada: string; existe?: boolean; ancestral?: { nivel: string; codigo: string; titulo: string } | null }[];
+  };
+  const linhas = [`${lote.validos ?? 0} válidos, ${lote.invalidos ?? 0} inválidos.`];
+  for (const item of lote.itens ?? []) {
+    if (item.existe === false && item.ancestral) {
+      const nivel = item.ancestral.nivel === "familia" ? "família" : item.ancestral.nivel;
+      linhas.push(`${item.entrada} não existe; a ${nivel} ${item.ancestral.codigo} (${item.ancestral.titulo}) é o ancestral.`);
+    }
+  }
+  return linhas.slice(0, 3).join("\n");
+}
+
+function resumoSobre(topico: string | undefined, dados: unknown): string {
+  if (!topico || topico === "versao") {
+    const versao = (dados as { versao_dados?: string }).versao_dados ?? VERSAO_DADOS;
+    return `Dataset ${versao}.`;
+  }
+  if (topico === "fontes" && Array.isArray(dados)) return `${dados.length} fontes oficiais do dataset ${VERSAO_DADOS}.`;
+  if (topico === "decisoes") {
+    if (Array.isArray(dados)) return `${dados.length} decisões registradas.`;
+    const decisao = dados as { id?: string; titulo?: string };
+    return decisao.id ? `${decisao.id}: ${decisao.titulo}` : `Decisões do dataset ${VERSAO_DADOS}.`;
+  }
+  if (topico === "cobertura") return "CBO e QBQ divergem em 64 códigos. Nenhuma camada é corrigida.";
+  if (topico === "licenca") return `Licença ${(dados as { nome?: string }).nome ?? ""}. Dataset ${VERSAO_DADOS}.`;
+  return `Dataset ${VERSAO_DADOS}.`;
+}
+
 export function executarTool(nome: string, args: Record<string, unknown>): ResultadoTool {
   switch (nome) {
     case "ocupacao_buscar": {
@@ -74,7 +131,7 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         saida.avisos = [...(saida.avisos ?? []), { mensagem: "Sem resultado. Tente um termo mais curto ou use cbo_buscar_atividades para buscar pela tarefa." }];
       }
       const itens = saida.dados as { codigo: string; titulo_cbo: string | null }[];
-      return embrulho(saida, textoLista(`${saida.total} ocupações.`, itens));
+      return embrulho(saida, textoLista(`${saida.total} ocupações.${corte(saida)}`, itens));
     }
     case "ocupacao_obter": {
       const incluir = (args.incluir as string[]) ?? ["sinonimos"];
@@ -92,8 +149,8 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         transversais: (args.transversais as "incluir" | "excluir" | "somente") ?? "incluir",
         modo: (args.modo as "completo" | "resumo") ?? "completo",
       });
-      const dados = saida.dados as { total_atividades?: number; motivo?: string };
-      return embrulho(saida, dados.motivo ?? `${dados.total_atividades} atividades. A sigla da área não se compara entre ocupações.`);
+      const dados = saida.dados as { total_atividades?: number; motivo?: string; areas?: unknown[] };
+      return embrulho(saida, dados.motivo ?? `${dados.total_atividades} atividades em ${dados.areas?.length ?? 0} áreas. A sigla da área não se compara entre ocupações.`);
     }
     case "qbq_competencias": {
       const saida = competencias(String(args.codigo), {
@@ -102,30 +159,50 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         incluirConceitos: Boolean(args.incluir_conceitos),
         limite: Number(args.limite ?? 20),
       });
-      return embrulho(saida, "Competências do QBQ, ordenadas por importância. Ocupação sem nível devolve a justificativa, não uma lista vazia.");
+      const dados = saida.dados as {
+        codigo: string;
+        motivo?: string;
+        conhecimentos?: { total: number };
+        habilidades?: { total: number };
+        atitudes?: { total: number };
+      };
+      if (dados.motivo) return embrulho(saida, `${dados.codigo}: sem competências classificadas. ${dados.motivo}`);
+      const partes = [
+        dados.conhecimentos ? `${dados.conhecimentos.total} conhecimentos` : "",
+        dados.habilidades ? `${dados.habilidades.total} habilidades` : "",
+        dados.atitudes ? `${dados.atitudes.total} atitudes` : "",
+      ].filter(Boolean);
+      return embrulho(saida, `${dados.codigo}: ${juntar(partes)}.${corte(saida)}`);
     }
     case "cbo_navegar": {
       const saida = arvore(args.codigo ? String(args.codigo) : undefined, Number(args.profundidade ?? 1));
-      return embrulho(saida, args.codigo ? `Nó ${args.codigo} e filhos.` : "Dez grandes grupos.");
+      return embrulho(saida, resumoNavegar(saida.dados));
     }
     case "codigo_decodificar": {
       const codigos = (args.codigos as string[]) ?? [];
       if (codigos.length > 100) throw new Problema(400, api("/problemas/parametro-invalido"), "Parâmetro inválido", "A tool aceita até 100 códigos.");
       const saida = decodificar(codigos, "lote");
-      const dados = saida.dados as { validos?: number; invalidos?: number };
-      return embrulho(saida, `${dados.validos ?? 0} válidos, ${dados.invalidos ?? 0} inválidos.`);
+      return embrulho(saida, resumoDecodificar(saida.dados));
     }
     case "qbq_vocabulario": {
-      if (!args.vocabulario) return embrulho(vocabularios(), "Quatro vocabulários. Conhecimentos I e II não se misturam.");
+      if (!args.vocabulario) {
+        const saida = vocabularios();
+        const lista = saida.dados as { id: string }[];
+        return embrulho(saida, `${lista.length} vocabulários: ${lista.map((item) => item.id).join(", ")}. Conhecimentos I e II não se misturam.`);
+      }
       if (!args.codigo) {
         const saida = listarTermos(String(args.vocabulario), { nivel: args.nivel ? String(args.nivel) : undefined, formato: "plano", limite: 50, deslocamento: 0 });
-        return embrulho(saida, `Termos de ${args.vocabulario}.`);
+        return embrulho(saida, `${saida.total} termos de ${args.vocabulario}${args.nivel ? `/${String(args.nivel)}` : ""}.${corte(saida)}`);
       }
       const saida = obterTermo(String(args.vocabulario), args.nivel ? String(args.nivel) : undefined, String(args.codigo), Boolean(args.incluir_uso));
-      return embrulho(saida, `Termo ${args.codigo}.`);
+      const termo = saida.dados as { codigo: string; nivel: string; descricao: string; filhos?: unknown[] };
+      return embrulho(saida, `${termo.codigo} (${termo.nivel}): ${termo.descricao}. ${termo.filhos?.length ?? 0} filhos.`);
     }
-    case "dados_sobre":
-      return embrulho(sobre(args.topico ? String(args.topico) : undefined, args.id ? String(args.id) : undefined), `Dataset ${VERSAO_DADOS}.`);
+    case "dados_sobre": {
+      const topico = args.topico ? String(args.topico) : undefined;
+      const saida = sobre(topico, args.id ? String(args.id) : undefined);
+      return embrulho(saida, resumoSobre(topico, saida.dados));
+    }
     case "cbo_buscar_atividades": {
       const saida = buscarAtividades({
         q: String(args.consulta ?? ""),
@@ -137,7 +214,8 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         deslocamento: 0,
         maxCasadas: 3,
       });
-      return embrulho(saida, "Ocupações pela tarefa. Áreas Y e Z ficam de fora no padrão, para não dominar o resultado.");
+      const itens = saida.dados as { codigo: string; titulo_cbo?: string | null }[];
+      return embrulho(saida, textoLista(`${saida.total} ocupações pela tarefa. Áreas Y e Z ficam de fora no padrão.${corte(saida)}`, itens));
     }
     case "qbq_buscar_termos": {
       const saida = buscarTermos({
@@ -146,7 +224,11 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         buscarEm: (args.buscar_em as string[]) ?? ["vocabulario", "conceito"],
         limite: Number(args.limite ?? 10),
       });
-      return embrulho(saida, "Termos encontrados. Um assunto pode existir nas duas taxonomias de conhecimento com códigos diferentes.");
+      const dados = saida.dados as { total_termos?: number; total_descricoes_item?: number; descricoes_item?: unknown[] };
+      const termos = dados.total_termos ?? 0;
+      const descricoes = dados.total_descricoes_item ?? dados.descricoes_item?.length;
+      const contagem = descricoes == null ? `${termos} termos.` : `${termos} termos e ${descricoes} ocorrências em descrições de item.`;
+      return embrulho(saida, `${contagem} Um assunto pode existir nas duas taxonomias de conhecimento com códigos diferentes.${corte(saida)}`);
     }
     case "qbq_ocupacoes_por_competencia": {
       const saida = ocupacoesDoTermo(String(args.vocabulario), String(args.nivel), String(args.codigo), {
@@ -158,34 +240,56 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         limite: Number(args.limite ?? 20),
         deslocamento: 0,
       });
-      return embrulho(saida, `${saida.total} ocupações exigem o termo.`);
+      return embrulho(saida, `${saida.total} ocupações exigem ${args.codigo}.${corte(saida)}`);
     }
     case "ocupacao_comparar": {
       const saida = comparar((args.codigos as string[]) ?? [], String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined);
-      return embrulho(saida, "Comparação derivada. Entre taxonomias de conhecimento diferentes, a similaridade não é calculada.");
+      const dados = saida.dados as {
+        comparavel: boolean;
+        ocupacoes: { codigo: string }[];
+        em_comum: unknown[];
+        similaridade: { similaridade: number | null }[];
+      };
+      const similaridade = dados.similaridade[0]?.similaridade;
+      const texto = dados.comparavel
+        ? `${dados.ocupacoes.map((item) => item.codigo).join(" e ")}: ${dados.em_comum.length} termos em comum${similaridade != null ? `, similaridade ${similaridade}` : ""}. Cálculo derivado.`
+        : "Comparação não calculada: as ocupações usam taxonomias de conhecimento diferentes.";
+      return embrulho(saida, texto);
     }
     case "ocupacao_similares": {
       const saida = similares(String(args.codigo), String(args.dimensao ?? "habilidades"), String(args.escopo ?? "todas"), Number(args.limite ?? 10));
-      return embrulho(saida, "Ocupações parecidas por Jaccard, sem baldes. É cálculo derivado.");
+      const dados = saida.dados as { codigo: string; termos_origem: number; similares: { codigo: string; similaridade: number }[] };
+      const primeira = dados.similares[0];
+      const texto = primeira
+        ? `${dados.codigo}: ${saida.total} ocupações parecidas, sobre ${dados.termos_origem} termos. A mais próxima é ${primeira.codigo} (${primeira.similaridade}). Cálculo derivado.`
+        : `${dados.codigo}: nenhuma ocupação parecida. Cálculo derivado.`;
+      return embrulho(saida, texto);
     }
     case "cbo_resumir_grupo": {
       const saida = resumoGrupo(args.codigo ? String(args.codigo) : undefined, String(args.dimensao ?? "habilidades"), Number(args.limite ?? 10));
-      return embrulho(saida, "Retrato derivado do grupo: níveis e termos que o distinguem do conjunto.");
+      const dados = saida.dados as { codigo: string | null; titulo: string | null; total_ocupacoes: number; termos_que_distinguem: { termo: string | null }[] };
+      const destaque = dados.termos_que_distinguem[0]?.termo;
+      return embrulho(saida, `${dados.codigo ?? "conjunto"} ${dados.titulo ?? ""}: ${dados.total_ocupacoes} ocupações.${destaque ? ` O termo que mais distingue é ${destaque}.` : ""} Cálculo derivado.`.replace(/\s+/g, " ").trim());
     }
     case "cobertura_consultar": {
-      if (!args.codigo && !args.situacao && !args.prefixo) return embrulho(coberturaResumo(), "Resumo das divergências entre CBO e QBQ.");
+      if (!args.codigo && !args.situacao && !args.prefixo) {
+        const saida = coberturaResumo();
+        const dados = saida.dados as { por_divergencia: { so_cbo: number; so_qbq: number; titulo_divergente: number } };
+        return embrulho(saida, `${dados.por_divergencia.so_cbo} só na CBO, ${dados.por_divergencia.so_qbq} só no QBQ e ${dados.por_divergencia.titulo_divergente} com título divergente.`);
+      }
       if (args.situacao === "nao_classificada" || args.situacao === "sem_nivel_sem_justificativa") {
         const saida = args.situacao === "nao_classificada"
           ? naoClassificadas(undefined, args.prefixo ? String(args.prefixo) : undefined, Number(args.limite ?? 20), 0)
           : listarOcupacoes({ situacaoQbq: "sem_nivel_sem_justificativa", buscarEm: ["titulo"], limite: Number(args.limite ?? 20), deslocamento: 0, prefixo: args.prefixo ? String(args.prefixo) : undefined });
-        return embrulho(saida, "Ocupações sem nível no QBQ.");
+        return embrulho(saida, `${saida.total} ocupações sem nível no QBQ.${corte(saida)}`);
       }
       if (args.codigo) {
         const saida = obterOcupacao(String(args.codigo));
-        return embrulho(saida, "Situação da ocupação nas duas camadas.");
+        const ficha = saida.dados as { codigo: string; situacao_qbq: string; divergencia?: string | null };
+        return embrulho(saida, `${ficha.codigo}: situação ${ficha.situacao_qbq}${ficha.divergencia ? `, divergência ${ficha.divergencia}` : ""}.`);
       }
       const saida = cobertura(args.situacao ? String(args.situacao) : undefined, args.prefixo ? String(args.prefixo) : undefined, undefined, Number(args.limite ?? 20), 0);
-      return embrulho(saida, "Divergências entre CBO e QBQ. Ver D010 e D015.");
+      return embrulho(saida, `${saida.total} divergências entre CBO e QBQ. Ver D010 e D015.${corte(saida)}`);
     }
     default:
       throw new Problema(400, api("/problemas/parametro-invalido"), "Tool desconhecida", `Não há tool ${nome}.`);

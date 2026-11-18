@@ -12,7 +12,10 @@ export function criarServidor() {
         try {
           const resultado = executarTool(nome, args as Record<string, unknown>);
           return {
-            content: [{ type: "text" as const, text: resultado.texto }],
+            content: [
+              { type: "text" as const, text: resultado.texto },
+              { type: "text" as const, text: JSON.stringify(resultado.dados) },
+            ],
             structuredContent: resultado.dados,
           };
         } catch (erro) {
