@@ -19,7 +19,7 @@ import {
 import { todos } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
-import { ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
+import { ehBalde, ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
 import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, type Faixa, type Saida } from "@/tipos";
 import { api } from "@/versao";
 
@@ -422,25 +422,38 @@ export function buscarTermos(opcoes: { q: string; vocabularios?: string[]; busca
       });
     }
   }
-  let descricoes: unknown[] = [];
+  let descricoes: { codigo: string }[] = [];
+  let totalDescricoes = 0;
   if (opcoes.buscarEm.includes("descricao_item")) {
     const busca = buscarItens({ q: opcoes.q, limite: opcoes.limite, deslocamento: 0 });
-    descricoes = Array.isArray(busca.dados) ? busca.dados : [];
+    descricoes = Array.isArray(busca.dados) ? (busca.dados as { codigo: string }[]) : [];
+    totalDescricoes = busca.total ?? descricoes.length;
+  }
+  const avisos: { codigo?: string; mensagem: string; link?: string }[] = [
+    {
+      codigo: "D004",
+      mensagem: "O mesmo assunto pode existir nas duas taxonomias de conhecimento, com códigos diferentes. O resultado de uma não vale para a outra.",
+      link: api("/decisoes/D004"),
+    },
+  ];
+  if (saida.length === 0 && totalDescricoes > 0) {
+    const amostra = totalDescricoes > descricoes.length
+      ? (buscarItens({ q: opcoes.q, limite: totalDescricoes, deslocamento: 0 }).dados as { codigo: string }[])
+      : descricoes;
+    if (amostra.every((item) => ehBalde(item.codigo))) {
+      avisos.push({
+        mensagem: "O assunto aparece como texto livre dentro de itens \"outros\", e não como termo do vocabulário.",
+      });
+    }
   }
   return {
     dados: {
       termos: saida.slice(0, opcoes.limite),
       total_termos: saida.length,
-      ...(opcoes.buscarEm.includes("descricao_item") ? { descricoes_item: descricoes } : {}),
+      ...(opcoes.buscarEm.includes("descricao_item") ? { descricoes_item: descricoes, total_descricoes_item: totalDescricoes } : {}),
     },
-    total: saida.length,
+    total: saida.length + totalDescricoes,
     limite: opcoes.limite,
-    avisos: [
-      {
-        codigo: "D004",
-        mensagem: "O mesmo assunto pode existir nas duas taxonomias de conhecimento, com códigos diferentes. O resultado de uma não vale para a outra.",
-        link: api("/decisoes/D004"),
-      },
-    ],
+    avisos,
   };
 }

@@ -66,6 +66,20 @@ describe("T2 descrição das tools", () => {
   });
 });
 
+describe("T5 total da busca de termos", () => {
+  it("direito ambiental conta as descrições de item", async () => {
+    const { resultado, blocos } = await chamar("qbq_buscar_termos", {
+      consulta: "direito ambiental",
+      buscar_em: ["vocabulario", "conceito", "descricao_item"],
+    });
+    const corpo = resultado.structuredContent as { total: number; resultado: { total_termos: number; total_descricoes_item: number } };
+    expect(corpo.total).toBeGreaterThan(0);
+    expect(corpo.resultado.total_descricoes_item).toBeGreaterThan(0);
+    expect(blocos[0].text).toMatch(new RegExp(`${corpo.resultado.total_termos} termos`));
+    expect(blocos[0].text).toMatch(new RegExp(`${corpo.resultado.total_descricoes_item} ocorrências`));
+  });
+});
+
 describe("T4 sentido da diferença", () => {
   async function diferenca(codigos: string[], termo: string) {
     const { resultado } = await chamar("ocupacao_comparar", { codigos, dimensao: "habilidades" });
