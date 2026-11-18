@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Documentação da API REST · ficha da ocupação</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-7); align-items: flex-start; margin-top: var(--space-6);">
+
+<nav aria-label="Documentação da API" class="x-side" style="flex: 1 1 14rem; max-width: 17rem; min-width: 0; border-top: 2px solid var(--ink); padding-top: var(--space-4);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-2);">API REST · v1</p>
+<form role="search" style="margin-bottom: var(--space-4); display: flex;"><x-import component-from-global-scope="CS.TextInput" label="Buscar na documentação" hide-label="{{sim}}" type="search" icon="search" placeholder="Buscar rota ou campo" block="{{sim}}" style="flex: 1; min-width: 0;"></x-import></form>
+<sc-for list="{{side}}" as="g" hint-placeholder-count="6">
+<div style="margin-bottom: var(--space-4);">
+<p style="margin: 0 0 var(--space-1); font: 600 13px/18px var(--font-sans); color: var(--ink);">{{g.titulo}}</p>
+<sc-for list="{{g.itens}}" as="i" hint-placeholder-count="4">
+<sc-if value="{{i.atual}}" hint-placeholder-val="{{false}}"><a href="Docs.dc.html" aria-current="page">{{i.label}}</a></sc-if>
+<sc-if value="{{i.outro}}" hint-placeholder-val="{{true}}"><a href="Docs.dc.html">{{i.label}}</a></sc-if>
+</sc-for>
+</div>
+</sc-for>
+</nav>
+
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-7);">
+
+<header style="border-top: 2px solid var(--ink); padding-top: var(--space-4);">
+<p style="margin: 0 0 var(--space-4); font-size: 13px; line-height: 18px; color: var(--ink-3);"><a class="x-a" href="Docs.dc.html">Documentação</a> → <a class="x-a" href="Docs.dc.html">Ocupações</a> → Ficha integrada</p>
+<div style="display: flex; gap: var(--space-3); align-items: center; flex-wrap: wrap;">
+<span class="x-method">GET</span>
+<code style="font: 500 20px/28px var(--font-mono); overflow-wrap: anywhere;">/api/v1/ocupacoes/{codigo}</code>
+<x-import component-from-global-scope="CS.Badge" status="preliminar">Etapa 1 · núcleo</x-import>
+</div>
+<h1 style="margin: var(--space-4) 0 0; font: 500 40px/46px var(--font-serif); letter-spacing: -.01em;">Ficha integrada de uma ocupação</h1>
+<p style="margin: var(--space-3) 0 0; font: 400 19px/30px var(--font-serif); color: var(--ink-2); max-width: 46rem;">Devolve a ocupação nas duas camadas: o bloco da CBO e o bloco do QBQ, lado a lado, com o caminho na classificação, a situação no QBQ e as contagens de cada sub-recurso. Quando as camadas divergem, nenhuma é corrigida.</p>
+<dl style="margin: var(--space-5) 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: var(--space-4); border-top: 1px solid var(--line); padding-top: var(--space-4);">
+<div><dt class="cs-meta-text">URL base</dt><dd style="margin: var(--space-1) 0 0; font: 400 14px/20px var(--font-mono);">https://cbo.ciencia.social/api/v1</dd></div>
+<div><dt class="cs-meta-text">Autenticação</dt><dd style="margin: var(--space-1) 0 0; font-size: 14px;">Nenhuma. CORS aberto.</dd></div>
+<div><dt class="cs-meta-text">Tool MCP equivalente</dt><dd style="margin: var(--space-1) 0 0;"><a class="x-a" href="Mcp.dc.html" style="font: 400 14px/20px var(--font-mono);">ocupacao_obter</a></dd></div>
+</dl>
+</header>
+
+<section id="parametros" aria-labelledby="h-param">
+<h2 id="h-param" style="margin: 0 0 var(--space-4); font: 500 28px/34px var(--font-serif);">Parâmetros</h2>
+<div class="cs-table-scroll">
+<table class="cs-table">
+<thead><tr><th scope="col">Nome</th><th scope="col">Onde</th><th scope="col">Tipo</th><th scope="col">Descrição</th></tr></thead>
+<tbody>
+<tr><td><code class="x-id" style="color: var(--ink);">codigo</code><br><span style="font-size: 12px; color: var(--status-danger);">obrigatório</span></td><td>caminho</td><td><span class="x-id" style="font-size: 13px;">string</span></td><td>Código de 6 dígitos. Aceita <span class="x-inline">212405</span>, <span class="x-inline">2124-05</span> e <span class="x-inline">2124 05</span>. Número sem zero à esquerda (<span class="x-inline">10105</span>) é aceito se a forma com zero existir, com aviso de normalização.</td></tr>
+<tr><td><code class="x-id" style="color: var(--ink);">incluir</code></td><td>consulta</td><td><span class="x-id" style="font-size: 13px;">lista</span></td><td>Sub-recursos a embutir: <span class="x-inline">sinonimos</span> (padrão), <span class="x-inline">atividades</span>, <span class="x-inline">competencias</span>, <span class="x-inline">perfil_ocupacional</span>.</td></tr>
+<tr><td><code class="x-id" style="color: var(--ink);">campos</code></td><td>consulta</td><td><span class="x-id" style="font-size: 13px;">lista</span></td><td>Subconjunto de campos da resposta, por exemplo <span class="x-inline">codigo,cbo.titulo</span>.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="testar" aria-labelledby="h-testar">
+<h2 id="h-testar" style="margin: 0 0 var(--space-4); font: 500 28px/34px var(--font-serif);">Testar a rota</h2>
+<div style="padding: var(--space-5); background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: var(--space-4);">
+<div style="display: flex; gap: var(--space-3); flex-wrap: wrap; align-items: flex-end;">
+<x-import component-from-global-scope="CS.TextInput" label="codigo" icon="hash" value="{{codigo}}" on-change="{{setCodigo}}" style="flex: 0 1 14rem;"></x-import>
+<x-import component-from-global-scope="CS.Select" label="incluir" options="{{inclOpts}}"></x-import>
+<x-import component-from-global-scope="CS.Button" variant="primary" icon="play" on-click="{{executar}}">Executar</x-import>
+<span style="font-size: 13px; color: var(--ink-3);">Exemplos: <button type="button" class="cs-btn cs-btn--link" onClick="{{ex1}}">212405</button> · <button type="button" class="cs-btn cs-btn--link" onClick="{{ex2}}">212499</button> · <button type="button" class="cs-btn cs-btn--link" onClick="{{ex3}}">21240</button></span>
+</div>
+<x-import component-from-global-scope="CS.CodeBlock" lang="bash" title="Requisição" meta="curl" code="{{req}}"></x-import>
+<x-import component-from-global-scope="CS.CodeBlock" lang="json" title="{{statusLabel}}" meta="{{tipo}}" code="{{resp}}" max-height="30rem"></x-import>
+<p style="margin: 0; font-size: 13px; line-height: 18px; color: var(--ink-3);">Cabeçalhos da resposta: <span class="x-inline">X-Versao-Dados: dados-2026.11.1</span> <span class="x-inline">ETag</span> <span class="x-inline">Cache-Control: public, max-age=86400</span></p>
+</div>
+</section>
+
+<section id="resposta" aria-labelledby="h-resp">
+<h2 id="h-resp" style="margin: 0 0 var(--space-4); font: 500 28px/34px var(--font-serif);">Campos da resposta</h2>
+<div class="cs-table-scroll">
+<table class="cs-table">
+<thead><tr><th scope="col">Campo</th><th scope="col">Tipo</th><th scope="col">Descrição</th></tr></thead>
+<tbody>
+<sc-for list="{{campos}}" as="c" hint-placeholder-count="10">
+<tr><td><code class="x-id" style="color: var(--ink); white-space: nowrap;">{{c.n}}</code></td><td><span class="x-id" style="font-size: 13px;">{{c.t}}</span></td><td>{{c.d}}</td></tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="erros" aria-labelledby="h-erros">
+<h2 id="h-erros" style="margin: 0 0 var(--space-3); font: 500 28px/34px var(--font-serif);">Erros que ensinam o caminho de volta</h2>
+<p style="margin: 0 0 var(--space-4); font: 400 17px/27px var(--font-serif); color: var(--ink-2); max-width: 44rem;">Erros seguem <span class="x-inline">application/problem+json</span> com <span class="x-inline">tipo</span>, <span class="x-inline">titulo</span>, <span class="x-inline">status</span>, <span class="x-inline">detalhe</span>, <span class="x-inline">dica</span> e <span class="x-inline">sugestoes</span>. Resposta vazia convida quem consulta a inventar; por isso o erro sempre diz até onde o código existe.</p>
+<x-import component-from-global-scope="CS.DataTable" columns="{{errCols}}" rows="{{errRows}}"></x-import>
+</section>
+
+<section id="avisos" aria-labelledby="h-avisos">
+<h2 id="h-avisos" style="margin: 0 0 var(--space-3); font: 500 28px/34px var(--font-serif);">Avisos</h2>
+<p style="margin: 0 0 var(--space-4); font: 400 17px/27px var(--font-serif); color: var(--ink-2); max-width: 44rem;">O campo <span class="x-inline">meta.avisos</span> reúne o que é preciso saber para não interpretar errado. Cada aviso aponta para a decisão registrada.</p>
+<div class="cs-grid">
+<div class="cs-col-4" style="border-top: 1px solid var(--line); padding-top: var(--space-3);"><code class="x-id" style="color: var(--ink);">D015</code><p style="margin: var(--space-1) 0 0; font-size: 14px; line-height: 20px; color: var(--ink-2);">Título difere entre CBO e QBQ, ou a ocupação existe em uma camada só.</p></div>
+<div class="cs-col-4" style="border-top: 1px solid var(--line); padding-top: var(--space-3);"><code class="x-id" style="color: var(--ink);">D010</code><p style="margin: var(--space-1) 0 0; font-size: 14px; line-height: 20px; color: var(--ink-2);">Ocupação sem nível e sem justificativa oficial (113005, 113010, 113015).</p></div>
+<div class="cs-col-4" style="border-top: 1px solid var(--line); padding-top: var(--space-3);"><code class="x-id" style="color: var(--ink);">normalizacao</code><p style="margin: var(--space-1) 0 0; font-size: 14px; line-height: 20px; color: var(--ink-2);">A entrada foi normalizada, por exemplo <span class="x-inline">10105</span> para <span class="x-inline">010105</span>.</p></div>
+</div>
+</section>
+
+<div style="display: flex; justify-content: space-between; gap: var(--space-4); flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: var(--space-4);">
+<a class="x-go" href="Docs.dc.html"><x-import component-from-global-scope="CS.Icon" name="arrow-left"></x-import> Listar ocupações</a>
+<a class="x-go" href="Docs.dc.html">Sinônimos da ocupação <x-import component-from-global-scope="CS.Icon" name="arrow-right"></x-import></a>
+</div>
+
+</div>
+
+<aside style="flex: 1 1 12rem; max-width: 14rem; min-width: 0; border-top: 2px solid var(--ink); padding-top: var(--space-4);">
+<x-import component-from-global-scope="CS.Toc" title="Nesta página" items="{{toc}}"></x-import>
+<div style="margin-top: var(--space-6); display: grid; gap: var(--space-2);">
+<p class="cs-meta-text" style="margin: 0;">Para máquinas</p>
+<a class="x-go" href="Docs.dc.html"><x-import component-from-global-scope="CS.Icon" name="file-json"></x-import> openapi.json</a>
+<a class="x-go" href="Docs.dc.html"><x-import component-from-global-scope="CS.Icon" name="file-text"></x-import> llms.txt</a>
+<a class="x-go" href="Mcp.dc.html"><x-import component-from-global-scope="CS.Icon" name="plug"></x-import> Servidor MCP</a>
+</div>
+</aside>
+
+</div>
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3400}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { codigo: '2124-05', mostrado: '212405' }; }
+  componentDidMount() { if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' }); }
+  renderVals() {
+    var self = this;
+    var ok = '{\n  "dados": {\n    "codigo": "212405",\n    "codigo_formatado": "2124-05",\n    "situacao_qbq": "classificada",\n    "divergencia": null,\n    "caminho": [\n      { "nivel": "grande_grupo", "codigo": "2",\n        "titulo": "PROFISSIONAIS DAS CIÊNCIAS E DAS ARTES" },\n      { "nivel": "subgrupo_principal", "codigo": "21", "titulo": "…" },\n      { "nivel": "subgrupo", "codigo": "212",\n        "titulo": "PROFISSIONAIS DA INFORMÁTICA" },\n      { "nivel": "familia", "codigo": "2124",\n        "titulo": "Analistas de tecnologia da informação" }\n    ],\n    "cbo": {\n      "titulo": "Analista de desenvolvimento de sistemas",\n      "familia": "2124",\n      "sinonimos": ["Analista de desenvolvimento de software", "…"],\n      "vigencia": { "status": "vigente", "desde": "dados-2026.11", "ate": null },\n      "fonte": { "arquivo": "cbo2002-ocupacao.csv", "linha": 244 }\n    },\n    "qbq": {\n      "titulo": "Analista de desenvolvimento de sistemas",\n      "sintese": "Planeja, projeta e desenvolve sistemas computacionais…",\n      "niveis": { "conhecimento": 5, "habilidade": 5,\n                  "atitude": 5, "qualificacao": 5 },\n      "taxonomia_conhecimento": "conhecimentos-i",\n      "vigencia": { "status": "vigente", "desde": "dados-2026.08", "ate": null },\n      "fonte": { "arquivo": "fontes/qbq/qbq-2025-03.xlsx",\n                 "aba": "Ocupação", "linha": 1916 }\n    },\n    "contagens": { "sinonimos": 10, "areas": 10, "atividades": 79,\n                   "conhecimentos": 62, "habilidades": 46, "atitudes": 4 }\n  },\n  "meta": {\n    "versao_dados": "dados-2026.11.1",\n    "versao_schema": "schema-v0.3.0",\n    "derivado": false,\n    "avisos": []\n  },\n  "links": { "proprio": "/api/v1/ocupacoes/212405" }\n}';
+    var nf = '{\n  "tipo": "https://cbo.ciencia.social/api/v1/erros/codigo-inexistente",\n  "titulo": "Código bem formado, mas inexistente",\n  "status": 404,\n  "detalhe": "Não há ocupação 212499 na CBO nem no QBQ.",\n  "dica": "A família 2124 existe e tem 6 ocupações.",\n  "ancestral_existente": { "nivel": "familia", "codigo": "2124",\n    "titulo": "Analistas de tecnologia da informação" },\n  "sugestoes": ["212405", "212410", "212415",\n                "212420", "212425", "212430"]\n}';
+    var bad = '{\n  "tipo": "https://cbo.ciencia.social/api/v1/erros/codigo-malformado",\n  "titulo": "Código malformado",\n  "status": 400,\n  "detalhe": "21240 tem 5 dígitos.",\n  "dica": "Use 1, 2, 3, 4 ou 6 dígitos: grande grupo, subgrupo principal, subgrupo, família ou ocupação.",\n  "sugestoes": ["2124", "212405"]\n}';
+    var m = this.state.mostrado;
+    var resp = m === '212499' ? nf : (m === '21240' ? bad : ok);
+    var status = m === '212499' ? '404 · Não encontrado' : (m === '21240' ? '400 · Requisição inválida' : '200 · OK');
+    var tipo = m === '212405' ? 'application/json' : 'application/problem+json';
+    var run = function (c) { self.setState({ codigo: c, mostrado: c.replace(/[^0-9]/g, '') === '212405' ? '212405' : c.replace(/[^0-9]/g, '') }); };
+    return {
+      sim: true,
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html' },
+        { label: 'Competências', href: 'Competencias.dc.html' },
+        { label: 'API', href: 'Docs.dc.html', current: true },
+        { label: 'MCP', href: 'Mcp.dc.html' },
+        { label: 'Sobre', href: 'Sobre.dc.html' }
+      ],
+      side: [
+        { titulo: 'Primeiros passos', itens: ['Introdução', 'Convenções e entrada', 'Envelope e avisos', 'Erros', 'Paginação e formatos'] },
+        { titulo: 'Metadados', itens: ['GET /versao', 'GET /fontes', 'GET /decisoes', 'GET /escalas'] },
+        { titulo: 'Classificação CBO', itens: ['GET /cbo/grandes-grupos', 'GET /cbo/{nivel}/{codigo}', 'GET /cbo/arvore', 'GET /codigos'] },
+        { titulo: 'Ocupações', itens: ['GET /ocupacoes', 'GET /ocupacoes/{codigo}', 'GET …/atividades', 'GET …/competencias', 'GET …/similares', 'GET /ocupacoes/comparar'] },
+        { titulo: 'Busca', itens: ['GET /busca', 'GET /sinonimos', 'GET /atividades'] },
+        { titulo: 'QBQ', itens: ['GET /qbq/vocabularios', 'GET …/{nivel}/{codigo}', 'GET …/ocupacoes', 'GET /qbq/conceitos', 'GET /qbq/itens', 'GET /qbq/nao-classificadas'] },
+        { titulo: 'Cruzamento e estatísticas', itens: ['GET /cobertura', 'GET /estatisticas', 'GET /estatisticas/niveis'] }
+      ].map(function (g) { return { titulo: g.titulo, itens: g.itens.map(function (l) { var a = l === 'GET /ocupacoes/{codigo}'; return { label: l, atual: a, outro: !a }; }) }; }),
+      codigo: this.state.codigo,
+      setCodigo: function (e) { self.setState({ codigo: e.target.value }); },
+      executar: function () { run(self.state.codigo); },
+      ex1: function () { run('212405'); }, ex2: function () { run('212499'); }, ex3: function () { run('21240'); },
+      inclOpts: ['sinonimos', 'sinonimos,atividades', 'sinonimos,competencias', 'perfil_ocupacional'],
+      req: 'curl https://cbo.ciencia.social/api/v1/ocupacoes/' + (this.state.codigo || '212405'),
+      statusLabel: status, tipo: tipo, resp: resp,
+      campos: [
+        { n: 'codigo', t: 'string', d: 'Código canônico de 6 dígitos, com zero à esquerda.' },
+        { n: 'codigo_formatado', t: 'string', d: 'Forma com hífen, 2124-05.' },
+        { n: 'situacao_qbq', t: 'enum', d: 'classificada, nao_classificada (com justificativa), sem_nivel_sem_justificativa ou ausente_no_qbq.' },
+        { n: 'divergencia', t: 'enum | null', d: 'so_cbo, so_qbq ou titulo_divergente. Acompanha um aviso de divergência.' },
+        { n: 'caminho', t: 'array', d: 'Ancestrais até o grande grupo, sempre com código e título.' },
+        { n: 'cbo', t: 'objeto | null', d: 'Título, família, sinônimos, vigência e fonte na CBO. null em 4 ocupações só do QBQ.' },
+        { n: 'qbq', t: 'objeto | null', d: 'Título, síntese, quatro níveis, taxonomia de conhecimento, vigência e fonte. null em 25 ocupações só da CBO.' },
+        { n: 'contagens', t: 'objeto', d: 'Totais de sinônimos, áreas, atividades e itens CHA, para decidir o que pedir em seguida.' },
+        { n: 'links', t: 'objeto', d: 'Rotas dos sub-recursos: atividades, competências, similares e família.' },
+        { n: 'meta.versao_dados', t: 'string', d: 'Versão do conjunto. Presente em toda resposta.' }
+      ],
+      errCols: [{ key: 'sit', label: 'Situação' }, { key: 'st', label: 'Status', numeric: true }, { key: 'diz', label: 'O que a resposta diz' }],
+      errRows: [
+        { sit: 'Código malformado (21240, ABC)', st: '400', diz: 'Formato esperado por nível: 1, 2, 3, 4 ou 6 dígitos.' },
+        { sit: 'Código bem formado e inexistente (212499)', st: '404', diz: 'Até onde o código existe e quais ocupações há ali.' },
+        { sit: 'Código existe só em uma camada', st: '200', diz: 'Registro com cbo ou qbq null e aviso de divergência. Não é erro.' },
+        { sit: 'Parâmetro com valor inválido', st: '400', diz: 'Lista dos valores aceitos.' },
+        { sit: 'Limite de requisições excedido', st: '429', diz: 'Cabeçalho Retry-After com a espera em segundos.' }
+      ],
+      toc: [
+        { label: 'Parâmetros', href: '#parametros' },
+        { label: 'Testar a rota', href: '#testar', current: true },
+        { label: 'Campos da resposta', href: '#resposta' },
+        { label: 'Erros', href: '#erros' },
+        { label: 'Avisos', href: '#avisos' }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

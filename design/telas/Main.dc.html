@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>CBO e QBQ em dados abertos · início</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+
+<section class="cs-rhead" style="padding-bottom: var(--space-7);">
+<div class="cs-rhead__eyebrow" style="margin-bottom: var(--space-6);">
+<span class="cs-meta-text">Dados abertos · dados-2026.11.1</span>
+<x-import component-from-global-scope="CS.Badge" status="preliminar">Preliminar</x-import>
+</div>
+<div class="x-stack-sm" style="display: flex; flex-wrap: wrap; gap: var(--space-7); align-items: flex-start;">
+
+<div style="flex: 1 1 32rem; min-width: 0;">
+<h1 class="cs-rhead__title" style="font-size: 52px; line-height: 58px;">A CBO e o QBQ em dados abertos, rastreáveis e consultáveis</h1>
+<p class="cs-rhead__sub">A Classificação Brasileira de Ocupações e o Quadro Brasileiro de Qualificações reunidos pela mesma chave, o código da ocupação. Para navegar, consultar por API e conectar a assistentes de IA.</p>
+<form role="search" action="Ocupacoes.dc.html" style="margin-top: var(--space-6); display: flex; gap: var(--space-3); align-items: flex-end; flex-wrap: nowrap;">
+<x-import component-from-global-scope="CS.TextInput" label="Busque uma ocupação pelo nome de mercado, pelo título oficial ou pelo código" type="search" name="q" icon="search" placeholder="programador, enfermeira, 2124-05" block="{{sim}}" style="flex: 1 1 0; min-width: 0;"></x-import>
+<x-import component-from-global-scope="CS.Button" variant="primary" href="Ocupacoes.dc.html" icon="search" style="flex: none;">Buscar</x-import>
+</form>
+<p style="margin: var(--space-3) 0 0; font-size: 14px; line-height: 20px; color: var(--ink-3);">Exemplos: <a class="x-a" href="Ocupacoes.dc.html">programador</a> · <a class="x-a" href="Ocupacao.dc.html">2124-05</a> · <a class="x-a" href="Ocupacoes.dc.html">capoteiro</a> · <a class="x-a" href="Competencias.dc.html">raciocínio crítico</a></p>
+<div style="margin-top: var(--space-6); display: flex; gap: var(--space-3); flex-wrap: wrap;">
+<x-import component-from-global-scope="CS.Button" href="Mcp.dc.html" icon="plug">Conectar ao seu assistente</x-import>
+<x-import component-from-global-scope="CS.Button" href="Docs.dc.html" icon="braces">Usar a API</x-import>
+</div>
+</div>
+
+<figure style="flex: 1 1 30rem; min-width: 0; margin: 0;" aria-label="Ilustração: conversa simulada com um assistente de IA conectado ao servidor MCP" onMouseEnter="{{hoverOn}}" onMouseLeave="{{hoverOff}}">
+<div class="x-win" aria-hidden="true">
+<div class="x-win__bar"><span class="x-win__dot"></span><span>Assistente · conectado a cbo.ciencia.social/mcp</span></div>
+<div class="x-win__body">
+<sc-if value="{{chat.showUser}}" hint-placeholder-val="{{true}}">
+<div class="x-msg-user">{{chat.user}}<sc-if value="{{chat.typingUser}}" hint-placeholder-val="{{false}}"><span class="x-caret"></span></sc-if></div>
+</sc-if>
+<sc-if value="{{chat.showTool}}" hint-placeholder-val="{{true}}">
+<div class="x-tool"><x-import component-from-global-scope="CS.Icon" name="wrench" size="{{n14}}"></x-import><b>{{chat.tool}}</b><span>{{chat.args}}</span><span class="ok">{{chat.toolStatus}}</span></div>
+</sc-if>
+<sc-if value="{{chat.showBot}}" hint-placeholder-val="{{true}}">
+<p class="x-msg-bot" style="margin: 0;">{{chat.bot}}<sc-if value="{{chat.typingBot}}" hint-placeholder-val="{{false}}"><span class="x-caret"></span></sc-if></p>
+</sc-if>
+<sc-if value="{{chat.showCard}}" hint-placeholder-val="{{true}}">
+<div class="x-result">
+<div style="display: flex; gap: var(--space-3); align-items: baseline; flex-wrap: wrap;"><span class="x-id" style="color: var(--ink); font-weight: 500;">{{chat.cardCod}}</span><span style="font: 500 16px/22px var(--font-serif);">{{chat.cardTitulo}}</span></div>
+<sc-for list="{{chat.cardLinhas}}" as="l" hint-placeholder-count="2"><span style="font-size: 13px; line-height: 18px; color: var(--ink-2);">{{l}}</span></sc-for>
+</div>
+</sc-if>
+<sc-if value="{{chat.showFecho}}" hint-placeholder-val="{{true}}">
+<p class="x-msg-bot" style="margin: 0; color: var(--ink-2); font-size: 15px;">{{chat.fecho}}</p>
+</sc-if>
+</div>
+<div class="x-win__input"><x-import component-from-global-scope="CS.Icon" name="message-square"></x-import><span>Pergunte sobre uma ocupação</span></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); margin-top: var(--space-2);">
+<sc-for list="{{chatTabs}}" as="ct" hint-placeholder-count="3">
+<button type="button" aria-label="{{ct.label}}" aria-pressed="{{ct.sel}}" onClick="{{ct.pick}}" style="appearance: none; display: block; width: 100%; padding: 10px 0; border: 0; background: transparent; cursor: pointer;"><span style="display: block; height: 3px; overflow: hidden; background: var(--line); border-radius: 1px;"><span style="display: block; height: 100%; width: {{ct.pct}}; background: var(--accent);"></span></span></button>
+</sc-for>
+</div>
+</figure>
+
+</div>
+</section>
+
+<section aria-labelledby="h-numeros" style="padding-block: var(--space-6) var(--space-7); border-top: 1px solid var(--line);">
+<h2 id="h-numeros" class="cs-meta-text" style="margin: 0 0 var(--space-4);">O que há no conjunto</h2>
+<div class="cs-grid">
+<div class="cs-col-3"><x-import component-from-global-scope="CS.StatTile" label="Ocupações" value="2.698" delta="2.694 na CBO e 4 só no QBQ"></x-import></div>
+<div class="cs-col-3"><x-import component-from-global-scope="CS.StatTile" label="Atividades do perfil ocupacional" value="174.296" delta="em 20.723 grandes áreas de competência"></x-import></div>
+<div class="cs-col-3"><x-import component-from-global-scope="CS.StatTile" label="Itens de competência" value="258.963" delta="conhecimentos, habilidades e atitudes com grau"></x-import></div>
+<div class="cs-col-3"><x-import component-from-global-scope="CS.StatTile" label="Sinônimos" value="7.778" delta="do nome de mercado ao código oficial"></x-import></div>
+</div>
+</section>
+
+<section aria-labelledby="h-publicos" style="padding-block: var(--space-7); border-top: 2px solid var(--ink);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Para quem é</p>
+<h2 id="h-publicos" style="margin: 0 0 var(--space-6); font: 500 40px/46px var(--font-serif); letter-spacing: -.01em;">Perguntas que o site, a API e o MCP respondem</h2>
+<div class="cs-grid">
+<sc-for list="{{publicos}}" as="p" hint-placeholder-count="4">
+<article class="cs-col-3" style="display: flex; flex-direction: column; gap: var(--space-3); padding: var(--space-5); background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-sm);">
+<div style="display: flex; align-items: center; gap: var(--space-3);"><span class="x-ico"><x-import component-from-global-scope="CS.Icon" name="{{p.icon}}" size="{{n20}}"></x-import></span><span class="cs-meta-text">{{p.quem}}</span></div>
+<h3 style="margin: 0; font: 500 21px/28px var(--font-serif);">{{p.pergunta}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-2);">{{p.texto}}</p>
+<a class="x-go" href="{{p.href}}" style="margin-top: auto;">{{p.link}} <x-import component-from-global-scope="CS.Icon" name="arrow-right"></x-import></a>
+</article>
+</sc-for>
+</div>
+</section>
+
+<section aria-labelledby="h-navegar" style="padding-block: var(--space-7); border-top: 2px solid var(--ink);">
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-7);" class="x-stack-sm">
+<div style="flex: 3 1 36rem; min-width: 0;">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Navegar a CBO</p>
+<h2 id="h-navegar" style="margin: 0 0 var(--space-5); font: 500 28px/34px var(--font-serif);">Dez grandes grupos, 2.698 ocupações</h2>
+<ol style="list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink);">
+<sc-for list="{{grupos}}" as="g" hint-placeholder-count="10">
+<li style="border-bottom: 1px solid var(--line);">
+<a href="Ocupacoes.dc.html" class="x-row-link" style="display: grid; grid-template-columns: 2.5rem minmax(0, 1fr) 6rem 1rem; gap: var(--space-3); align-items: baseline; padding: var(--space-3) 0;">
+<span class="x-id" style="font-size: 16px; color: var(--ink);">{{g.codigo}}</span>
+<span style="font-size: 14px; line-height: 20px; letter-spacing: .01em;">{{g.titulo}}</span>
+<span class="x-id" style="text-align: right; font-size: 13px; color: var(--ink-3);">{{g.total}} ocup.</span>
+<span style="color: var(--ink-3);"><x-import component-from-global-scope="CS.Icon" name="chevron-right"></x-import></span>
+</a>
+</li>
+</sc-for>
+</ol>
+<p style="margin: var(--space-3) 0 0; font-size: 13px; line-height: 18px; color: var(--ink-3);">Os grandes grupos 7 e 8 têm o mesmo título; o código é o que os distingue.</p>
+</div>
+<div style="flex: 2 1 24rem; min-width: 0;">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Explorar o QBQ</p>
+<h2 style="margin: 0 0 var(--space-5); font: 500 28px/34px var(--font-serif);">Quatro vocabulários controlados</h2>
+<div style="display: grid; gap: var(--space-3);">
+<sc-for list="{{vocabs}}" as="v" hint-placeholder-count="4">
+<a href="Competencias.dc.html" class="cs-artifact" style="padding: var(--space-4) var(--space-5); flex-direction: row; gap: var(--space-4); align-items: flex-start;">
+<span class="x-ico"><x-import component-from-global-scope="CS.Icon" name="{{v.icon}}" size="{{n20}}"></x-import></span>
+<span style="display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; flex: 1;">
+<span class="cs-artifact__type"><span class="cs-meta-text">{{v.slug}}</span><span style="font: 400 13px/18px var(--font-sans); color: var(--ink-3);">{{v.escopo}}</span></span>
+<span class="cs-artifact__title" style="font-size: 19px; line-height: 26px; margin: 0;">{{v.nome}}</span>
+<span class="cs-artifact__desc" style="font-size: 14px; line-height: 20px;">{{v.niveis}}</span>
+</span>
+</a>
+</sc-for>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="h-dev" style="padding-block: var(--space-7); border-top: 2px solid var(--ink);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Para quem desenvolve</p>
+<h2 id="h-dev" style="margin: 0 0 var(--space-3); font: 500 40px/46px var(--font-serif); letter-spacing: -.01em; max-width: 44rem;">Uma API REST e um servidor MCP, sem cadastro e sem chave</h2>
+<p style="margin: 0 0 var(--space-6); font: 400 19px/30px var(--font-serif); color: var(--ink-2); max-width: 44rem;">Os dois usam o mesmo núcleo de consulta e devolvem os mesmos campos. Toda resposta informa a versão dos dados.</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-6);" class="x-stack-sm">
+<div style="flex: 1 1 32rem; min-width: 0; display: flex; flex-direction: column; gap: var(--space-4);">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-3); flex-wrap: wrap;">
+<h3 style="margin: 0; font: 600 16px/22px var(--font-sans); display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="braces" size="{{n20}}"></x-import> API REST em <span class="x-inline">cbo.ciencia.social/api/v1</span></h3>
+<x-import component-from-global-scope="CS.SegmentedControl" legend="Linguagem do exemplo" name="ling" options="{{langOpts}}" value="{{lang}}" on-change="{{setLang}}"></x-import>
+</div>
+<x-import component-from-global-scope="CS.CodeBlock" lang="{{langCode}}" title="{{langLabel}}" meta="GET /api/v1/ocupacoes/212405" code="{{snippet}}"></x-import>
+<x-import component-from-global-scope="CS.CodeBlock" lang="json" title="Resposta, trecho" meta="200 · application/json" code="{{resposta}}" max-height="22rem"></x-import>
+<div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+<x-import component-from-global-scope="CS.Button" variant="primary" href="Docs.dc.html" icon="book-open">Ler a documentação da API</x-import>
+<x-import component-from-global-scope="CS.Button" href="Docs.dc.html" icon="file-json">Especificação OpenAPI 3.1</x-import>
+</div>
+</div>
+
+<div style="flex: 1 1 28rem; min-width: 0; display: flex; flex-direction: column; gap: var(--space-4);">
+<h3 style="margin: 0; font: 600 16px/22px var(--font-sans); display: flex; align-items: center; gap: var(--space-2); min-height: 44px;"><x-import component-from-global-scope="CS.Icon" name="plug" size="{{n20}}"></x-import> Servidor MCP em <span class="x-inline">cbo.ciencia.social/mcp</span></h3>
+<p style="margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-2);">Conecte Claude, Cursor, VS Code ou outro cliente compatível. O assistente passa a consultar os dados em vez de responder de memória.</p>
+<x-import component-from-global-scope="CS.CodeBlock" lang="bash" title="Claude Code" meta="terminal" code="{{mcpCmd}}"></x-import>
+<div style="padding: var(--space-4) var(--space-5); background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-sm);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">15 tools, entre elas</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
+<sc-for list="{{tools}}" as="t" hint-placeholder-count="6">
+<li style="display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: var(--space-3); font-size: 14px; line-height: 20px;"><code class="x-id" style="font-size: 13px; color: var(--code-key);">{{t.nome}}</code><span style="color: var(--ink-2);">{{t.desc}}</span></li>
+</sc-for>
+</ul>
+</div>
+<x-import component-from-global-scope="CS.Callout" kind="nota" label="Instrução para colar no assistente">
+<p>Use apenas os dados de cbo.ciencia.social para citar códigos CBO, títulos, níveis e competências do QBQ. Não cite nada que não tenha obtido de uma consulta nesta conversa, diga de qual fonte vem cada afirmação e relate divergências entre CBO e QBQ em vez de escolher uma.</p>
+<div style="display: flex; gap: var(--space-4); flex-wrap: wrap; align-items: center;">
+<x-import component-from-global-scope="CS.Button" icon="{{copyIcon}}" on-click="{{copiar}}">{{copyLabel}}</x-import>
+<a class="x-go" href="Mcp.dc.html">Ver o guia completo do MCP <x-import component-from-global-scope="CS.Icon" name="arrow-right"></x-import></a>
+</div>
+</x-import>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="h-modelo" style="padding-block: var(--space-7); border-top: 2px solid var(--ink);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Como os dados se encaixam</p>
+<h2 id="h-modelo" style="margin: 0 0 var(--space-6); font: 500 28px/34px var(--font-serif);">A ocupação no centro, a CBO descreve o trabalho e o QBQ gradua o que ele exige</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: var(--space-4); align-items: stretch;">
+<div style="padding: var(--space-5); background: var(--surface-sunken); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: var(--space-2);">
+<span class="cs-meta-text" style="display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="list-tree"></x-import>CBO · onde se situa</span>
+<p style="margin: 0; font: 400 16px/25px var(--font-serif);">Grande grupo → subgrupo principal → subgrupo → família. A hierarquia é o próprio código: <span class="x-inline">2</span> <span class="x-inline">21</span> <span class="x-inline">212</span> <span class="x-inline">2124</span>.</p>
+</div>
+<div style="padding: var(--space-5); background: var(--accent-wash); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: var(--space-2);">
+<span class="cs-meta-text" style="color: var(--accent); display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="briefcase"></x-import>Ocupação</span>
+<p style="margin: 0; font: 500 21px/28px var(--font-serif);">2124-05 · Analista de desenvolvimento de sistemas</p>
+<p style="margin: 0; font-size: 14px; line-height: 20px; color: var(--ink-2);">O código de seis dígitos é a chave que liga as duas fontes.</p>
+</div>
+<div style="padding: var(--space-5); background: var(--surface-sunken); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: var(--space-2);">
+<span class="cs-meta-text" style="display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="list"></x-import>CBO · o que é e faz</span>
+<p style="margin: 0; font: 400 16px/25px var(--font-serif);">Sinônimos, como o mercado a chama, e o perfil ocupacional: grandes áreas de competência e as atividades de cada uma.</p>
+</div>
+<div style="padding: var(--space-5); background: var(--surface-sunken); border-radius: var(--radius-sm); display: flex; flex-direction: column; gap: var(--space-2);">
+<span class="cs-meta-text" style="display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="graduation-cap"></x-import>QBQ · o que exige</span>
+<p style="margin: 0; font: 400 16px/25px var(--font-serif);">Nível de 1 a 8 e competências (conhecimentos, habilidades, atitudes) com grau de 1 a 5, nomeadas por vocabulário controlado.</p>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="h-principios" style="padding-block: var(--space-7); border-top: 2px solid var(--ink);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Princípios</p>
+<h2 id="h-principios" style="margin: 0 0 var(--space-6); font: 500 28px/34px var(--font-serif);">O que este site não faz com os dados</h2>
+<div class="cs-grid">
+<sc-for list="{{principios}}" as="pr" hint-placeholder-count="4">
+<div class="cs-col-3" style="border-top: 1px solid var(--line); padding-top: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2);">
+<span style="color: var(--ink-2);"><x-import component-from-global-scope="CS.Icon" name="{{pr.icon}}" size="{{n20}}"></x-import></span>
+<h3 style="margin: 0; font: 600 16px/22px var(--font-sans);">{{pr.titulo}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-2);">{{pr.texto}}</p>
+</div>
+</sc-for>
+</div>
+<div style="margin-top: var(--space-6); max-width: 48rem;">
+<x-import component-from-global-scope="CS.Callout" kind="limite" label="Limite dos dados">
+<p>As duas camadas divergem em 64 ocupações: 25 existem só na CBO, 4 só no QBQ e 35 têm título diferente sob o mesmo código. Outras 55 não têm nível de qualificação no QBQ.</p>
+<p style="margin: 0;"><a class="x-go" href="Sobre.dc.html">Ver a cobertura entre as camadas <x-import component-from-global-scope="CS.Icon" name="arrow-right"></x-import></a></p>
+</x-import>
+</div>
+</section>
+
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":4400}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { lang: 'curl', c: 0, t: 0, paused: false, copied: false };
+    this.conversas = [
+      {
+        rotulo: 'Sinônimo',
+        user: 'Qual é o código CBO de quem trabalha como programador de internet?',
+        tool: 'ocupacao_buscar', args: '{ consulta: "programador de internet" }', ok: '→ 1 ocupação, casou em sinônimo',
+        bot: 'Na CBO, “Programador de internet” é sinônimo de uma ocupação só:',
+        cardCod: '3171-05', cardTitulo: 'Desenvolvedor web (técnico)',
+        cardLinhas: ['Família 3171 · Técnicos de desenvolvimento de sistemas e aplicações', 'QBQ: nível 4 de qualificação'],
+        fecho: 'Quer ver as atividades e as competências que ela exige?'
+      },
+      {
+        rotulo: 'Transição',
+        user: 'O que falta a um analista de suporte computacional para trabalhar como analista de desenvolvimento de sistemas?',
+        tool: 'ocupacao_comparar', args: '{ codigos: ["212420", "212405"] }', ok: '→ similaridade 0,913',
+        bot: 'Pelas habilidades do QBQ, nenhuma é nova: as 42 do analista de desenvolvimento já estão no perfil do suporte. A diferença está na importância de duas delas:',
+        cardCod: '2124-20 → 2124-05', cardTitulo: 'Importância, de 1 a 5',
+        cardLinhas: ['PROGRAMAÇÃO DE OPERAÇÕES: 2 → 5', 'ANÁLISE DE OPERAÇÕES: 3 → 5'],
+        fecho: 'A similaridade é um cálculo do projeto, não dado oficial.'
+      },
+      {
+        rotulo: 'Validação',
+        user: 'O código CBO 2124-99 existe?',
+        tool: 'codigo_decodificar', args: '{ codigos: ["2124-99"] }', ok: '→ existe: false',
+        bot: 'Não existe. O nível mais próximo que existe é a família 2124, com 6 ocupações:',
+        cardCod: '2124', cardTitulo: 'Analistas de tecnologia da informação',
+        cardLinhas: ['2124-05 Analista de desenvolvimento de sistemas', '2124-10, 2124-15, 2124-20, 2124-25 e 2124-30'],
+        fecho: 'Quer que eu mostre as seis com o nível de cada uma?'
+      }
+    ];
+  }
+  tempos(c) {
+    var u = Math.ceil(c.user.length / 2), b = Math.ceil(c.bot.length / 4);
+    var t = { u: u, tool: u + 8, toolOk: u + 22, bot: u + 28 };
+    t.botEnd = t.bot + b; t.card = t.botEnd + 4; t.fecho = t.card + 6; t.fim = t.fecho + 80;
+    return t;
+  }
+  componentDidMount() {
+    if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' });
+    var reduz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduz) { this.setState({ paused: true, t: 9999 }); return; }
+    this.timer = setInterval(() => {
+      if (this.state.paused || this.state.hover) return;
+      var c = this.state.c, t = this.state.t + 1;
+      if (t > this.tempos(this.conversas[c]).fim) this.setState({ c: (c + 1) % this.conversas.length, t: 0 });
+      else this.setState({ t: t });
+    }, 60);
+  }
+  componentWillUnmount() { if (this.timer) clearInterval(this.timer); }
+  renderVals() {
+    var self = this, s = this.state, cv = this.conversas[s.c], tm = this.tempos(cv), t = s.t;
+    var chat = {
+      showUser: t > 0, typingUser: t < tm.u, user: cv.user.slice(0, t * 2),
+      showTool: t >= tm.tool, tool: cv.tool, args: cv.args, toolStatus: t >= tm.toolOk ? cv.ok : '→ consultando',
+      showBot: t >= tm.bot, typingBot: t < tm.botEnd, bot: cv.bot.slice(0, Math.max(0, t - tm.bot) * 4),
+      showCard: t >= tm.card, cardCod: cv.cardCod, cardTitulo: cv.cardTitulo, cardLinhas: cv.cardLinhas,
+      showFecho: t >= tm.fecho, fecho: cv.fecho
+    };
+    var lang = s.lang;
+    var snippets = {
+      curl: 'curl https://cbo.ciencia.social/api/v1/ocupacoes/212405',
+      python: 'import requests\n\nr = requests.get("https://cbo.ciencia.social/api/v1/ocupacoes/212405")\nficha = r.json()["dados"]\nprint(ficha["codigo_formatado"], ficha["cbo"]["titulo"])\nprint("Nível QBQ:", ficha["qbq"]["niveis"]["qualificacao"])',
+      js: 'const r = await fetch("https://cbo.ciencia.social/api/v1/ocupacoes/212405");\nconst { dados, meta } = await r.json();\nconsole.log(dados.codigo_formatado, dados.cbo.titulo);\nconsole.log(meta.versao_dados);'
+    };
+    var labels = { curl: 'Terminal', python: 'Python', js: 'JavaScript' };
+    var codeLang = { curl: 'bash', python: 'python', js: 'js' };
+    var instrucao = 'Use apenas os dados de cbo.ciencia.social para citar códigos CBO, títulos, níveis e competências do QBQ. Não cite nada que não tenha obtido de uma consulta nesta conversa, diga de qual fonte vem cada afirmação e relate divergências entre CBO e QBQ em vez de escolher uma.';
+    return {
+      sim: true, n14: 14, n20: 20,
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html' },
+        { label: 'Competências', href: 'Competencias.dc.html' },
+        { label: 'API', href: 'Docs.dc.html' },
+        { label: 'MCP', href: 'Mcp.dc.html' },
+        { label: 'Sobre', href: 'Sobre.dc.html' }
+      ],
+      chat: chat,
+      chatTabs: this.conversas.map(function (c, i) {
+        var sel = i === s.c;
+        var pct = i < s.c ? 100 : (sel ? Math.min(100, (t / tm.fim) * 100) : 0);
+        return { label: 'Conversa ' + (i + 1) + ' de 3: ' + c.rotulo.toLowerCase(), sel: sel ? 'true' : 'false', pct: pct.toFixed(1) + '%', pick: function () { self.setState({ c: i, t: s.paused ? 9999 : 0 }); } };
+      }),
+      hoverOn: function () { self.setState({ hover: true }); },
+      hoverOff: function () { self.setState({ hover: false }); },
+      lang: lang,
+      langLabel: labels[lang],
+      langCode: codeLang[lang],
+      langOpts: [{ value: 'curl', label: 'curl' }, { value: 'python', label: 'Python' }, { value: 'js', label: 'JavaScript' }],
+      setLang: (v) => this.setState({ lang: v && v.target ? v.target.value : v }),
+      snippet: snippets[lang],
+      resposta: '{\n  "dados": {\n    "codigo": "212405",\n    "codigo_formatado": "2124-05",\n    "situacao_qbq": "classificada",\n    "divergencia": null,\n    "cbo": {\n      "titulo": "Analista de desenvolvimento de sistemas",\n      "familia": "2124"\n    },\n    "qbq": {\n      "niveis": { "conhecimento": 5, "habilidade": 5,\n                  "atitude": 5, "qualificacao": 5 },\n      "taxonomia_conhecimento": "conhecimentos-i"\n    },\n    "contagens": { "sinonimos": 10, "atividades": 79,\n                   "conhecimentos": 62, "habilidades": 46 }\n  },\n  "meta": { "versao_dados": "dados-2026.11.1", "avisos": [] }\n}',
+      mcpCmd: 'claude mcp add --transport http cbo-qbq \\\n  https://cbo.ciencia.social/mcp',
+      copyIcon: s.copied ? 'check' : 'copy',
+      copyLabel: s.copied ? 'Instrução copiada' : 'Copiar instrução',
+      copiar: function () {
+        try { navigator.clipboard.writeText(instrucao).then(function () { self.setState({ copied: true }); setTimeout(function () { self.setState({ copied: false }); }, 2000); }); } catch (e) {}
+      },
+      tools: [
+        { nome: 'ocupacao_buscar', desc: 'Do nome de mercado ao código oficial' },
+        { nome: 'ocupacao_obter', desc: 'Ficha integrada nas duas camadas' },
+        { nome: 'codigo_decodificar', desc: 'Valida códigos antes de citá-los' },
+        { nome: 'cbo_atividades', desc: 'O que a ocupação faz, segundo a CBO' },
+        { nome: 'qbq_competencias', desc: 'O que a ocupação exige, segundo o QBQ' },
+        { nome: 'ocupacao_comparar', desc: 'Lacunas entre duas a cinco ocupações' }
+      ],
+      publicos: [
+        { icon: 'search', quem: 'Qualquer pessoa', pergunta: 'Qual é o código CBO de programador?', texto: 'Do nome usado no mercado ao código oficial, com o que a ocupação faz e o que ela exige.', link: 'Buscar ocupações', href: 'Ocupacoes.dc.html' },
+        { icon: 'hash', quem: 'Pesquisa com RAIS, CAGED, PNAD', pergunta: 'Esta lista de códigos é válida? A que família pertence cada um?', texto: 'Decodifique até 200 códigos de uma vez, em qualquer nível da classificação.', link: 'Ver /api/v1/codigos', href: 'Docs.dc.html' },
+        { icon: 'git-compare', quem: 'RH e orientação de carreira', pergunta: 'O que me falta para migrar de uma ocupação para outra?', texto: 'Compare habilidades e graus entre ocupações e encontre perfis parecidos.', link: 'Ver um exemplo', href: 'Ocupacao.dc.html' },
+        { icon: 'graduation-cap', quem: 'Educação profissional', pergunta: 'O que significa a habilidade aprendizado ativo no QBQ?', texto: 'Os vocabulários controlados e as 96 definições oficiais, com as ocupações que exigem cada termo.', link: 'Explorar competências', href: 'Competencias.dc.html' }
+      ],
+      grupos: [
+        { codigo: '0', titulo: 'MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES', total: '28' },
+        { codigo: '1', titulo: 'MEMBROS SUPERIORES DO PODER PÚBLICO, DIRIGENTES DE ORGANIZAÇÕES DE INTERESSE PÚBLICO E DE EMPRESAS, GERENTES', total: '156' },
+        { codigo: '2', titulo: 'PROFISSIONAIS DAS CIÊNCIAS E DAS ARTES', total: '665' },
+        { codigo: '3', titulo: 'TÉCNICOS DE NIVEL MÉDIO', total: '424' },
+        { codigo: '4', titulo: 'TRABALHADORES DE SERVIÇOS ADMINISTRATIVOS', total: '97' },
+        { codigo: '5', titulo: 'TRABALHADORES DOS SERVIÇOS, VENDEDORES DO COMÉRCIO EM LOJAS E MERCADOS', total: '184' },
+        { codigo: '6', titulo: 'TRABALHADORES AGROPECUÁRIOS, FLORESTAIS E DA PESCA', total: '188' },
+        { codigo: '7', titulo: 'TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS', total: '615' },
+        { codigo: '8', titulo: 'TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS', total: '252' },
+        { codigo: '9', titulo: 'TRABALHADORES EM SERVIÇOS DE REPARAÇÃO E MANUTENÇÃO', total: '89' }
+      ],
+      vocabs: [
+        { icon: 'wrench', slug: 'habilidades', nome: 'Habilidades', escopo: 'todas as ocupações', niveis: '3 domínios, 12 categorias e 87 habilidades, com 96 definições oficiais' },
+        { icon: 'book-open', slug: 'conhecimentos-i', nome: 'Conhecimentos I', escopo: 'níveis 1 a 5', niveis: '2 domínios, 22 áreas, 211 campos e 1.446 conhecimentos' },
+        { icon: 'library', slug: 'conhecimentos-ii', nome: 'Conhecimentos II', escopo: 'níveis 6 a 8', niveis: '9 áreas, 86 campos, 448 conhecimentos e 1.417 elementos' },
+        { icon: 'scale', slug: 'atitudes', nome: 'Atitudes', escopo: 'todas as ocupações', niveis: '4 categorias e 22 atitudes' }
+      ],
+      principios: [
+        { icon: 'shield-check', titulo: 'Não inventa nem reconcilia', texto: 'Quando CBO e QBQ divergem sob o mesmo código, os dois valores aparecem lado a lado, identificados por fonte.' },
+        { icon: 'eye', titulo: 'Não esconde ausências', texto: 'Ocupação sem nível ou sem perfil aparece com a situação explícita e, quando existe, a justificativa oficial.' },
+        { icon: 'link', titulo: 'Não perde a origem', texto: 'Cada registro guarda o arquivo e a linha da publicação oficial de onde veio.' },
+        { icon: 'layers', titulo: 'Não mistura oficial e derivado', texto: 'Similaridade, rankings e médias são cálculos deste projeto e vêm sempre marcados como derivados.' }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

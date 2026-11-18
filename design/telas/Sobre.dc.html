@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Sobre os dados da CBO e do QBQ</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+<x-import component-from-global-scope="CS.ReportHeader" eyebrow="Sobre os dados" status="preliminar" title="De onde vêm os dados, de que data e como citar" subtitle="A CBO e o QBQ são publicados pelo Ministério do Trabalho e Emprego em planilhas, arquivos CSV e PDF. Este projeto os arquiva, estrutura e publica com a proveniência de cada registro." meta="{{meta}}"></x-import>
+
+<div class="x-stack-sm" style="display: flex; flex-wrap: wrap; gap: var(--space-8); align-items: flex-start;">
+<div class="cs-prose" style="flex: 999 1 32rem; min-width: 0; max-width: none;">
+
+<h2 id="versoes">Versões por camada</h2>
+<p>Cada camada registra a publicação em que foi gerada (D016). Por isso a versão do conjunto e a de cada camada podem diferir.</p>
+<x-import component-from-global-scope="CS.DataTable" kind="Tabela" number="1" title="Versão e fonte de cada camada" columns="{{versCols}}" rows="{{versRows}}"></x-import>
+
+<h2 id="cobertura">Cobertura entre as camadas</h2>
+<p>As duas fontes usam a mesma chave, mas vêm de capturas diferentes da mesma classificação. Nenhuma das camadas é ajustada para caber na outra: as diferenças são dado, não defeito (D015).</p>
+<x-import component-from-global-scope="CS.DataTable" kind="Tabela" number="2" title="Situação das 2.698 ocupações no QBQ" columns="{{situCols}}" rows="{{situRows}}"></x-import>
+<p>Além disso, 35 ocupações têm título diferente sob o mesmo código. Um exemplo é a 1142-10, “Dirigente de entidade patronal” na CBO e “Dirigentes de entidades patronais” no QBQ. O site mostra os dois títulos, identificados por fonte.</p>
+<x-import component-from-global-scope="CS.Callout" kind="limite" label="Texto literal NULL">
+<p style="margin: 0;">54 ocupações do QBQ trazem o texto NULL nos campos de síntese e perfil ocupacional, como na planilha oficial. Há, portanto, 2.618 ocupações com síntese real. A decisão sobre normalizar esse texto está em aberto no repositório de dados.</p>
+</x-import>
+
+<h2 id="decisoes">Decisões de modelagem</h2>
+<p>Toda escolha que afeta a leitura dos dados está registrada, com contexto e decisão. Os avisos da API e do MCP apontam para estes registros.</p>
+<ol style="list-style: none; padding: 0;">
+<sc-for list="{{decisoes}}" as="d" hint-placeholder-count="10">
+<li style="display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: var(--space-3); margin: 0; padding: var(--space-2) 0; border-top: 1px solid var(--line); font: 400 16px/24px var(--font-serif);"><a href="Sobre.dc.html" style="font: 400 14px/24px var(--font-mono);">{{d.id}}</a><span>{{d.t}}</span></li>
+</sc-for>
+</ol>
+
+<h2 id="citar">Licença e como citar</h2>
+<p>O conteúdo provém de atos oficiais, que não são objeto de proteção autoral (art. 8º, IV, da Lei 9.610/1998). A compilação estruturada é licenciada sob CC BY 4.0; o código, sob MIT.</p>
+<x-import component-from-global-scope="CS.Callout" kind="nota" label="Atribuição sugerida">
+<p style="margin: 0;">cbo-qbq-dados: CBO e QBQ como dados abertos (github.com/ciencia-social/cbo-qbq-dados), a partir de dados oficiais do MTE. Versão dados-2026.11.1.</p>
+</x-import>
+
+<h2 id="ia">Uso de IA</h2>
+<x-import component-from-global-scope="CS.Callout" kind="ia" label="Declaração de uso de IA">
+<p style="margin: 0;">[DESCREVER EM QUE ETAPAS DO PROJETO A IA FOI USADA, COM QUAL FERRAMENTA E COMO O RESULTADO FOI CONFERIDO]</p>
+</x-import>
+
+</div>
+<aside style="flex: 1 1 12rem; max-width: 16rem; min-width: 0; padding-top: var(--space-2);">
+<x-import component-from-global-scope="CS.Toc" title="Sumário" items="{{toc}}"></x-import>
+<div style="margin-top: var(--space-6); padding-top: var(--space-4); border-top: 1px solid var(--line); display: grid; gap: var(--space-2);">
+<a class="x-go" href="https://github.com/ciencia-social/cbo-qbq-dados"><x-import component-from-global-scope="CS.Icon" name="external-link"></x-import> Repositório dos dados</a>
+<a class="x-go" href="Docs.dc.html"><x-import component-from-global-scope="CS.Icon" name="download"></x-import> Baixar CSV e SQLite</a>
+</div>
+</aside>
+</div>
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2300}}'>
+class Component extends DCLogic {
+  componentDidMount() { if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' }); }
+  renderVals() {
+    return {
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html' },
+        { label: 'Competências', href: 'Competencias.dc.html' },
+        { label: 'API', href: 'Docs.dc.html' },
+        { label: 'MCP', href: 'Mcp.dc.html' },
+        { label: 'Sobre', href: 'Sobre.dc.html', current: true }
+      ],
+      meta: [
+        { label: 'Versão do conjunto', value: 'dados-2026.11.1 · schema-v0.3.0' },
+        { label: 'Publicada em', value: '17 de novembro de 2026' },
+        { label: 'Licença', value: 'Dados CC BY 4.0 · código MIT' },
+        { label: 'Repositório', value: 'github.com/ciencia-social/cbo-qbq-dados' }
+      ],
+      toc: [
+        { label: 'Versões por camada', href: '#versoes', current: true },
+        { label: 'Cobertura entre as camadas', href: '#cobertura' },
+        { label: 'Decisões de modelagem', href: '#decisoes' },
+        { label: 'Licença e como citar', href: '#citar' },
+        { label: 'Uso de IA', href: '#ia' }
+      ],
+      versCols: [{ key: 'c', label: 'Camada' }, { key: 'v', label: 'Versão' }, { key: 'f', label: 'Arquivo oficial' }, { key: 'd', label: 'Capturado em' }],
+      versRows: [
+        { c: 'Espinha da CBO', v: 'dados-2026.11', f: 'Seis CSVs da CBO 2002', d: '17/11/2026' },
+        { c: 'Perfil ocupacional da CBO', v: 'dados-2026.11.1', f: 'cbo2002-perfilocupacional.csv', d: '17/11/2026' },
+        { c: 'QBQ', v: 'dados-2026.08', f: 'qbq-2025-03.xlsx (modificado em 18/03/2025)', d: '28/08/2026' },
+        { c: 'Conceitos das habilidades', v: 'dados-2026.08', f: 'conceitos-habilidades-2025-06.pdf', d: '28/08/2026' }
+      ],
+      situCols: [{ key: 's', label: 'Situação no QBQ' }, { key: 'n', label: 'Ocupações', numeric: true }, { key: 'o', label: 'O que o site mostra' }],
+      situRows: [
+        { s: 'Classificada', n: '2.618', o: 'Níveis, competências e síntese' },
+        { s: 'Não classificada', n: '52', o: 'Justificativa oficial' },
+        { s: 'Sem nível e sem justificativa', n: '3', o: 'Aviso D010' },
+        { s: 'Ausente no QBQ', n: '25', o: 'Só o bloco da CBO, com aviso D015' }
+      ],
+      decisoes: [
+        { id: 'D001', t: 'Código CBO normalizado para 6 dígitos com zero à esquerda' },
+        { id: 'D002', t: 'Aparar espaços nas pontas; conteúdo interno intocado' },
+        { id: 'D004', t: 'Duas taxonomias de conhecimento, mantidas separadas' },
+        { id: 'D009', t: 'Códigos com segmento 90 ou 99 são baldes de “outros”' },
+        { id: 'D010', t: 'Três lideranças comunitárias sem nível e sem justificativa' },
+        { id: 'D012', t: 'Baldes “outros” não têm conceito oficial' },
+        { id: 'D013', t: 'Grafias divergentes entre planilha e PDF: as duas são preservadas' },
+        { id: 'D015', t: 'Divergências entre QBQ e CBO são dado, não defeito' },
+        { id: 'D016', t: 'versao_dados é a publicação em que a camada foi gerada' },
+        { id: 'D017', t: 'No perfil ocupacional, só o código da ocupação é chave' }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Competências · vocabulários do QBQ</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+<header style="margin-top: var(--space-6); border-top: 2px solid var(--ink); padding-top: var(--space-5); padding-bottom: var(--space-5);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">QBQ · vocabulários controlados e conceitos</p>
+<h1 style="margin: 0; font: 500 40px/46px var(--font-serif); letter-spacing: -.01em;">Competências</h1>
+<p style="margin: var(--space-3) 0 0; font: 400 19px/30px var(--font-serif); color: var(--ink-2); max-width: 48rem;">Os termos com que o QBQ nomeia conhecimentos, habilidades e atitudes, com a definição oficial quando ela existe e as ocupações que exigem cada um.</p>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: flex-end; justify-content: space-between; padding-block: var(--space-3); border-block: 1px solid var(--line);">
+<x-import component-from-global-scope="CS.SegmentedControl" legend="Vocabulário" name="vocab" options="{{vocabOpts}}" value="{{vocab}}" on-change="{{setVocab}}"></x-import>
+<form role="search" style="flex: 0 1 28rem; min-width: 0; display: flex;">
+<x-import component-from-global-scope="CS.TextInput" label="Buscar termo, conceito ou descrição de item" type="search" icon="search" placeholder="raciocínio, banco de dados, direito ambiental" block="{{sim}}" style="flex: 1; min-width: 0;"></x-import>
+</form>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-7); margin-top: var(--space-6); align-items: flex-start;">
+
+<nav aria-label="Árvore do vocabulário de habilidades" style="flex: 1 1 20rem; max-width: 26rem; min-width: 0;">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">habilidades · 3 domínios · 12 categorias · 87 habilidades</p>
+<ul class="x-tree" style="list-style: none; margin: 0; padding: 0; display: grid; gap: 1px;">
+<li><a href="Competencias.dc.html" style="font-weight: 600;"><span class="x-id">1</span><span>HABILIDADES COGNITIVAS</span></a>
+<ul style="list-style: none; padding: 0 0 0 var(--space-4); margin: 0 0 0 var(--space-3); border-left: 1px solid var(--line);">
+<li><a href="Competencias.dc.html"><span class="x-id">01.01</span><span>COMUNICAÇÃO</span><span class="n">11</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.02</span><span>TRABALHO COM NÚMEROS</span><span class="n">7</span></a></li>
+<li><a href="Competencias.dc.html" style="font-weight: 600;"><span class="x-id">01.03</span><span>RACIOCÍNIO</span><span class="n">6</span></a>
+<ul style="list-style: none; padding: 0 0 0 var(--space-4); margin: 0 0 0 var(--space-3); border-left: 1px solid var(--line);">
+<li><a href="Competencias.dc.html"><span class="x-id">01.03.01</span><span>RACIOCÍNIO CONCRETO PARA SEGUIR INSTRUÇÕES</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.03.02</span><span>RACIOCÍNIO ABSTRATO PARA RESOLUÇÃO DE PROBLEMAS</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.03.03</span><span>RACIOCÍNIO ANALÍTICO</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.03.04</span><span>RACIOCÍNIO SINTÉTICO (CAPACIDADE DE DIAGNÓSTICO DE PROBLEMAS OU TROUBLESHOOTING)</span></a></li>
+<li><a href="Competencias.dc.html" aria-current="page"><span class="x-id">01.03.05</span><span>RACIOCÍNIO CRÍTICO</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.03.06</span><span>RACIOCÍONIO CIENTÍFICO</span></a></li>
+</ul>
+</li>
+<li><a href="Competencias.dc.html"><span class="x-id">01.90</span><span>OUTRAS HABILIDADES DE COGNITIVAS (ESPECIFICAR...)</span><span class="n">balde</span></a></li>
+</ul>
+</li>
+<li><a href="Competencias.dc.html"><span class="x-id">2</span><span>HABILIDADES PRÁTICAS</span><span class="n">4 cat.</span></a></li>
+<li><a href="Competencias.dc.html"><span class="x-id">3</span><span>HABILIDADES FÍSICAS, PSICOMOTORAS E SENSORIAIS</span><span class="n">4 cat.</span></a></li>
+</ul>
+<p style="margin: var(--space-4) 0 0; font-size: 13px; line-height: 18px; color: var(--ink-3);">Grafia da fonte preservada, inclusive erros de digitação. Códigos são identificadores opacos: a hierarquia vem do campo pai, não do prefixo.</p>
+</nav>
+
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-7);">
+
+<article aria-labelledby="h-termo">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-2);">habilidades · nível habilidades · 01.03.05</p>
+<h2 id="h-termo" style="margin: 0; font: 500 40px/46px var(--font-serif); letter-spacing: -.01em;">Raciocínio crítico</h2>
+<p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 20px; color: var(--ink-3);">1 HABILIDADES COGNITIVAS → 01.03 RACIOCÍNIO → 01.03.05 RACIOCÍNIO CRÍTICO</p>
+
+<div style="margin-top: var(--space-5); display: flex; flex-direction: column; gap: var(--space-3); max-width: 48rem;">
+<div style="padding: var(--space-5); background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-sm);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-2); display: flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="book-open"></x-import>Conceito oficial</p>
+<p style="margin: 0; font: 400 21px/32px var(--font-serif);">Capacidade desenvolvida de identificar os pontos fortes e fracos de soluções alternativas, conclusões ou abordagens para problemas.</p>
+</div>
+<x-import component-from-global-scope="CS.Disclosure" summary="Conceito da categoria 01.03 Raciocínio">
+<p style="margin: 0;">Capacidades desenvolvidas para usar a razão, especialmente para formular conclusões, inferências ou julgamentos.</p>
+</x-import>
+</div>
+</article>
+
+<section aria-labelledby="h-uso">
+<div style="display: flex; gap: var(--space-3); align-items: center; flex-wrap: wrap; margin-bottom: var(--space-2);">
+<p class="cs-meta-text" style="margin: 0;">Uso nas ocupações</p>
+<span class="cs-badge cs-badge--ilustrativo">Derivado, não oficial</span>
+</div>
+<h2 id="h-uso" style="margin: 0 0 var(--space-5); font: 500 28px/34px var(--font-serif);">Exigido em 770 ocupações</h2>
+<div class="cs-grid">
+<div class="cs-col-4"><x-import component-from-global-scope="CS.StatTile" label="Ocupações que exigem" value="770" delta="29% das 2.618 classificadas"></x-import></div>
+<div class="cs-col-4"><x-import component-from-global-scope="CS.StatTile" label="Importância média" value="4,5" delta="escala ordinal de 1 a 5"></x-import></div>
+<div class="cs-col-4"><x-import component-from-global-scope="CS.StatTile" label="Com importância 5" value="495" delta="64% das que exigem o termo"></x-import></div>
+</div>
+<div class="cs-grid" style="margin-top: var(--space-5);">
+<div class="cs-col-6">
+<x-import component-from-global-scope="CS.Figure" kind="Figura" number="1" title="Ocupações por nível de qualificação" subtitle="Ocupações que exigem raciocínio crítico, por nível do QBQ" variant="card">
+<x-import component-from-global-scope="CS.BarChart" items="{{porNivel}}" format="number" slot="{{um}}" aria-label="Ocupações que exigem raciocínio crítico por nível de qualificação"></x-import>
+<div style="margin-top: var(--space-3);"><x-import component-from-global-scope="CS.Disclosure" summary="Ver dados em tabela">
+<table class="cs-table"><thead><tr><th scope="col">Nível</th><th scope="col" class="cs-num">Ocupações</th></tr></thead><tbody>
+<tr><td>3</td><td class="cs-num">1</td></tr><tr><td>4</td><td class="cs-num">13</td></tr><tr><td>5</td><td class="cs-num">74</td></tr><tr><td>6</td><td class="cs-num">289</td></tr><tr><td>7</td><td class="cs-num">346</td></tr><tr><td>8</td><td class="cs-num">47</td></tr>
+</tbody></table>
+</x-import></div>
+</x-import>
+</div>
+<div class="cs-col-6">
+<x-import component-from-global-scope="CS.Figure" kind="Figura" number="2" title="Ocupações por grande grupo da CBO" subtitle="Ocupações que exigem raciocínio crítico, por grande grupo" variant="card">
+<x-import component-from-global-scope="CS.BarChart" items="{{porGrupo}}" format="number" slot="{{um}}" aria-label="Ocupações que exigem raciocínio crítico por grande grupo"></x-import>
+<div style="margin-top: var(--space-3);"><x-import component-from-global-scope="CS.Disclosure" summary="Ver dados em tabela">
+<table class="cs-table"><thead><tr><th scope="col">Grande grupo</th><th scope="col" class="cs-num">Ocupações</th></tr></thead><tbody>
+<tr><td>1</td><td class="cs-num">134</td></tr><tr><td>2</td><td class="cs-num">605</td></tr><tr><td>3</td><td class="cs-num">25</td></tr><tr><td>4</td><td class="cs-num">1</td></tr><tr><td>5</td><td class="cs-num">5</td></tr>
+</tbody></table>
+</x-import></div>
+</x-import>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="h-lista">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-4); flex-wrap: wrap; border-bottom: 1px solid var(--ink); padding-bottom: var(--space-3);">
+<h2 id="h-lista" style="margin: 0; font: 500 28px/34px var(--font-serif);">Ocupações que exigem o termo</h2>
+<div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
+<x-import component-from-global-scope="CS.Select" label="Importância mínima" options="{{impOpts}}"></x-import>
+<x-import component-from-global-scope="CS.Select" label="Grande grupo" options="{{ggOpts}}"></x-import>
+</div>
+</div>
+<div class="cs-table-scroll">
+<table class="cs-table" style="border-top: 0;">
+<thead><tr><th scope="col">Código</th><th scope="col">Ocupação (título QBQ)</th><th scope="col" class="cs-num">Nível</th><th scope="col" class="cs-num">Frequência</th><th scope="col" class="cs-num">Importância</th></tr></thead>
+<tbody>
+<sc-for list="{{ocups}}" as="o" hint-placeholder-count="12">
+<tr><td><span class="x-id" style="color: var(--ink);">{{o.c}}</span></td><td><a class="x-row-link" href="Ocupacao.dc.html">{{o.t}}</a></td><td class="cs-num">{{o.n}}</td><td class="cs-num">{{o.f}}</td><td class="cs-num" style="font-weight: 600;">{{o.i}}</td></tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+<p class="cs-table__foot">Mostrando 12 de 770, por importância e frequência. Pela API: <span class="x-inline">GET /api/v1/qbq/vocabularios/habilidades/habilidades/01.03.05/ocupacoes</span></p>
+<div style="margin-top: var(--space-4);"><x-import component-from-global-scope="CS.Button" href="Docs.dc.html" icon="list">Ver as 770 ocupações</x-import></div>
+</section>
+
+<x-import component-from-global-scope="CS.Callout" kind="limite" label="Duas taxonomias de conhecimento">
+<p style="margin: 0;">Ocupações de nível 1 a 5 usam conhecimentos-i; as de nível 6 a 8 usam conhecimentos-ii. Oito códigos existem nas duas e nomeiam termos diferentes, por isso os resultados de uma taxonomia não valem para a outra. Habilidades e atitudes têm vocabulário único.</p>
+</x-import>
+
+</div>
+</div>
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2400}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { vocab: 'habilidades' }; }
+  componentDidMount() { if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' }); }
+  renderVals() {
+    return {
+      sim: true,
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html' },
+        { label: 'Competências', href: 'Competencias.dc.html', current: true },
+        { label: 'API', href: 'Docs.dc.html' },
+        { label: 'MCP', href: 'Mcp.dc.html' },
+        { label: 'Sobre', href: 'Sobre.dc.html' }
+      ],
+      vocab: this.state.vocab,
+      vocabOpts: [{ value: 'habilidades', label: 'Habilidades' }, { value: 'conhecimentos-i', label: 'Conhecimentos I' }, { value: 'conhecimentos-ii', label: 'Conhecimentos II' }, { value: 'atitudes', label: 'Atitudes' }],
+      setVocab: (v) => this.setState({ vocab: v && v.target ? v.target.value : v }),
+      um: 1,
+      porNivel: [{ label: 'Nível 3', value: 1 }, { label: 'Nível 4', value: 13 }, { label: 'Nível 5', value: 74 }, { label: 'Nível 6', value: 289 }, { label: 'Nível 7', value: 346 }, { label: 'Nível 8', value: 47 }],
+      porGrupo: [{ label: 'Grande grupo 1', value: 134 }, { label: 'Grande grupo 2', value: 605 }, { label: 'Grande grupo 3', value: 25 }, { label: 'Grande grupo 4', value: 1 }, { label: 'Grande grupo 5', value: 5 }],
+      impOpts: ['Qualquer', '2', '3', '4', '5'],
+      ggOpts: ['Todos', '1', '2', '3', '4', '5'],
+      ocups: [
+        { c: '1113-25', t: 'Juiz de direito', n: 7, f: 5, i: 5 },
+        { c: '1113-30', t: 'Juiz federal', n: 7, f: 5, i: 5 },
+        { c: '1113-35', t: 'Juiz auditor federal - justiça militar', n: 7, f: 5, i: 5 },
+        { c: '1113-40', t: 'Juiz auditor estadual - justiça militar', n: 7, f: 5, i: 5 },
+        { c: '1113-45', t: 'Juiz do trabalho', n: 7, f: 5, i: 5 },
+        { c: '1114-05', t: 'Dirigente do serviço público federal', n: 8, f: 5, i: 5 },
+        { c: '1115-05', t: 'Especialista de políticas públicas e gestão governamental - eppgg', n: 7, f: 5, i: 5 },
+        { c: '1115-10', t: 'Analista de planejamento e orçamento - apo', n: 7, f: 5, i: 5 },
+        { c: '1141-05', t: 'Dirigente de partido político', n: 5, f: 5, i: 5 },
+        { c: '1142-05', t: 'Dirigente de entidade de trabalhadores', n: 5, f: 5, i: 5 },
+        { c: '1142-10', t: 'Dirigentes de entidades patronais', n: 5, f: 5, i: 5 },
+        { c: '1144-05', t: 'Dirigente e administrador de organização da sociedade civil sem fins lucrativos', n: 6, f: 5, i: 5 }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

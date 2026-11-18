@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ocupações · navegar a CBO</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+<header style="margin-top: var(--space-6); border-top: 2px solid var(--ink); padding-top: var(--space-5); padding-bottom: var(--space-5);">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">CBO · classificação · QBQ · níveis</p>
+<h1 style="margin: 0; font: 500 40px/46px var(--font-serif); letter-spacing: -.01em;">Ocupações</h1>
+<p style="margin: var(--space-3) 0 0; font: 400 19px/30px var(--font-serif); color: var(--ink-2); max-width: 46rem;">Navegue pela hierarquia da CBO ou busque por título, sinônimo ou código. Cada ocupação mostra a situação no QBQ, inclusive quando não há nível.</p>
+</header>
+
+<form role="search" style="display: flex; gap: var(--space-3); flex-wrap: nowrap; align-items: flex-end;">
+<x-import component-from-global-scope="CS.TextInput" label="Buscar em títulos e sinônimos" type="search" name="q" icon="search" default-value="programador" block="{{sim}}" style="flex: 1 1 0; min-width: 0;"></x-import>
+<x-import component-from-global-scope="CS.Button" variant="primary" href="Ocupacoes.dc.html" icon="search" style="flex: none;">Buscar</x-import>
+</form>
+
+<div style="margin-top: var(--space-4);">
+<x-import component-from-global-scope="CS.FilterBar" label="Filtros">
+<x-import component-from-global-scope="CS.Select" label="Grande grupo" options="{{ggOpts}}"></x-import>
+<x-import component-from-global-scope="CS.Select" label="Nível de qualificação" options="{{nivelOpts}}"></x-import>
+<x-import component-from-global-scope="CS.Select" label="Situação no QBQ" options="{{situOpts}}"></x-import>
+<x-import component-from-global-scope="CS.SegmentedControl" legend="Buscar em" name="buscar_em" options="{{emOpts}}" value="{{em}}" on-change="{{setEm}}"></x-import>
+</x-import>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-7); margin-top: var(--space-6); align-items: flex-start;">
+
+<nav aria-label="Hierarquia da CBO" style="flex: 1 1 18rem; max-width: 24rem; min-width: 0;">
+<p class="cs-meta-text" style="margin: 0 0 var(--space-3);">Hierarquia da CBO</p>
+<ul class="x-tree" style="list-style: none; margin: 0; padding: 0; display: grid; gap: 1px;">
+<li><a href="Ocupacoes.dc.html"><span class="x-id">0</span><span>MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES</span><span class="n">28</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">1</span><span>MEMBROS SUPERIORES DO PODER PÚBLICO, DIRIGENTES DE ORGANIZAÇÕES DE INTERESSE PÚBLICO E DE EMPRESAS, GERENTES</span><span class="n">156</span></a></li>
+<li><a href="Ocupacoes.dc.html" style="font-weight: 600;"><span class="x-id">2</span><span>PROFISSIONAIS DAS CIÊNCIAS E DAS ARTES</span><span class="n">665</span></a>
+<ul style="list-style: none; margin: 0; padding: 0 0 0 var(--space-4); border-left: 1px solid var(--line); margin-left: var(--space-3);">
+<li><a href="Ocupacoes.dc.html"><span class="x-id">20</span><span>PESQUISADORES E PROFISSIONAIS POLICIENTÍFICOS</span><span class="n">43</span></a></li>
+<li><a href="Ocupacoes.dc.html" style="font-weight: 600;"><span class="x-id">21</span><span>PROFISSIONAIS DAS CIÊNCIAS EXATAS, FÍSICAS E DA ENGENHARIA</span><span class="n">144</span></a>
+<ul style="list-style: none; margin: 0; padding: 0 0 0 var(--space-4); border-left: 1px solid var(--line); margin-left: var(--space-3);">
+<li><a href="Ocupacoes.dc.html"><span class="x-id">211</span><span>MATEMÁTICOS, ESTATÍSTICOS E AFINS</span><span class="n">8</span></a></li>
+<li><a href="Ocupacoes.dc.html" style="font-weight: 600;"><span class="x-id">212</span><span>PROFISSIONAIS DA INFORMÁTICA</span><span class="n">13</span></a>
+<ul style="list-style: none; margin: 0; padding: 0 0 0 var(--space-4); border-left: 1px solid var(--line); margin-left: var(--space-3);">
+<li><a href="Ocupacoes.dc.html"><span class="x-id">2122</span><span>Engenheiros em computação</span><span class="n">3</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">2123</span><span>Administradores de tecnologia da informação</span><span class="n">4</span></a></li>
+<li><a href="Ocupacoes.dc.html" aria-current="page"><span class="x-id">2124</span><span>Analistas de tecnologia da informação</span><span class="n">6</span></a></li>
+</ul>
+</li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">213</span><span>FÍSICOS, QUÍMICOS E AFINS</span><span class="n">29</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">214</span><span>ENGENHEIROS, ARQUITETOS E AFINS</span><span class="n">77</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">215</span><span>PROFISSIONAIS EM NAVEGAÇÃO AÉREA, MARÍTIMA E FLUVIAL</span><span class="n">17</span></a></li>
+</ul>
+</li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">22</span><span>PROFISSIONAIS DAS CIÊNCIAS BIOLÓGICAS, DA SAÚDE E AFINS</span><span class="n">158</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">23</span><span>PROFISSIONAIS DO ENSINO</span><span class="n">122</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">24</span><span>PROFISSIONAIS DAS CIÊNCIAS JURÍDICAS</span><span class="n">39</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">25</span><span>PROFISSIONAIS DAS CIÊNCIAS SOCIAIS E HUMANAS</span><span class="n">75</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">26</span><span>COMUNICADORES, ARTISTAS E RELIGIOSOS</span><span class="n">82</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">27</span><span>PROFISSIONAIS EM GASTRONOMIA</span><span class="n">2</span></a></li>
+</ul>
+</li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">3</span><span>TÉCNICOS DE NIVEL MÉDIO</span><span class="n">424</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">4</span><span>TRABALHADORES DE SERVIÇOS ADMINISTRATIVOS</span><span class="n">97</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">5</span><span>TRABALHADORES DOS SERVIÇOS, VENDEDORES DO COMÉRCIO EM LOJAS E MERCADOS</span><span class="n">184</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">6</span><span>TRABALHADORES AGROPECUÁRIOS, FLORESTAIS E DA PESCA</span><span class="n">188</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">7</span><span>TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS</span><span class="n">615</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">8</span><span>TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS</span><span class="n">252</span></a></li>
+<li><a href="Ocupacoes.dc.html"><span class="x-id">9</span><span>TRABALHADORES EM SERVIÇOS DE REPARAÇÃO E MANUTENÇÃO</span><span class="n">89</span></a></li>
+</ul>
+</nav>
+
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-7);">
+
+<section aria-labelledby="h-familia">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; border-bottom: 1px solid var(--ink); padding-bottom: var(--space-3);">
+<div>
+<p class="cs-meta-text" style="margin: 0 0 var(--space-1);">Família 2124 · 2 → 21 → 212 → 2124</p>
+<h2 id="h-familia" style="margin: 0; font: 500 28px/34px var(--font-serif);">Analistas de tecnologia da informação</h2>
+</div>
+<a class="x-go" href="Ocupacao.dc.html"><x-import component-from-global-scope="CS.Icon" name="list"></x-import> 6 ocupações</a>
+</div>
+<div class="cs-table-scroll">
+<table class="cs-table" style="border-top: 0;">
+<thead><tr><th scope="col">Código</th><th scope="col">Ocupação</th><th scope="col" class="cs-num">Nível QBQ</th><th scope="col">Situação no QBQ</th></tr></thead>
+<tbody>
+<sc-for list="{{familia}}" as="o" hint-placeholder-count="6">
+<tr>
+<td><span class="x-id" style="color: var(--ink);">{{o.cod}}</span></td>
+<td><a class="x-row-link" href="Ocupacao.dc.html" style="font-weight: 500;">{{o.titulo}}</a></td>
+<td class="cs-num">{{o.nivel}}</td>
+<td><span class="cs-badge">classificada</span></td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<section aria-labelledby="h-resultados">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; border-bottom: 1px solid var(--ink); padding-bottom: var(--space-3);">
+<div>
+<p class="cs-meta-text" style="margin: 0 0 var(--space-1);">Busca · título e sinônimo</p>
+<h2 id="h-resultados" style="margin: 0; font: 500 28px/34px var(--font-serif);">17 sinônimos casam com “programador”</h2>
+</div>
+<x-import component-from-global-scope="CS.Select" label="Ordenar" options="{{ordOpts}}"></x-import>
+</div>
+<p style="margin: var(--space-3) 0 var(--space-4); font-size: 14px; line-height: 20px; color: var(--ink-2); max-width: 46rem;">Nenhum título oficial contém o termo; todos os resultados vêm de sinônimos. Um mesmo sinônimo pode apontar para mais de uma ocupação.</p>
+<div class="cs-table-scroll">
+<table class="cs-table">
+<thead><tr><th scope="col">Casou em</th><th scope="col">Código</th><th scope="col">Ocupação (título CBO)</th><th scope="col">Família</th><th scope="col" class="cs-num">Nível</th></tr></thead>
+<tbody>
+<sc-for list="{{resultados}}" as="r" hint-placeholder-count="12">
+<tr>
+<td><span style="font-size: 12px; color: var(--ink-3); font-family: var(--font-mono);">sinônimo</span><br><span>{{r.sin}}</span></td>
+<td><span class="x-id" style="color: var(--ink);">{{r.cod}}</span></td>
+<td><a class="x-row-link" href="Ocupacao.dc.html">{{r.titulo}}</a></td>
+<td><span class="x-id" style="font-size: 13px;">{{r.fam}}</span></td>
+<td class="cs-num">{{r.nivel}}</td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+<p class="cs-table__foot">Pela API: <span class="x-inline">GET /api/v1/sinonimos?q=programador</span></p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4); flex-wrap: wrap; gap: var(--space-3);">
+<span style="font-size: 13px; color: var(--ink-3);">Mostrando 1 a 17 de 17</span>
+<a class="x-go" href="Competencias.dc.html">Não achou? Busque pelo que se faz na ocupação <x-import component-from-global-scope="CS.Icon" name="arrow-right"></x-import></a>
+</div>
+</section>
+
+</div>
+</div>
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2100}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { em: 'titulo_sinonimo' }; }
+  componentDidMount() { if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' }); }
+  renderVals() {
+    return {
+      sim: true,
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html', current: true },
+        { label: 'Competências', href: 'Competencias.dc.html' },
+        { label: 'API', href: 'Docs.dc.html' },
+        { label: 'MCP', href: 'Mcp.dc.html' },
+        { label: 'Sobre', href: 'Sobre.dc.html' }
+      ],
+      ggOpts: ['Todos', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+      nivelOpts: ['Todos', '1', '2', '3', '4', '5', '6', '7', '8', 'Sem nível'],
+      situOpts: ['Todas', 'Classificada', 'Não classificada', 'Sem nível e sem justificativa', 'Ausente no QBQ'],
+      ordOpts: ['Relevância', 'Código', 'Nível'],
+      em: this.state.em,
+      emOpts: [{ value: 'titulo_sinonimo', label: 'Título e sinônimo' }, { value: 'sintese', label: 'Também a síntese' }, { value: 'atividade', label: 'Atividades' }],
+      setEm: (v) => this.setState({ em: v && v.target ? v.target.value : v }),
+      familia: [
+        { cod: '2124-05', titulo: 'Analista de desenvolvimento de sistemas', nivel: '5' },
+        { cod: '2124-10', titulo: 'Analista de redes e de comunicação de dados', nivel: '6' },
+        { cod: '2124-15', titulo: 'Analista de sistemas de automação', nivel: '6' },
+        { cod: '2124-20', titulo: 'Analista de suporte computacional', nivel: '6' },
+        { cod: '2124-25', titulo: 'Arquiteto de soluções de tecnologia da informação', nivel: '7' },
+        { cod: '2124-30', titulo: 'Analista de testes de tecnologia da informação', nivel: '6' }
+      ],
+      resultados: [
+        { sin: 'Programador de aplicativos educacionais e de entretenimento', cod: '3171-20', titulo: 'Desenvolvedor de multimídia', fam: '3171', nivel: '4' },
+        { sin: 'Programador de comunicação de sistemas', cod: '3171-20', titulo: 'Desenvolvedor de multimídia', fam: '3171', nivel: '4' },
+        { sin: 'Programador de comunicação visual e sonora de sistemas', cod: '3171-20', titulo: 'Desenvolvedor de multimídia', fam: '3171', nivel: '4' },
+        { sin: 'Programador de controle de produção', cod: '3911-25', titulo: 'Técnico de planejamento de produção', fam: '3911', nivel: '4' },
+        { sin: 'Programador de encaixe (cad)', cod: '7631-20', titulo: 'Riscador de roupas', fam: '7631', nivel: '2' },
+        { sin: 'Programador de fotocomposição', cod: '7661-45', titulo: 'Operador de sistemas de prova (analógico e digital)', fam: '7661', nivel: '2' },
+        { sin: 'Programador de internet', cod: '3171-05', titulo: 'Desenvolvedor web (técnico)', fam: '3171', nivel: '4' },
+        { sin: 'Programador de multimídia', cod: '3171-20', titulo: 'Desenvolvedor de multimídia', fam: '3171', nivel: '4' },
+        { sin: 'Programador de risco e corte', cod: '7631-20', titulo: 'Riscador de roupas', fam: '7631', nivel: '2' },
+        { sin: 'Programador de sistemas de computador', cod: '3171-10', titulo: 'Desenvolvedor de sistemas de tecnologia da informação (técnico)', fam: '3171', nivel: '4' },
+        { sin: 'Programador de sistemas de informação', cod: '3171-10', titulo: 'Desenvolvedor de sistemas de tecnologia da informação (técnico)', fam: '3171', nivel: '4' },
+        { sin: 'Programador de transporte multimodal', cod: '3421-10', titulo: 'Operador de transporte multimodal', fam: '3421', nivel: '4' },
+        { sin: 'Programador de transporte rodoviário', cod: '3423-05', titulo: 'Chefe de serviço de transporte rodoviário (passageiros e cargas)', fam: '3423', nivel: '4' },
+        { sin: 'Programador de usinagem', cod: '3141-10', titulo: 'Técnico mecânico', fam: '3141', nivel: '4' },
+        { sin: 'Programador e controlador de materiais', cod: '3911-35', titulo: 'Técnico de matéria-prima e material', fam: '3911', nivel: '4' },
+        { sin: 'Programador ferroviário', cod: '7102-10', titulo: 'Mestre de linhas (ferrovias)', fam: '7102', nivel: '3' },
+        { sin: 'Programador musical', cod: '3741-55', titulo: 'Analista musical', fam: '3741', nivel: '3' }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

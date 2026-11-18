@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Servidor MCP da CBO e do QBQ</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="ds/cs/tokens.css">
+<link rel="stylesheet" href="ds/cs/components/bundle.css">
+<link rel="stylesheet" href="site.css">
+<script src="ds/cs/components/bundle.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:var(--accent)}a:hover{color:var(--accent-hover)}
+</style>
+</helmet>
+<div style="background: var(--surface); color: var(--ink); font-family: var(--font-sans); min-height: 100vh;">
+<x-import component-from-global-scope="CS.NetworkBar" artifact="CBO e QBQ" artifact-href="Main.dc.html" links="{{nav}}"></x-import>
+
+<main class="cs-page">
+<section class="cs-rhead" style="padding-bottom: var(--space-6);">
+<div class="cs-rhead__eyebrow" style="margin-bottom: var(--space-5);">
+<span class="cs-meta-text">Model Context Protocol · cbo.ciencia.social/mcp</span>
+<x-import component-from-global-scope="CS.Badge" status="preliminar">Preliminar</x-import>
+</div>
+<h1 class="cs-rhead__title" style="font-size: 48px; line-height: 54px; max-width: 46rem;">Conecte seu assistente de IA à fonte oficial</h1>
+<p class="cs-rhead__sub" style="max-width: 46rem;">Com o servidor MCP, o assistente consulta códigos, títulos, níveis e competências em vez de responder de memória. Somente leitura, sem cadastro e sem chave.</p>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--space-7); align-items: flex-start;">
+
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-8);">
+
+<section id="conectar" aria-labelledby="h-conectar">
+<h2 id="h-conectar" style="margin: 0 0 var(--space-4); font: 500 28px/34px var(--font-serif);">Conectar</h2>
+<div class="x-tabs" role="tablist" aria-label="Cliente">
+<sc-for list="{{clientes}}" as="c" hint-placeholder-count="5">
+<button type="button" role="tab" class="x-tab" aria-selected="{{c.sel}}" onClick="{{c.pick}}" style="display: inline-flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="{{c.icon}}"></x-import>{{c.label}}</button>
+</sc-for>
+</div>
+<div style="padding-top: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3);">
+<p style="margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-2); max-width: 44rem;">{{cliente.intro}}</p>
+<x-import component-from-global-scope="CS.CodeBlock" lang="{{cliente.lang}}" title="{{cliente.arquivo}}" meta="{{cliente.tipo}}" code="{{cliente.codigo}}"></x-import>
+<p style="margin: 0; font-size: 13px; line-height: 18px; color: var(--ink-3);">{{cliente.nota}}</p>
+</div>
+</section>
+
+<section id="instrucoes" aria-labelledby="h-instr">
+<h2 id="h-instr" style="margin: 0 0 var(--space-3); font: 500 28px/34px var(--font-serif);">O que o servidor diz ao modelo</h2>
+<p style="margin: 0 0 var(--space-4); font: 400 17px/27px var(--font-serif); color: var(--ink-2); max-width: 44rem;">Na inicialização, o servidor envia estas instruções. Elas valem para qualquer cliente e não dependem do prompt de quem usa.</p>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; gap: var(--space-3); max-width: 48rem;">
+<sc-for list="{{regras}}" as="r" hint-placeholder-count="5">
+<li style="display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: var(--space-3); padding: var(--space-3) 0; border-top: 1px solid var(--line);"><span class="x-id" style="color: var(--ink-3);">{{r.l}}</span><span style="font: 400 17px/26px var(--font-serif);">{{r.t}}</span></li>
+</sc-for>
+</ol>
+</section>
+
+<section id="tools" aria-labelledby="h-tools">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: var(--space-4); flex-wrap: wrap; margin-bottom: var(--space-4);">
+<h2 id="h-tools" style="margin: 0; font: 500 28px/34px var(--font-serif);">Tools</h2>
+<x-import component-from-global-scope="CS.SegmentedControl" legend="Grupo" name="grupo" options="{{grupoOpts}}" value="{{grupo}}" on-change="{{setGrupo}}"></x-import>
+</div>
+<p style="margin: 0 0 var(--space-4); font-size: 14px; line-height: 20px; color: var(--ink-2); max-width: 46rem;">Todas são somente leitura e idempotentes. Cada uma tem uma rota REST equivalente que devolve os mesmos campos. Os nomes trazem a camada (cbo_, qbq_) ou o objeto, para que a origem do dado fique visível ao modelo.</p>
+<div class="cs-table-scroll">
+<table class="cs-table">
+<thead><tr><th scope="col">Tool</th><th scope="col">Para quê</th><th scope="col">REST</th><th scope="col">Natureza</th></tr></thead>
+<tbody>
+<sc-for list="{{tools}}" as="t" hint-placeholder-count="8">
+<tr>
+<td><code class="x-id" style="color: var(--code-key); white-space: nowrap;">{{t.n}}</code></td>
+<td>{{t.d}}</td>
+<td><a class="x-a" href="Docs.dc.html" style="font: 400 13px/18px var(--font-mono);">{{t.r}}</a></td>
+<td><span class="{{t.cls}}">{{t.nat}}</span></td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="exemplo" aria-labelledby="h-exemplo">
+<h2 id="h-exemplo" style="margin: 0 0 var(--space-3); font: 500 28px/34px var(--font-serif);">Exemplo: classificar uma vaga</h2>
+<p style="margin: 0 0 var(--space-5); font: 400 17px/27px var(--font-serif); color: var(--ink-2); max-width: 44rem;">O prompt <span class="x-inline">classificar_vaga</span> encadeia as tools e devolve até três códigos, com a evidência de cada um.</p>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; gap: 0; max-width: 52rem; border-top: 1px solid var(--ink);">
+<sc-for list="{{passos}}" as="p" hint-placeholder-count="4">
+<li style="display: grid; grid-template-columns: 2rem minmax(0, 14rem) minmax(0, 1fr); gap: var(--space-4); padding: var(--space-4) 0; border-bottom: 1px solid var(--line); align-items: baseline;">
+<span class="x-id" style="color: var(--ink-3);">{{p.i}}</span>
+<code class="x-id" style="color: var(--code-key); display: inline-flex; align-items: center; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="wrench"></x-import>{{p.tool}}</code>
+<span style="font-size: 15px; line-height: 22px; color: var(--ink-2);">{{p.d}}</span>
+</li>
+</sc-for>
+</ol>
+</section>
+
+<section id="extras" aria-labelledby="h-extras">
+<h2 id="h-extras" style="margin: 0 0 var(--space-4); font: 500 28px/34px var(--font-serif);">Prompts e resources</h2>
+<div class="cs-grid">
+<div class="cs-col-6">
+<x-import component-from-global-scope="CS.DataTable" title="Prompts prontos" columns="{{promptCols}}" rows="{{prompts}}"></x-import>
+</div>
+<div class="cs-col-6">
+<x-import component-from-global-scope="CS.DataTable" title="Resources por URI" columns="{{resCols}}" rows="{{resources}}"></x-import>
+</div>
+</div>
+</section>
+
+</div>
+
+<aside style="flex: 1 1 18rem; max-width: 22rem; min-width: 0; display: flex; flex-direction: column; gap: var(--space-5);">
+<x-import component-from-global-scope="CS.Toc" title="Nesta página" items="{{toc}}"></x-import>
+<div style="padding: var(--space-5); background: var(--surface-raised); border: 1px solid var(--line); border-radius: var(--radius-sm); display: grid; gap: var(--space-3);">
+<p class="cs-meta-text" style="margin: 0;">Dois modos, as mesmas tools</p>
+<p style="margin: 0; font-size: 14px; line-height: 20px; display: flex; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="globe" style="margin-top: 2px;"></x-import><span><strong>Hospedado:</strong> HTTP (streamable) em <span class="x-inline">cbo.ciencia.social/mcp</span>.</span></p>
+<p style="margin: 0; font-size: 14px; line-height: 20px; display: flex; gap: var(--space-2);"><x-import component-from-global-scope="CS.Icon" name="server" style="margin-top: 2px;"></x-import><span><strong>Local:</strong> stdio, com os dados embutidos e sem rede. Inclui a tool opcional <span class="x-inline">sql_consultar</span>.</span></p>
+</div>
+<x-import component-from-global-scope="CS.Callout" kind="nota" label="Orçamento de contexto">
+<p style="margin: 0;">As respostas vêm resumidas: limite padrão de 10 a 20 itens, máximo de 50. Textos longos só sob pedido, e toda resposta truncada diz o total e como pedir o restante.</p>
+</x-import>
+</aside>
+
+</div>
+</main>
+
+<x-import component-from-global-scope="CS.SiteFooter" note="Dados abertos da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações, a partir de publicações oficiais do Ministério do Trabalho e Emprego." columns="{{footer}}"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2800}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { cliente: 'code', grupo: 'todas' }; }
+  componentDidMount() { if (window.CS && window.CS.theme) window.CS.theme.init({ padrao: 'dark' }); }
+  renderVals() {
+    var self = this;
+    var pick = function (v) { return v && v.target ? v.target.value : v; };
+    var C = {
+      code: { label: 'Claude Code', icon: 'terminal', intro: 'Rode no terminal, na pasta do projeto ou com --scope user para todos os projetos.', lang: 'bash', arquivo: 'terminal', tipo: 'bash', codigo: 'claude mcp add --transport http cbo-qbq https://cbo.ciencia.social/mcp', nota: 'Confira com claude mcp list. As tools aparecem com o prefixo do servidor.' },
+      claude: { label: 'Claude (app e web)', icon: 'message-square', intro: 'Adicione um conector personalizado nas configurações de conectores e informe a URL do servidor.', lang: 'text', arquivo: 'URL do conector', tipo: 'http', codigo: 'https://cbo.ciencia.social/mcp', nota: 'Sem autenticação. Depois de adicionar, ative o conector na conversa.' },
+      cursor: { label: 'Cursor', icon: 'code', intro: 'Crie ou edite o arquivo de configuração MCP do projeto.', lang: 'json', arquivo: '.cursor/mcp.json', tipo: 'json', codigo: '{\n  "mcpServers": {\n    "cbo-qbq": {\n      "url": "https://cbo.ciencia.social/mcp"\n    }\n  }\n}', nota: 'Para valer em todos os projetos, use o arquivo global de configuração MCP do Cursor.' },
+      vscode: { label: 'VS Code', icon: 'code', intro: 'Crie o arquivo de servidores MCP do espaço de trabalho.', lang: 'json', arquivo: '.vscode/mcp.json', tipo: 'json', codigo: '{\n  "servers": {\n    "cbo-qbq": {\n      "type": "http",\n      "url": "https://cbo.ciencia.social/mcp"\n    }\n  }\n}', nota: 'As tools ficam disponíveis no modo agente do chat.' },
+      local: { label: 'Local (stdio)', icon: 'server', intro: 'Roda na sua máquina, com os dados de uma release embutidos e sem acesso à rede.', lang: 'json', arquivo: 'configuração do cliente', tipo: 'json', codigo: '{\n  "mcpServers": {\n    "cbo-qbq": {\n      "command": "[COMANDO]",\n      "args": ["[PACOTE DO SERVIDOR]"]\n    }\n  }\n}', nota: 'O pacote ainda não foi publicado. Os campos entre colchetes serão preenchidos na release.' }
+    };
+    var ordem = ['code', 'claude', 'cursor', 'vscode', 'local'];
+    var T = [
+      ['ocupacao_buscar', 'Do nome de mercado, cargo ou título de vaga ao código oficial', 'R20, R31', 'nucleo'],
+      ['ocupacao_obter', 'Ficha integrada nas duas camadas', 'R21', 'nucleo'],
+      ['cbo_atividades', 'O que a ocupação faz: áreas e atividades', 'R23', 'nucleo'],
+      ['qbq_competencias', 'O que a ocupação exige: itens CHA com graus', 'R24', 'nucleo'],
+      ['cbo_navegar', 'Percorre a classificação de cima para baixo', 'R14, R16', 'nucleo'],
+      ['codigo_decodificar', 'Valida e explica até 100 códigos de qualquer nível', 'R17', 'nucleo'],
+      ['qbq_vocabulario', 'Navega os vocabulários e devolve a definição oficial', 'R40 a R42', 'nucleo'],
+      ['dados_sobre', 'Versão, fontes, licença, citação e ressalvas', 'R02 a R04', 'nucleo'],
+      ['cbo_buscar_atividades', 'Acha ocupações pelo que se faz nelas', 'R32', 'exploracao'],
+      ['qbq_buscar_termos', 'Acha termos em vocabulários, conceitos e baldes', 'R41, R44, R45', 'exploracao'],
+      ['qbq_ocupacoes_por_competencia', 'Quais ocupações exigem um termo, e em que grau', 'R43', 'exploracao'],
+      ['cobertura_consultar', 'Onde CBO e QBQ não coincidem, e por quê', 'R46, R50, R51', 'exploracao'],
+      ['ocupacao_comparar', 'Lacunas entre duas a cinco ocupações', 'R26', 'derivado'],
+      ['ocupacao_similares', 'Ocupações com perfil de competências parecido', 'R25', 'derivado'],
+      ['cbo_resumir_grupo', 'Retrato agregado de um grupo da CBO', 'R18, R61, R62', 'derivado']
+    ];
+    var g = this.state.grupo;
+    return {
+      nav: [
+        { label: 'Ocupações', href: 'Ocupacoes.dc.html' },
+        { label: 'Competências', href: 'Competencias.dc.html' },
+        { label: 'API', href: 'Docs.dc.html' },
+        { label: 'MCP', href: 'Mcp.dc.html', current: true },
+        { label: 'Sobre', href: 'Sobre.dc.html' }
+      ],
+      clientes: ordem.map(function (k) { return { label: C[k].label, icon: C[k].icon, sel: self.state.cliente === k ? 'true' : 'false', pick: function () { self.setState({ cliente: k }); } }; }),
+      cliente: C[this.state.cliente],
+      regras: [
+        { l: 'a', t: 'Nunca citar código CBO, título, nível ou competência sem tê-lo obtido de uma tool nesta conversa.' },
+        { l: 'b', t: 'CBO e QBQ são fontes distintas: dizer de qual vem cada afirmação e relatar divergências em vez de escolher.' },
+        { l: 'c', t: 'Nível e graus são escalas ordinais oficiais, de 1 a 8 e de 1 a 5.' },
+        { l: 'd', t: 'Similaridade, rankings e resumos são cálculos derivados, não dado oficial.' },
+        { l: 'e', t: 'Ausência de nível ou de perfil é informação a relatar com a justificativa, não lacuna a preencher.' }
+      ],
+      grupo: g,
+      grupoOpts: [{ value: 'todas', label: 'Todas · 15' }, { value: 'nucleo', label: 'Núcleo' }, { value: 'exploracao', label: 'Exploração' }, { value: 'derivado', label: 'Derivadas' }],
+      setGrupo: (v) => this.setState({ grupo: pick(v) }),
+      tools: T.filter(function (t) { return g === 'todas' || t[3] === g; }).map(function (t) {
+        var nat = { nucleo: 'oficial', exploracao: 'oficial', derivado: 'derivado' }[t[3]];
+        return { n: t[0], d: t[1], r: t[2], nat: nat, cls: nat === 'derivado' ? 'cs-badge cs-badge--ilustrativo' : 'cs-badge' };
+      }),
+      passos: [
+        { i: '1', tool: 'ocupacao_buscar', d: 'Busca pelo título da vaga em títulos e sinônimos.' },
+        { i: '2', tool: 'cbo_buscar_atividades', d: 'Busca pelas tarefas descritas na vaga, sem as áreas transversais.' },
+        { i: '3', tool: 'ocupacao_obter', d: 'Lê a ficha de cada candidata, com nível e situação no QBQ.' },
+        { i: '4', tool: 'codigo_decodificar', d: 'Confere os códigos antes de citá-los na resposta.' }
+      ],
+      promptCols: [{ key: 'p', label: 'Prompt' }, { key: 'a', label: 'Argumentos' }],
+      prompts: [
+        { p: 'classificar_vaga', a: 'texto da vaga' },
+        { p: 'perfil_de_ocupacao', a: 'código ou nome' },
+        { p: 'transicao_de_carreira', a: 'origem, destino' },
+        { p: 'panorama_de_grupo', a: 'código de 1 a 4 dígitos' }
+      ],
+      resCols: [{ key: 'u', label: 'URI' }, { key: 'c', label: 'Conteúdo' }],
+      resources: [
+        { u: 'cboqbq://sobre', c: 'Versão, fontes e ressalvas' },
+        { u: 'cboqbq://modelo-de-dados', c: 'Como os dados se encaixam' },
+        { u: 'cboqbq://decisoes', c: 'Decisões de modelagem' },
+        { u: 'cboqbq://ocupacao/{codigo}', c: 'Ficha integrada' },
+        { u: 'cboqbq://cbo/{codigo}', c: 'Nó da classificação' },
+        { u: 'cboqbq://vocabulario/{vocabulario}', c: 'Árvore do vocabulário' }
+      ],
+      toc: [
+        { label: 'Conectar', href: '#conectar', current: true },
+        { label: 'Instruções do servidor', href: '#instrucoes' },
+        { label: 'Tools', href: '#tools' },
+        { label: 'Exemplo', href: '#exemplo' },
+        { label: 'Prompts e resources', href: '#extras' }
+      ],
+      footer: [
+        { title: 'Pesquisa', items: ['Projeto ciencia.social', 'Fontes: CBO 2002 e QBQ, Ministério do Trabalho e Emprego', { label: 'Sobre os dados', href: 'Sobre.dc.html' }] },
+        { title: 'Artefato', items: ['Dados dados-2026.11.1 · schema-v0.3.0', 'Dados sob CC BY 4.0, código sob MIT', { label: 'Repositório no GitHub', href: 'https://github.com/ciencia-social/cbo-qbq-dados' }] },
+        { title: 'Para máquinas', items: [{ label: 'API REST', href: 'Docs.dc.html' }, { label: 'Servidor MCP', href: 'Mcp.dc.html' }, 'llms.txt · llms-full.txt', 'OpenAPI 3.1'] }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
