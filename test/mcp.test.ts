@@ -66,6 +66,28 @@ describe("T2 descrição das tools", () => {
   });
 });
 
+function linkRelativo(valor: unknown): boolean {
+  if (!valor || typeof valor !== "object") return false;
+  if (Array.isArray(valor)) return valor.some(linkRelativo);
+  for (const [chave, item] of Object.entries(valor as Record<string, unknown>)) {
+    if (chave === "link" && typeof item === "string" && item.startsWith("/")) return true;
+    if (linkRelativo(item)) return true;
+  }
+  return false;
+}
+
+describe("T8 avisos do MCP", () => {
+  it("a busca vazia tem um aviso só e nenhum link relativo", async () => {
+    const { resultado } = await chamar("ocupacao_buscar", { consulta: "xyzqwe" });
+    const corpo = resultado.structuredContent as { avisos: { mensagem: string }[] };
+    expect(corpo.avisos).toHaveLength(1);
+    expect(corpo.avisos[0].mensagem).toContain("cbo_buscar_atividades");
+    expect(corpo.avisos[0].mensagem).not.toContain("/api/v1");
+    const decodificado = await chamar("codigo_decodificar", { codigos: ["212499"] });
+    expect(linkRelativo(decodificado.resultado.structuredContent)).toBe(false);
+  });
+});
+
 describe("T7 erros de vocabulário", () => {
   async function erro(nome: string, args: Record<string, unknown>) {
     const resultado = await cliente.callTool({ name: nome, arguments: args });

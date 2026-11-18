@@ -29,6 +29,42 @@ const somenteLeitura = { readOnlyHint: true, idempotentHint: true, destructiveHi
 
 export type ResultadoTool = { texto: string; dados: Record<string, unknown> };
 
+const ORIGEM = "https://cbo.ciencia.social";
+const ROTAS: [RegExp, string][] = [
+  [/\/api\/v1\/atividades\b[^)\s]*/g, "cbo_buscar_atividades"],
+  [/\/api\/v1\/decisoes\/[A-Za-z0-9]+/g, "dados_sobre"],
+  [/\/api\/v1\/ocupacoes\/\d+\/atividades\b[^)\s]*/g, "cbo_atividades"],
+  [/\/api\/v1\/ocupacoes\/\d+\/competencias\b[^)\s]*/g, "qbq_competencias"],
+  [/\/api\/v1\/ocupacoes\/\d+\/similares\b[^)\s]*/g, "ocupacao_similares"],
+  [/\/api\/v1\/ocupacoes\/\d+\b[^)\s]*/g, "ocupacao_obter"],
+  [/\/api\/v1\/cbo\/[a-z0-9-]+\/\d+\b[^)\s]*/g, "cbo_navegar"],
+  [/\/api\/v1\/cbo\/grandes-grupos\b[^)\s]*/g, "cbo_navegar"],
+  [/\/api\/v1\/qbq\/vocabularios\/\S+/g, "qbq_vocabulario"],
+  [/\/api\/v1\/cobertura\S*/g, "cobertura_consultar"],
+  [/\/api\/v1\/sinonimos\S*/g, "ocupacao_buscar"],
+  [/\/api\/v1\/codigos\S*/g, "codigo_decodificar"],
+];
+
+export function textoMcp(texto: string) {
+  let saida = texto;
+  for (const [padrao, tool] of ROTAS) saida = saida.replace(padrao, tool);
+  return saida.replace(/\/api\/v1\/[^\s)"']+/g, (caminho) => `${ORIGEM}${caminho}`);
+}
+
+function preparar(valor: unknown, chave?: string): unknown {
+  if (typeof valor === "string") {
+    const prosa = chave === "mensagem" || chave === "detalhe" || chave === "dica" || chave === "texto";
+    if (prosa) return textoMcp(valor);
+    if (valor.startsWith("/")) return `${ORIGEM}${valor}`;
+    return valor;
+  }
+  if (Array.isArray(valor)) return valor.map((item) => preparar(item));
+  if (valor && typeof valor === "object") {
+    return Object.fromEntries(Object.entries(valor as Record<string, unknown>).map(([nome, item]) => [nome, preparar(item, nome)]));
+  }
+  return valor;
+}
+
 function embrulho(saida: Saida, texto: string): ResultadoTool {
   const total = saida.total;
   const limite = saida.limite;
@@ -40,7 +76,7 @@ function embrulho(saida: Saida, texto: string): ResultadoTool {
       mensagem: `${quanto}A lista foi cortada. Aumente limite (máximo 50) ou peça o restante.`,
     });
   }
-  return {
+  const pronto = preparar({
     texto,
     dados: {
       versao_dados: VERSAO_DADOS,
@@ -50,7 +86,15 @@ function embrulho(saida: Saida, texto: string): ResultadoTool {
       ...(total != null ? { total } : {}),
       resultado: saida.dados,
     },
-  };
+  }) as ResultadoTool;
+  const vistos = new Set<string>();
+  const lista = pronto.dados.avisos as { mensagem: string }[];
+  pronto.dados.avisos = lista.filter((aviso) => {
+    if (vistos.has(aviso.mensagem)) return false;
+    vistos.add(aviso.mensagem);
+    return true;
+  });
+  return pronto;
 }
 
 function textoLista(prefixo: string, itens: { codigo?: string; titulo_cbo?: string | null; titulo?: string | null }[]) {
@@ -166,7 +210,7 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         deslocamento: 0,
       });
       if ((saida.total ?? 0) === 0) {
-        saida.avisos = [...(saida.avisos ?? []), { mensagem: "Sem resultado. Tente um termo mais curto ou use cbo_buscar_atividades para buscar pela tarefa." }];
+        saida.avisos = [{ mensagem: "Sem resultado. Tente um termo mais curto ou use cbo_buscar_atividades para buscar pela tarefa." }];
       }
       const itens = saida.dados as { codigo: string; titulo_cbo: string | null }[];
       return embrulho(saida, textoLista(`${saida.total} ocupações.${corte(saida)}`, itens));
