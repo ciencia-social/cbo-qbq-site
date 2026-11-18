@@ -104,13 +104,15 @@ function textoLista(prefixo: string, itens: { codigo?: string; titulo_cbo?: stri
 
 function ordenarGraus(dados: unknown) {
   const corpo = dados as {
-    ocupacoes?: { codigo: string }[];
+    ocupacoes?: { codigo: string; caminho?: { codigo: string }[] | string[] }[];
     em_comum?: { graus: Record<string, Record<string, unknown>> }[];
     exclusivos?: Record<string, { graus: Record<string, Record<string, unknown>> }[]>;
   };
   for (const ocupacao of corpo.ocupacoes ?? []) {
-    const caminho = (ocupacao as { caminho?: { codigo: string }[] }).caminho;
-    if (caminho) (ocupacao as { caminho: string[] }).caminho = caminho.map((passo) => passo.codigo);
+    const caminho = ocupacao.caminho;
+    if (caminho?.length && typeof caminho[0] === "object") {
+      ocupacao.caminho = (caminho as { codigo: string }[]).map((passo) => passo.codigo);
+    }
   }
   const ordem = corpo.ocupacoes?.map((item) => item.codigo) ?? [];
   const converter = (item: { graus: Record<string, Record<string, unknown>> }) => {
@@ -334,7 +336,7 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
       const codigos = (args.codigos as string[]) ?? [];
       const saida = comparar(codigos, String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined, limite);
       enxugarGraus(saida.dados);
-      ordenarGraus(saida.dados, codigos);
+      ordenarGraus(saida.dados);
       const dados = saida.dados as {
         comparavel: boolean;
         ocupacoes: { codigo: string }[];
