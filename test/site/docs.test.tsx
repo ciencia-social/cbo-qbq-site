@@ -16,6 +16,11 @@ describe("documentação", () => {
     expect(rota.tool).toBe("ocupacao_obter");
     expect(rota.chaves).toEqual(expect.arrayContaining(["codigo", "cbo", "qbq", "contagens"]));
     const html = renderToStaticMarkup(<PaginaRota rota={rota} irmas={listarRotas()} />);
+    expect(html).toContain("Campos da resposta");
+    expect(html).toContain("Erros que ensinam o caminho de volta");
+    expect(html).toContain("Avisos");
+    expect(rota.curl).toBe("curl https://cbo.ciencia.social/api/v1/ocupacoes/212405");
+    expect(html).toContain("https://cbo.ciencia.social/api/v1/ocupacoes/212405");
     expect(html).toContain("/api/v1/problemas/");
     expect(html).not.toContain("/api/v1/erros/");
     expect(html).toContain("ocupacao_obter");

@@ -6,3 +6,4 @@ data/*.sqlite-*
 .vercel
 *.tsbuildinfo
 .DS_Store
+.env*
