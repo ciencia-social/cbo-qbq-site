@@ -66,6 +66,29 @@ describe("T2 descrição das tools", () => {
   });
 });
 
+describe("T4 sentido da diferença", () => {
+  async function diferenca(codigos: string[], termo: string) {
+    const { resultado } = await chamar("ocupacao_comparar", { codigos, dimensao: "habilidades" });
+    const corpo = resultado.structuredContent as {
+      metodo?: string;
+      resultado: { em_comum: { codigo: string; diferenca: { de: string; para: string; importancia: number }; graus: { codigo: string }[] }[] };
+    };
+    const item = corpo.resultado.em_comum.find((linha) => linha.codigo === termo);
+    return { item, metodo: corpo.metodo };
+  }
+
+  it("mede destino menos origem e acompanha a ordem pedida", async () => {
+    const programacao = await diferenca(["212420", "212405"], "02.02.02");
+    const analise = await diferenca(["212420", "212405"], "02.02.01");
+    expect(programacao.item?.diferenca).toMatchObject({ de: "212420", para: "212405", importancia: 3 });
+    expect(analise.item?.diferenca.importancia).toBe(2);
+    expect(programacao.item?.graus.map((grau) => grau.codigo)).toEqual(["212420", "212405"]);
+    expect(programacao.metodo).toMatch(/destino menos origem/);
+    const invertida = await diferenca(["212405", "212420"], "02.02.02");
+    expect(invertida.item?.diferenca.importancia).toBe(-3);
+  });
+});
+
 describe("T3 tamanho das respostas", () => {
   it("qbq_competencias de 212405 fica abaixo de 15 KB e avisa o corte", async () => {
     const { resultado, blocos } = await chamar("qbq_competencias", { codigo: "212405" });

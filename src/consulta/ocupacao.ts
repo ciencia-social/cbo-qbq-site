@@ -656,7 +656,9 @@ export function comparar(entradas: string[], dimensao: string, importanciaMin?: 
       ),
     };
     if (presentes.length === codigos.length) {
-      const diferenca = codigos.length === 2 ? diferencaGraus(conjuntos.get(codigos[0])!.get(codigoTermo)!, conjuntos.get(codigos[1])!.get(codigoTermo)!) : undefined;
+      const diferenca = codigos.length === 2
+        ? diferencaGraus(conjuntos.get(codigos[0])!.get(codigoTermo)!, conjuntos.get(codigos[1])!.get(codigoTermo)!, codigos[0], codigos[1])
+        : undefined;
       emComum.push({ ...registro, ...(diferenca ? { diferenca } : {}) });
     } else if (presentes.length === 1) {
       exclusivos[presentes[0]].push(registro);
@@ -717,15 +719,17 @@ export function comparar(entradas: string[], dimensao: string, importanciaMin?: 
     ...(limite != null ? { limite } : {}),
     avisos,
     derivado: true,
-    metodo: `${METODO_SIMILARIDADE} ${"Diferença de graus: subtração simples, na ordem dos códigos, sem índice sintético. Atividades são apenas contadas."}`,
+    metodo: `${METODO_SIMILARIDADE} O primeiro código é a origem e o segundo é o destino. Diferença de graus: destino menos origem, sem índice sintético. Atividades são apenas contadas.`,
   };
 }
 
-function diferencaGraus(a: ChaRow, b: ChaRow) {
-  const sub = (x: number | null, y: number | null) => (x == null || y == null ? null : x - y);
+function diferencaGraus(origem: ChaRow, destino: ChaRow, de: string, para: string) {
+  const sub = (noDestino: number | null, naOrigem: number | null) => (noDestino == null || naOrigem == null ? null : noDestino - naOrigem);
   return {
-    importancia: sub(a.importancia, b.importancia),
-    frequencia: sub(a.frequencia, b.frequencia),
-    profundidade: sub(a.profundidade, b.profundidade),
+    de,
+    para,
+    importancia: sub(destino.importancia, origem.importancia),
+    frequencia: sub(destino.frequencia, origem.frequencia),
+    profundidade: sub(destino.profundidade, origem.profundidade),
   };
 }

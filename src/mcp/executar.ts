@@ -58,6 +58,24 @@ function textoLista(prefixo: string, itens: { codigo?: string; titulo_cbo?: stri
   return [prefixo, ...linhas].filter(Boolean).join("\n");
 }
 
+function ordenarGraus(dados: unknown) {
+  const corpo = dados as {
+    ocupacoes?: { codigo: string }[];
+    em_comum?: { graus: Record<string, Record<string, unknown>> }[];
+    exclusivos?: Record<string, { graus: Record<string, Record<string, unknown>> }[]>;
+  };
+  for (const ocupacao of corpo.ocupacoes ?? []) {
+    const caminho = (ocupacao as { caminho?: { codigo: string }[] }).caminho;
+    if (caminho) (ocupacao as { caminho: string[] }).caminho = caminho.map((passo) => passo.codigo);
+  }
+  const ordem = corpo.ocupacoes?.map((item) => item.codigo) ?? [];
+  const converter = (item: { graus: Record<string, Record<string, unknown>> }) => {
+    (item as { graus: unknown }).graus = ordem.filter((codigo) => item.graus[codigo]).map((codigo) => ({ codigo, ...item.graus[codigo] }));
+  };
+  for (const item of corpo.em_comum ?? []) converter(item);
+  for (const lista of Object.values(corpo.exclusivos ?? {})) for (const item of lista) converter(item);
+}
+
 function enxugarGraus(dados: unknown) {
   const corpo = dados as { em_comum?: { graus?: Record<string, Record<string, unknown>> }[]; exclusivos?: Record<string, { graus?: Record<string, Record<string, unknown>> }[]> };
   const listas = [...(corpo.em_comum ?? []), ...Object.values(corpo.exclusivos ?? {}).flat()];
@@ -269,8 +287,10 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
     case "ocupacao_comparar": {
       const pedido = Number(args.limite ?? 20);
       const limite = Math.min(50, Math.max(1, Number.isFinite(pedido) ? pedido : 20));
-      const saida = comparar((args.codigos as string[]) ?? [], String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined, limite);
+      const codigos = (args.codigos as string[]) ?? [];
+      const saida = comparar(codigos, String(args.dimensao ?? "habilidades"), args.importancia_min as number | undefined, limite);
       enxugarGraus(saida.dados);
+      ordenarGraus(saida.dados, codigos);
       const dados = saida.dados as {
         comparavel: boolean;
         ocupacoes: { codigo: string }[];
@@ -474,7 +494,7 @@ export const definicoes: Definicao[] = [
   {
     nome: "ocupacao_comparar",
     title: "Comparar ocupações",
-    descricao: "Compara de duas a cinco ocupações, para uma transição de carreira ou para distinguir ocupações vizinhas. Devolve termos em comum, termos exclusivos e a similaridade. É cálculo derivado, não dado oficial. Entre taxonomias de conhecimento diferentes, a similaridade não é calculada.",
+    descricao: "Compara de duas a cinco ocupações, para uma transição de carreira ou para distinguir ocupações vizinhas. O primeiro código é a origem e os demais são destinos; a diferença de graus é destino menos origem. É cálculo derivado, não dado oficial. Entre taxonomias de conhecimento diferentes, a similaridade não é calculada.",
     schema: {
       codigos: z.array(z.string()).min(2).max(5).describe("De 2 a 5 códigos de ocupação, com ou sem hífen. Exemplo: [\"212420\", \"212405\"]."),
       dimensao: dimensaoComparavel(),
