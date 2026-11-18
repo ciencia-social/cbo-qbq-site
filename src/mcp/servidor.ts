@@ -25,5 +25,6 @@ export function criarServidor() {
       },
     );
   }
+  servidor.server.registerCapabilities({ tools: { listChanged: false } });
   return servidor;
 }

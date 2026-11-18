@@ -30,6 +30,9 @@ export function GET(req: Request) {
   if (pedidoDePagina(req)) {
     return new Response(null, { status: 307, headers: { location: "/docs/mcp" } });
   }
+  if ((req.headers.get("accept") ?? "").includes("text/event-stream")) {
+    return new Response(null, { status: 405, headers: { allow: "POST" } });
+  }
   return atender(req);
 }
 
@@ -37,6 +40,6 @@ export function POST(req: Request) {
   return atender(req);
 }
 
-export function DELETE(req: Request) {
-  return atender(req);
+export function DELETE() {
+  return new Response(null, { status: 405, headers: { allow: "POST" } });
 }

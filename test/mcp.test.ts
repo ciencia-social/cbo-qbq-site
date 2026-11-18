@@ -76,6 +76,24 @@ function linkRelativo(valor: unknown): boolean {
   return false;
 }
 
+describe("T9 HTTP sem sessão", () => {
+  it("recusa o fluxo e o DELETE, e mantém o guia em HTML", async () => {
+    const { GET, DELETE } = await import("../app/mcp/route");
+    const fluxo = await GET(new Request("http://localhost/mcp", { headers: { accept: "text/event-stream" } }));
+    expect(fluxo.status).toBe(405);
+    expect(fluxo.headers.get("allow")).toBe("POST");
+    const pagina = await GET(new Request("http://localhost/mcp", { headers: { accept: "text/html" } }));
+    expect(pagina.status).toBe(307);
+    expect(pagina.headers.get("location")).toBe("/docs/mcp");
+    const apagar = await DELETE(new Request("http://localhost/mcp", { method: "DELETE" }));
+    expect(apagar.status).toBe(405);
+  });
+
+  it("anuncia que a lista de tools não muda", () => {
+    expect(cliente.getServerCapabilities()?.tools?.listChanged).toBe(false);
+  });
+});
+
 describe("T8 avisos do MCP", () => {
   it("a busca vazia tem um aviso só e nenhum link relativo", async () => {
     const { resultado } = await chamar("ocupacao_buscar", { consulta: "xyzqwe" });
