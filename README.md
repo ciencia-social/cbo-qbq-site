@@ -1,4 +1,4 @@
-# cbo-qbq-site
+# CBO e QBQ via API REST, servidor MCP ou navegador na Web
 
 [![DOI dos dados](https://zenodo.org/badge/DOI/10.5281/zenodo.24353524.svg)](https://doi.org/10.5281/zenodo.24353524)
 <!-- Selo do DOI do software, a ativar depois da primeira release no Zenodo (docs/operacao.md, P14b):
