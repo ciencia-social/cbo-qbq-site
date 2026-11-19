@@ -397,6 +397,7 @@ const limiteItens = (padrao: number) => z.number().int().min(1).max(50).optional
 const nivelQualificacao = (lado: "mínimo" | "máximo") =>
   z.number().int().min(1).max(8).optional().describe(`Nível de qualificação do QBQ, de 1 a 8, no extremo ${lado} da faixa. Exemplo: ${lado === "mínimo" ? 1 : 8}.`);
 const grauMinimo = (nome: string) => z.number().int().min(1).max(5).optional().describe(`Só itens com ${nome} a partir deste grau, de 1 a 5. Exemplo: 4.`);
+const REGRA_CONSULTA = "Cada palavra casa inteira; a última casa por prefixo se tiver 3 letras ou mais.";
 const NIVEL_TERMO = "Nível do termo no vocabulário. conhecimentos-i: dominios, areas, campos, conhecimentos. conhecimentos-ii: areas, campos, conhecimentos, elementos. habilidades: dominios, categorias, habilidades. atitudes: categorias, atitudes. Exemplo: habilidades.";
 
 function dimensaoComparavel() {
@@ -416,7 +417,7 @@ export const definicoes: Definicao[] = [
     title: "Buscar ocupação",
     descricao: "Encontra ocupações por texto livre, do nome de mercado, cargo ou título de vaga ao código oficial. É a porta de entrada quando o código ainda não é conhecido. Devolve o total e uma lista com código, títulos, família, nível e situação no QBQ. Sem resultado, o próximo passo é cbo_buscar_atividades.",
     schema: {
-      consulta: z.string().optional().describe("Texto a buscar no título, no sinônimo ou na síntese. Exemplo: programador."),
+      consulta: z.string().optional().describe(`Texto a buscar no título, no sinônimo ou na síntese. ${REGRA_CONSULTA} Exemplo: programador.`),
       buscar_em: z.array(z.enum(["titulo", "sinonimo", "sintese"])).optional().describe("Onde casar o texto. Aceita titulo, sinonimo e sintese. Padrão: titulo e sinonimo. Exemplo: [\"titulo\", \"sinonimo\"]."),
       prefixo: prefixoCbo(),
       nivel_qualificacao_min: nivelQualificacao("mínimo"),
@@ -501,7 +502,7 @@ export const definicoes: Definicao[] = [
     title: "Buscar por atividade",
     descricao: "Acha ocupações pelo que se faz nelas, no texto das atividades e dos nomes de área. Por padrão exclui as áreas transversais Y e Z, para que competências pessoais não dominem o resultado. Devolve uma entrada por ocupação, com o total de atividades casadas e até três exemplos. Use quando ocupacao_buscar não achar o nome.",
     schema: {
-      consulta: z.string().describe("Texto da tarefa a buscar. Exemplo: programar."),
+      consulta: z.string().describe(`Texto da tarefa a buscar. ${REGRA_CONSULTA} Exemplo: programar.`),
       prefixo: prefixoCbo(),
       nivel_qualificacao_min: nivelQualificacao("mínimo"),
       nivel_qualificacao_max: nivelQualificacao("máximo"),
@@ -514,7 +515,7 @@ export const definicoes: Definicao[] = [
     title: "Buscar termo",
     descricao: "Acha termos de competência por texto, nos vocabulários, nos conceitos e nas descrições dos baldes. O mesmo assunto pode existir nas duas taxonomias de conhecimento com códigos diferentes, e o resultado de uma não vale para a outra. Devolve os termos e, quando pedido, as ocorrências em descrição de item. O próximo passo é qbq_ocupacoes_por_competencia.",
     schema: {
-      consulta: z.string().describe("Texto do termo ou do assunto. Exemplo: banco de dados."),
+      consulta: z.string().describe(`Texto do termo ou do assunto. ${REGRA_CONSULTA} Exemplo: banco de dados.`),
       vocabularios: z.array(z.string()).optional().describe("Quais vocabulários percorrer. Padrão: os quatro. Exemplo: [\"habilidades\"]."),
       buscar_em: z.array(z.enum(["vocabulario", "conceito", "descricao_item"])).optional().describe("Onde casar o texto. Padrão: vocabulario e conceito. descricao_item alcança o texto livre dos baldes. Exemplo: [\"vocabulario\", \"conceito\"]."),
       limite: limiteItens(10),

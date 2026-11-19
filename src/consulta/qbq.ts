@@ -16,10 +16,11 @@ import {
   resumoOcupacao,
   termoPublico,
 } from "@/consulta/formatar";
-import { todos } from "@/dados/banco";
+import { todos, um } from "@/dados/banco";
 import { parametro, Problema } from "@/http/erros";
 import { paginar } from "@/http/parametros";
-import { ehBalde, ftsConsulta, termosDaConsulta, textoCasa, trecho } from "@/texto";
+import { expressaoFts } from "@/consulta/fts";
+import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import { FOLHA, NIVEIS_VOCAB, VOCABULARIOS, abaCompetencia, type Faixa, type Saida } from "@/tipos";
 import { api } from "@/versao";
 
@@ -350,58 +351,94 @@ export function niveis(): Saida {
   };
 }
 
-export function buscarItens(opcoes: {
+type FiltroItens = {
   q: string;
   dimensao?: string;
   taxonomia?: string;
   somenteBaldes?: boolean;
   prefixo?: string;
   importanciaMin?: number;
-  limite: number;
-  deslocamento: number;
-}): Saida {
+};
+
+/** FROM e WHERE da busca no texto dos itens. Todos os filtros ficam no banco. */
+function consultaItens(opcoes: FiltroItens, termos: string[]) {
+  const expressao = expressaoFts(termos);
+  if (!expressao) return null;
+  const condicoes = ["fts_item MATCH ?"];
+  const valores: (string | number)[] = [expressao];
+  if (opcoes.dimensao) {
+    condicoes.push("c.dimensao = ?");
+    valores.push(opcoes.dimensao);
+  }
+  if (opcoes.prefixo) {
+    condicoes.push("substr(c.ocupacao, 1, ?) = ?");
+    valores.push(opcoes.prefixo.length, opcoes.prefixo);
+  }
+  if (opcoes.somenteBaldes) condicoes.push("c.balde = 1");
+  if (opcoes.taxonomia) {
+    condicoes.push("o.taxonomia_conhecimento = ?");
+    valores.push(opcoes.taxonomia);
+  }
+  if (opcoes.importanciaMin != null) {
+    condicoes.push("coalesce(c.importancia, 0) >= ?");
+    valores.push(opcoes.importanciaMin);
+  }
+  return {
+    de: `FROM fts_item f JOIN cha c ON c.rowid = f.rowid JOIN ocupacao o ON o.codigo = c.ocupacao WHERE ${condicoes.join(" AND ")}`,
+    valores,
+  };
+}
+
+export function buscarItens(opcoes: FiltroItens & { limite: number; deslocamento: number }): Saida {
   const termos = termosDaConsulta(opcoes.q);
   if (!termos.length) throw parametro("q", "Informe o texto a buscar.");
-  const consulta = ftsConsulta(termos);
-  const linhas = todos<{ ocupacao: string; dimensao: string; codigo: string; linha: number | null; descricao: string }>(
-    "SELECT ocupacao, dimensao, codigo, linha, descricao FROM fts_item WHERE fts_item MATCH ?",
-    consulta,
+  const consulta = consultaItens(opcoes, termos);
+  if (!consulta) return { dados: [], total: 0, limite: opcoes.limite, deslocamento: opcoes.deslocamento };
+  const total = um<{ n: number }>(`SELECT count(*) AS n ${consulta.de}`, ...consulta.valores)?.n ?? 0;
+  const linhas = todos<{
+    ocupacao: string;
+    dimensao: string;
+    codigo: string;
+    linha: number | null;
+    descricao: string;
+    importancia: number | null;
+    frequencia: number | null;
+    profundidade: number | null;
+    nivel_vocabulario: string;
+  }>(
+    `SELECT c.ocupacao, c.dimensao, c.codigo, c.linha, f.descricao, c.importancia, c.frequencia, c.profundidade, c.nivel_vocabulario
+     ${consulta.de} ORDER BY f.rowid LIMIT ? OFFSET ?`,
+    ...consulta.valores,
+    opcoes.limite,
+    opcoes.deslocamento,
   );
-  const itens = [];
-  for (const linha of linhas) {
-    if (!textoCasa(linha.descricao, termos)) continue;
-    if (opcoes.dimensao && linha.dimensao !== opcoes.dimensao) continue;
-    if (opcoes.prefixo && !linha.ocupacao.startsWith(opcoes.prefixo)) continue;
-    if (opcoes.somenteBaldes && !linha.codigo.split(".").some((parte) => parte === "90" || parte === "99")) continue;
-    const ocupacao = ocupacaoPorCodigo(linha.ocupacao);
-    if (!ocupacao) continue;
-    if (opcoes.taxonomia && ocupacao.taxonomia_conhecimento !== opcoes.taxonomia) continue;
-    const cha = todos<{ importancia: number | null; frequencia: number | null; profundidade: number | null; nivel_vocabulario: string }>(
-      "SELECT importancia, frequencia, profundidade, nivel_vocabulario FROM cha WHERE ocupacao = ? AND dimensao = ? AND codigo = ? AND linha IS ?",
-      linha.ocupacao,
-      linha.dimensao,
-      linha.codigo,
-      linha.linha,
-    )[0];
-    if (opcoes.importanciaMin != null && (cha?.importancia ?? 0) < opcoes.importanciaMin) continue;
+  const dados = linhas.map((linha) => {
+    const ocupacao = ocupacaoPorCodigo(linha.ocupacao)!;
     const vocabulario = linha.dimensao === "conhecimentos" ? ocupacao.taxonomia_conhecimento : linha.dimensao;
-    itens.push({
+    return {
       ocupacao: linha.ocupacao,
       titulo: ocupacao.titulo_cbo ?? ocupacao.titulo_qbq,
       dimensao: linha.dimensao,
       codigo: linha.codigo,
-      termo: vocabulario && cha ? termoDe(vocabulario, cha.nivel_vocabulario, linha.codigo)?.descricao ?? null : null,
+      termo: vocabulario ? termoDe(vocabulario, linha.nivel_vocabulario, linha.codigo)?.descricao ?? null : null,
       descricao_item: linha.descricao,
-      importancia: cha?.importancia ?? null,
-      frequencia: cha?.frequencia ?? null,
-      profundidade: cha?.profundidade ?? null,
+      importancia: linha.importancia,
+      frequencia: linha.frequencia,
+      profundidade: linha.profundidade,
       fonte: fonteItem(linha.linha, abaCompetencia(linha.dimensao, ocupacao.taxonomia_conhecimento)),
       casou_em: "descricao_item",
       trecho: trecho(linha.descricao, termos),
-    });
-  }
-  const pagina = paginar(itens, opcoes.limite, opcoes.deslocamento);
-  return { dados: pagina.fatia, total: pagina.total, limite: opcoes.limite, deslocamento: opcoes.deslocamento };
+    };
+  });
+  return { dados, total, limite: opcoes.limite, deslocamento: opcoes.deslocamento };
+}
+
+/** Quantos itens casam fora dos baldes. Zero quer dizer que o assunto só aparece em texto livre de balde. */
+function itensForaDeBalde(q: string): number {
+  const termos = termosDaConsulta(q);
+  const consulta = consultaItens({ q }, termos);
+  if (!consulta) return 0;
+  return um<{ n: number }>(`SELECT count(*) AS n ${consulta.de} AND c.balde = 0`, ...consulta.valores)?.n ?? 0;
 }
 
 export function buscarTermos(opcoes: { q: string; vocabularios?: string[]; buscarEm: string[]; limite: number }): Saida {
@@ -457,10 +494,7 @@ export function buscarTermos(opcoes: { q: string; vocabularios?: string[]; busca
     },
   ];
   if (saida.length === 0 && totalDescricoes > 0) {
-    const amostra = totalDescricoes > descricoes.length
-      ? (buscarItens({ q: opcoes.q, limite: totalDescricoes, deslocamento: 0 }).dados as { codigo: string }[])
-      : descricoes;
-    if (amostra.every((item) => ehBalde(item.codigo))) {
+    if (itensForaDeBalde(opcoes.q) === 0) {
       avisos.push({
         mensagem: "O assunto aparece como texto livre dentro de itens \"outros\", e não como termo do vocabulário.",
       });

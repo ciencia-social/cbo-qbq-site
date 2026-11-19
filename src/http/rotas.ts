@@ -97,6 +97,11 @@ function incluir(q: URLSearchParams, aceitos: string[]) {
 
 const p = (nome: string, descricao: string, onde: "query" | "path" = "query") => ({ nome, onde, descricao });
 
+/** Regra de casamento de todo parâmetro q. */
+export const REGRA_Q =
+  "Ignora caixa e acento. Palavras separadas por espaço; cada termo casa a palavra inteira, e o último casa por prefixo quando tem 3 caracteres ou mais (com 1 ou 2, casa a palavra inteira).";
+const pq = (descricao: string) => p("q", `${descricao} ${REGRA_Q}`);
+
 export const rotas: Rota[] = [
   {
     id: "R01",
@@ -125,7 +130,7 @@ export const rotas: Rota[] = [
     grupo: "Metadados",
     caminho: "/decisoes",
     resumo: "Decisões de modelagem D001–D018.",
-    parametros: [p("q", "Busca no texto da decisão.")],
+    parametros: [pq("Busca no texto da decisão.")],
     handle: ({ query }) => decisoes(texto(query, "q"), limite(query), deslocamento(query)),
   },
   {
@@ -209,7 +214,7 @@ export const rotas: Rota[] = [
     grupo: "Ocupações",
     caminho: "/ocupacoes/sugerir",
     resumo: "Autocompletar de título e sinônimo.",
-    parametros: [p("q", "Prefixo."), p("limite", "Padrão 8.")],
+    parametros: [pq("Prefixo."), p("limite", "Padrão 8.")],
     handle: ({ query }) => sugerir(texto(query, "q") ?? "", limite(query, 8, 50)),
   },
   {
@@ -230,7 +235,7 @@ export const rotas: Rota[] = [
     grupo: "Ocupações",
     caminho: "/ocupacoes",
     resumo: "Lista de ocupações das duas camadas.",
-    parametros: [p("q", "Busca textual."), p("situacao_qbq", "classificada, nao_classificada, sem_nivel_sem_justificativa ou ausente_no_qbq.")],
+    parametros: [pq("Busca textual."), p("situacao_qbq", "classificada, nao_classificada, sem_nivel_sem_justificativa ou ausente_no_qbq.")],
     handle: ({ query }) => listarOcupacoes(filtro(query)),
   },
   {
@@ -246,7 +251,7 @@ export const rotas: Rota[] = [
     grupo: "Ocupações",
     caminho: "/ocupacoes/:codigo/atividades",
     resumo: "Perfil ocupacional da CBO.",
-    parametros: [p("area", "Sigla da área."), p("transversais", "incluir, excluir ou somente."), p("q", "Busca nas atividades.")],
+    parametros: [p("area", "Sigla da área."), p("transversais", "incluir, excluir ou somente."), pq("Busca nas atividades.")],
     handle: ({ params, query }) =>
       atividades(params.codigo, {
         area: texto(query, "area"),
@@ -309,7 +314,7 @@ export const rotas: Rota[] = [
     grupo: "Busca",
     caminho: "/busca",
     resumo: "Busca unificada por tipo.",
-    parametros: [p("q", "Texto."), p("tipos", "ocupacao,sinonimo,familia,atividade,termo,conceito.")],
+    parametros: [pq("Texto."), p("tipos", "ocupacao,sinonimo,familia,atividade,termo,conceito.")],
     handle: ({ query }) => buscaUnificada(texto(query, "q") ?? "", lista(query, "tipos", ["ocupacao", "sinonimo", "familia", "atividade", "termo", "conceito"]) ?? ["ocupacao", "sinonimo", "familia", "atividade", "termo", "conceito"], limite(query, 10, 50)),
   },
   {
@@ -317,7 +322,7 @@ export const rotas: Rota[] = [
     grupo: "Busca",
     caminho: "/sinonimos",
     resumo: "Do nome de mercado ao código oficial.",
-    parametros: [p("q", "Texto do sinônimo.")],
+    parametros: [pq("Texto do sinônimo.")],
     handle: ({ query }) => buscarSinonimos(filtro(query)),
   },
   {
@@ -325,7 +330,7 @@ export const rotas: Rota[] = [
     grupo: "Busca",
     caminho: "/atividades",
     resumo: "Ocupações por tarefa descrita no perfil.",
-    parametros: [p("q", "Texto da atividade."), p("agrupar_por", "ocupacao, para uma linha por ocupação."), p("transversais", "incluir, excluir ou somente.")],
+    parametros: [pq("Texto da atividade."), p("agrupar_por", "ocupacao, para uma linha por ocupação."), p("transversais", "incluir, excluir ou somente.")],
     handle: ({ query }) =>
       buscarAtividades({
         q: texto(query, "q") ?? "",
@@ -379,7 +384,7 @@ export const rotas: Rota[] = [
     grupo: "QBQ",
     caminho: "/qbq/vocabularios/:vocabulario",
     resumo: "Termos de um vocabulário.",
-    parametros: [p("nivel", "Nível do vocabulário."), p("q", "Busca na descrição."), p("formato", "plano ou arvore.")],
+    parametros: [p("nivel", "Nível do vocabulário."), pq("Busca na descrição."), p("formato", "plano ou arvore.")],
     handle: ({ params, query }) =>
       listarTermos(params.vocabulario, {
         nivel: texto(query, "nivel"),
@@ -398,7 +403,7 @@ export const rotas: Rota[] = [
     grupo: "QBQ",
     caminho: "/qbq/conceitos",
     resumo: "As 96 definições oficiais de habilidades.",
-    parametros: [p("q", "Busca no termo ou no conceito."), p("nivel", "dominios, categorias ou habilidades.")],
+    parametros: [pq("Busca no termo ou no conceito."), p("nivel", "dominios, categorias ou habilidades.")],
     handle: ({ query }) => listarConceitos(texto(query, "q"), texto(query, "nivel"), limite(query, 100, 100), deslocamento(query)),
   },
   {
@@ -406,7 +411,7 @@ export const rotas: Rota[] = [
     grupo: "QBQ",
     caminho: "/qbq/itens",
     resumo: "Busca no texto dos itens, inclusive baldes.",
-    parametros: [p("q", "Texto."), p("somente_baldes", "true para só baldes.")],
+    parametros: [pq("Texto."), p("somente_baldes", "true para só baldes.")],
     handle: ({ query }) =>
       buscarItens({
         q: texto(query, "q") ?? "",
@@ -424,7 +429,7 @@ export const rotas: Rota[] = [
     grupo: "QBQ",
     caminho: "/qbq/nao-classificadas",
     resumo: "Ocupações sem nível, com a justificativa oficial.",
-    parametros: [p("q", "Busca no título ou na justificativa.")],
+    parametros: [pq("Busca no título ou na justificativa.")],
     handle: ({ query }) => naoClassificadas(texto(query, "q"), hierarquia(query), limite(query, 100, 100), deslocamento(query)),
   },
   { id: "R47", grupo: "QBQ", caminho: "/qbq/niveis", resumo: "Totais por nível de qualificação.", parametros: [], handle: () => niveis() },
@@ -482,7 +487,7 @@ function rotaNivel(id: string, caminho: string, resumo: string): Rota {
     grupo: "Classificação",
     caminho,
     resumo,
-    parametros: [p("pai", "Código do nó pai."), p("q", "Busca no título.")],
+    parametros: [p("pai", "Código do nó pai."), pq("Busca no título.")],
     handle: ({ query }) => listarNivel(nivel, texto(query, "pai"), texto(query, "q"), limite(query, 100, 200), deslocamento(query)),
   };
 }

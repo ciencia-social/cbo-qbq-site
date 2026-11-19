@@ -99,6 +99,22 @@ function resolverDados(): string {
   return local;
 }
 
+/** Caracteres que não são letra, número nem espaço, no texto que vai para a FTS. */
+function caracteresDePalavra(db: DatabaseSync): string {
+  const vistos = new Set<string>();
+  const consultas = [
+    "SELECT descricao_item AS t FROM cha WHERE descricao_item IS NOT NULL",
+    "SELECT descricao AS t FROM atividade",
+    "SELECT nome AS t FROM area",
+  ];
+  for (const sql of consultas) {
+    for (const linha of db.prepare(sql).all() as { t: string }[]) {
+      for (const caractere of linha.t) if (!/[\p{L}\p{N}\s]/u.test(caractere)) vistos.add(caractere);
+    }
+  }
+  return [...vistos].sort().join("");
+}
+
 function bancoAtualizado(): boolean {
   if (process.argv.includes("--force") || process.env.REBUILD_DB === "1") return false;
   if (!fs.existsSync(DESTINO)) return false;
@@ -660,22 +676,31 @@ function main() {
     CREATE INDEX idx_conjunto_dim ON cha_conjunto(dimensao, codigo);
     CREATE INDEX idx_termo_pai ON termo(vocabulario, nivel_pai, pai);
     CREATE INDEX idx_cbo_pai ON cbo_no(nivel, pai);
+  `);
+  // A busca separa palavras só por espaço (textoCasa). Para a FTS fazer o mesmo,
+  // toda pontuação presente no texto indexado entra como caractere de palavra.
+  const tokenchars = caracteresDePalavra(db);
+  const tokenizador = `"unicode61 remove_diacritics 2 tokenchars '${tokenchars.replaceAll("'", "''").replaceAll('"', '""')}'"`;
+  db.exec(`
     CREATE VIRTUAL TABLE fts_atividade USING fts5(
       ocupacao UNINDEXED, sigla UNINDEXED, numero UNINDEXED, ordem UNINDEXED,
-      descricao, area, tokenize = 'unicode61 remove_diacritics 2'
+      descricao, area, tokenize = ${tokenizador}
     );
     CREATE VIRTUAL TABLE fts_item USING fts5(
       ocupacao UNINDEXED, dimensao UNINDEXED, codigo UNINDEXED, linha UNINDEXED,
-      descricao, tokenize = 'unicode61 remove_diacritics 2'
+      descricao, tokenize = ${tokenizador}
     );
   `);
   db.exec(`
     INSERT INTO fts_atividade (ocupacao, sigla, numero, ordem, descricao, area)
     SELECT a.ocupacao, a.sigla, a.numero, a.ordem, a.descricao, ar.nome
     FROM atividade a JOIN area ar ON ar.ocupacao = a.ocupacao AND ar.sigla = a.sigla;
-    INSERT INTO fts_item (ocupacao, dimensao, codigo, linha, descricao)
-    SELECT ocupacao, dimensao, codigo, linha, descricao_item FROM cha WHERE descricao_item IS NOT NULL AND descricao_item != 'NULL';
+    INSERT INTO fts_item (rowid, ocupacao, dimensao, codigo, linha, descricao)
+    SELECT rowid, ocupacao, dimensao, codigo, linha, descricao_item FROM cha
+    WHERE descricao_item IS NOT NULL AND descricao_item != 'NULL'
+    ORDER BY rowid;
   `);
+  db.prepare("INSERT INTO meta (chave, valor) VALUES (?, ?)").run("fts_tokenchars", tokenchars);
 
   const contar = (sql: string) => (db.prepare(sql).get() as { n: number }).n;
   const esperado: Record<string, number> = {
