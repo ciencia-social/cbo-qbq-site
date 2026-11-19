@@ -17,6 +17,7 @@ Não oficial: iniciativa de pesquisa, sem vínculo com o Ministério do Trabalho
 
 Dados: https://github.com/ciencia-social/cbo-qbq-dados
 DOI do conjunto de dados: 10.5281/zenodo.24353525 (esta versão) e 10.5281/zenodo.24353524 (conceito, sempre a mais recente)
+DOI do software (cbo-qbq-site): 10.5281/zenodo.24378490 (conceito, sempre a versão mais recente)
 Citação do conjunto de dados: Fernandes, W. (2026). cbo-qbq-dados: Classificação Brasileira de Ocupações e Quadro Brasileiro de Qualificações como dados abertos (Versão dados-2026.11.2) [Conjunto de dados]. Zenodo. https://doi.org/10.5281/zenodo.24353525
 Autoria: Wil Fernandes, ORCID https://orcid.org/0009-0008-3477-5521
 Licença dos dados compilados: CC BY 4.0

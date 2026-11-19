@@ -198,7 +198,7 @@ Pré-requisito: o repositório já é público.
    - `src/versao.ts`: `DOI_SOFTWARE_CONCEITO = "10.5281/zenodo.<conceito>"`;
    - `CITATION.cff`: descomentar `identifiers` e pôr o DOI de conceito;
    - `README.md`: trocar o marcador do selo pelo DOI de conceito;
-   - em `test/abertura.test.ts`, tirar o `.todo` do teste dos marcadores de DOI.
+   - em `test/abertura.test.ts`, tirar o `.skip` do teste dos marcadores de DOI.
 7. Conferir:
 
    ```sh

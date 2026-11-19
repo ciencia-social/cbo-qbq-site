@@ -1,9 +1,7 @@
 # CBO e QBQ via API REST, servidor MCP ou navegador na Web
 
 [![DOI dos dados](https://zenodo.org/badge/DOI/10.5281/zenodo.24353524.svg)](https://doi.org/10.5281/zenodo.24353524)
-<!-- Selo do DOI do software, a ativar depois da primeira release no Zenodo (docs/operacao.md, P14b):
-[![DOI do software](https://zenodo.org/badge/DOI/<DOI_SITE_CONCEITO>.svg)](https://doi.org/<DOI_SITE_CONCEITO>)
--->
+[![DOI do software](https://zenodo.org/badge/DOI/10.5281/zenodo.24378490.svg)](https://doi.org/10.5281/zenodo.24378490)
 
 API REST, servidor MCP e site da Classificação Brasileira de Ocupações (CBO) e do Quadro Brasileiro de Qualificações (QBQ), em https://cbo.ciencia.social. O serviço é somente leitura: consulta ocupações, sinônimos, atividades e a hierarquia da CBO, as competências e os níveis do QBQ, e as divergências entre as duas fontes.
 
@@ -71,9 +69,9 @@ Quem usa os dados cita o conjunto de dados:
 
 Quem usa a API, o MCP ou o código cita também o software:
 
-> Fernandes, W. (2026). cbo-qbq-site: API REST e servidor MCP da CBO e do QBQ (Versão 0.1.0) [Software]. https://github.com/ciencia-social/cbo-qbq-site
+> Fernandes, W. (2026). cbo-qbq-site: API REST e servidor MCP da CBO e do QBQ (Versão 0.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24378490
 
-As duas citações em BibTeX estão em https://cbo.ciencia.social/api/v1/versao e na página [Sobre](https://cbo.ciencia.social/sobre). O GitHub mostra o botão "Cite this repository" a partir do [`CITATION.cff`](CITATION.cff).
+O DOI do software é o de conceito, que aponta sempre para a versão mais recente; o DOI de cada versão está no [registro do Zenodo](https://doi.org/10.5281/zenodo.24378490). As duas citações em BibTeX estão em https://cbo.ciencia.social/api/v1/versao e na página [Sobre](https://cbo.ciencia.social/sobre). O GitHub mostra o botão "Cite this repository" a partir do [`CITATION.cff`](CITATION.cff).
 
 ## Licenças
 

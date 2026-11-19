@@ -45,11 +45,10 @@ export const DOI_DADOS = {
 export const ANO_DADOS = "2026";
 
 /**
- * DOI de conceito do software. Só existe depois da primeira release no Zenodo (P14b).
- * Enquanto for null, a citação do software aponta para o repositório.
- * Marcador para o mantenedor: <DOI_SITE_CONCEITO>.
+ * DOI de conceito do software, cunhado pelo Zenodo na release v0.1.0 (P14b).
+ * Aponta sempre para a versão mais recente; o DOI de cada versão fica no registro do Zenodo.
  */
-export const DOI_SOFTWARE_CONCEITO: string | null = null;
+export const DOI_SOFTWARE_CONCEITO: string | null = "10.5281/zenodo.24378490";
 export const ANO_SOFTWARE = "2026";
 
 export const LICENCAS = {

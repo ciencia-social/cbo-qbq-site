@@ -77,8 +77,7 @@ describe("P15 prontidão para abrir o repositório", () => {
     expect(comMarcador(["[DESCREVER", "<DECLARACAO_IA>", "<PRENOME>", "<SOBRENOME>", "<LICENCA_DESIGN>", "<CONTATO_SEGURANCA>"])).toEqual([]);
   });
 
-  // Pendente até a primeira release no Zenodo (docs/operacao.md, P14b). Tirar o .skip no commit de acerto.
-  it.skip("nenhum marcador de DOI ficou no código ou na raiz (pendente até P14b)", () => {
+  it("nenhum marcador de DOI ficou no código ou na raiz", () => {
     expect(comMarcador(["<DOI_"])).toEqual([]);
   });
 

@@ -21,11 +21,10 @@ keywords:
   - MCP
   - dados abertos
   - Brasil
-# Preencher depois da primeira release no Zenodo (P14b), com o DOI de conceito:
-# identifiers:
-#   - type: doi
-#     value: "<DOI_SITE_CONCEITO>"
-#     description: "DOI de conceito: sempre a versão mais recente."
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24378490"
+    description: "DOI de conceito: sempre a versão mais recente."
 references:
   - type: dataset
     title: "cbo-qbq-dados: Classificação Brasileira de Ocupações e Quadro Brasileiro de Qualificações como dados abertos"
