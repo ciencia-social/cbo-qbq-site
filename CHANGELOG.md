@@ -2,7 +2,7 @@
 
 A versão do software segue o versionamento semântico (`v0.1.0`, `v0.2.0`…) e é independente da versão dos dados. Cada entrada diz qual versão do [`cbo-qbq-dados`](https://github.com/ciencia-social/cbo-qbq-dados) a release serve.
 
-## v0.1.0 · dados-2026.11.2 · (não publicado)
+## v0.1.0 · dados-2026.11.2 · 2026-11-19
 
 Serve `dados-2026.11.2` (DOI 10.5281/zenodo.24353525).
 
