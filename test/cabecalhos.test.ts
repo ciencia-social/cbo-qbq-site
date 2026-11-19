@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import config, { CSP_PAGINAS, FONTE_PAGINAS } from "../next.config";
+import config, { CSP_PAGINAS, cspPaginas, FONTE_PAGINAS } from "../next.config";
 
 describe("P11 cabeçalhos de segurança", () => {
   it("não anuncia o Next em X-Powered-By", () => {
@@ -28,5 +28,11 @@ describe("P11 cabeçalhos de segurança", () => {
     expect(CSP_PAGINAS).toContain("base-uri 'self'");
     expect(CSP_PAGINAS).toMatch(/script-src 'self'( |;)/);
     expect(CSP_PAGINAS).not.toMatch(/https?:/);
+  });
+
+  it("só o next dev recebe 'unsafe-eval'", () => {
+    expect(CSP_PAGINAS).not.toContain("'unsafe-eval'");
+    expect(cspPaginas(false)).not.toContain("'unsafe-eval'");
+    expect(cspPaginas(true)).toContain("script-src 'self' 'unsafe-inline' 'unsafe-eval'");
   });
 });

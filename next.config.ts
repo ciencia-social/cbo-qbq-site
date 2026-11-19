@@ -35,19 +35,26 @@ export const CABECALHOS_GERAIS = [
  * páginas ficam um dia na CDN (I12) e /sobre é estática, então o HTML guardado levaria um nonce
  * diferente do cabeçalho de cada resposta. Os demais controles valem: nenhum script de outra origem,
  * nenhum embutimento por terceiros, nenhum <base> nem envio de formulário para fora.
+ *
+ * Em `next dev`, o React Refresh e os source maps do webpack avaliam código com eval; sem
+ * 'unsafe-eval' a hidratação falha e a página para de reagir. A exceção vale só em desenvolvimento.
  */
-export const CSP_PAGINAS = [
-  "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
-  "font-src 'self'",
-  "connect-src 'self'",
-  "object-src 'none'",
-  "frame-ancestors 'none'",
-  "base-uri 'self'",
-  "form-action 'self'",
-].join("; ");
+export function cspPaginas(desenvolvimento: boolean) {
+  return [
+    "default-src 'self'",
+    `script-src 'self' 'unsafe-inline'${desenvolvimento ? " 'unsafe-eval'" : ""}`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data:",
+    "font-src 'self'",
+    "connect-src 'self'",
+    "object-src 'none'",
+    "frame-ancestors 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+  ].join("; ");
+}
+
+export const CSP_PAGINAS = cspPaginas(process.env.NODE_ENV === "development");
 
 export const CABECALHOS_PAGINAS = [
   { key: "X-Frame-Options", value: "DENY" },
