@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { carregarTermo } from "@/site/competencias";
 import { PaginaTermo } from "@/site/competencias-view";
 
@@ -13,7 +14,7 @@ function numero(valor: string | undefined) {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { vocabulario, nivel, codigo } = await params;
   const ficha = carregarTermo(decodeURIComponent(vocabulario), decodeURIComponent(nivel), decodeURIComponent(codigo));
-  if (ficha.tipo !== "ok") return { title: "Competência" };
+  if (ficha.tipo !== "ok") return { title: "Termo não encontrado" };
   return { title: ficha.descricao };
 }
 
@@ -30,5 +31,6 @@ export default async function Page({ params, searchParams }: { params: Promise<P
     todas: ler("todas") === "1",
     deslocamento: numero(ler("deslocamento")),
   });
+  if (ficha.tipo === "ausente") notFound();
   return <PaginaTermo ficha={ficha} />;
 }

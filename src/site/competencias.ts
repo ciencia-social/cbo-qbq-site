@@ -1,5 +1,6 @@
 import { listarNivel } from "@/consulta/cbo";
 import { coberturaResumo } from "@/consulta/derivado";
+import { termosDoCodigo } from "@/consulta/cache";
 import { buscarTermos, listarTermos, obterTermo, ocupacoesDoTermo, vocabularios } from "@/consulta/qbq";
 import { Problema } from "@/http/erros";
 import { formato } from "@/ui/formato";
@@ -106,7 +107,7 @@ type FichaTermo = Termo & {
 
 export function carregarTermo(vocabulario: string, nivel: string, codigo: string, consulta: { importanciaMin?: number; prefixo?: string; todas?: boolean; deslocamento?: number } = {}) {
   if (!VOCABULARIOS.includes(vocabulario) || !NIVEIS_VOCAB[vocabulario]?.includes(nivel)) {
-    return { tipo: "ausente" as const, detalhe: `O vocabulário ou o nível não existe.` };
+    return termoAusente(vocabulario, codigo, "O vocabulário ou o nível não existe.");
   }
   try {
     const ficha = obterTermo(vocabulario, nivel, codigo, true).dados as FichaTermo;
@@ -160,9 +161,31 @@ export function carregarTermo(vocabulario: string, nivel: string, codigo: string
       vocabularios: vocabulariosDoSite(),
     };
   } catch (erro) {
-    if (erro instanceof Problema) return { tipo: "ausente" as const, detalhe: erro.detalhe };
+    if (erro instanceof Problema) return termoAusente(vocabulario, codigo, `O código ${codigo} não existe em ${vocabulario}/${nivel}.`);
     throw erro;
   }
+}
+
+/** Termo que não existe: aponta o mesmo código em outros níveis e o índice do vocabulário. */
+function termoAusente(vocabulario: string, codigo: string, detalhe: string) {
+  const valido = VOCABULARIOS.includes(vocabulario);
+  const outros = valido ? termosDoCodigo(vocabulario, codigo) : [];
+  const sugestoes = [
+    ...outros.map((termo) => ({ href: hrefTermo(vocabulario, termo.nivel, termo.codigo), rotulo: `${termo.codigo} em ${termo.nivel}: ${termo.descricao}` })),
+    ...(valido
+      ? [{ href: `/competencias/${vocabulario}`, rotulo: `Índice de ${vocabulario}` }]
+      : VOCABULARIOS.map((id) => ({ href: `/competencias/${id}`, rotulo: `Índice de ${id}` }))),
+  ];
+  return { tipo: "ausente" as const, detalhe, sugestoes };
+}
+
+export function hrefTermo(vocabulario: string, nivel: string, codigo: string) {
+  return `/competencias/${vocabulario}/${nivel}/${encodeURIComponent(codigo)}`;
+}
+
+/** O vocabulário existe? A página de índice responde 404 quando não. */
+export function vocabularioExiste(vocabulario: string) {
+  return VOCABULARIOS.includes(vocabulario);
 }
 
 export type VistaTermo = ReturnType<typeof carregarTermo>;

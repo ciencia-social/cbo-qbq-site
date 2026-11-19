@@ -386,6 +386,9 @@ export function PaginaFicha({ ficha }: { ficha: FichaVista }) {
           <h1 className="cs-rhead__title">Código malformado</h1>
           <p className="cs-rhead__sub">{ficha.detalhe}</p>
           {ficha.dica ? <p>{ficha.dica}</p> : null}
+          <p>
+            <a href="/ocupacoes">Navegar a classificação</a>
+          </p>
         </header>
       </main>
     );
@@ -394,10 +397,21 @@ export function PaginaFicha({ ficha }: { ficha: FichaVista }) {
     return (
       <main className="cs-page">
         <header className="cs-rhead" style={{ marginTop: "var(--space-6)" }}>
-          <p className="cs-meta-text">Código não encontrado</p>
+          <p className="cs-meta-text">Código não encontrado · 404</p>
           <h1 className="cs-rhead__title">{ficha.entrada} não existe</h1>
           <p className="cs-rhead__sub">{ficha.detalhe}</p>
           {ficha.dica ? <p>{ficha.dica}</p> : null}
+          {ficha.ancestral ? (
+            <p>
+              <a href={ficha.ancestral.href}>
+                Ver {ficha.ancestral.nivel} {ficha.ancestral.codigo} · {ficha.ancestral.titulo}
+              </a>
+            </p>
+          ) : (
+            <p>
+              <a href="/ocupacoes">Navegar a classificação</a>
+            </p>
+          )}
         </header>
         {ficha.sugestoes.length ? (
           <ul className="x-tree" style={{ listStyle: "none", padding: 0 }}>

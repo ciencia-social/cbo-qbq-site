@@ -1,11 +1,7 @@
 import type { ReactNode } from "react";
 import { Badge, BarChart, Callout, Figure, Icon, SegmentedControl, Select, StatTile, TextInput } from "@/ui/componentes";
 import { formato } from "@/ui/formato";
-import type { NoCompetencia, VistaIndice, VistaTermo } from "@/site/competencias";
-
-function hrefTermo(vocabulario: string, nivel: string, codigo: string) {
-  return `/competencias/${vocabulario}/${nivel}/${encodeURIComponent(codigo)}`;
-}
+import { hrefTermo, type NoCompetencia, type VistaIndice, type VistaTermo } from "@/site/competencias";
 
 function Itens({ vocabulario, nos }: { vocabulario: string; nos: NoCompetencia[] }) {
   return nos.map((no) => (
@@ -130,9 +126,19 @@ export function PaginaTermo({ ficha }: { ficha: VistaTermo }) {
     return (
       <main className="cs-page">
         <header className="cs-rhead" style={{ marginTop: "var(--space-6)" }}>
+          <p className="cs-meta-text">Termo não encontrado · 404</p>
           <h1 className="cs-rhead__title">Termo não encontrado</h1>
           <p className="cs-rhead__sub">{ficha.detalhe}</p>
         </header>
+        {ficha.sugestoes.length ? (
+          <ul className="x-tree" style={{ listStyle: "none", padding: 0 }}>
+            {ficha.sugestoes.map((item) => (
+              <li key={item.href}>
+                <a href={item.href}>{item.rotulo}</a>
+              </li>
+            ))}
+          </ul>
+        ) : null}
       </main>
     );
   }

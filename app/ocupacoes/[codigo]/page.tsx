@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { carregarFicha, type ConsultaFicha } from "@/site/ficha";
 import { PaginaFicha } from "@/site/ficha-view";
 
@@ -24,7 +24,7 @@ function consultaDe(bruto: Busca): ConsultaFicha {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { codigo } = await params;
   const ficha = carregarFicha(codigo, { transversais: "incluir", dimensao: "habilidades", todas: false });
-  if (ficha.tipo !== "ok") return { title: "Ocupação" };
+  if (ficha.tipo !== "ok") return { title: "Ocupação não encontrada" };
   return { title: `${ficha.formatado} · ${ficha.titulo}`, description: ficha.lead ?? ficha.titulo };
 }
 
@@ -41,5 +41,6 @@ export default async function Page({ params, searchParams }: { params: Promise<P
     const consultaUrl = params.toString();
     redirect(consultaUrl ? `${ficha.para}?${consultaUrl}` : ficha.para);
   }
+  if (ficha.tipo === "ausente" || ficha.tipo === "malformado") notFound();
   return <PaginaFicha ficha={ficha} />;
 }

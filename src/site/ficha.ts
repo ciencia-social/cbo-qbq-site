@@ -1,4 +1,5 @@
 import { interpretarCodigo } from "@/consulta/cbo";
+import { ancestralDe } from "@/consulta/formatar";
 import { atividades, comparar, competencias, obterOcupacao, similares } from "@/consulta/ocupacao";
 import { Problema } from "@/http/erros";
 import { tresCasas } from "@/ui/formato";
@@ -81,7 +82,14 @@ export type FichaOk = {
 export type FichaVista =
   | { tipo: "redirect"; para: string }
   | { tipo: "malformado"; detalhe: string; dica?: string }
-  | { tipo: "ausente"; entrada: string; detalhe: string; dica?: string; sugestoes: { codigo: string; titulo: string; href: string }[] }
+  | {
+      tipo: "ausente";
+      entrada: string;
+      detalhe: string;
+      dica?: string;
+      ancestral: { nivel: string; codigo: string; titulo: string; href: string } | null;
+      sugestoes: { codigo: string; titulo: string; href: string }[];
+    }
   | FichaOk;
 
 function inicio(texto: string | null | undefined) {
@@ -93,6 +101,13 @@ function inicio(texto: string | null | undefined) {
 function dataPorExtenso(hoje: Date) {
   return new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "long", year: "numeric", timeZone: "America/Sao_Paulo" }).format(hoje);
 }
+
+const NOME_NIVEL: Record<string, string> = {
+  grande_grupo: "o grande grupo",
+  subgrupo_principal: "o subgrupo principal",
+  subgrupo: "o subgrupo",
+  familia: "a família",
+};
 
 export function carregarFicha(entrada: string, consulta: ConsultaFicha, hoje = new Date()): FichaVista {
   let canonico: string;
@@ -116,11 +131,17 @@ export function carregarFicha(entrada: string, consulta: ConsultaFicha, hoje = n
   } catch (erro) {
     if (!(erro instanceof Problema)) throw erro;
     const filhos = (erro.sugestoes ?? []) as { codigo: string; titulo?: string | null; nivel?: string }[];
+    const ancestral = ancestralDe(canonico);
     return {
       tipo: "ausente",
       entrada,
       detalhe: erro.detalhe,
-      dica: erro.dica,
+      dica: ancestral
+        ? `O ancestral mais profundo que existe é ${NOME_NIVEL[ancestral.nivel] ?? ancestral.nivel} ${ancestral.codigo} (${ancestral.titulo}).`
+        : "Nenhum ancestral desse código existe na CBO.",
+      ancestral: ancestral
+        ? { nivel: NOME_NIVEL[ancestral.nivel] ?? ancestral.nivel, codigo: ancestral.codigo, titulo: ancestral.titulo, href: `/ocupacoes?prefixo=${ancestral.codigo}` }
+        : null,
       sugestoes: filhos.map((filho) => ({
         codigo: filho.codigo,
         titulo: filho.titulo ?? "",
