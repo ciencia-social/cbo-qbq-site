@@ -13,7 +13,7 @@ import {
 } from "@/consulta/ocupacao";
 import { buscarTermos, listarTermos, naoClassificadas, obterTermo, ocupacoesDoTermo, vocabularios } from "@/consulta/qbq";
 import { Problema } from "@/http/erros";
-import { faixaDeParams } from "@/http/parametros";
+import { exigirTetoConsulta, faixaDeParams, TETO } from "@/http/parametros";
 import type { Saida } from "@/tipos";
 import { api, VERSAO_DADOS } from "@/versao";
 
@@ -198,6 +198,7 @@ function resumoSobre(topico: string | undefined, dados: unknown): string {
 }
 
 export function executarTool(nome: string, args: Record<string, unknown>): ResultadoTool {
+  if (typeof args.consulta === "string") exigirTetoConsulta(args.consulta, "consulta");
   switch (nome) {
     case "ocupacao_buscar": {
       const consulta = String(args.consulta ?? "");
@@ -391,8 +392,10 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
   }
 }
 
-const codigoOcupacao = () => z.string().describe("Código CBO de 6 dígitos, com ou sem hífen: 212405 ou 2124-05.");
-const prefixoCbo = () => z.string().optional().describe("Código de 1 a 4 dígitos que restringe a um ramo da CBO, como 2 ou 2124.");
+const codigoCurto = () => z.string().max(TETO.codigo, `No máximo ${TETO.codigo} caracteres.`);
+const textoConsulta = () => z.string().max(TETO.consultaCaracteres, `No máximo ${TETO.consultaCaracteres} caracteres e ${TETO.consultaTermos} termos.`);
+const codigoOcupacao = () => codigoCurto().describe("Código CBO de 6 dígitos, com ou sem hífen: 212405 ou 2124-05.");
+const prefixoCbo = () => codigoCurto().optional().describe("Código de 1 a 4 dígitos que restringe a um ramo da CBO, como 2 ou 2124.");
 const limiteItens = (padrao: number) => z.number().int().min(1).max(50).optional().describe(`Quantos itens devolver. Padrão ${padrao}, máximo 50. Exemplo: ${padrao}.`);
 const nivelQualificacao = (lado: "mínimo" | "máximo") =>
   z.number().int().min(1).max(8).optional().describe(`Nível de qualificação do QBQ, de 1 a 8, no extremo ${lado} da faixa. Exemplo: ${lado === "mínimo" ? 1 : 8}.`);
@@ -417,7 +420,7 @@ export const definicoes: Definicao[] = [
     title: "Buscar ocupação",
     descricao: "Encontra ocupações por texto livre, do nome de mercado, cargo ou título de vaga ao código oficial. É a porta de entrada quando o código ainda não é conhecido. Devolve o total e uma lista com código, títulos, família, nível e situação no QBQ. Sem resultado, o próximo passo é cbo_buscar_atividades.",
     schema: {
-      consulta: z.string().optional().describe(`Texto a buscar no título, no sinônimo ou na síntese. ${REGRA_CONSULTA} Exemplo: programador.`),
+      consulta: textoConsulta().optional().describe(`Texto a buscar no título, no sinônimo ou na síntese. ${REGRA_CONSULTA} Exemplo: programador.`),
       buscar_em: z.array(z.enum(["titulo", "sinonimo", "sintese"])).optional().describe("Onde casar o texto. Aceita titulo, sinonimo e sintese. Padrão: titulo e sinonimo. Exemplo: [\"titulo\", \"sinonimo\"]."),
       prefixo: prefixoCbo(),
       nivel_qualificacao_min: nivelQualificacao("mínimo"),
@@ -442,7 +445,7 @@ export const definicoes: Definicao[] = [
     descricao: "O que a ocupação faz segundo a CBO: grandes áreas e as atividades de cada uma. A sigla da área ordena o perfil dentro da ocupação e não é comparável entre ocupações. A numeração das atividades é a da fonte, com lacunas e repetições. Ocupação sem perfil devolve o motivo, não uma lista vazia.",
     schema: {
       codigo: codigoOcupacao(),
-      area: z.string().optional().describe("Sigla de uma área, para detalhar só ela. A sigla não se compara entre ocupações. Exemplo: A."),
+      area: codigoCurto().optional().describe("Sigla de uma área, para detalhar só ela. A sigla não se compara entre ocupações. Exemplo: A."),
       transversais: z.enum(["incluir", "excluir", "somente"]).optional().describe("O que fazer com as áreas transversais Y e Z. Padrão: incluir. Exemplo: excluir."),
       modo: z.enum(["completo", "resumo"]).optional().describe("completo lista as atividades; resumo devolve só as áreas e a contagem. Padrão: completo. Exemplo: resumo."),
     },
@@ -465,7 +468,7 @@ export const definicoes: Definicao[] = [
     title: "Navegar a classificação",
     descricao: "Percorre a CBO de cima para baixo. Sem código, lista os dez grandes grupos; com 1 a 4 dígitos, devolve o nó e os filhos diretos. Em família, os filhos são as ocupações, com nível de qualificação. Para uma ocupação de 6 dígitos, use ocupacao_obter.",
     schema: {
-      codigo: z.string().optional().describe("Código de 1 a 4 dígitos do nó. Ausente: os dez grandes grupos. Exemplo: 2124."),
+      codigo: codigoCurto().optional().describe("Código de 1 a 4 dígitos do nó. Ausente: os dez grandes grupos. Exemplo: 2124."),
       profundidade: z.number().int().min(1).max(2).optional().describe("Quantos níveis de filhos devolver de uma vez, 1 ou 2. Padrão: 1. Exemplo: 1."),
     },
   },
@@ -474,7 +477,7 @@ export const definicoes: Definicao[] = [
     title: "Decodificar código",
     descricao: "Valida e explica códigos CBO de qualquer nível, um ou vários. Use antes de citar um código e para conferir listas vindas de bases como RAIS e CAGED. Devolve existência, nível, título e caminho. Para um código inexistente, devolve o ancestral mais profundo que existe e os filhos dele.",
     schema: {
-      codigos: z.array(z.string()).min(1).max(100).describe("De 1 a 100 códigos, de 1 a 6 dígitos, com ou sem hífen. Exemplo: [\"212405\", \"2124-99\"]."),
+      codigos: z.array(codigoCurto()).min(1).max(100).describe("De 1 a 100 códigos, de 1 a 6 dígitos, com ou sem hífen. Exemplo: [\"212405\", \"2124-99\"]."),
     },
   },
   {
@@ -483,8 +486,8 @@ export const definicoes: Definicao[] = [
     descricao: "Navega os vocabulários controlados do QBQ e devolve a definição oficial de um termo quando ela existe. Sem vocabulário, descreve os quatro; sem código, lista os termos; com código, devolve o termo, o caminho e os filhos. Conhecimentos I e II não se misturam: o resultado de uma taxonomia não vale para a outra.",
     schema: {
       vocabulario: z.enum(["conhecimentos-i", "conhecimentos-ii", "habilidades", "atitudes"]).optional().describe("Qual vocabulário. Ausente: descreve os quatro. Exemplo: habilidades."),
-      nivel: z.string().optional().describe(NIVEL_TERMO),
-      codigo: z.string().optional().describe("Código do termo, como 01.01.01. Ausente: lista o vocabulário. Exemplo: 01.01.01."),
+      nivel: codigoCurto().optional().describe(NIVEL_TERMO),
+      codigo: codigoCurto().optional().describe("Código do termo, como 01.01.01. Ausente: lista o vocabulário. Exemplo: 01.01.01."),
       incluir_uso: z.boolean().optional().describe("Acrescenta em quantas ocupações o termo é exigido. É cálculo derivado. Padrão: false. Exemplo: false."),
     },
   },
@@ -494,7 +497,7 @@ export const definicoes: Definicao[] = [
     descricao: "Proveniência, versão, licença e limites do dataset. Use quando a pergunta for sobre origem, data, confiabilidade, licença ou citação. Devolve a versão de cada camada, as fontes, a licença CC BY 4.0 e as ressalvas que mais afetam a interpretação. Com o tópico decisoes, informe o id, como D015.",
     schema: {
       topico: z.enum(["versao", "fontes", "cobertura", "decisoes", "licenca"]).optional().describe("O que perguntar sobre o dataset. Ausente: a versão. Exemplo: fontes."),
-      id: z.string().optional().describe("Identificador de uma decisão, quando o tópico é decisoes. Exemplo: D015."),
+      id: codigoCurto().optional().describe("Identificador de uma decisão, quando o tópico é decisoes. Exemplo: D015."),
     },
   },
   {
@@ -502,7 +505,7 @@ export const definicoes: Definicao[] = [
     title: "Buscar por atividade",
     descricao: "Acha ocupações pelo que se faz nelas, no texto das atividades e dos nomes de área. Por padrão exclui as áreas transversais Y e Z, para que competências pessoais não dominem o resultado. Devolve uma entrada por ocupação, com o total de atividades casadas e até três exemplos. Use quando ocupacao_buscar não achar o nome.",
     schema: {
-      consulta: z.string().describe(`Texto da tarefa a buscar. ${REGRA_CONSULTA} Exemplo: programar.`),
+      consulta: textoConsulta().describe(`Texto da tarefa a buscar. ${REGRA_CONSULTA} Exemplo: programar.`),
       prefixo: prefixoCbo(),
       nivel_qualificacao_min: nivelQualificacao("mínimo"),
       nivel_qualificacao_max: nivelQualificacao("máximo"),
@@ -515,8 +518,8 @@ export const definicoes: Definicao[] = [
     title: "Buscar termo",
     descricao: "Acha termos de competência por texto, nos vocabulários, nos conceitos e nas descrições dos baldes. O mesmo assunto pode existir nas duas taxonomias de conhecimento com códigos diferentes, e o resultado de uma não vale para a outra. Devolve os termos e, quando pedido, as ocorrências em descrição de item. O próximo passo é qbq_ocupacoes_por_competencia.",
     schema: {
-      consulta: z.string().describe(`Texto do termo ou do assunto. ${REGRA_CONSULTA} Exemplo: banco de dados.`),
-      vocabularios: z.array(z.string()).optional().describe("Quais vocabulários percorrer. Padrão: os quatro. Exemplo: [\"habilidades\"]."),
+      consulta: textoConsulta().describe(`Texto do termo ou do assunto. ${REGRA_CONSULTA} Exemplo: banco de dados.`),
+      vocabularios: z.array(codigoCurto()).max(TETO.vocabularios, `No máximo ${TETO.vocabularios} vocabulários.`).optional().describe("Quais vocabulários percorrer. Padrão: os quatro. Exemplo: [\"habilidades\"]."),
       buscar_em: z.array(z.enum(["vocabulario", "conceito", "descricao_item"])).optional().describe("Onde casar o texto. Padrão: vocabulario e conceito. descricao_item alcança o texto livre dos baldes. Exemplo: [\"vocabulario\", \"conceito\"]."),
       limite: limiteItens(10),
     },
@@ -527,8 +530,8 @@ export const definicoes: Definicao[] = [
     descricao: "Quais ocupações exigem um termo, e em que grau. Obtenha vocabulário, nível e código com qbq_buscar_termos. Um nó intermediário agrega os descendentes e diz quantos itens casaram. Devolve o total de ocupações distintas, a distribuição e a lista com os graus. Use prefixo para restringir a um ramo da CBO.",
     schema: {
       vocabulario: z.enum(["conhecimentos-i", "conhecimentos-ii", "habilidades", "atitudes"]).describe("Vocabulário do termo. Exemplo: conhecimentos-i."),
-      nivel: z.string().describe(NIVEL_TERMO),
-      codigo: z.string().describe("Código do termo no nível informado, como 01.01.02. Exemplo: 01.01.02."),
+      nivel: codigoCurto().describe(NIVEL_TERMO),
+      codigo: codigoCurto().describe("Código do termo no nível informado, como 01.01.02. Exemplo: 01.01.02."),
       importancia_min: grauMinimo("importância"),
       frequencia_min: grauMinimo("frequência"),
       profundidade_min: grauMinimo("profundidade"),
@@ -543,7 +546,7 @@ export const definicoes: Definicao[] = [
     title: "Comparar ocupações",
     descricao: "Compara de duas a cinco ocupações, para uma transição de carreira ou para distinguir ocupações vizinhas. O primeiro código é a origem e os demais são destinos; a diferença de graus é destino menos origem. É cálculo derivado, não dado oficial. Entre taxonomias de conhecimento diferentes, a similaridade não é calculada.",
     schema: {
-      codigos: z.array(z.string()).min(2).max(5).describe("De 2 a 5 códigos de ocupação, com ou sem hífen. Exemplo: [\"212420\", \"212405\"]."),
+      codigos: z.array(codigoCurto()).min(2).max(5).describe("De 2 a 5 códigos de ocupação, com ou sem hífen. Exemplo: [\"212420\", \"212405\"]."),
       dimensao: dimensaoComparavel(),
       importancia_min: grauMinimo("importância"),
       limite: z.number().int().min(1).max(50).optional().describe("Quantos termos em comum e exclusivos devolver, ordenados pela maior diferença de importância. Padrão 20, máximo 50. Exemplo: 20."),
@@ -565,7 +568,7 @@ export const definicoes: Definicao[] = [
     title: "Resumir grupo",
     descricao: "Retrato agregado de um grande grupo, subgrupo principal, subgrupo ou família, ou do conjunto inteiro quando o código falta. Devolve o total de ocupações, a situação no QBQ, a distribuição dos níveis e os termos que distinguem o grupo do conjunto. É cálculo derivado, não dado oficial.",
     schema: {
-      codigo: z.string().optional().describe("Código de 1 a 4 dígitos do grupo. Ausente: o conjunto inteiro. Exemplo: 2124."),
+      codigo: codigoCurto().optional().describe("Código de 1 a 4 dígitos do grupo. Ausente: o conjunto inteiro. Exemplo: 2124."),
       dimensao: dimensaoComparavel(),
       limite: limiteItens(10),
     },
@@ -575,7 +578,7 @@ export const definicoes: Definicao[] = [
     title: "Consultar cobertura",
     descricao: "Onde CBO e QBQ não coincidem, e por quê. Sem argumentos, devolve as contagens; com código, a situação de uma ocupação; com situacao, a lista daquele tipo. A resposta aponta D010 e D015. Nenhuma camada é corrigida quando as fontes divergem.",
     schema: {
-      codigo: z.string().optional().describe("Código de uma ocupação, para ver a situação dela nas duas camadas. Exemplo: 212405."),
+      codigo: codigoCurto().optional().describe("Código de uma ocupação, para ver a situação dela nas duas camadas. Exemplo: 212405."),
       situacao: z.enum(["so_cbo", "so_qbq", "titulo_divergente", "nao_classificada", "sem_nivel_sem_justificativa"]).optional().describe("Qual divergência listar. Exemplo: titulo_divergente."),
       prefixo: prefixoCbo(),
       limite: limiteItens(20),

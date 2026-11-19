@@ -1,5 +1,63 @@
 import { parametro } from "@/http/erros";
+import { termosDaConsulta } from "@/texto";
 import type { Faixa } from "@/tipos";
+
+/** Tetos de tamanho das entradas (I5). */
+export const TETO = {
+  /** Caracteres de q e de consulta. */
+  consultaCaracteres: 200,
+  /** Termos separados por espaço em q e em consulta. */
+  consultaTermos: 12,
+  /** Caracteres de um código ou identificador curto. */
+  codigo: 20,
+  /** Itens de uma lista de vocabulários. */
+  vocabularios: 4,
+} as const;
+
+/** Parâmetros de consulta que levam um código ou identificador curto. */
+const PARAMETROS_CODIGO = [
+  "pai",
+  "raiz",
+  "prefixo",
+  "grande_grupo",
+  "subgrupo_principal",
+  "subgrupo",
+  "familia",
+  "area",
+  "ramo",
+  "nivel_ramo",
+  "nivel",
+  "nivel_pai",
+  "vocabulario",
+];
+
+/** Recusa texto de busca acima do teto de caracteres ou de termos. */
+export function exigirTetoConsulta(valor: string, nome: string) {
+  if (valor.length > TETO.consultaCaracteres) {
+    throw parametro(nome, `${nome} tem ${valor.length} caracteres; o máximo é ${TETO.consultaCaracteres}.`);
+  }
+  const termos = termosDaConsulta(valor).length;
+  if (termos > TETO.consultaTermos) {
+    throw parametro(nome, `${nome} tem ${termos} termos; o máximo é ${TETO.consultaTermos}.`);
+  }
+}
+
+/** Recusa código ou identificador acima do teto de caracteres. */
+export function exigirTetoCodigo(valor: string, nome: string) {
+  if (valor.length > TETO.codigo) {
+    throw parametro(nome, `${nome} tem ${valor.length} caracteres; o máximo de um código é ${TETO.codigo}.`);
+  }
+}
+
+/** Confere os tetos de todos os parâmetros de um pedido da API. */
+export function exigirTetos(q: URLSearchParams, caminho: Record<string, string>) {
+  for (const [nome, valor] of Object.entries(caminho)) exigirTetoCodigo(valor, nome);
+  for (const [nome, valor] of q) {
+    if (nome === "q") exigirTetoConsulta(valor, nome);
+    else if (PARAMETROS_CODIGO.includes(nome)) exigirTetoCodigo(valor.trim(), nome);
+    else if (nome === "codigos") for (const item of valor.split(",")) exigirTetoCodigo(item.trim(), nome);
+  }
+}
 
 export function texto(q: URLSearchParams, nome: string): string | undefined {
   const valor = q.get(nome);

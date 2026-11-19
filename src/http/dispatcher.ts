@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { Problema, parametro } from "@/http/erros";
 import { limitar } from "@/http/limite";
-import { lista } from "@/http/parametros";
+import { exigirTetos, lista } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
 import { api, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import type { Saida } from "@/tipos";
@@ -39,6 +39,7 @@ export async function tratar(req: Request): Promise<Response> {
         `O índice está em ${PREFIXO_API}.`,
       );
     }
+    exigirTetos(url.searchParams, casou.params);
     const ctx: Ctx = { params: casou.params, query: url.searchParams, url };
     const saida = casou.rota.handle(ctx);
     if (saida.cru) {
@@ -72,12 +73,20 @@ function casar(caminho: string) {
     const params: Record<string, string> = {};
     let ok = true;
     for (let i = 0; i < modelo.length; i++) {
-      if (modelo[i].startsWith(":")) params[modelo[i].slice(1)] = decodeURIComponent(partes[i]);
+      if (modelo[i].startsWith(":")) params[modelo[i].slice(1)] = decodificar(modelo[i].slice(1), partes[i]);
       else if (modelo[i] !== partes[i]) ok = false;
     }
     if (ok) return { rota, params };
   }
   return null;
+}
+
+function decodificar(nome: string, valor: string) {
+  try {
+    return decodeURIComponent(valor);
+  } catch {
+    throw parametro(nome, `${nome} tem codificação inválida na URL.`);
+  }
 }
 
 function envelope(url: URL, saida: Saida, dados: unknown) {
