@@ -6,9 +6,10 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { DatabaseSync } from "node:sqlite";
-import { GERADOR, REPOSITORIO_DADOS, TAG_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "../src/versao.ts";
+import { DOI_DADOS, GERADOR, REPOSITORIO_DADOS, TAG_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "../src/versao.ts";
 import { ehBalde, normalizarBusca, normalizarTitulo, textoIndexavel } from "../src/texto.ts";
 import { bancoAtualizado, conferirProveniencia, type Proveniencia } from "./proveniencia.ts";
+import { contagensEsperadas, divergenciasVersao, lerVersaoJson } from "./versao-json.ts";
 
 /** CBO_QBQ_BANCO troca o destino; serve aos testes, que não podem apagar o banco da suíte. */
 const DESTINO = process.env.CBO_QBQ_BANCO
@@ -136,6 +137,21 @@ function main() {
   const raiz = resolverDados();
   const proveniencia: Proveniencia = conferirProveniencia(raiz, TAG_DADOS, process.env.EXIGIR_TAG === "1");
   console.log(`dados de ${raiz} @ ${proveniencia.commit ?? "sem commit"}${proveniencia.naTag ? ` (${TAG_DADOS})` : " (fora da tag)"}`);
+  // S12: a identidade da versão vem do VERSAO.json do repositório de dados (a partir de dados-2026.11.2).
+  const versaoJson = lerVersaoJson(raiz);
+  if (versaoJson) {
+    const divergencias = divergenciasVersao(versaoJson, {
+      versaoDados: VERSAO_DADOS,
+      versaoSchema: VERSAO_SCHEMA,
+      camadas: VERSAO_CAMADAS,
+      doi: DOI_DADOS,
+    });
+    if (divergencias.length) {
+      throw new Error(`VERSAO.json de ${raiz} não bate com src/versao.ts:\n- ${divergencias.join("\n- ")}`);
+    }
+  } else {
+    console.log("sem VERSAO.json na árvore de dados: conferindo só contra as constantes");
+  }
   const inicio = Date.now();
   fs.mkdirSync(path.dirname(DESTINO), { recursive: true });
   fs.rmSync(DESTINO, { force: true });
@@ -672,6 +688,7 @@ function main() {
   insMeta.run("repositorio_dados", REPOSITORIO_DADOS);
   if (proveniencia.commit) insMeta.run("dados_commit", proveniencia.commit);
   if (proveniencia.naTag) insMeta.run("dados_tag", TAG_DADOS);
+  if (versaoJson) insMeta.run("versao_json", JSON.stringify(versaoJson));
 
   db.exec("COMMIT");
   db.exec(`
@@ -714,7 +731,7 @@ function main() {
   db.prepare("INSERT INTO meta (chave, valor) VALUES (?, ?)").run("fts_tokenchars", tokenchars);
 
   const contar = (sql: string) => (db.prepare(sql).get() as { n: number }).n;
-  const esperado: Record<string, number> = {
+  const esperado: Record<string, number> = contagensEsperadas({
     "cbo_no grande_grupo": 10,
     "cbo_no subgrupo_principal": 49,
     "cbo_no subgrupo": 195,
@@ -738,7 +755,7 @@ function main() {
     so_qbq: 4,
     titulo_divergente: 35,
     decisao: 20,
-  };
+  }, versaoJson);
   const obtido: Record<string, number> = {
     "cbo_no grande_grupo": contar("SELECT count(*) n FROM cbo_no WHERE nivel = 'grande_grupo'"),
     "cbo_no subgrupo_principal": contar("SELECT count(*) n FROM cbo_no WHERE nivel = 'subgrupo_principal'"),

@@ -6,6 +6,7 @@ import { ConsultaRota, lista, PARAMETROS_GLOBAIS, validarPedido } from "@/http/p
 import { rotas, type Ctx } from "@/http/rotas";
 import { api, GERADOR, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA, VERSAO_SERVICO } from "@/versao";
 import type { Saida } from "@/tipos";
+import { alvoDaRota, linkSignposting } from "@/signposting";
 
 const CORS = {
   "Access-Control-Allow-Origin": "*",
@@ -183,6 +184,7 @@ function finalizar(req: Request, url: URL, status: number, corpo: string, tipo: 
     "x-versao-servico": VERSAO_SERVICO,
     "cache-control": "public, max-age=86400, stale-while-revalidate=604800",
   });
+  if (status < 400) headers.set("link", linkSignposting(alvoDaRota(caminhoRelativo(url.pathname))));
   const pedido = req.headers.get("if-none-match");
   if (pedido && pedido.split(",").some((item) => item.trim() === etag || item.trim() === `W/${etag}`)) {
     return new Response(null, { status: 304, headers });

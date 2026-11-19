@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { linkSignposting } from "./src/signposting";
 
 /**
  * Cache das páginas na CDN da Vercel (I12). O dado só muda por release, e cada deploy
@@ -52,6 +53,8 @@ export const CABECALHOS_PAGINAS = [
   { key: "X-Frame-Options", value: "DENY" },
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
   { key: "Content-Security-Policy", value: CSP_PAGINAS },
+  // Signposting (S3): a página cita o conjunto de dados.
+  { key: "Link", value: linkSignposting("dados") },
 ];
 
 /** Tudo, exceto a API (/api/, /v1/) e o MCP. */

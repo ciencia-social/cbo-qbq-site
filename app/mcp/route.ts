@@ -1,5 +1,6 @@
 import { esperaDoLimite, problemaDeLimite } from "@/http/limite";
 import { criarServidor } from "@/mcp/servidor";
+import { linkSignposting } from "@/signposting";
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 
 export const runtime = "nodejs";
@@ -30,7 +31,10 @@ async function atender(req: Request) {
   });
   await servidor.connect(transporte);
   try {
-    return await transporte.handleRequest(req);
+    const resposta = await transporte.handleRequest(req);
+    const headers = new Headers(resposta.headers);
+    headers.set("link", linkSignposting("software"));
+    return new Response(resposta.body, { status: resposta.status, statusText: resposta.statusText, headers });
   } finally {
     await servidor.close();
   }
