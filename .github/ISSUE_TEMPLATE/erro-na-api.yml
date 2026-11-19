@@ -1,0 +1,32 @@
+name: Erro na API
+description: Uma rota da API REST devolveu algo diferente do esperado.
+title: "[API] "
+labels: ["api"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Se o problema for o dado em si (título, nível, competência diferente da fonte oficial), abra a issue no cbo-qbq-dados.
+  - type: input
+    id: rota
+    attributes:
+      label: Rota
+      description: Caminho completo, com os parâmetros.
+      placeholder: /api/v1/ocupacoes/212405?campos=titulo
+    validations:
+      required: true
+  - type: textarea
+    id: recebida
+    attributes:
+      label: Resposta recebida
+      description: Status HTTP, cabeçalhos relevantes (X-Versao-Dados, X-Versao-Servico) e o trecho do corpo.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: esperada
+    attributes:
+      label: Resposta esperada
+      description: O que deveria ter vindo, e por quê.
+    validations:
+      required: true

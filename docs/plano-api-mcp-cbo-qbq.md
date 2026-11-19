@@ -1,3 +1,6 @@
+> Escrito em 18 de novembro de 2026, para o agente de código.  
+> Situação: concluído (a API e o MCP estão em produção; o gabarito da seção 9 continua valendo em `test/aceite.test.ts`).
+
 # Plano de recursos da API REST e de tools do servidor MCP — CBO e QBQ
 
 Documento de especificação funcional para o repositório que servirá os dados do `cbo-qbq-dados` por API REST e por servidor MCP, nos moldes do bncc.dev. Ele define **o que** expor (recursos, parâmetros, formas de resposta, tools, erros e casos de teste) e não **como** construir a aplicação (stack, hospedagem, estrutura de pastas ficam a cargo do agente de código).

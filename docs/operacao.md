@@ -58,7 +58,7 @@ npx --yes @redocly/cli@1.34.3 lint /tmp/openapi.json
 npx --yes @apidevtools/swagger-cli@4.0.4 validate /tmp/openapi.json
 ```
 
-Esperado: nenhum erro. Avisos de estilo (por exemplo, `operation-4xx-response` ou falta de `license`) podem aparecer; licença e contato estão no plano de abertura pública. Para tornar isso parte do CI, adicione `@redocly/cli` como dependência de desenvolvimento (decisão do mantenedor).
+Esperado: nenhum erro. Avisos de estilo (por exemplo, `operation-4xx-response`) podem aparecer. `info.license` (MIT), `info.contact` e `x-licenca-dados` (CC BY 4.0) já são preenchidos. Para tornar isso parte do CI, adicione `@redocly/cli` como dependência de desenvolvimento (decisão do mantenedor).
 
 ## CI (I2)
 
@@ -85,7 +85,7 @@ Esperado: `dados_tag` igual à tag de `src/versao.ts` e `dados_commit` com 40 ca
 Localmente, se a pasta irmã `../cbo-qbq-dados` estiver em outro commit, use um clone da tag:
 
 ```sh
-git clone --depth 1 --branch dados-2026.11.1 https://github.com/ciencia-social/cbo-qbq-dados .dados
+git clone --depth 1 --branch dados-2026.11.2 https://github.com/ciencia-social/cbo-qbq-dados .dados
 CBO_QBQ_DADOS=$PWD/.dados npm run dados
 ```
 
@@ -138,3 +138,88 @@ nrow(x)  # 100
 ```
 
 Use `colClasses` para manter o zero à esquerda dos códigos.
+
+## Cabeçalhos de segurança (P11)
+
+`next.config.ts` desliga o `X-Powered-By`, manda `X-Content-Type-Options: nosniff` e `Referrer-Policy` em toda resposta, e `X-Frame-Options`, `Permissions-Policy` e `Content-Security-Policy` nas páginas (não em `/api/`, `/v1/` nem `/mcp`). A CSP usa `script-src 'self' 'unsafe-inline'`; o motivo está no comentário de `CSP_PAGINAS` e no `SECURITY.md`.
+
+Conferir depois do deploy:
+
+```sh
+curl -sI https://cbo.ciencia.social/ | grep -iE 'content-security|x-frame|x-content-type|referrer|permissions|x-powered'
+```
+
+Esperado: os cinco primeiros presentes e nenhum `X-Powered-By`.
+
+**Manual, no preview:** abrir o console do navegador em início, uma ficha (`/ocupacoes/212405`), competências, `/docs`, `/docs/mcp` e `/sobre`, usar a troca de tema e o "Testar" da documentação, e conferir que não aparece violação de CSP.
+
+## Abrir o repositório (P14a)
+
+Ordem, executada pelo mantenedor:
+
+1. Tarefas I3, I4 e I5 do plano de implementação em produção (busca paginada no banco, limite de taxa, tetos de tamanho).
+2. Arquivos de abertura no `main`: `LICENSE`, `THIRD_PARTY_NOTICES.md`, `SECURITY.md`, `CONTRIBUTING.md`, `README.md`, `CITATION.cff`, `.zenodo.json`. A declaração de uso de IA (`DECLARACAO_IA` em `src/versao.ts` e `docs/USO-DE-IA.md`) pode entrar no mesmo dia. `test/abertura.test.ts` deve passar.
+3. GitHub, em *Settings → Code security*: ligar *Secret scanning* e *Push protection*, *Dependabot alerts* e *Dependabot security updates*, e *Private vulnerability reporting*.
+4. GitHub, em *Settings → Rules → Rulesets*: proteger `main`, exigindo pull request e o status `CI / verificar`.
+5. GitHub, em *Settings → Actions → General → Workflow permissions*: *Read repository contents and packages permissions*.
+6. Vercel: em *Settings → Git*, conferir que a proteção de deploy para pull requests de forks está ligada (*Require approval for fork deployments* ou equivalente). Em *Settings → Environment Variables*, remover qualquer token que tenha sobrado (por exemplo, um token do GitHub da época em que o repositório de dados era privado).
+7. GitHub, na página do repositório (*About*): descrição, site `https://cbo.ciencia.social` e tópicos `cbo`, `qbq`, `ocupacoes`, `mcp`, `api`, `dados-abertos`, `brasil`.
+8. *Settings → General → Danger Zone → Change visibility → Public*.
+9. Conferir: o GitHub mostra a licença MIT e o botão "Cite this repository"; abrir uma issue mostra os modelos "Erro na API" e "Erro no MCP".
+
+Recomendado para os commits futuros: configurar o e-mail `noreply` do GitHub (`git config user.email <id>+<usuario>@users.noreply.github.com`).
+
+## Publicar uma versão (P8)
+
+A versão do software (`package.json`, tag `vX.Y.Z`) é independente da versão dos dados (`TAG_DADOS` em `src/versao.ts`).
+
+1. Atualizar o `CHANGELOG.md`: trocar `(não publicado)` pela data e dizer qual versão de dados a release serve.
+2. Atualizar `version` no `package.json` (`npm version X.Y.Z --no-git-tag-version`). O MCP (`serverInfo.version`), o cabeçalho `X-Versao-Servico` e a citação do software leem dali.
+3. `npm run typecheck && npm test`, commit e push no `main`, CI verde.
+4. Criar a tag e a release no GitHub, com o trecho do `CHANGELOG.md` como notas:
+
+   ```sh
+   git tag vX.Y.Z && git push origin vX.Y.Z
+   gh release create vX.Y.Z --title vX.Y.Z --notes-file <(awk '/^## vX.Y.Z/{f=1;next}/^## /{f=0}f' CHANGELOG.md)
+   ```
+
+5. Esperar o Zenodo arquivar a release (alguns minutos) e conferir o registro (seção seguinte).
+
+## Zenodo e DOI do software (P14b)
+
+Pré-requisito: o repositório já é público.
+
+1. Em https://zenodo.org, entrar com o GitHub. Em *GitHub* (menu da conta), autorizar a organização `ciencia-social` e ligar a chave do `cbo-qbq-site`. A integração só arquiva releases criadas **depois** de ligada.
+2. Em *Settings → Linked accounts*, ligar o ORCID à conta do Zenodo.
+3. Não criar depósito manual nem reservar DOI: a integração cria o registro dela, com outro número.
+4. Publicar a release `v0.1.0` no GitHub (seção anterior).
+5. Conferir o registro criado no Zenodo: título, autor com ORCID, licença MIT, tipo *Software*, identificador relacionado ao conjunto de dados (`10.5281/zenodo.24353524`, *References*). Anotar o DOI de versão e o DOI de conceito (o que aparece em *Cite all versions*).
+6. Commit de acerto, sem release nova:
+   - `src/versao.ts`: `DOI_SOFTWARE_CONCEITO = "10.5281/zenodo.<conceito>"`;
+   - `CITATION.cff`: descomentar `identifiers` e pôr o DOI de conceito;
+   - `README.md`: trocar o marcador do selo pelo DOI de conceito;
+   - em `test/abertura.test.ts`, tirar o `.todo` do teste dos marcadores de DOI.
+7. Conferir:
+
+   ```sh
+   curl -sIL https://doi.org/10.5281/zenodo.<conceito> | grep -E '^HTTP|^location'
+   curl -s https://cbo.ciencia.social/api/v1/versao | jq '.dados.doi_software, .dados.citacao.software'
+   ```
+
+   Esperado: a cadeia termina em `200` numa página do Zenodo; `/api/v1/versao` devolve o DOI e a citação com ele.
+
+## Trocar a versão dos dados (S12)
+
+O `cbo-qbq-dados` publica um `VERSAO.json` a partir da `dados-2026.11.2`. O gerador do banco o lê e confere contra `src/versao.ts`; as contagens esperadas vêm dele, não do código.
+
+1. Em `src/versao.ts`, trocar `TAG_DADOS` e `VERSAO_DADOS` pela tag nova.
+2. `npm run dados`. Se o `VERSAO.json` da tag disser outra coisa, o script para e lista cada constante a mudar (`VERSAO_SCHEMA`, `VERSAO_CAMADAS.*`, `DOI_DADOS.*`), com o valor esperado.
+3. Atualizar `DOI_DADOS` com os DOIs da release nova. Eles não estão no `VERSAO.json` da tag (o Zenodo só os cunha depois da release); estão no `VERSAO.json` da `main` do repositório de dados, depois do commit de acerto.
+4. `npm test`. Os números do gabarito em `test/aceite.test.ts` são fixos de propósito: se um mudar, confira a mudança contra o repositório de dados antes de atualizar o teste. Nas referências da I3 (`test/fixtures/busca-antes/`), só `versao_dados` deve mudar.
+5. Atualizar a versão nos `public/llms*.txt`, no `README.md` e no `CHANGELOG.md`; `test/fair.test.ts` e `test/abertura.test.ts` acusam o que ficar para trás.
+
+## Robots, sitemap e JSON-LD (S4, S5)
+
+`/robots.txt` libera tudo e aponta `/sitemap.xml`, que lista as páginas fixas, os vocabulários de competências e uma ficha por ocupação do universo (2.698). A página inicial e `/sobre` trazem um bloco JSON-LD `schema.org/Dataset` gerado de `src/versao.ts` e das contagens do banco.
+
+**Manual, depois do deploy:** validar o JSON-LD da página inicial em https://validator.schema.org (ou no teste de resultados avançados do Google) e enviar o sitemap no Google Search Console, se quiser acompanhar a indexação.

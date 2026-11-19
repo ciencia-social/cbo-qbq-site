@@ -1,0 +1,34 @@
+name: Erro no MCP
+description: Uma tool, resource ou prompt do servidor MCP se comportou de forma inesperada.
+title: "[MCP] "
+labels: ["mcp"]
+body:
+  - type: input
+    id: cliente
+    attributes:
+      label: Cliente
+      description: Cliente MCP e versão, e se usou HTTP (/mcp) ou stdio.
+      placeholder: Claude Code 2.x, HTTP
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool, resource ou prompt
+      placeholder: ocupacao_obter
+    validations:
+      required: true
+  - type: textarea
+    id: argumentos
+    attributes:
+      label: Argumentos
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: resposta
+    attributes:
+      label: Resposta
+      description: O que voltou e o que você esperava.
+    validations:
+      required: true

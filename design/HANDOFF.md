@@ -1,3 +1,6 @@
+> Escrito em 18 de novembro de 2026, para o agente de código.  
+> Situação: concluído (o site está em produção em https://cbo.ciencia.social).
+
 # Handoff: site de cbo.ciencia.social
 
 Especificação do site que vai na raiz de `cbo.ciencia.social`, ao lado da API REST e do servidor MCP que este repositório já serve. Ela descreve **o que** construir (páginas, conteúdo, comportamento, aparência) a partir das telas desenhadas no canvas de design. O **como** (componentização, testes, detalhes de Next.js) fica a cargo de quem implementa, dentro das decisões listadas abaixo.

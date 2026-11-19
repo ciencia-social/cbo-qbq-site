@@ -1,3 +1,6 @@
+> Escrito em 18 de novembro de 2026, para o agente de código.  
+> Situação: concluído (T1 a T10, commits `ee14382` a `3f1215d`).
+
 # Tarefas: correções do servidor MCP
 
 Revisão feita em 18 de novembro de 2026 contra o servidor publicado em `https://cbo.ciencia.social/mcp` (`dados-2026.11.1`). Os dados e o protocolo estão corretos: todos os números do gabarito da seção 9 de `docs/plano-api-mcp-cbo-qbq.md` conferem. As tarefas abaixo tratam de como as respostas chegam ao modelo, de mensagens de erro e de tamanho de resposta.

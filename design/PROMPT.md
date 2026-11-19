@@ -1,3 +1,6 @@
+> Escrito em 18 de novembro de 2026, para o agente de código.  
+> Situação: histórico (o site descrito em `design/HANDOFF.md` já foi construído).
+
 # Prompt para o agente de código
 
 Cole o texto abaixo no agente (Claude Code ou outro), aberto na raiz deste repositório.
