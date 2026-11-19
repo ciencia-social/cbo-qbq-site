@@ -6,7 +6,7 @@ import { PaginaSobre } from "@/site/sobre-view";
 describe("sobre", () => {
   it("reúne versão, cobertura, o literal NULL e as decisões", () => {
     const vista = carregarSobre();
-    expect(vista.versao).toBe("dados-2026.11.1");
+    expect(vista.versao).toBe("dados-2026.11.2");
     expect(vista.schema).toBe("schema-v0.3.0");
     expect(vista.camadas.map((camada) => camada.versao)).toEqual(["dados-2026.11", "dados-2026.11.1", "dados-2026.08"]);
     expect(vista.divergencia).toEqual({ so_cbo: 25, so_qbq: 4, titulo_divergente: 35 });

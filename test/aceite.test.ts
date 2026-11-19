@@ -10,7 +10,7 @@ async function get(caminho: string) {
   return { status: resposta.status, headers: resposta.headers, corpo };
 }
 
-describe("gabarito dados-2026.11.1", () => {
+describe("gabarito dados-2026.11.2", () => {
   it("expõe a versão em toda resposta e no cabeçalho", async () => {
     const { status, headers, corpo } = await get("/api/v1/ocupacoes?limite=1");
     expect(status).toBe(200);

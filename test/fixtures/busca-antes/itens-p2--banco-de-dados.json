@@ -4,7 +4,7 @@
  "corpo": {
   "dados": [],
   "meta": {
-   "versao_dados": "dados-2026.11.1",
+   "versao_dados": "dados-2026.11.2",
    "versao_schema": "schema-v0.3.0",
    "total": 55,
    "limite": 100,

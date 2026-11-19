@@ -205,7 +205,7 @@ export const rotas: Rota[] = [
     id: "R04",
     grupo: "Metadados",
     caminho: "/decisoes",
-    resumo: "Decisões de modelagem D001–D018.",
+    resumo: "Decisões de modelagem D001–D020.",
     parametros: [P.q("Busca no texto da decisão."), ...P.paginacao(20, 100)],
     handle: ({ query }) => decisoes(texto(query, "q"), limite(query), deslocamento(query)),
   },

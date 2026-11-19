@@ -737,7 +737,7 @@ function main() {
     so_cbo: 25,
     so_qbq: 4,
     titulo_divergente: 35,
-    decisao: 18,
+    decisao: 20,
   };
   const obtido: Record<string, number> = {
     "cbo_no grande_grupo": contar("SELECT count(*) n FROM cbo_no WHERE nivel = 'grande_grupo'"),

@@ -1,5 +1,5 @@
 /** Release fixada. As camadas mantêm a publicação em que foram geradas (D016). */
-export const VERSAO_DADOS = "dados-2026.11.1";
+export const VERSAO_DADOS = "dados-2026.11.2";
 
 /** Prefixo público da API. Pedidos a /v1 recebem redirecionamento permanente. */
 export const PREFIXO_API = "/api/v1";
@@ -17,7 +17,7 @@ export const VERSAO_CAMADAS = {
 } as const;
 
 export const REPOSITORIO_DADOS = "https://github.com/ciencia-social/cbo-qbq-dados";
-export const TAG_DADOS = "dados-2026.11.1";
+export const TAG_DADOS = "dados-2026.11.2";
 
 /** Anexos que o workflow de release de cbo-qbq-dados publica (docs/versionamento.md). */
 export const ANEXOS_RELEASE = ["qbq.sqlite.gz", "qbq.sql.gz", "MANIFEST.sha256"] as const;
