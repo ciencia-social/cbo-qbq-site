@@ -2,6 +2,20 @@
   "name": "cbo-qbq-site",
   "version": "0.1.0",
   "private": true,
+  "description": "API REST, servidor MCP e site da Classificação Brasileira de Ocupações (CBO) e do Quadro Brasileiro de Qualificações (QBQ), somente leitura, a partir do cbo-qbq-dados.",
+  "license": "MIT",
+  "author": {
+    "name": "Wil Fernandes",
+    "url": "https://orcid.org/0009-0008-3477-5521"
+  },
+  "homepage": "https://cbo.ciencia.social",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciencia-social/cbo-qbq-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ciencia-social/cbo-qbq-site/issues"
+  },
   "type": "module",
   "engines": {
     "node": ">=22.13"
