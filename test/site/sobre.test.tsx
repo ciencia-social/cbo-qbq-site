@@ -2,6 +2,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import { carregarSobre } from "@/site/sobre";
 import { PaginaSobre } from "@/site/sobre-view";
+import { CITACAO_DADOS, CITACAO_SOFTWARE, DECLARACAO_IA, DOI_DADOS } from "@/versao";
 
 describe("sobre", () => {
   it("reúne versão, cobertura, o literal NULL e as decisões", () => {
@@ -23,8 +24,26 @@ describe("sobre", () => {
     expect(html).toContain("NULL");
     expect(html).toContain("54");
     expect(html).toContain("/api/v1/decisoes/D015");
-    expect(html).toContain("[DESCREVER EM QUE ETAPAS DO PROJETO A IA FOI USADA, COM QUAL FERRAMENTA E COMO O RESULTADO FOI CONFERIDO]");
+    expect(html).toContain(escapar(DECLARACAO_IA));
     expect(html).toContain("https://github.com/ciencia-social/cbo-qbq-dados");
     expect(html).not.toMatch(/Fonte:/);
   });
+
+  it("mostra a citação, as licenças, a não oficialidade e a privacidade (P6, P12)", () => {
+    const html = renderToStaticMarkup(<PaginaSobre vista={carregarSobre()} />);
+    for (const titulo of ["Como citar", "Licenças", "Sobre este serviço", "Privacidade", "Uso de IA"]) {
+      expect(html).toContain(`>${titulo}</h2>`);
+      expect(html).toContain(`>${titulo}</a>`);
+    }
+    expect(html).toContain(escapar(CITACAO_DADOS));
+    expect(html).toContain(escapar(CITACAO_SOFTWARE));
+    expect(html).toContain(DOI_DADOS.versao);
+    expect(html).toContain(DOI_DADOS.conceito);
+    expect(html).toContain("sem vínculo com o Ministério do Trabalho e Emprego");
+    expect(html).toContain("cs-tema");
+  });
 });
+
+function escapar(texto: string) {
+  return texto.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}

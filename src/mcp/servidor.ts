@@ -3,9 +3,10 @@ import { definicoes, executarTool, INSTRUCOES, somenteLeitura, textoMcp } from "
 import { Problema } from "@/http/erros";
 import { registrarPrompts } from "@/mcp/prompts";
 import { registrarRecursos } from "@/mcp/recursos";
+import { VERSAO_SERVICO } from "@/versao";
 
 export function criarServidor() {
-  const servidor = new McpServer({ name: "cbo-qbq", version: "0.1.0" }, { instructions: INSTRUCOES });
+  const servidor = new McpServer({ name: "cbo-qbq", version: VERSAO_SERVICO }, { instructions: INSTRUCOES });
   for (const ferramenta of definicoes) {
     servidor.registerTool(
       ferramenta.nome,

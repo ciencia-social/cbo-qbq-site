@@ -2,7 +2,7 @@ import { obterOcupacao } from "@/consulta/ocupacao";
 import { coberturaResumo } from "@/consulta/derivado";
 import { decisoes, fontes, versao } from "@/consulta/meta";
 import { todos } from "@/dados/banco";
-import { LICENCA, REPOSITORIO_DADOS } from "@/versao";
+import { DECLARACAO_IA, doiUrl, FONTES_OFICIAIS, LICENCAS, REPOSITORIO_DADOS, REPOSITORIO_SERVICO } from "@/versao";
 
 const CAMADA: Record<string, string> = {
   cbo_espinha: "Espinha da CBO",
@@ -22,7 +22,9 @@ export function carregarSobre() {
     versao_dados: string;
     versao_schema: string;
     camadas: Record<string, string>;
-    licenca: { nome: string; url: string; citacao: string };
+    doi: { conceito: string; versao: string };
+    doi_software: string | null;
+    citacao: { dados: string; software: string; bibtex_dados: string; bibtex_software: string };
     repositorio_dados: string;
   };
   const cobertura = coberturaResumo().dados as {
@@ -44,9 +46,15 @@ export function carregarSobre() {
     exemplo,
     nulas,
     decisoes: registros,
-    licenca: dados.licenca.nome || LICENCA.nome,
-    citacao: dados.licenca.citacao,
+    licenca: LICENCAS.dados.nome,
+    licencas: LICENCAS,
+    citacao: dados.citacao,
+    doi: { conceito: dados.doi.conceito, versao: dados.doi.versao, conceito_url: doiUrl(dados.doi.conceito), versao_url: doiUrl(dados.doi.versao) },
+    doiSoftware: dados.doi_software ? { doi: dados.doi_software, url: doiUrl(dados.doi_software) } : null,
+    fontesOficiais: FONTES_OFICIAIS,
+    declaracaoIa: DECLARACAO_IA,
     repositorio: dados.repositorio_dados || REPOSITORIO_DADOS,
+    repositorioServico: REPOSITORIO_SERVICO,
   };
 }
 

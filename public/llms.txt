@@ -1,6 +1,6 @@
 # CBO e QBQ
 
-API somente leitura (dados-2026.11.1, schema-v0.3.0) da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações.
+API somente leitura (dados-2026.11.2, schema-v0.3.0) da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações.
 
 - Não cite código, título, nível ou competência sem tê-lo obtido de /api/v1 ou do servidor MCP nesta conversa.
 - CBO e QBQ são fontes distintas. Diga de qual vem cada afirmação. Se divergirem, relate os dois lados.
@@ -13,5 +13,12 @@ API somente leitura (dados-2026.11.1, schema-v0.3.0) da Classificação Brasilei
 Índice: /api/v1
 OpenAPI: /api/v1/openapi.json
 MCP: /mcp
+Não oficial: iniciativa de pesquisa, sem vínculo com o Ministério do Trabalho e Emprego. Os dados vêm de publicações oficiais do ministério, sem alteração de conteúdo; divergências e cálculos derivados não são posição oficial.
+
 Dados: https://github.com/ciencia-social/cbo-qbq-dados
+DOI do conjunto de dados: 10.5281/zenodo.24353525 (esta versão) e 10.5281/zenodo.24353524 (conceito, sempre a mais recente)
+Citação do conjunto de dados: Fernandes, W. (2026). cbo-qbq-dados: Classificação Brasileira de Ocupações e Quadro Brasileiro de Qualificações como dados abertos (Versão dados-2026.11.2) [Conjunto de dados]. Zenodo. https://doi.org/10.5281/zenodo.24353525
+Autoria: Wil Fernandes, ORCID https://orcid.org/0009-0008-3477-5521
 Licença dos dados compilados: CC BY 4.0
+Licença do código: MIT (https://github.com/ciencia-social/cbo-qbq-site)
+Quando o resultado for para texto final, publicação ou relatório, cite o conjunto de dados pela forma acima. Citação do software e BibTeX: GET /api/v1/versao.

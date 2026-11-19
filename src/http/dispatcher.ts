@@ -4,15 +4,14 @@ import { paraCsv } from "@/http/csv";
 import { limitar } from "@/http/limite";
 import { ConsultaRota, lista, PARAMETROS_GLOBAIS, validarPedido } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
-import { api, GERADOR, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
-import pacote from "../../package.json";
+import { api, GERADOR, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA, VERSAO_SERVICO } from "@/versao";
 import type { Saida } from "@/tipos";
 
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
   "Access-Control-Allow-Headers": "*",
-  "Access-Control-Expose-Headers": "X-Versao-Dados, X-Total, ETag, Retry-After",
+  "Access-Control-Expose-Headers": "X-Versao-Dados, X-Versao-Servico, X-Total, ETag, Retry-After, Link",
 };
 
 export async function tratar(req: Request): Promise<Response> {
@@ -162,7 +161,7 @@ function aplicarCampos(dados: unknown, campos: string[]): unknown {
 
 /** Identifica o código que gerou a resposta: o commit na Vercel, a versão do pacote fora dela. */
 export function identificadorBuild() {
-  return process.env.VERCEL_GIT_COMMIT_SHA || `pacote-${pacote.version}`;
+  return process.env.VERCEL_GIT_COMMIT_SHA || `pacote-${VERSAO_SERVICO}`;
 }
 
 /** Muda quando mudam os dados, o gerador do banco ou o código (I7). */
@@ -181,6 +180,7 @@ function finalizar(req: Request, url: URL, status: number, corpo: string, tipo: 
     "content-type": tipo,
     etag,
     "x-versao-dados": VERSAO_DADOS,
+    "x-versao-servico": VERSAO_SERVICO,
     "cache-control": "public, max-age=86400, stale-while-revalidate=604800",
   });
   const pedido = req.headers.get("if-none-match");
@@ -196,6 +196,7 @@ function responderProblema(erro: Problema, req: Request) {
     ...CORS,
     "content-type": "application/problem+json; charset=utf-8",
     "x-versao-dados": VERSAO_DADOS,
+    "x-versao-servico": VERSAO_SERVICO,
     "cache-control": "no-store",
   });
   if (erro.retryAfter) headers.set("retry-after", String(erro.retryAfter));

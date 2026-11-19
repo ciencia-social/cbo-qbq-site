@@ -1,8 +1,6 @@
-import { Callout, DataTable, Disclosure, Icon, ReportHeader, Toc } from "@/ui/componentes";
+import { Callout, CodeBlock, DataTable, Disclosure, Icon, ReportHeader, Toc } from "@/ui/componentes";
 import { formato } from "@/ui/formato";
 import type { VistaSobre } from "@/site/sobre";
-
-const DECLARACAO_IA = "[DESCREVER EM QUE ETAPAS DO PROJETO A IA FOI USADA, COM QUAL FERRAMENTA E COMO O RESULTADO FOI CONFERIDO]";
 
 export function PaginaSobre({ vista }: { vista: VistaSobre }) {
   return (
@@ -81,15 +79,54 @@ export function PaginaSobre({ vista }: { vista: VistaSobre }) {
             ))}
           </ol>
 
-          <h2 id="citar">Licença e como citar</h2>
-          <p>O conteúdo provém de atos oficiais, que não são objeto de proteção autoral (art. 8º, IV, da Lei 9.610/1998). A compilação estruturada é licenciada sob {vista.licenca}; o código, sob MIT.</p>
-          <Callout kind="nota" label="Atribuição sugerida">
-            <p style={{ margin: 0 }}>{vista.citacao} Versão {vista.versao}.</p>
+          <h2 id="citar">Como citar</h2>
+          <p>
+            Quem usa os dados numa pesquisa cita o conjunto de dados. Quem usa a API, o servidor MCP ou o código cita também o software. As duas citações creditam a origem: a CBO e o QBQ são publicações oficiais do Ministério do Trabalho e Emprego.
+          </p>
+          <Callout kind="nota" label="Conjunto de dados">
+            <p style={{ margin: 0 }}>{vista.citacao.dados}</p>
           </Callout>
+          <CodeBlock lang="bibtex" title="BibTeX do conjunto de dados" code={vista.citacao.bibtex_dados} />
+          <p>
+            O DOI de versão, <a href={vista.doi.versao_url}>{vista.doi.versao}</a>, aponta para exatamente esta versão ({vista.versao}) e é o que se usa para dizer o que foi consultado. O DOI de conceito, <a href={vista.doi.conceito_url}>{vista.doi.conceito}</a>, aponta sempre para a versão mais recente.
+          </p>
+          <Callout kind="nota" label="Software">
+            <p style={{ margin: 0 }}>{vista.citacao.software}</p>
+          </Callout>
+          <CodeBlock lang="bibtex" title="BibTeX do software" code={vista.citacao.bibtex_software} />
+          <p>
+            {vista.doiSoftware ? (
+              <>O DOI de conceito do software é <a href={vista.doiSoftware.url}>{vista.doiSoftware.doi}</a>.</>
+            ) : (
+              <>O software ainda não tem DOI; até lá, a citação aponta para o <a href={vista.repositorioServico}>repositório</a>.</>
+            )}
+          </p>
+
+          <h2 id="licencas">Licenças</h2>
+          <p>
+            O conteúdo provém de atos oficiais, que não são objeto de proteção autoral (art. 8º, IV, da Lei 9.610/1998). A compilação estruturada dos dados é licenciada sob <a href={vista.licencas.dados.url}>{vista.licencas.dados.nome}</a>. O código do site, da API e do MCP é licenciado sob <a href={vista.licencas.codigo.url}>{vista.licencas.codigo.nome}</a>.
+          </p>
+
+          <h2 id="servico">Sobre este serviço</h2>
+          <p>
+            Este serviço é uma iniciativa de pesquisa, sem vínculo com o Ministério do Trabalho e Emprego. Os dados vêm de publicações oficiais do ministério e são servidos sem alteração de conteúdo; as divergências entre as fontes e os cálculos derivados não são posição oficial. Para fins oficiais, consulte as publicações do ministério:{" "}
+            {vista.fontesOficiais.map((url, indice) => (
+              <span key={url}>
+                {indice ? " e " : ""}
+                <a href={url}>{indice ? "QBQ" : "CBO"}</a>
+              </span>
+            ))}
+            .
+          </p>
+
+          <h2 id="privacidade">Privacidade</h2>
+          <p>
+            O site não usa cookies nem ferramenta de análise. Guarda no navegador só a preferência de tema (<code>localStorage</code>, chave <code>cs-tema</code>). A API e o servidor MCP não guardam o conteúdo das consultas. A hospedagem (Vercel) registra endereço IP e dados técnicos de acesso por razão de segurança, conforme a política dela.
+          </p>
 
           <h2 id="ia">Uso de IA</h2>
           <Callout kind="ia" label="Declaração de uso de IA">
-            <p style={{ margin: 0 }}>{DECLARACAO_IA}</p>
+            <p style={{ margin: 0 }}>{vista.declaracaoIa}</p>
           </Callout>
         </div>
         <aside style={{ flex: "1 1 12rem", maxWidth: "16rem", minWidth: 0, paddingTop: "var(--space-2)" }}>
@@ -99,7 +136,10 @@ export function PaginaSobre({ vista }: { vista: VistaSobre }) {
               { href: "#versoes", label: "Versões por camada" },
               { href: "#cobertura", label: "Cobertura entre as camadas" },
               { href: "#decisoes", label: "Decisões de modelagem" },
-              { href: "#citar", label: "Licença e como citar" },
+              { href: "#citar", label: "Como citar" },
+              { href: "#licencas", label: "Licenças" },
+              { href: "#servico", label: "Sobre este serviço" },
+              { href: "#privacidade", label: "Privacidade" },
               { href: "#ia", label: "Uso de IA" },
             ]}
           />

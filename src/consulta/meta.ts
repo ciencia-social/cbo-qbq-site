@@ -2,7 +2,28 @@ import { todos, um } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { normalizarArquivo } from "@/tipos";
-import { ANEXOS_RELEASE, api, LICENCA, REPOSITORIO_DADOS, TAG_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import {
+  ANEXOS_RELEASE,
+  api,
+  AUTOR,
+  BIBTEX_DADOS,
+  BIBTEX_SOFTWARE,
+  CITACAO_DADOS,
+  CITACAO_SOFTWARE,
+  DOI_DADOS,
+  DOI_SOFTWARE_CONCEITO,
+  doiUrl,
+  FONTES_OFICIAIS,
+  LICENCA,
+  LICENCAS,
+  REPOSITORIO_DADOS,
+  REPOSITORIO_SERVICO,
+  TAG_DADOS,
+  VERSAO_CAMADAS,
+  VERSAO_DADOS,
+  VERSAO_SCHEMA,
+  VERSAO_SERVICO,
+} from "@/versao";
 import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Saida } from "@/tipos";
 import { estatisticas } from "@/consulta/derivado";
@@ -20,8 +41,23 @@ export function versao(): Saida {
       dados_tag: lerMeta("dados_tag"),
       camadas: VERSAO_CAMADAS,
       contagens: (estatisticas().dados as object),
+      versao_servico: VERSAO_SERVICO,
+      doi: { conceito: DOI_DADOS.conceito, versao: DOI_DADOS.versao },
+      doi_software: DOI_SOFTWARE_CONCEITO,
+      citacao: {
+        dados: CITACAO_DADOS,
+        software: CITACAO_SOFTWARE,
+        bibtex_dados: BIBTEX_DADOS,
+        bibtex_software: BIBTEX_SOFTWARE,
+        doi_url: doiUrl(DOI_DADOS.versao),
+      },
+      autor: { nome: AUTOR.nome, orcid: AUTOR.orcid },
+      licencas: LICENCAS,
+      /** Obsoleto: mantido por compatibilidade. Use `licencas` e `citacao`. */
       licenca: LICENCA,
+      fontes_oficiais: FONTES_OFICIAIS,
       repositorio_dados: REPOSITORIO_DADOS,
+      repositorio_servico: REPOSITORIO_SERVICO,
       ressalvas: [
         "52 ocupações não têm nível no QBQ e trazem justificativa oficial; 3 não têm nível nem justificativa (D010).",
         "25 códigos existem só na CBO, 4 só no QBQ e 35 têm título diferente (D015).",
@@ -102,7 +138,7 @@ export function sobre(topico?: string, id?: string): Saida {
   if (topico === "versao") return versao();
   if (topico === "fontes") return fontes();
   if (topico === "licenca") return { dados: LICENCA };
-  if (topico === "decisoes") return id ? decisao(id) : decisoes(undefined, 18, 0);
+  if (topico === "decisoes") return id ? decisao(id) : decisoes(undefined, 20, 0);
   if (topico === "cobertura") {
     return {
       dados: {

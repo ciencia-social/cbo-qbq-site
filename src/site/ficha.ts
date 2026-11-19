@@ -3,7 +3,7 @@ import { ancestralDe } from "@/consulta/formatar";
 import { atividades, comparar, competencias, obterOcupacao, similares } from "@/consulta/ocupacao";
 import { Problema } from "@/http/erros";
 import { tresCasas } from "@/ui/formato";
-import { VERSAO_DADOS } from "@/versao";
+import { citacaoFicha } from "@/versao";
 
 export type ConsultaFicha = {
   transversais: "incluir" | "excluir" | "somente";
@@ -220,6 +220,6 @@ export function carregarFicha(entrada: string, consulta: ConsultaFicha, hoje = n
       rotulo: tresCasas(item.similaridade),
     })),
     comparacao,
-    citacao: `CBO-QBQ-DADOS. Ocupação ${bruta.codigo_formatado}: ${titulo}. Versão ${VERSAO_DADOS}. Disponível em: https://cbo.ciencia.social/ocupacoes/${bruta.codigo}. Acesso em: ${dataPorExtenso(hoje)}.`,
+    citacao: citacaoFicha(bruta.codigo_formatado, titulo, dataPorExtenso(hoje)),
   };
 }

@@ -15,7 +15,7 @@ import { buscarTermos, listarTermos, naoClassificadas, obterTermo, ocupacoesDoTe
 import { Problema } from "@/http/erros";
 import { exigirTetoConsulta, faixaDeParams, TETO } from "@/http/parametros";
 import type { Saida } from "@/tipos";
-import { api, VERSAO_DADOS } from "@/versao";
+import { api, CITACAO_DADOS, VERSAO_DADOS } from "@/versao";
 
 export const INSTRUCOES = [
   "Nunca cite código CBO, título, nível ou competência sem tê-lo obtido de uma tool nesta conversa.",
@@ -23,6 +23,7 @@ export const INSTRUCOES = [
   "Nível (1–8) e graus (1–5) são escalas ordinais oficiais.",
   "Similaridade, rankings e resumos são cálculos derivados, não dado oficial.",
   "Ausência de nível ou de perfil é informação a relatar com a justificativa, não lacuna a preencher.",
+  `Os dados vêm de publicações oficiais do Ministério do Trabalho e Emprego, compiladas no cbo-qbq-dados sob a licença CC BY 4.0. Quando o resultado for para texto final, publicação ou relatório, cite o conjunto de dados assim: ${CITACAO_DADOS}`,
 ].join(" ");
 
 const somenteLeitura = { readOnlyHint: true, idempotentHint: true, destructiveHint: false, openWorldHint: false };

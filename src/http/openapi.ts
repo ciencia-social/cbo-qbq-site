@@ -1,6 +1,6 @@
 import { PARAMETROS_GLOBAIS, type Parametro } from "@/http/parametros";
 import type { Rota } from "@/http/rotas";
-import { api, PREFIXO_API, VERSAO_DADOS } from "@/versao";
+import { api, DOI_DADOS, DOI_SOFTWARE_CONCEITO, LICENCAS, PREFIXO_API, REPOSITORIO_DADOS, REPOSITORIO_SERVICO, SITE, VERSAO_DADOS, VERSAO_SERVICO } from "@/versao";
 
 /** Documento OpenAPI 3.1. Parâmetros, esquemas e documentação do site saem das mesmas declarações. */
 
@@ -124,11 +124,25 @@ const ESQUEMAS: Record<string, Esquema> = {
       dados_tag: { type: ["string", "null"], description: "A tag fixada, quando o commit é o dela; null quando o banco saiu de outra árvore." },
       camadas: objeto({ cbo_espinha: texto, cbo_perfil: texto, qbq: texto }),
       contagens: { type: "object", additionalProperties: { type: "integer" } },
-      licenca: objeto({ nome: texto, url: texto, citacao: texto }),
+      versao_servico: { type: "string", description: "Versão do software (semver), independente da versão dos dados." },
+      doi: objeto({ conceito: texto, versao: texto }, ["conceito", "versao"]),
+      doi_software: { type: ["string", "null"], description: "DOI de conceito do software; null até a primeira release no Zenodo." },
+      citacao: objeto(
+        { dados: texto, software: texto, bibtex_dados: texto, bibtex_software: texto, doi_url: texto },
+        ["dados", "software", "bibtex_dados", "bibtex_software", "doi_url"],
+      ),
+      autor: objeto({ nome: texto, orcid: texto }, ["nome", "orcid"]),
+      licencas: objeto({
+        dados: objeto({ nome: texto, spdx: texto, url: texto }),
+        codigo: objeto({ nome: texto, spdx: texto, url: texto }),
+      }),
+      licenca: { ...objeto({ nome: texto, url: texto, citacao: texto }), deprecated: true, description: "Obsoleto. Use licencas e citacao." },
+      fontes_oficiais: lista(texto),
       repositorio_dados: texto,
+      repositorio_servico: texto,
       ressalvas: lista(texto),
     },
-    ["versao_dados", "versao_schema", "dados_commit", "dados_tag", "camadas", "contagens", "licenca", "repositorio_dados"],
+    ["versao_dados", "versao_schema", "dados_commit", "dados_tag", "camadas", "contagens", "versao_servico", "doi", "doi_software", "citacao", "autor", "licencas", "licenca", "repositorio_dados", "repositorio_servico"],
   ),
   R14_No: objeto(
     {
@@ -399,8 +413,15 @@ export function montarOpenApi(rotas: readonly Rota[]) {
       version: VERSAO_DADOS,
       summary: "API somente leitura da Classificação Brasileira de Ocupações e do Quadro Brasileiro de Qualificações.",
       description:
-        "Toda resposta 200 vem no envelope dados/meta/links, exceto /openapi.json. Os esquemas de dados publicados cobrem R02, R14, R17, R20, R21, R23, R24, R42 e R43; nas demais rotas, dados é um objeto ou lista sem esquema publicado nesta versão.",
+        `Toda resposta 200 vem no envelope dados/meta/links, exceto /openapi.json. Os esquemas de dados publicados cobrem R02, R14, R17, R20, R21, R23, R24, R42 e R43; nas demais rotas, dados é um objeto ou lista sem esquema publicado nesta versão. A API está sob a licença ${LICENCAS.codigo.nome}. Os dados servidos estão sob ${LICENCAS.dados.nome} (${LICENCAS.dados.url}); a citação está em ${PREFIXO_API}/versao.`,
+      termsOfService: `${SITE}/sobre`,
+      contact: { name: "Issues do cbo-qbq-site", url: `${REPOSITORIO_SERVICO}/issues` },
+      license: { name: LICENCAS.codigo.nome, identifier: LICENCAS.codigo.spdx },
+      "x-versao-servico": VERSAO_SERVICO,
+      "x-licenca-dados": { name: LICENCAS.dados.nome, identifier: LICENCAS.dados.spdx, url: LICENCAS.dados.url },
+      "x-doi": { dados_conceito: DOI_DADOS.conceito, dados_versao: DOI_DADOS.versao, software_conceito: DOI_SOFTWARE_CONCEITO },
     },
+    externalDocs: { description: "Repositório de dados: modelo, decisões e fontes", url: REPOSITORIO_DADOS },
     servers: [{ url: "https://cbo.ciencia.social" }],
     tags: tags.map((nome) => ({ name: nome })),
     paths,

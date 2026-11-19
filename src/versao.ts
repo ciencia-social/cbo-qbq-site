@@ -1,3 +1,5 @@
+import pacote from "../package.json" with { type: "json" };
+
 /** Release fixada. As camadas mantêm a publicação em que foram geradas (D016). */
 export const VERSAO_DADOS = "dados-2026.11.2";
 
@@ -22,11 +24,93 @@ export const TAG_DADOS = "dados-2026.11.2";
 /** Anexos que o workflow de release de cbo-qbq-dados publica (docs/versionamento.md). */
 export const ANEXOS_RELEASE = ["qbq.sqlite.gz", "qbq.sql.gz", "MANIFEST.sha256"] as const;
 
-export const CITACAO =
-  "cbo-qbq-dados — CBO e QBQ como dados abertos (github.com/ciencia-social/cbo-qbq-dados), a partir de dados oficiais do MTE.";
+/** Versão do software (semver), lida do package.json. Independe da versão dos dados (P8). */
+export const VERSAO_SERVICO: string = pacote.version;
 
+export const SITE = "https://cbo.ciencia.social";
+export const REPOSITORIO_SERVICO = "https://github.com/ciencia-social/cbo-qbq-site";
+
+/** Autoria, como no CITATION.cff do cbo-qbq-dados. */
+export const AUTOR = {
+  nome: "Wil Fernandes",
+  nome_citacao: "Fernandes, W.",
+  orcid: "https://orcid.org/0009-0008-3477-5521",
+} as const;
+
+/** DOIs do conjunto de dados, cunhados pelo Zenodo na release dados-2026.11.2 (VERSAO.json do cbo-qbq-dados). */
+export const DOI_DADOS = {
+  conceito: "10.5281/zenodo.24353524",
+  versao: "10.5281/zenodo.24353525",
+} as const;
+export const ANO_DADOS = "2026";
+
+/**
+ * DOI de conceito do software. Só existe depois da primeira release no Zenodo (P14b).
+ * Enquanto for null, a citação do software aponta para o repositório.
+ * Marcador para o mantenedor: <DOI_SITE_CONCEITO>.
+ */
+export const DOI_SOFTWARE_CONCEITO: string | null = null;
+export const ANO_SOFTWARE = "2026";
+
+export const LICENCAS = {
+  dados: { nome: "CC BY 4.0", spdx: "CC-BY-4.0", url: "https://creativecommons.org/licenses/by/4.0/deed.pt-br" },
+  codigo: { nome: "MIT", spdx: "MIT", url: "https://opensource.org/licenses/MIT" },
+} as const;
+
+export const FONTES_OFICIAIS = [
+  "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/cbo/servicos/downloads",
+  "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/quadro-brasileiro-de-qualificacoes-qbq",
+] as const;
+
+const TITULO_DADOS = "cbo-qbq-dados: Classificação Brasileira de Ocupações e Quadro Brasileiro de Qualificações como dados abertos";
+const TITULO_SOFTWARE = "cbo-qbq-site: API REST e servidor MCP da CBO e do QBQ";
+
+export const doiUrl = (doi: string) => `https://doi.org/${doi}`;
+
+/**
+ * Citação do conjunto de dados. Idêntica, palavra por palavra, à atribuição de dados/LICENSE.md
+ * do cbo-qbq-dados (T6 do plano dos dados). É a única string de citação do dado no código (P6).
+ */
+export const CITACAO_DADOS = `${AUTOR.nome_citacao} (${ANO_DADOS}). ${TITULO_DADOS} (Versão ${VERSAO_DADOS}) [Conjunto de dados]. Zenodo. ${doiUrl(DOI_DADOS.versao)}`;
+
+/** Citação do software. Sem DOI até a primeira release no Zenodo; depois, com o DOI de conceito. */
+export const CITACAO_SOFTWARE = `${AUTOR.nome_citacao} (${ANO_SOFTWARE}). ${TITULO_SOFTWARE} (Versão ${VERSAO_SERVICO}) [Software]. ${
+  DOI_SOFTWARE_CONCEITO ? `Zenodo. ${doiUrl(DOI_SOFTWARE_CONCEITO)}` : REPOSITORIO_SERVICO
+}`;
+
+/** Citação de uma ficha: a do conjunto de dados, mais a ocupação, a página e a data de acesso. */
+export function citacaoFicha(codigoFormatado: string, titulo: string, acesso: string) {
+  const codigo = codigoFormatado.replace(/\D/g, "");
+  return `${CITACAO_DADOS}. Ocupação ${codigoFormatado}: ${titulo}. ${SITE}/ocupacoes/${codigo}. Acesso em: ${acesso}.`;
+}
+
+export const BIBTEX_DADOS = `@dataset{fernandes_${ANO_DADOS}_cbo_qbq_dados,
+  author    = {Fernandes, Wil},
+  title     = {${TITULO_DADOS}},
+  year      = {${ANO_DADOS}},
+  version   = {${VERSAO_DADOS}},
+  publisher = {Zenodo},
+  doi       = {${DOI_DADOS.versao}},
+  url       = {${doiUrl(DOI_DADOS.versao)}}
+}`;
+
+export const BIBTEX_SOFTWARE = `@software{fernandes_${ANO_SOFTWARE}_cbo_qbq_site,
+  author    = {Fernandes, Wil},
+  title     = {${TITULO_SOFTWARE}},
+  year      = {${ANO_SOFTWARE}},
+  version   = {${VERSAO_SERVICO}},
+${DOI_SOFTWARE_CONCEITO ? `  publisher = {Zenodo},\n  doi       = {${DOI_SOFTWARE_CONCEITO}},\n  url       = {${doiUrl(DOI_SOFTWARE_CONCEITO)}}` : `  url       = {${REPOSITORIO_SERVICO}}`}
+}`;
+
+/** Campo antigo de /api/v1/versao, mantido por compatibilidade. Prefira `licencas` e `citacao`. */
 export const LICENCA = {
-  nome: "CC BY 4.0",
-  url: "https://creativecommons.org/licenses/by/4.0/deed.pt-br",
-  citacao: CITACAO,
+  nome: LICENCAS.dados.nome,
+  url: LICENCAS.dados.url,
+  citacao: CITACAO_DADOS,
 };
+
+/**
+ * Declaração de uso de IA, escrita pelo mantenedor (P4). Aparece em /sobre e em docs/USO-DE-IA.md.
+ * O teste test/abertura.test.ts falha enquanto o marcador estiver aqui.
+ */
+export const DECLARACAO_IA = "<DECLARACAO_IA>";
