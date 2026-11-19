@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # CBO_QBQ_DADOS vazio e sem pasta irmã: o script clona a tag fixada,
+      # como na produção. O repositório de dados é público; não há segredos.
+      - name: Construir o banco a partir da tag
+        run: npm run dados
+        env:
+          CBO_QBQ_DADOS: ""
+
+      - name: Checar tipos
+        run: npm run typecheck
+
+      - name: Testes
+        run: npm test
+
+      - name: Build
+        run: npx next build
