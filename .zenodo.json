@@ -1,0 +1,39 @@
+{
+  "upload_type": "software",
+  "title": "cbo-qbq-site: API REST e servidor MCP da CBO e do QBQ",
+  "creators": [
+    {
+      "name": "Fernandes, Wil",
+      "orcid": "0009-0008-3477-5521"
+    }
+  ],
+  "description": "<p>API REST, servidor MCP e site, somente leitura, da Classificação Brasileira de Ocupações (CBO) e do Quadro Brasileiro de Qualificações (QBQ). A consulta está em https://cbo.ciencia.social: a API em /api/v1 (com documento OpenAPI), o servidor MCP em /mcp e uma ficha navegável para cada ocupação. CBO e QBQ são tratados como fontes distintas: quando divergem, as respostas mostram os dois lados, e similaridades, rankings e resumos são marcados como cálculos derivados.</p><p>Os dados vêm do conjunto de dados cbo-qbq-dados (DOI 10.5281/zenodo.24353524), compilado a partir das publicações oficiais do Ministério do Trabalho e Emprego e licenciado sob CC BY 4.0. Este registro arquiva o código do serviço, licenciado sob MIT; cada resposta informa a versão dos dados que serve.</p>",
+  "license": "MIT",
+  "language": "por",
+  "access_right": "open",
+  "keywords": [
+    "Classificação Brasileira de Ocupações",
+    "Quadro Brasileiro de Qualificações",
+    "CBO",
+    "QBQ",
+    "ocupações",
+    "API",
+    "MCP",
+    "dados abertos",
+    "Brasil"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24353524",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://cbo.ciencia.social/docs",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ]
+}

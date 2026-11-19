@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Se usar a API, o servidor MCP ou o código, cite o software conforme abaixo. Se usar os dados, cite também o conjunto de dados (references)."
+type: software
+title: "cbo-qbq-site: API REST e servidor MCP da CBO e do QBQ"
+abstract: "API REST, servidor MCP e site, somente leitura, da Classificação Brasileira de Ocupações (CBO) e do Quadro Brasileiro de Qualificações (QBQ), a partir do conjunto de dados cbo-qbq-dados."
+authors:
+  - family-names: "Fernandes"
+    given-names: "Wil"
+    alias: "Wilmar Fernandes da Silva Junior"
+    orcid: "https://orcid.org/0009-0008-3477-5521"
+license: MIT
+repository-code: "https://github.com/ciencia-social/cbo-qbq-site"
+url: "https://cbo.ciencia.social"
+keywords:
+  - Classificação Brasileira de Ocupações
+  - Quadro Brasileiro de Qualificações
+  - CBO
+  - QBQ
+  - ocupações
+  - API
+  - MCP
+  - dados abertos
+  - Brasil
+# Preencher depois da primeira release no Zenodo (P14b), com o DOI de conceito:
+# identifiers:
+#   - type: doi
+#     value: "<DOI_SITE_CONCEITO>"
+#     description: "DOI de conceito: sempre a versão mais recente."
+references:
+  - type: dataset
+    title: "cbo-qbq-dados: Classificação Brasileira de Ocupações e Quadro Brasileiro de Qualificações como dados abertos"
+    authors:
+      - family-names: "Fernandes"
+        given-names: "Wil"
+        orcid: "https://orcid.org/0009-0008-3477-5521"
+    doi: "10.5281/zenodo.24353524"
+    repository-code: "https://github.com/ciencia-social/cbo-qbq-dados"
+    license: CC-BY-4.0
