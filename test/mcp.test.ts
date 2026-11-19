@@ -48,6 +48,16 @@ const casos: [string, Record<string, unknown>][] = [
   ["cobertura_consultar", {}],
 ];
 
+/** Lê properties[campo].enum de um inputSchema, conferindo a forma em tempo de execução. */
+function enumDe(schema: unknown, campo: string): unknown {
+  if (!schema || typeof schema !== "object") return undefined;
+  const propriedades: unknown = (schema as Record<string, unknown>).properties;
+  if (!propriedades || typeof propriedades !== "object") return undefined;
+  const propriedade: unknown = (propriedades as Record<string, unknown>)[campo];
+  if (!propriedade || typeof propriedade !== "object") return undefined;
+  return (propriedade as Record<string, unknown>).enum;
+}
+
 describe("T2 descrição das tools", () => {
   it("tools/list descreve cada parâmetro, enumera dimensao e dá title", async () => {
     const lista = await cliente.listTools();
@@ -61,8 +71,9 @@ describe("T2 descrição das tools", () => {
     }
     for (const nome of ["ocupacao_comparar", "ocupacao_similares", "cbo_resumir_grupo"]) {
       const tool = lista.tools.find((item) => item.name === nome);
-      const dimensao = (tool?.inputSchema as { properties: { dimensao: { enum?: string[] } } }).properties.dimensao;
-      expect(dimensao.enum).toEqual(["habilidades", "atitudes", "conhecimentos", "conhecimentos-i", "conhecimentos-ii"]);
+      expect(tool, nome).toBeDefined();
+      const dimensao = enumDe(tool?.inputSchema, "dimensao");
+      expect(dimensao).toEqual(["habilidades", "atitudes", "conhecimentos", "conhecimentos-i", "conhecimentos-ii"]);
     }
   });
 });
@@ -86,7 +97,7 @@ describe("T9 HTTP sem sessão", () => {
     const pagina = await GET(new Request("http://localhost/mcp", { headers: { accept: "text/html" } }));
     expect(pagina.status).toBe(307);
     expect(pagina.headers.get("location")).toBe("/docs/mcp");
-    const apagar = await DELETE(new Request("http://localhost/mcp", { method: "DELETE" }));
+    const apagar = await DELETE();
     expect(apagar.status).toBe(405);
   });
 
