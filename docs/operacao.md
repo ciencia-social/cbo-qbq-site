@@ -100,3 +100,20 @@ curl -sI https://cbo.ciencia.social/api/v1/versao | grep -i x-vercel-id
 ```
 
 Esperado: o valor contém `gru1::gru1` (borda e função em São Paulo). Se aparecer `gru1::iad1`, confira em *Settings → Functions → Function Region* se o painel sobrepõe o arquivo.
+
+## Cache das páginas (I12)
+
+As páginas leem `searchParams` (filtros da ficha, busca, paginação) e por isso são dinâmicas para o Next; `export const revalidate` não teria efeito nelas. Gerar as 2.698 fichas no build foi descartado: o build passaria de cerca de 14 s para cerca de 3 min e a saída teria cerca de 277 MB, e as variantes por consulta continuariam dinâmicas.
+
+O cache fica na CDN da Vercel: `next.config.ts` manda `Vercel-CDN-Cache-Control: max-age=86400, stale-while-revalidate=604800` em `/`, `/ocupacoes`, `/ocupacoes/:codigo`, `/competencias/*`, `/docs/*` e `/sobre`. Esse cabeçalho vale só para a CDN; o navegador recebe o `Cache-Control` do Next e revalida com a CDN. A chave do cache inclui a consulta, e a Vercel começa cada deploy com o cache vazio, então um release novo não serve HTML velho.
+
+Conferir depois do deploy (o primeiro pedido costuma ser `MISS`):
+
+```sh
+curl -sI https://cbo.ciencia.social/ocupacoes/212405 | grep -i x-vercel-cache
+curl -sI https://cbo.ciencia.social/ocupacoes/212405 | grep -i x-vercel-cache
+```
+
+Esperado no segundo: `X-Vercel-Cache: HIT` (ou `STALE`). Se continuar `MISS`, confira se o cabeçalho `Vercel-CDN-Cache-Control` chegou na resposta (`curl -sI ... | grep -i cdn-cache`) e se algum cookie ou `Set-Cookie` está impedindo o cache.
+
+Peso da ficha de 212405: 181 KB de HTML, dos quais 114 KB são o payload RSC, que repete a árvore renderizada, e 63 KB são HTML visível. O perfil de atividades (79 itens em `<details>` fechados) responde por cerca de 30% da marcação. Recolhê-lo de verdade exige buscar as atividades no cliente ao abrir a área; fica como melhoria possível, não feita aqui.
