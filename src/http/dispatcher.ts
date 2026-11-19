@@ -22,8 +22,7 @@ export async function tratar(req: Request): Promise<Response> {
     );
   }
   try {
-    const ip = (req.headers.get("x-forwarded-for") ?? "local").split(",")[0].trim();
-    limitar(ip);
+    limitar(req.headers);
     const url = new URL(req.url);
     if (url.searchParams.get("formato") === "csv") {
       throw parametro("formato", "O formato CSV não está disponível nesta versão.", ["json"]);

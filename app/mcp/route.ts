@@ -1,3 +1,4 @@
+import { esperaDoLimite, problemaDeLimite } from "@/http/limite";
 import { criarServidor } from "@/mcp/servidor";
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 
@@ -5,7 +6,23 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
+/** 429 com corpo JSON-RPC: o pedido não foi lido, então o id é null. */
+function respostaDeLimite(espera: number) {
+  const problema = problemaDeLimite(espera);
+  const corpo = {
+    jsonrpc: "2.0",
+    error: { code: -32000, message: `${problema.detalhe} ${problema.dica ?? ""}`.trim(), data: problema.corpo() },
+    id: null,
+  };
+  return new Response(JSON.stringify(corpo), {
+    status: 429,
+    headers: { "content-type": "application/json; charset=utf-8", "retry-after": String(espera), "cache-control": "no-store" },
+  });
+}
+
 async function atender(req: Request) {
+  const espera = esperaDoLimite(req.headers);
+  if (espera > 0) return respostaDeLimite(espera);
   const servidor = criarServidor();
   const transporte = new WebStandardStreamableHTTPServerTransport({
     sessionIdGenerator: undefined,
