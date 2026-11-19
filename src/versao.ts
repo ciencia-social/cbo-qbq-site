@@ -19,6 +19,9 @@ export const VERSAO_CAMADAS = {
 export const REPOSITORIO_DADOS = "https://github.com/ciencia-social/cbo-qbq-dados";
 export const TAG_DADOS = "dados-2026.11.1";
 
+/** Anexos que o workflow de release de cbo-qbq-dados publica (docs/versionamento.md). */
+export const ANEXOS_RELEASE = ["qbq.sqlite.gz", "qbq.sql.gz", "MANIFEST.sha256"] as const;
+
 export const CITACAO =
   "cbo-qbq-dados — CBO e QBQ como dados abertos (github.com/ciencia-social/cbo-qbq-dados), a partir de dados oficiais do MTE.";
 

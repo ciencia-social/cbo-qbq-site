@@ -363,7 +363,10 @@ export function montarOpenApi(rotas: readonly Rota[]) {
         operationId: `${rota.id}_${rota.caminho.replace(/\W+/g, "_")}`,
         summary: rota.resumo,
         tags: [rota.grupo],
-        parameters: [...rota.parametros, ...globais].map(parametroOpenApi),
+        parameters: [
+          ...rota.parametros,
+          ...globais.map((global) => (global.nome === "formato" && !rota.csv ? { ...global, valores: ["json"], descricao: "Formato da resposta. Esta rota só tem json." } : global)),
+        ].map(parametroOpenApi),
         responses: {
           "200": {
             description: cru
@@ -373,7 +376,10 @@ export function montarOpenApi(rotas: readonly Rota[]) {
               ETag: { schema: { type: "string" }, description: "Muda com a versão dos dados e com o build." },
               "X-Versao-Dados": { schema: { type: "string" } },
             },
-            content: { "application/json": { schema: esquema200 } },
+            content: {
+              "application/json": { schema: esquema200 },
+              ...(rota.csv ? { "text/csv": { schema: { type: "string" }, description: "Com formato=csv: cabeçalho na primeira linha; X-Total traz o total." } } : {}),
+            },
           },
           "304": { description: "If-None-Match casou com o ETag." },
           "400": problema("Parâmetro desconhecido, parâmetro inválido ou código malformado."),

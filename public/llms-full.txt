@@ -30,6 +30,8 @@ Este serviço expõe a release dados-2026.11.1 (schema-v0.3.0). A fonte canônic
 - Texto dentro de balde: GET /api/v1/qbq/itens?q=
 - Divergências: GET /api/v1/cobertura e GET /api/v1/cobertura/resumo
 - Versão, licença e citação: GET /api/v1/versao
+- Arquivos da release (SQLite, SQL, manifesto de checksums): GET /api/v1/downloads
+- Listas em CSV: formato=csv em /api/v1/ocupacoes, /sinonimos, /atividades (sem agrupar_por), /cbo/{nivel}, /cbo/{nivel}/{codigo}/ocupacoes, /qbq/nao-classificadas e /cobertura. Cabeçalho na primeira linha; o total vem em X-Total.
 
 O servidor MCP em /mcp expõe as mesmas consultas, com limite menor. Tools: ocupacao_buscar, ocupacao_obter, cbo_atividades, qbq_competencias, cbo_navegar, codigo_decodificar, qbq_vocabulario, dados_sobre, cbo_buscar_atividades, qbq_buscar_termos, qbq_ocupacoes_por_competencia, ocupacao_comparar, ocupacao_similares, cbo_resumir_grupo, cobertura_consultar.
 

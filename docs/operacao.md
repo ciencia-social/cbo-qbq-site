@@ -117,3 +117,24 @@ curl -sI https://cbo.ciencia.social/ocupacoes/212405 | grep -i x-vercel-cache
 Esperado no segundo: `X-Vercel-Cache: HIT` (ou `STALE`). Se continuar `MISS`, confira se o cabeçalho `Vercel-CDN-Cache-Control` chegou na resposta (`curl -sI ... | grep -i cdn-cache`) e se algum cookie ou `Set-Cookie` está impedindo o cache.
 
 Peso da ficha de 212405: 181 KB de HTML, dos quais 114 KB são o payload RSC, que repete a árvore renderizada, e 63 KB são HTML visível. O perfil de atividades (79 itens em `<details>` fechados) responde por cerca de 30% da marcação. Recolhê-lo de verdade exige buscar as atividades no cliente ao abrir a área; fica como melhoria possível, não feita aqui.
+
+## Downloads e CSV (I14)
+
+`/api/v1/downloads` (R07) monta os links a partir de `TAG_DADOS` e `ANEXOS_RELEASE` em `src/versao.ts`, sem hospedar arquivos. Os nomes dos anexos (`qbq.sqlite.gz`, `qbq.sql.gz`, `MANIFEST.sha256`) vêm de `docs/versionamento.md` do repositório de dados. **Confira (manual)** na página da release que eles existem com esses nomes; se mudarem, ajuste `ANEXOS_RELEASE`:
+
+```sh
+for u in $(curl -s https://cbo.ciencia.social/api/v1/downloads | jq -r '.dados.anexos[].url'); do
+  printf '%s %s\n' "$(curl -sIL -o /dev/null -w '%{http_code}' "$u")" "$u"
+done
+```
+
+Esperado: `200` em todos.
+
+CSV abre no R sem aviso:
+
+```r
+x <- read.csv("https://cbo.ciencia.social/api/v1/ocupacoes?formato=csv&limite=100", colClasses = c(codigo = "character"))
+nrow(x)  # 100
+```
+
+Use `colClasses` para manter o zero à esquerda dos códigos.

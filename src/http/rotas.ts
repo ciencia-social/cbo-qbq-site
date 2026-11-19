@@ -1,7 +1,7 @@
 import { arvore, decodificar, listarNivel, obterNo } from "@/consulta/cbo";
 import { cobertura, coberturaResumo, estatisticas, estatisticasCompetencias, estatisticasNiveis, resumoGrupo } from "@/consulta/derivado";
 import { buscaUnificada, buscarAtividades } from "@/consulta/busca";
-import { decisao, decisoes, escalas, fontes, versao } from "@/consulta/meta";
+import { decisao, decisoes, downloads, escalas, fontes, versao } from "@/consulta/meta";
 import {
   atividades,
   buscarSinonimos,
@@ -56,6 +56,8 @@ export type Rota = {
   resumo: string;
   /** Todos os parâmetros que a rota lê, de caminho e de consulta (I6). */
   parametros: Parametro[];
+  /** Aceita formato=csv: a rota devolve uma lista de registros planos (I14). */
+  csv?: boolean;
   handle: (ctx: Ctx) => Saida;
 };
 
@@ -215,6 +217,14 @@ export const rotas: Rota[] = [
     parametros: [P.caminho("id", "Identificador, como D015.")],
     handle: ({ params }) => decisao(params.id),
   },
+  {
+    id: "R07",
+    grupo: "Metadados",
+    caminho: "/downloads",
+    resumo: "Links dos arquivos da release de dados, com o manifesto de checksums.",
+    parametros: [],
+    handle: () => downloads(),
+  },
   { id: "R05", grupo: "Metadados", caminho: "/escalas", resumo: "Escalas oficiais de nível e grau.", parametros: [], handle: () => escalas() },
   {
     id: "R06",
@@ -243,6 +253,7 @@ export const rotas: Rota[] = [
     id: "R15",
     grupo: "Classificação",
     caminho: "/cbo/:nivel/:codigo/ocupacoes",
+    csv: true,
     resumo: "Ocupações sob um nó da classificação.",
     parametros: [caminhoNivelCbo, caminhoCodigoCbo, ...filtroP({ hierarquia: false })],
     handle: ({ params, query }) => {
@@ -326,6 +337,7 @@ export const rotas: Rota[] = [
     id: "R20",
     grupo: "Ocupações",
     caminho: "/ocupacoes",
+    csv: true,
     resumo: "Lista de ocupações das duas camadas.",
     parametros: filtroP(),
     handle: ({ query }) => listarOcupacoes(filtro(query)),
@@ -435,6 +447,7 @@ export const rotas: Rota[] = [
     id: "R31",
     grupo: "Busca",
     caminho: "/sinonimos",
+    csv: true,
     resumo: "Do nome de mercado ao código oficial.",
     parametros: filtroP({ busca: false, ordenar: false }).map((item) =>
       item.nome === "q" ? P.q("Texto do sinônimo. Obrigatório sem filtro de hierarquia.") : item,
@@ -445,6 +458,7 @@ export const rotas: Rota[] = [
     id: "R32",
     grupo: "Busca",
     caminho: "/atividades",
+    csv: true,
     resumo: "Ocupações por tarefa descrita no perfil.",
     parametros: [
       P.q("Texto da atividade.", true),
@@ -586,6 +600,7 @@ export const rotas: Rota[] = [
     id: "R46",
     grupo: "QBQ",
     caminho: "/qbq/nao-classificadas",
+    csv: true,
     resumo: "Ocupações sem nível, com a justificativa oficial.",
     parametros: [P.q("Busca no título ou na justificativa."), ...hierarquiaP, ...P.paginacao(100, 100)],
     handle: ({ query }) => naoClassificadas(texto(query, "q"), hierarquia(query), limite(query), deslocamento(query)),
@@ -603,6 +618,7 @@ export const rotas: Rota[] = [
     id: "R50",
     grupo: "Cobertura",
     caminho: "/cobertura",
+    csv: true,
     resumo: "Onde CBO e QBQ não coincidem.",
     parametros: [
       P.escolha("situacao", "Tipo de divergência.", DIVERGENCIAS),
@@ -662,6 +678,7 @@ function rotaNivel(id: string, caminho: string, resumo: string): Rota {
     grupo: "Classificação",
     caminho,
     resumo,
+    csv: true,
     parametros: [P.codigo("pai", "Código do nó pai; lista só os filhos dele."), P.q("Busca no título."), ...P.paginacao(100, 200)],
     handle: ({ query }) => listarNivel(nivel, texto(query, "pai"), texto(query, "q"), limite(query), deslocamento(query)),
   };

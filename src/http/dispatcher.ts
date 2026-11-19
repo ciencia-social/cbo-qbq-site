@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { Problema, parametro } from "@/http/erros";
+import { paraCsv } from "@/http/csv";
 import { limitar } from "@/http/limite";
 import { ConsultaRota, lista, PARAMETROS_GLOBAIS, validarPedido } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
@@ -11,7 +12,7 @@ const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
   "Access-Control-Allow-Headers": "*",
-  "Access-Control-Expose-Headers": "X-Versao-Dados, ETag, Retry-After",
+  "Access-Control-Expose-Headers": "X-Versao-Dados, X-Total, ETag, Retry-After",
 };
 
 export async function tratar(req: Request): Promise<Response> {
@@ -37,8 +38,13 @@ export async function tratar(req: Request): Promise<Response> {
       );
     }
     const declaraFormato = casou.rota.parametros.some((item) => item.nome === "formato");
-    if (!declaraFormato && url.searchParams.get("formato") === "csv") {
-      throw parametro("formato", "O formato CSV não está disponível nesta versão.", ["json"]);
+    const csv = !declaraFormato && url.searchParams.get("formato") === "csv";
+    if (csv && !casou.rota.csv) {
+      throw parametro(
+        "formato",
+        `Esta rota devolve dados aninhados e não tem CSV. Rotas com formato=csv: ${ROTAS_CSV.join(", ")}.`,
+        ["json"],
+      );
     }
     validarPedido(casou.rota.parametros, url.searchParams, casou.params);
     const ctx: Ctx = { params: casou.params, query: new ConsultaRota(url.searchParams, casou.rota.parametros), url };
@@ -48,6 +54,7 @@ export async function tratar(req: Request): Promise<Response> {
     }
     const campos = lista(new ConsultaRota(url.searchParams, PARAMETROS_GLOBAIS), "campos");
     const dados = campos ? aplicarCampos(saida.dados, campos) : saida.dados;
+    if (csv) return responderCsv(req, url, saida, dados);
     const corpo = JSON.stringify(envelope(url, saida, dados));
     return finalizar(req, url, 200, corpo, "application/json; charset=utf-8");
   } catch (erro) {
@@ -58,6 +65,21 @@ export async function tratar(req: Request): Promise<Response> {
       req,
     );
   }
+}
+
+const ROTAS_CSV = [...new Set(rotas.filter((rota) => rota.csv).map((rota) => api(rota.caminho).replace(/:([a-z_]+)/g, "{$1}")))];
+
+function responderCsv(req: Request, url: URL, saida: Saida, dados: unknown) {
+  const temListaDeObjetos = (valor: unknown): boolean =>
+    Array.isArray(valor)
+      ? valor.some((item) => item !== null && typeof item === "object")
+      : !!valor && typeof valor === "object" && Object.values(valor as Record<string, unknown>).some(temListaDeObjetos);
+  if (!Array.isArray(dados) || dados.some((registro) => registro && typeof registro === "object" && Object.values(registro).some(temListaDeObjetos))) {
+    throw parametro("formato", "Com estes parâmetros a rota devolve dados aninhados, sem CSV. Na busca por atividades, tire agrupar_por.", ["json"]);
+  }
+  const resposta = finalizar(req, url, 200, paraCsv(dados), "text/csv; charset=utf-8");
+  if (saida.total != null) resposta.headers.set("x-total", String(saida.total));
+  return resposta;
 }
 
 function caminhoRelativo(pathname: string) {

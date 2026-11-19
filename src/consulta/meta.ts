@@ -2,7 +2,7 @@ import { todos, um } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { normalizarArquivo } from "@/tipos";
-import { api, LICENCA, REPOSITORIO_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import { ANEXOS_RELEASE, api, LICENCA, REPOSITORIO_DADOS, TAG_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Saida } from "@/tipos";
 import { estatisticas } from "@/consulta/derivado";
@@ -113,4 +113,26 @@ export function sobre(topico?: string, id?: string): Saida {
     };
   }
   throw parametro("topico", `Tópico desconhecido: ${topico}.`, ["versao", "fontes", "cobertura", "decisoes", "licenca"]);
+}
+
+/** R07: links da release fixada. A API não hospeda os arquivos; aponta para o GitHub. */
+export function downloads(): Saida {
+  const release = `${REPOSITORIO_DADOS}/releases/tag/${TAG_DADOS}`;
+  const anexo = (nome: string) => `${REPOSITORIO_DADOS}/releases/download/${TAG_DADOS}/${nome}`;
+  return {
+    dados: {
+      versao_dados: VERSAO_DADOS,
+      tag: TAG_DADOS,
+      release,
+      anexos: ANEXOS_RELEASE.map((nome) => ({ nome, url: anexo(nome) })),
+      manifesto: anexo("MANIFEST.sha256"),
+      csv: `${REPOSITORIO_DADOS}/tree/${TAG_DADOS}/derivados/csv`,
+      codigo_fonte: {
+        zip: `${REPOSITORIO_DADOS}/archive/refs/tags/${TAG_DADOS}.zip`,
+        tar_gz: `${REPOSITORIO_DADOS}/archive/refs/tags/${TAG_DADOS}.tar.gz`,
+      },
+      licenca: LICENCA,
+    },
+    avisos: [{ mensagem: "Confira os arquivos com sha256sum -c MANIFEST.sha256. Os anexos ficam no GitHub; esta API não os hospeda." }],
+  };
 }

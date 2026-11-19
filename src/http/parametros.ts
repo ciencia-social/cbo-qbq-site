@@ -108,8 +108,8 @@ export const PARAMETROS_GLOBAIS: Parametro[] = [
     nome: "formato",
     onde: "query",
     tipo: "string",
-    descricao: "Formato da resposta. Só json nesta versão.",
-    valores: ["json"],
+    descricao: "Formato da resposta. csv só nas rotas de lista com registros planos; as demais respondem 400.",
+    valores: ["json", "csv"],
     padrao: "json",
   },
 ];
