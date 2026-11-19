@@ -41,6 +41,7 @@ describe("sobre", () => {
     expect(html).toContain(DOI_DADOS.conceito);
     expect(html).toContain("sem vínculo com o Ministério do Trabalho e Emprego");
     expect(html).toContain("cs-tema");
+    expect(html).toContain("Google Analytics");
   });
 });
 

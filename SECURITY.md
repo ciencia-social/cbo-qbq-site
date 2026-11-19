@@ -2,7 +2,7 @@
 
 ## Escopo
 
-Este repositório cobre o site, a API REST (`/api/v1`) e o servidor MCP (`/mcp`) de https://cbo.ciencia.social. O serviço é somente leitura, não tem login nem cookies e não guarda o conteúdo das consultas.
+Este repositório cobre o site, a API REST (`/api/v1`) e o servidor MCP (`/mcp`) de https://cbo.ciencia.social. O serviço é somente leitura, não tem login e não guarda o conteúdo das consultas. As páginas carregam o Google Analytics, que grava cookies próprios; a API e o MCP não.
 
 O dado em si (CBO e QBQ) é tratado no [`cbo-qbq-dados`](https://github.com/ciencia-social/cbo-qbq-dados).
 
@@ -35,4 +35,4 @@ O Dependabot (`.github/dependabot.yml`) abre as atualizações semanalmente.
 
 ## Política de conteúdo das páginas
 
-As páginas mandam `Content-Security-Policy` com `script-src 'self' 'unsafe-inline'`. O `'unsafe-inline'` é necessário porque o Next injeta em cada página dezenas de scripts embutidos com o payload de renderização, diferentes a cada página. Um nonce resolveria isso, mas não funciona com as páginas guardadas na CDN por um dia: o HTML guardado levaria um nonce diferente do cabeçalho de cada resposta. Os outros controles valem: nenhum script de outra origem, nenhum embutimento do site por terceiros (`frame-ancestors 'none'`), nenhum `<base>` nem envio de formulário para fora. Só no `next dev` a política acrescenta `'unsafe-eval'`, que o React Refresh exige; a produção não o recebe. O detalhe está em `next.config.ts`.
+As páginas mandam `Content-Security-Policy` com `script-src 'self' 'unsafe-inline'`. O `'unsafe-inline'` é necessário porque o Next injeta em cada página dezenas de scripts embutidos com o payload de renderização, diferentes a cada página. Um nonce resolveria isso, mas não funciona com as páginas guardadas na CDN por um dia: o HTML guardado levaria um nonce diferente do cabeçalho de cada resposta. Os outros controles valem: nenhum script de outra origem além do Google Analytics (`*.googletagmanager.com`, que também entra em `connect-src` e `img-src` com `*.google-analytics.com` e `*.analytics.google.com`), nenhum embutimento do site por terceiros (`frame-ancestors 'none'`), nenhum `<base>` nem envio de formulário para fora. Só no `next dev` a política acrescenta `'unsafe-eval'`, que o React Refresh exige; a produção não o recebe. O detalhe está em `next.config.ts`.

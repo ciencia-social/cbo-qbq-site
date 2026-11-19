@@ -121,7 +121,7 @@ export function PaginaSobre({ vista }: { vista: VistaSobre }) {
 
           <h2 id="privacidade">Privacidade</h2>
           <p>
-            O site não usa cookies nem ferramenta de análise. Guarda no navegador só a preferência de tema (<code>localStorage</code>, chave <code>cs-tema</code>). A API e o servidor MCP não guardam o conteúdo das consultas. A hospedagem (Vercel) registra endereço IP e dados técnicos de acesso por razão de segurança, conforme a política dela.
+            O site usa o Google Analytics para contar visitas e ver quais páginas são acessadas. A ferramenta grava cookies próprios no navegador e envia ao Google dados de navegação, como a página visitada, a origem do acesso e o tipo de dispositivo; o Google Signals e a personalização de anúncios estão desligados. Além disso, o site guarda no navegador a preferência de tema (<code>localStorage</code>, chave <code>cs-tema</code>). A API e o servidor MCP não guardam o conteúdo das consultas. A hospedagem (Vercel) registra endereço IP e dados técnicos de acesso por razão de segurança, conforme a política dela.
           </p>
 
           <h2 id="ia">Uso de IA</h2>

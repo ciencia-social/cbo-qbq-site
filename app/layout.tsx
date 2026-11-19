@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
+import { analyticsAtivo, ID_ANALYTICS, SCRIPT_ANALYTICS } from "@/site/analytics";
 import { Barra } from "@/ui/barra";
 import { SiteFooter } from "@/ui/componentes";
 import { SCRIPT_TEMA } from "@/ui/tema";
@@ -52,6 +53,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR" data-theme="dark" className={`${serif.variable} ${sans.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: SCRIPT_TEMA }} />
+        {analyticsAtivo() && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ID_ANALYTICS}`} />
+            <script dangerouslySetInnerHTML={{ __html: SCRIPT_ANALYTICS }} />
+          </>
+        )}
       </head>
       <body>
         <Barra />

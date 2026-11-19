@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { ORIGENS_ANALYTICS } from "./src/site/analytics";
 import { linkSignposting } from "./src/signposting";
 
 /**
@@ -33,8 +34,11 @@ export const CABECALHOS_GERAIS = [
  * scripts embutidos com o payload RSC (`self.__next_f.push(...)`), diferentes a cada página; um hash
  * só de SCRIPT_TEMA bloquearia todos e quebraria a hidratação. O nonce também não serve aqui: as
  * páginas ficam um dia na CDN (I12) e /sobre é estática, então o HTML guardado levaria um nonce
- * diferente do cabeçalho de cada resposta. Os demais controles valem: nenhum script de outra origem,
- * nenhum embutimento por terceiros, nenhum <base> nem envio de formulário para fora.
+ * diferente do cabeçalho de cada resposta. Os demais controles valem: nenhum script de outra origem
+ * além do Google Analytics, nenhum embutimento por terceiros, nenhum <base> nem envio de formulário para fora.
+ *
+ * O Google Analytics (src/site/analytics.ts) precisa carregar o gtag.js e enviar os eventos;
+ * suas origens entram em script-src, connect-src e img-src.
  *
  * Em `next dev`, o React Refresh e os source maps do webpack avaliam código com eval; sem
  * 'unsafe-eval' a hidratação falha e a página para de reagir. A exceção vale só em desenvolvimento.
@@ -42,11 +46,11 @@ export const CABECALHOS_GERAIS = [
 export function cspPaginas(desenvolvimento: boolean) {
   return [
     "default-src 'self'",
-    `script-src 'self' 'unsafe-inline'${desenvolvimento ? " 'unsafe-eval'" : ""}`,
+    `script-src 'self' 'unsafe-inline'${desenvolvimento ? " 'unsafe-eval'" : ""} ${ORIGENS_ANALYTICS.script.join(" ")}`,
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data:",
+    `img-src 'self' data: ${ORIGENS_ANALYTICS.imagem.join(" ")}`,
     "font-src 'self'",
-    "connect-src 'self'",
+    `connect-src 'self' ${ORIGENS_ANALYTICS.conexao.join(" ")}`,
     "object-src 'none'",
     "frame-ancestors 'none'",
     "base-uri 'self'",
