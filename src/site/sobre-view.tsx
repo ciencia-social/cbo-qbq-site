@@ -1,6 +1,7 @@
 import { Callout, CodeBlock, DataTable, Disclosure, Icon, ReportHeader, Toc } from "@/ui/componentes";
 import { formato } from "@/ui/formato";
 import type { VistaSobre } from "@/site/sobre";
+import { PreferenciaAnalytics } from "@/ui/aviso-analytics";
 
 export function PaginaSobre({ vista }: { vista: VistaSobre }) {
   return (
@@ -121,8 +122,9 @@ export function PaginaSobre({ vista }: { vista: VistaSobre }) {
 
           <h2 id="privacidade">Privacidade</h2>
           <p>
-            O site usa o Google Analytics para contar visitas e ver quais páginas são acessadas. A ferramenta grava cookies próprios no navegador e envia ao Google dados de navegação, como a página visitada, a origem do acesso e o tipo de dispositivo; o Google Signals e a personalização de anúncios estão desligados. Além disso, o site guarda no navegador a preferência de tema (<code>localStorage</code>, chave <code>cs-tema</code>). A API e o servidor MCP não guardam o conteúdo das consultas. A hospedagem (Vercel) registra endereço IP e dados técnicos de acesso por razão de segurança, conforme a política dela.
+            Com sua permissão, o site usa o Google Analytics para contar visitas e ver quais páginas são acessadas. A ferramenta só é carregada depois que você aceita no aviso; se você recusar ou não responder, nada é enviado ao Google. Depois de aceita, ela grava cookies próprios no navegador e envia ao Google dados de navegação, como a página visitada, a origem do acesso e o tipo de dispositivo; o Google Signals e a personalização de anúncios estão desligados. A escolha fica salva no navegador (<code>localStorage</code>, chave <code>cs-analytics</code>) e pode ser mudada abaixo. O site também guarda no navegador a preferência de tema (<code>localStorage</code>, chave <code>cs-tema</code>). A API e o servidor MCP não guardam o conteúdo das consultas. A hospedagem (Vercel) registra endereço IP e dados técnicos de acesso por razão de segurança, conforme a política dela.
           </p>
+          {vista.analytics && <PreferenciaAnalytics />}
 
           <h2 id="ia">Uso de IA</h2>
           <Callout kind="ia" label="Declaração de uso de IA">

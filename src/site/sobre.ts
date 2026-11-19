@@ -2,6 +2,7 @@ import { obterOcupacao } from "@/consulta/ocupacao";
 import { coberturaResumo } from "@/consulta/derivado";
 import { decisoes, fontes, versao } from "@/consulta/meta";
 import { todos } from "@/dados/banco";
+import { analyticsAtivo } from "@/site/analytics";
 import { DECLARACAO_IA, doiUrl, FONTES_OFICIAIS, LICENCAS, REPOSITORIO_DADOS, REPOSITORIO_SERVICO } from "@/versao";
 
 const CAMADA: Record<string, string> = {
@@ -53,6 +54,7 @@ export function carregarSobre() {
     doiSoftware: dados.doi_software ? { doi: dados.doi_software, url: doiUrl(dados.doi_software) } : null,
     fontesOficiais: FONTES_OFICIAIS,
     declaracaoIa: DECLARACAO_IA,
+    analytics: analyticsAtivo(),
     repositorio: dados.repositorio_dados || REPOSITORIO_DADOS,
     repositorioServico: REPOSITORIO_SERVICO,
   };

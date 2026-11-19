@@ -2,7 +2,7 @@
 
 ## Escopo
 
-Este repositório cobre o site, a API REST (`/api/v1`) e o servidor MCP (`/mcp`) de https://cbo.ciencia.social. O serviço é somente leitura, não tem login e não guarda o conteúdo das consultas. As páginas carregam o Google Analytics, que grava cookies próprios; a API e o MCP não.
+Este repositório cobre o site, a API REST (`/api/v1`) e o servidor MCP (`/mcp`) de https://cbo.ciencia.social. O serviço é somente leitura, não tem login e não guarda o conteúdo das consultas. As páginas carregam o Google Analytics, que grava cookies próprios, só depois que a pessoa aceita no aviso de consentimento; a API e o MCP nunca o carregam.
 
 O dado em si (CBO e QBQ) é tratado no [`cbo-qbq-dados`](https://github.com/ciencia-social/cbo-qbq-dados).
 
