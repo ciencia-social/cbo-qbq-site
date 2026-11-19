@@ -186,13 +186,22 @@ describe("T4 sentido da diferença", () => {
 });
 
 describe("T3 tamanho das respostas", () => {
-  it("qbq_competencias de 212405 fica abaixo de 15 KB e avisa o corte", async () => {
+  it("qbq_competencias de 212405 fica abaixo de 12 KB e avisa o corte", async () => {
     const { resultado, blocos } = await chamar("qbq_competencias", { codigo: "212405" });
     const corpo = resultado.structuredContent as {
       avisos: { mensagem: string }[];
-      resultado: { truncado?: boolean; habilidades: { itens: Record<string, unknown>[] } };
+      resultado: { truncado?: boolean; habilidades: { fonte?: { arquivo: string }; itens: Record<string, unknown>[] } };
     };
-    expect(Buffer.byteLength(blocos[1].text)).toBeLessThan(15 * 1024);
+    // I10: folga em relação ao teto de 15 KB da T3, medida nos três campos.
+    expect(Buffer.byteLength(JSON.stringify(resultado.structuredContent))).toBeLessThan(12 * 1024);
+    expect(Buffer.byteLength(blocos[0].text)).toBeLessThan(1024);
+    expect(Buffer.byteLength(blocos[1].text)).toBeLessThan(12 * 1024);
+    // Os campos pedidos pela T3 e pela T10 continuam em cada item; o arquivo vem uma vez no bloco.
+    const resumido = corpo.resultado.habilidades.itens[0];
+    for (const campo of ["codigo", "nivel_vocabulario", "termo", "graus", "balde"]) expect(resumido, campo).toHaveProperty(campo);
+    expect(resumido.fonte).toMatchObject({ aba: "Habilidade", linha: expect.any(Number) });
+    expect(corpo.resultado.habilidades.fonte?.arquivo).toMatch(/^fontes\//);
+    expect(corpo.resultado.habilidades.itens).toHaveLength(15);
     expect(corpo.resultado.truncado).toBe(true);
     expect(corpo.avisos.some((aviso) => aviso.mensagem.includes("restante"))).toBe(true);
     expect(corpo.resultado.habilidades.itens[0]).not.toHaveProperty("caminho");

@@ -132,6 +132,26 @@ function enxugarGraus(dados: unknown) {
   }
 }
 
+/** Padrão de itens por dimensão em qbq_competencias. Com 15, a ficha de 212405 fica perto de 11 KB (I10). */
+const LIMITE_COMPETENCIAS = 15;
+
+/**
+ * No modo resumido, o arquivo de origem é o mesmo em todos os itens de uma dimensão.
+ * Ele sobe uma vez para o bloco (bloco.fonte.arquivo); cada item mantém fonte.aba e fonte.linha.
+ */
+function arquivoNoBloco(dados: unknown) {
+  const corpo = dados as Record<string, { itens?: { fonte?: { arquivo?: string } | null }[]; fonte?: unknown } | undefined>;
+  for (const dimensao of ["conhecimentos", "habilidades", "atitudes"]) {
+    const bloco = corpo[dimensao];
+    if (!bloco?.itens?.length) continue;
+    const arquivos = new Set(bloco.itens.map((item) => item.fonte?.arquivo).filter(Boolean));
+    if (arquivos.size !== 1) continue;
+    const [arquivo] = arquivos;
+    corpo[dimensao] = { ...bloco, fonte: { arquivo } };
+    for (const item of bloco.itens) if (item.fonte) delete item.fonte.arquivo;
+  }
+}
+
 function temTruncado(valor: unknown): boolean {
   if (!valor || typeof valor !== "object") return false;
   if (Array.isArray(valor)) return valor.some(temTruncado);
@@ -246,8 +266,9 @@ export function executarTool(nome: string, args: Record<string, unknown>): Resul
         importanciaMin: args.importancia_min as number | undefined,
         incluirConceitos: completo,
         detalhe: completo ? "completo" : "resumido",
-        limite: Number(args.limite ?? 20),
+        limite: Number(args.limite ?? LIMITE_COMPETENCIAS),
       });
+      if (!completo) arquivoNoBloco(saida.dados);
       const dados = saida.dados as {
         codigo: string;
         motivo?: string;
@@ -459,8 +480,8 @@ export const definicoes: Definicao[] = [
       dimensao: z.enum(["conhecimentos", "habilidades", "atitudes"]).optional().describe("Qual dimensão devolver. Ausente: as três. Exemplo: habilidades."),
       importancia_min: grauMinimo("importância"),
       incluir_conceitos: z.boolean().optional().describe("Inclui a definição oficial de cada habilidade e o caminho do termo. Padrão: false. Exemplo: true."),
-      detalhe: z.enum(["resumido", "completo"]).optional().describe("completo devolve caminho e conceito de cada item. Equivale a incluir_conceitos. Padrão: resumido. Exemplo: completo."),
-      limite: limiteItens(20),
+      detalhe: z.enum(["resumido", "completo"]).optional().describe("completo devolve caminho e conceito de cada item. Equivale a incluir_conceitos. No resumido, o arquivo de origem vem uma vez no bloco da dimensão, e cada item traz a aba e a linha. Padrão: resumido. Exemplo: completo."),
+      limite: z.number().int().min(1).max(50).optional().describe("Quantos itens devolver por dimensão, os de maior importância. Padrão 15, máximo 50. Exemplo: 15."),
     },
   },
   {
