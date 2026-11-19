@@ -88,3 +88,15 @@ Localmente, se a pasta irmã `../cbo-qbq-dados` estiver em outro commit, use um 
 git clone --depth 1 --branch dados-2026.11.1 https://github.com/ciencia-social/cbo-qbq-dados .dados
 CBO_QBQ_DADOS=$PWD/.dados npm run dados
 ```
+
+## Região das funções (I11)
+
+`vercel.json` fixa `"regions": ["gru1"]` (São Paulo) para todas as funções: API, MCP e páginas dinâmicas. Antes, elas rodavam em `iad1` (Virgínia) e os pedidos entravam por `gru1`. O banco SQLite vai junto da função, então não há outra dependência de região.
+
+Conferir depois do deploy:
+
+```sh
+curl -sI https://cbo.ciencia.social/api/v1/versao | grep -i x-vercel-id
+```
+
+Esperado: o valor contém `gru1::gru1` (borda e função em São Paulo). Se aparecer `gru1::iad1`, confira em *Settings → Functions → Function Region* se o painel sobrepõe o arquivo.
