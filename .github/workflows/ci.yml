@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+env:
+  # O banco precisa sair exatamente da tag fixada em src/versao.ts (I8).
+  EXIGIR_TAG: "1"
+
 jobs:
   verificar:
     runs-on: ubuntu-latest

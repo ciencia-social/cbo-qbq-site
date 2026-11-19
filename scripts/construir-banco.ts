@@ -8,8 +8,12 @@ import path from "node:path";
 import { DatabaseSync } from "node:sqlite";
 import { GERADOR, REPOSITORIO_DADOS, TAG_DADOS, VERSAO_CAMADAS, VERSAO_DADOS, VERSAO_SCHEMA } from "../src/versao.ts";
 import { ehBalde, normalizarBusca, normalizarTitulo, textoIndexavel } from "../src/texto.ts";
+import { bancoAtualizado, conferirProveniencia, type Proveniencia } from "./proveniencia.ts";
 
-const DESTINO = path.join(process.cwd(), "data", "cbo-qbq.sqlite");
+/** CBO_QBQ_BANCO troca o destino; serve aos testes, que não podem apagar o banco da suíte. */
+const DESTINO = process.env.CBO_QBQ_BANCO
+  ? path.resolve(process.env.CBO_QBQ_BANCO)
+  : path.join(process.cwd(), "data", "cbo-qbq.sqlite");
 
 type Fonte = { arquivo?: string; aba?: string; linha?: number };
 type NoCbo = { codigo: string; titulo: string; pai?: string; fonte: Fonte };
@@ -115,21 +119,6 @@ function caracteresDePalavra(db: DatabaseSync): string {
   return [...vistos].sort().join("");
 }
 
-function bancoAtualizado(): boolean {
-  if (process.argv.includes("--force") || process.env.REBUILD_DB === "1") return false;
-  if (!fs.existsSync(DESTINO)) return false;
-  try {
-    const db = new DatabaseSync(DESTINO, { readOnly: true });
-    const row = db.prepare("SELECT valor FROM meta WHERE chave = 'gerador'").get() as
-      | { valor: string }
-      | undefined;
-    db.close();
-    return row?.valor === GERADOR;
-  } catch {
-    return false;
-  }
-}
-
 function arquivosGg(dir: string): string[] {
   return fs
     .readdirSync(dir)
@@ -139,11 +128,14 @@ function arquivosGg(dir: string): string[] {
 }
 
 function main() {
-  if (bancoAtualizado()) {
-    console.log("banco já está na versão do gerador; use --force para reconstruir");
+  const forcar = process.argv.includes("--force") || process.env.REBUILD_DB === "1";
+  if (bancoAtualizado(DESTINO, { gerador: GERADOR, versaoDados: VERSAO_DADOS }, forcar)) {
+    console.log("banco já está na versão do gerador e dos dados; use --force para reconstruir");
     return;
   }
   const raiz = resolverDados();
+  const proveniencia: Proveniencia = conferirProveniencia(raiz, TAG_DADOS, process.env.EXIGIR_TAG === "1");
+  console.log(`dados de ${raiz} @ ${proveniencia.commit ?? "sem commit"}${proveniencia.naTag ? ` (${TAG_DADOS})` : " (fora da tag)"}`);
   const inicio = Date.now();
   fs.mkdirSync(path.dirname(DESTINO), { recursive: true });
   fs.rmSync(DESTINO, { force: true });
@@ -661,6 +653,8 @@ function main() {
   insMeta.run("versao_qbq", VERSAO_CAMADAS.qbq);
   insMeta.run("gerador", GERADOR);
   insMeta.run("repositorio_dados", REPOSITORIO_DADOS);
+  if (proveniencia.commit) insMeta.run("dados_commit", proveniencia.commit);
+  if (proveniencia.naTag) insMeta.run("dados_tag", TAG_DADOS);
 
   db.exec("COMMIT");
   db.exec(`

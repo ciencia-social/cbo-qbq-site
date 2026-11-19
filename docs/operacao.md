@@ -59,3 +59,32 @@ npx --yes @apidevtools/swagger-cli@4.0.4 validate /tmp/openapi.json
 ```
 
 Esperado: nenhum erro. Avisos de estilo (por exemplo, `operation-4xx-response` ou falta de `license`) podem aparecer; licença e contato estão no plano de abertura pública. Para tornar isso parte do CI, adicione `@redocly/cli` como dependência de desenvolvimento (decisão do mantenedor).
+
+## CI (I2)
+
+`.github/workflows/ci.yml` roda em `push` e `pull_request` para `main`: `npm ci`, construção do banco a partir da tag (sem pasta irmã, com `EXIGIR_TAG=1`), `npm run typecheck`, `npm test` e `npx next build`. Não usa segredos.
+
+Conferir (manual): depois do primeiro push com o arquivo, abrir a aba **Actions** do repositório e ver o job `verificar` verde, com os quatro passos executados. Recomendado: em *Settings → Branches*, exigir o status `CI / verificar` antes de mesclar na `main`.
+
+## Proveniência dos dados (I8)
+
+O banco grava em `meta` o commit de `cbo-qbq-dados` de onde saiu (`dados_commit`) e, quando esse commit é o da tag fixada em `src/versao.ts` sem alterações locais, a tag (`dados_tag`). Os dois aparecem em `/api/v1/versao` e em `dados_sobre`.
+
+Fora da tag, `npm run dados` só avisa. Com `EXIGIR_TAG=1`, falha e explica o motivo. O CI já define a variável.
+
+**Manual, na Vercel:** em *Settings → Environment Variables*, criar `EXIGIR_TAG` com valor `1` para *Production* e *Preview*. Na Vercel não há pasta irmã, então o script clona a tag; a variável garante que um cache de build antigo em `.dados` não passe despercebido.
+
+Conferir depois do deploy:
+
+```sh
+curl -s https://cbo.ciencia.social/api/v1/versao | jq '.dados | {versao_dados, dados_tag, dados_commit}'
+```
+
+Esperado: `dados_tag` igual à tag de `src/versao.ts` e `dados_commit` com 40 caracteres hexadecimais.
+
+Localmente, se a pasta irmã `../cbo-qbq-dados` estiver em outro commit, use um clone da tag:
+
+```sh
+git clone --depth 1 --branch dados-2026.11.1 https://github.com/ciencia-social/cbo-qbq-dados .dados
+CBO_QBQ_DADOS=$PWD/.dados npm run dados
+```

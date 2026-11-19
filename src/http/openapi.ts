@@ -120,13 +120,15 @@ const ESQUEMAS: Record<string, Esquema> = {
     {
       versao_dados: texto,
       versao_schema: texto,
+      dados_commit: { type: ["string", "null"], pattern: "^[0-9a-f]{40}$", description: "Commit de cbo-qbq-dados de onde o banco saiu." },
+      dados_tag: { type: ["string", "null"], description: "A tag fixada, quando o commit é o dela; null quando o banco saiu de outra árvore." },
       camadas: objeto({ cbo_espinha: texto, cbo_perfil: texto, qbq: texto }),
       contagens: { type: "object", additionalProperties: { type: "integer" } },
       licenca: objeto({ nome: texto, url: texto, citacao: texto }),
       repositorio_dados: texto,
       ressalvas: lista(texto),
     },
-    ["versao_dados", "versao_schema", "camadas", "contagens", "licenca", "repositorio_dados"],
+    ["versao_dados", "versao_schema", "dados_commit", "dados_tag", "camadas", "contagens", "licenca", "repositorio_dados"],
   ),
   R14_No: objeto(
     {

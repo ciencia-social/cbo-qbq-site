@@ -1,4 +1,4 @@
-import { todos } from "@/dados/banco";
+import { todos, um } from "@/dados/banco";
 import { parametro } from "@/http/erros";
 import { paginar } from "@/http/parametros";
 import { normalizarArquivo } from "@/tipos";
@@ -7,11 +7,17 @@ import { termosDaConsulta, textoCasa, trecho } from "@/texto";
 import type { Saida } from "@/tipos";
 import { estatisticas } from "@/consulta/derivado";
 
+function lerMeta(chave: string): string | null {
+  return um<{ valor: string }>("SELECT valor FROM meta WHERE chave = ?", chave)?.valor ?? null;
+}
+
 export function versao(): Saida {
   return {
     dados: {
       versao_dados: VERSAO_DADOS,
       versao_schema: VERSAO_SCHEMA,
+      dados_commit: lerMeta("dados_commit"),
+      dados_tag: lerMeta("dados_tag"),
       camadas: VERSAO_CAMADAS,
       contagens: (estatisticas().dados as object),
       licenca: LICENCA,
