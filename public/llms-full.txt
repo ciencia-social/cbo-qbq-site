@@ -15,6 +15,7 @@ Este serviço expõe a release dados-2026.11.1 (schema-v0.3.0). A fonte canônic
 9. A sigla de área do perfil CBO ordena a ocupação; não compare a letra A de uma ocupação com a de outra (D017).
 10. O texto oficial conserva caixa, grafia e o literal NULL da planilha. A busca é que ignora caixa e acento.
 11. No parâmetro q, as palavras se separam por espaço e a pontuação faz parte da palavra. Cada termo casa a palavra inteira; o último casa por prefixo quando tem 3 caracteres ou mais. Com 1 ou 2 caracteres, o último termo também casa só a palavra inteira: q=a acha a palavra "a", não tudo o que começa com a.
+12. Cada rota aceita só os parâmetros que declara em /api/v1/openapi.json, além de campos e formato. Parâmetro desconhecido responde 400 (problemas/parametro-desconhecido) com a lista dos aceitos.
 
 ## Onde perguntar
 

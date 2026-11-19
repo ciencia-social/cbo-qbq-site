@@ -46,3 +46,16 @@ done | sort | uniq -c
 ```
 
 Esperado: só `200` e `429`, e nenhum `403` com `text/html`.
+
+## Validar o OpenAPI (I6)
+
+O documento sai de `src/http/openapi.ts`, a partir das declarações de parâmetros de `src/http/rotas.ts`. A suíte já confere que todo `{param}` do caminho está declarado, que só os parâmetros declarados são aceitos e que os esquemas publicados descrevem respostas reais. A validação contra a especificação OpenAPI 3.1 usa uma ferramenta externa, que não é dependência do projeto. Para rodar sem instalar:
+
+```sh
+curl -s https://cbo.ciencia.social/api/v1/openapi.json -o /tmp/openapi.json   # ou: npm run dev e http://localhost:3000/api/v1/openapi.json
+npx --yes @redocly/cli@1.34.3 lint /tmp/openapi.json
+# alternativa:
+npx --yes @apidevtools/swagger-cli@4.0.4 validate /tmp/openapi.json
+```
+
+Esperado: nenhum erro. Avisos de estilo (por exemplo, `operation-4xx-response` ou falta de `license`) podem aparecer; licença e contato estão no plano de abertura pública. Para tornar isso parte do CI, adicione `@redocly/cli` como dependência de desenvolvimento (decisão do mantenedor).

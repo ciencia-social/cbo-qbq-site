@@ -2,6 +2,7 @@ import { avisoNormalizacao, avisosOcupacao } from "@/consulta/formatar";
 import type { OcupacaoLista } from "@/consulta/cache";
 import { rotas, type Rota } from "@/http/rotas";
 import { Problema } from "@/http/erros";
+import { ConsultaRota, PARAMETROS_GLOBAIS, type Parametro } from "@/http/parametros";
 import type { Aviso, Saida } from "@/tipos";
 import { PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 
@@ -77,7 +78,6 @@ function consultaDe(rota: Rota) {
   return query;
 }
 
-const LISTAS = new Set(["incluir", "codigos", "tipos", "buscar_em", "campos"]);
 const LIMITE_JSON = 8000;
 
 const CAMPOS_FICHA: Record<string, string> = {
@@ -217,26 +217,34 @@ export function listarRotas(q?: string) {
   return grupos;
 }
 
+function tipoDoc(parametro: Parametro) {
+  if (parametro.tipo === "lista") return "lista";
+  if (parametro.tipo === "integer") return "inteiro";
+  if (parametro.tipo === "boolean") return "booleano";
+  if (parametro.tipo === "faixa") return "faixa";
+  return parametro.valores ? "enum" : "string";
+}
+
+function descricaoDoc(parametro: Parametro) {
+  const partes = [parametro.descricao];
+  if (parametro.valores && !parametro.descricao.includes(parametro.valores[0])) partes.push(`Aceita: ${parametro.valores.join(", ")}.`);
+  if (parametro.tipo === "integer" || parametro.tipo === "faixa") partes.push(`De ${parametro.minimo} a ${parametro.maximo}.`);
+  if (parametro.padrao != null && !parametro.descricao.includes("Padrão")) partes.push(`Padrão: ${parametro.padrao}.`);
+  return partes.join(" ");
+}
+
+/** Os mesmos parâmetros do OpenAPI: caminho primeiro, depois consulta, depois os globais. */
 function parametrosDoc(rota: Rota) {
-  const tokens = (rota.caminho.match(/:([a-z_]+)/g) ?? []).map((token) => token.slice(1));
-  const doCaminho = tokens.map((nome) => {
-    const registro = rota.parametros.find((parametro) => parametro.nome === nome);
-    return { nome, onde: "path" as const, tipo: "string", obrigatorio: true, descricao: registro?.descricao ?? "Trecho do caminho." };
-  });
-  const consulta = rota.parametros
-    .filter((parametro) => parametro.onde !== "path" && !tokens.includes(parametro.nome))
-    .map((parametro) => ({
+  const globais = PARAMETROS_GLOBAIS.filter((global) => !rota.parametros.some((item) => item.nome === global.nome));
+  return [...rota.parametros.filter((item) => item.onde === "path"), ...rota.parametros.filter((item) => item.onde === "query"), ...globais].map(
+    (parametro) => ({
       nome: parametro.nome,
-      onde: "query" as const,
-      tipo: LISTAS.has(parametro.nome) ? "lista" : "string",
-      obrigatorio: false,
-      descricao: parametro.descricao,
-    }));
-  return [
-    ...doCaminho,
-    ...consulta,
-    { nome: "campos", onde: "query" as const, tipo: "lista", obrigatorio: false, descricao: "Subconjunto opcional das chaves de dados, por exemplo codigo,cbo.titulo." },
-  ];
+      onde: parametro.onde,
+      tipo: tipoDoc(parametro),
+      obrigatorio: parametro.onde === "path" || parametro.obrigatorio === true,
+      descricao: descricaoDoc(parametro),
+    }),
+  );
 }
 
 function urlExemplo(caminho: string, params: Record<string, string>, query: URLSearchParams) {
@@ -256,7 +264,7 @@ export function carregarRota(slug: string) {
   let corpo: ReturnType<typeof envelope> | undefined;
   let erro: { status: number; titulo: string; detalhe: string; dica?: string } | undefined;
   try {
-    const saida = rota.handle({ params, query, url: new URL(url) });
+    const saida = rota.handle({ params, query: new ConsultaRota(query, rota.parametros), url: new URL(url) });
     corpo = envelope(saida, url.replace("https://cbo.ciencia.social", ""));
   } catch (falha) {
     if (!(falha instanceof Problema)) throw falha;

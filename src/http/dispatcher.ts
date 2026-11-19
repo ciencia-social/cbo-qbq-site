@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { Problema, parametro } from "@/http/erros";
 import { limitar } from "@/http/limite";
-import { exigirTetos, lista } from "@/http/parametros";
+import { ConsultaRota, lista, PARAMETROS_GLOBAIS, validarPedido } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
 import { api, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
 import type { Saida } from "@/tipos";
@@ -24,9 +24,6 @@ export async function tratar(req: Request): Promise<Response> {
   try {
     limitar(req.headers);
     const url = new URL(req.url);
-    if (url.searchParams.get("formato") === "csv") {
-      throw parametro("formato", "O formato CSV não está disponível nesta versão.", ["json"]);
-    }
     const relativo = caminhoRelativo(url.pathname);
     const casou = casar(relativo);
     if (!casou) {
@@ -38,13 +35,17 @@ export async function tratar(req: Request): Promise<Response> {
         `O índice está em ${PREFIXO_API}.`,
       );
     }
-    exigirTetos(url.searchParams, casou.params);
-    const ctx: Ctx = { params: casou.params, query: url.searchParams, url };
+    const declaraFormato = casou.rota.parametros.some((item) => item.nome === "formato");
+    if (!declaraFormato && url.searchParams.get("formato") === "csv") {
+      throw parametro("formato", "O formato CSV não está disponível nesta versão.", ["json"]);
+    }
+    validarPedido(casou.rota.parametros, url.searchParams, casou.params);
+    const ctx: Ctx = { params: casou.params, query: new ConsultaRota(url.searchParams, casou.rota.parametros), url };
     const saida = casou.rota.handle(ctx);
     if (saida.cru) {
       return finalizar(req, url, 200, JSON.stringify(saida.dados), "application/json; charset=utf-8");
     }
-    const campos = lista(url.searchParams, "campos");
+    const campos = lista(new ConsultaRota(url.searchParams, PARAMETROS_GLOBAIS), "campos");
     const dados = campos ? aplicarCampos(saida.dados, campos) : saida.dados;
     const corpo = JSON.stringify(envelope(url, saida, dados));
     return finalizar(req, url, 200, corpo, "application/json; charset=utf-8");
