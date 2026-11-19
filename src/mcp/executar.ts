@@ -65,7 +65,8 @@ function preparar(valor: unknown, chave?: string): unknown {
   return valor;
 }
 
-function embrulho(saida: Saida, texto: string): ResultadoTool {
+/** Envelope do MCP: versão, avisos, derivado e resultado, com links absolutos. Serve às tools e aos resources. */
+export function embrulho(saida: Saida, texto: string): ResultadoTool {
   const total = saida.total;
   const limite = saida.limite;
   const avisos = [...(saida.avisos ?? [])];

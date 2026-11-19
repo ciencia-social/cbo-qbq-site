@@ -1,6 +1,8 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { definicoes, executarTool, INSTRUCOES, somenteLeitura, textoMcp } from "@/mcp/executar";
 import { Problema } from "@/http/erros";
+import { registrarPrompts } from "@/mcp/prompts";
+import { registrarRecursos } from "@/mcp/recursos";
 
 export function criarServidor() {
   const servidor = new McpServer({ name: "cbo-qbq", version: "0.1.0" }, { instructions: INSTRUCOES });
@@ -25,6 +27,12 @@ export function criarServidor() {
       },
     );
   }
-  servidor.server.registerCapabilities({ tools: { listChanged: false } });
+  registrarRecursos(servidor);
+  registrarPrompts(servidor);
+  servidor.server.registerCapabilities({
+    tools: { listChanged: false },
+    resources: { listChanged: false },
+    prompts: { listChanged: false },
+  });
   return servidor;
 }

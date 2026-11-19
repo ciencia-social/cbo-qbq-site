@@ -8,7 +8,7 @@ export function api(caminho: string) {
   return `${PREFIXO_API}${caminho}`;
 }
 export const VERSAO_SCHEMA = "schema-v0.3.0";
-export const GERADOR = "2";
+export const GERADOR = "3";
 
 export const VERSAO_CAMADAS = {
   cbo_espinha: "dados-2026.11",

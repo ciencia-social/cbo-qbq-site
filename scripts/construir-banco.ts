@@ -284,6 +284,11 @@ function main() {
       ordem INTEGER NOT NULL,
       busca TEXT NOT NULL
     );
+    CREATE TABLE documento (
+      nome TEXT PRIMARY KEY,
+      texto TEXT NOT NULL,
+      fonte TEXT NOT NULL
+    );
     CREATE TABLE fonte_oficial (
       arquivo TEXT PRIMARY KEY,
       origem TEXT,
@@ -631,6 +636,18 @@ function main() {
       normalizarBusca(`${cabeca[1]} ${cabeca[2]} ${contexto} ${decisao}`),
     );
   });
+
+  // Textos servidos como resources do MCP (I13).
+  const insDocumento = db.prepare("INSERT INTO documento (nome, texto, fonte) VALUES (?, ?, ?)");
+  const modelo = fs.readFileSync(path.join(raiz, "docs", "modelo-de-dados.md"), "utf8");
+  const readme = fs.readFileSync(path.join(raiz, "README.md"), "utf8");
+  const encaixe = readme.match(/^## Como os dados se encaixam\n[\s\S]*?(?=^## |(?![\s\S]))/m)?.[0]?.trim();
+  insDocumento.run(
+    "modelo-de-dados",
+    encaixe ? `${modelo.trim()}\n\n${encaixe}\n` : modelo,
+    encaixe ? "docs/modelo-de-dados.md; README.md (Como os dados se encaixam)" : "docs/modelo-de-dados.md",
+  );
+  insDocumento.run("decisoes", decisoes, "DECISOES.md");
 
   const fontesMd = fs.readFileSync(path.join(raiz, "fontes", "README.md"), "utf8");
   const insFonte = db.prepare(

@@ -33,4 +33,6 @@ Este serviço expõe a release dados-2026.11.1 (schema-v0.3.0). A fonte canônic
 
 O servidor MCP em /mcp expõe as mesmas consultas, com limite menor. Tools: ocupacao_buscar, ocupacao_obter, cbo_atividades, qbq_competencias, cbo_navegar, codigo_decodificar, qbq_vocabulario, dados_sobre, cbo_buscar_atividades, qbq_buscar_termos, qbq_ocupacoes_por_competencia, ocupacao_comparar, ocupacao_similares, cbo_resumir_grupo, cobertura_consultar.
 
+Resources MCP: cboqbq://sobre, cboqbq://modelo-de-dados, cboqbq://decisoes, cboqbq://ocupacao/{codigo}, cboqbq://cbo/{codigo} (1 a 4 dígitos) e cboqbq://vocabulario/{vocabulario}. Prompts MCP: classificar_vaga (texto), perfil_de_ocupacao (ocupacao), transicao_de_carreira (origem, destino) e panorama_de_grupo (codigo).
+
 Citação: cbo-qbq-dados — CBO e QBQ como dados abertos (github.com/ciencia-social/cbo-qbq-dados), a partir de dados oficiais do MTE. Licença da compilação: CC BY 4.0.
