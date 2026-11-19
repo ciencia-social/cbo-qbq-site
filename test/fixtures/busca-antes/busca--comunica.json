@@ -1,0 +1,399 @@
+{
+ "url": "/api/v1/busca?q=comunica",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [
+    {
+     "tipo": "ocupacao",
+     "identificador": "142310",
+     "rotulo": "Gerente de comunicação",
+     "casou_em": "titulo",
+     "trecho": "Gerente de comunicação",
+     "link": "/api/v1/ocupacoes/142310"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "212410",
+     "rotulo": "Analista de redes e de comunicação de dados",
+     "casou_em": "titulo",
+     "trecho": "Analista de redes e de comunicação de dados",
+     "link": "/api/v1/ocupacoes/212410"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "214350",
+     "rotulo": "Engenheiro de redes de comunicação",
+     "casou_em": "titulo",
+     "trecho": "Engenheiro de redes de comunicação",
+     "link": "/api/v1/ocupacoes/214350"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "234725",
+     "rotulo": "Professor de comunicação social do ensino superior",
+     "casou_em": "titulo",
+     "trecho": "Professor de comunicação social do ensino superior",
+     "link": "/api/v1/ocupacoes/234725"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "313305",
+     "rotulo": "Técnico de comunicação de dados",
+     "casou_em": "titulo",
+     "trecho": "Técnico de comunicação de dados",
+     "link": "/api/v1/ocupacoes/313305"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "352410",
+     "rotulo": "Avaliador de produtos dos meios de comunicação",
+     "casou_em": "titulo",
+     "trecho": "Avaliador de produtos dos meios de comunicação",
+     "link": "/api/v1/ocupacoes/352410"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "732105",
+     "rotulo": "Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",
+     "casou_em": "titulo",
+     "trecho": "Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",
+     "link": "/api/v1/ocupacoes/732105"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "732130",
+     "rotulo": "Instalador-reparador de redes telefônicas e de comunicação de dados",
+     "casou_em": "titulo",
+     "trecho": "Instalador-reparador de redes telefônicas e de comunicação de dados",
+     "link": "/api/v1/ocupacoes/732130"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142325",
+     "rotulo": "Relações públicas",
+     "casou_em": "sinonimo",
+     "trecho": "Especialista de comunicação em relações públicas",
+     "link": "/api/v1/ocupacoes/142325"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "233225",
+     "rotulo": "Professor instrutor de ensino e aprendizagem em serviços",
+     "casou_em": "sinonimo",
+     "trecho": "Instrutor de aprendizagem em comunicação",
+     "link": "/api/v1/ocupacoes/233225"
+    }
+   ],
+   "sinonimo": [
+    {
+     "tipo": "sinonimo",
+     "identificador": "142310",
+     "rotulo": "Gerente de comunicação corporativa",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de comunicação corporativa",
+     "link": "/api/v1/ocupacoes/142310"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "142325",
+     "rotulo": "Especialista de comunicação em relações públicas",
+     "casou_em": "sinonimo",
+     "trecho": "Especialista de comunicação em relações públicas",
+     "link": "/api/v1/ocupacoes/142325"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "212410",
+     "rotulo": "Analista de comunicação (teleprocessamento)",
+     "casou_em": "sinonimo",
+     "trecho": "Analista de comunicação (teleprocessamento)",
+     "link": "/api/v1/ocupacoes/212410"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "214350",
+     "rotulo": "Engenheiro de sistemas de comunicação",
+     "casou_em": "sinonimo",
+     "trecho": "Engenheiro de sistemas de comunicação",
+     "link": "/api/v1/ocupacoes/214350"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "233225",
+     "rotulo": "Instrutor de aprendizagem em comunicação",
+     "casou_em": "sinonimo",
+     "trecho": "Instrutor de aprendizagem em comunicação",
+     "link": "/api/v1/ocupacoes/233225"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "261410",
+     "rotulo": "Intérprete de comunicação eletrônica",
+     "casou_em": "sinonimo",
+     "trecho": "Intérprete de comunicação eletrônica",
+     "link": "/api/v1/ocupacoes/261410"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "261715",
+     "rotulo": "Comunicador de mídias audiovisuais",
+     "casou_em": "sinonimo",
+     "trecho": "Comunicador de mídias audiovisuais",
+     "link": "/api/v1/ocupacoes/261715"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "317120",
+     "rotulo": "Programador de comunicação de sistemas",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de comunicação de sistemas",
+     "link": "/api/v1/ocupacoes/317120"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "731305",
+     "rotulo": "Instalador de equipamentos de comunicação",
+     "casou_em": "sinonimo",
+     "trecho": "Instalador de equipamentos de comunicação",
+     "link": "/api/v1/ocupacoes/731305"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "732130",
+     "rotulo": "Instalador-reparador de linhas de comunicação de dados",
+     "casou_em": "sinonimo",
+     "trecho": "Instalador-reparador de linhas de comunicação de dados",
+     "link": "/api/v1/ocupacoes/732130"
+    }
+   ],
+   "familia": [
+    {
+     "tipo": "familia",
+     "identificador": "1416",
+     "rotulo": "Gerentes de operações de serviços em empresa de transporte, de comunicação e de logística (armazenagem e distribuição)",
+     "casou_em": "titulo",
+     "trecho": "Gerentes de operações de serviços em empresa de transporte, de comunicação e de logística (armazenagem e distribuição)",
+     "link": "/api/v1/cbo/familias/1416"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1423",
+     "rotulo": "Gerentes de comercialização, marketing e comunicação",
+     "casou_em": "titulo",
+     "trecho": "Gerentes de comercialização, marketing e comunicação",
+     "link": "/api/v1/cbo/familias/1423"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "3524",
+     "rotulo": "Profissionais de direitos autorais e de avaliacão de produtos dos meios de comunicação",
+     "casou_em": "titulo",
+     "trecho": "…ssionais de direitos autorais e de avaliacão de produtos dos meios de comunicação",
+     "link": "/api/v1/cbo/familias/3524"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "7321",
+     "rotulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados",
+     "casou_em": "titulo",
+     "trecho": "…taladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados",
+     "link": "/api/v1/cbo/familias/7321"
+    }
+   ],
+   "atividade": [
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Definir diretrizes de comunicação social",
+     "casou_em": "atividade",
+     "trecho": "Definir diretrizes de comunicação social",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020205",
+     "rotulo": "Comunicar ausência de subordinado",
+     "casou_em": "atividade",
+     "trecho": "Comunicar ausência de subordinado",
+     "link": "/api/v1/ocupacoes/020205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020205",
+     "rotulo": "Comunicar-se com facilidade",
+     "casou_em": "atividade",
+     "trecho": "Comunicar-se com facilidade",
+     "link": "/api/v1/ocupacoes/020205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Coordenar comunicação de rede rádio",
+     "casou_em": "atividade",
+     "trecho": "Coordenar comunicação de rede rádio",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Comunicar infração disciplinar ou ação meritória",
+     "casou_em": "atividade",
+     "trecho": "Comunicar infração disciplinar ou ação meritória",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Coordenar campanhas educativas",
+     "casou_em": "atividade",
+     "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Participar de conselhos com a comunidade",
+     "casou_em": "atividade",
+     "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Informar imprensa sobre ocorrências",
+     "casou_em": "atividade",
+     "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Realizar resenhas",
+     "casou_em": "atividade",
+     "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Participar de eventos cívicos",
+     "casou_em": "atividade",
+     "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    }
+   ],
+   "termo": [
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/campos/01.02.00",
+     "rotulo": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+     "casou_em": "termo",
+     "trecho": "TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/campos/01.02.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/campos/05.03.00",
+     "rotulo": "COMUNICAÇÃO",
+     "casou_em": "termo",
+     "trecho": "COMUNICAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/campos/05.03.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/campos/20.10.00",
+     "rotulo": "PROPRIEDADE INTELECTUAL E AVALIAÇÃO DE PROGRAMAS DOS MEIOS DE COMUNICAÇÃO",
+     "casou_em": "termo",
+     "trecho": "PROPRIEDADE INTELECTUAL E AVALIAÇÃO DE PROGRAMAS DOS MEIOS DE COMUNICAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/campos/20.10.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.02.09",
+     "rotulo": "SOFTWARE - SISTEMA DE COMUNICAÇÃO E ARQUIVAMENTO DE IMAGENS (PACS)",
+     "casou_em": "termo",
+     "trecho": "SOFTWARE - SISTEMA DE COMUNICAÇÃO E ARQUIVAMENTO DE IMAGENS (PACS)",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.02.09"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.02.90",
+     "rotulo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+     "casou_em": "termo",
+     "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.02.90"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/05.03.01",
+     "rotulo": "COMUNICAÇÃO VISUAL",
+     "casou_em": "termo",
+     "trecho": "COMUNICAÇÃO VISUAL",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/05.03.01"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/05.03.06",
+     "rotulo": "TEORIA DA COMUNICAÇÃO",
+     "casou_em": "termo",
+     "trecho": "TEORIA DA COMUNICAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/05.03.06"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/05.03.90",
+     "rotulo": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - ATENDIMENTO TELEFÔNICO",
+     "casou_em": "termo",
+     "trecho": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - ATENDIMENTO TELEFÔNICO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/05.03.90"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/07.01.01",
+     "rotulo": "PORTUGUÊS: COMUNICAÇÃO E EXPRESSÃO",
+     "casou_em": "termo",
+     "trecho": "PORTUGUÊS: COMUNICAÇÃO E EXPRESSÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/07.01.01"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/07.01.02",
+     "rotulo": "PORTUGUÊS: COMUNICAÇÃO ORAL E ESCRITA",
+     "casou_em": "termo",
+     "trecho": "PORTUGUÊS: COMUNICAÇÃO ORAL E ESCRITA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/07.01.02"
+    }
+   ],
+   "conceito": [
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/01.01",
+     "rotulo": "Comunicação",
+     "casou_em": "conceito",
+     "trecho": "Comunicação",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/01.01"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "habilidades/01.01.03",
+     "rotulo": "Expressão oral",
+     "casou_em": "conceito",
+     "trecho": "Capacidade desenvolvida de comunicar–se claramente ao fornecer informações e ideias para que outr…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/habilidades/01.01.03"
+    }
+   ]
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=comunica",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

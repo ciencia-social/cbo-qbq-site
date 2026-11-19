@@ -1,0 +1,322 @@
+{
+ "url": "/api/v1/atividades?q=banco+de+dados",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 1,
+    "descricao": "Selecionar variáveis componentes do banco de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "atividade",
+    "trecho": "Selecionar variáveis componentes do banco de dados"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 2,
+    "descricao": "Criar dicionário de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 3,
+    "descricao": "Estabelecer nível de agregação a ser disponibilizado",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 4,
+    "descricao": "Descrever conteúdo dos dados (meta-dados)",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 5,
+    "descricao": "Acrescentar variáveis ao banco de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "atividade",
+    "trecho": "Acrescentar variáveis ao banco de dados"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 6,
+    "descricao": "Atualizar dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 7,
+    "descricao": "Avaliar qualidade do banco de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar qualidade do banco de dados"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 8,
+    "descricao": "Dar suporte na utilização dos bancos de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16502
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 1,
+    "descricao": "Selecionar variáveis componentes do banco de dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "atividade",
+    "trecho": "Selecionar variáveis componentes do banco de dados"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 2,
+    "descricao": "Criar dicionário de dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 3,
+    "descricao": "Estabelecer nível de agregação a ser disponibilizado",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 4,
+    "descricao": "Descrever conteúdo dos dados (meta-dados)",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 5,
+    "descricao": "Acrescentar variáveis ao banco de dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "atividade",
+    "trecho": "Acrescentar variáveis ao banco de dados"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 6,
+    "descricao": "Atualizar dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 7,
+    "descricao": "Avaliar qualidade do banco de dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar qualidade do banco de dados"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "sigla": "G",
+    "area": "CRIAR BANCO DE DADOS",
+    "numero": 8,
+    "descricao": "Dar suporte na utilização dos bancos de dados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16568
+    },
+    "casou_em": "area",
+    "trecho": "CRIAR BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "sigla": "A",
+    "area": "ADMINISTRAR AMBIENTE COMPUTACIONAL",
+    "numero": 6,
+    "descricao": "Implantar projeto de banco de dados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16866
+    },
+    "casou_em": "atividade",
+    "trecho": "Implantar projeto de banco de dados"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "sigla": "B",
+    "area": "INSTALAR RECURSOS COMPUTACIONAIS",
+    "numero": 8,
+    "descricao": "Projetar banco de dados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 16866
+    },
+    "casou_em": "atividade",
+    "trecho": "Projetar banco de dados"
+   },
+   {
+    "ocupacao": "212415",
+    "titulo": "Analista de sistemas de automação",
+    "sigla": "B",
+    "area": "ADMINISTRAR AMBIENTE DE TECNOLOGIA DA INFORMAÇÃO",
+    "numero": 3,
+    "descricao": "Administrar banco de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 17223
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados"
+   },
+   {
+    "ocupacao": "213305",
+    "titulo": "Astrônomo",
+    "sigla": "D",
+    "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+    "numero": 8,
+    "descricao": "Criar banco de dados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 18282
+    },
+    "casou_em": "atividade",
+    "trecho": "Criar banco de dados"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 126,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=banco+de+dados",
+   "proxima": "/api/v1/atividades?q=banco+de+dados&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

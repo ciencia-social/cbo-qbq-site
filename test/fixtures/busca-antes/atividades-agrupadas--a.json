@@ -1,0 +1,962 @@
+{
+ "url": "/api/v1/atividades?q=a&agrupar_por=ocupacao",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "223305",
+    "codigo_formatado": "2233-05",
+    "titulo_cbo": "Médico veterinário",
+    "titulo_qbq": "Médico-veterinário",
+    "familia": {
+     "codigo": "2233",
+     "titulo": "Veterinários e zootecnistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 405
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2059
+     }
+    },
+    "total_casadas": 155,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 1,
+      "descricao": "Dimensionar plantel",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 2,
+      "descricao": "Estudar viabilidade econômica da atividade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 3,
+      "descricao": "Estabelecer interface entre informática e produção animal",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239220",
+    "codigo_formatado": "2392-20",
+    "titulo_cbo": "Professor de alunos com deficiência múltipla",
+    "titulo_qbq": "Professor de alunos com deficiência múltipla",
+    "familia": {
+     "codigo": "2392",
+     "titulo": "Professores de educação especial"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 642
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2300
+     }
+    },
+    "total_casadas": 124,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 1,
+      "descricao": "Ensinar as atividades de vida diária (AVD)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 2,
+      "descricao": "Ensinar as atividades de vida autônoma",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 3,
+      "descricao": "Ministrar aulas de orientação para o trabalho",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234689",
+    "codigo_formatado": "2346-89",
+    "titulo_cbo": "Professor de língua brasileira de sinais (libras)",
+    "titulo_qbq": "Professor de língua brasileira de sinais (libras)",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 618
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2658
+     }
+    },
+    "total_casadas": 119,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 1,
+      "descricao": "Preparar aulas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 3,
+      "descricao": "Selecionar textos para estudo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "233210",
+    "codigo_formatado": "2332-10",
+    "titulo_cbo": "Instrutor de aprendizagem e treinamento industrial",
+    "titulo_qbq": "Instrutor de aprendizagem e treinamento industrial",
+    "familia": {
+     "codigo": "2332",
+     "titulo": "Instrutores de ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 565
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2208
+     }
+    },
+    "total_casadas": 117,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 1,
+      "descricao": "Desenvolver atividades de ensino em situações práticas de trabalho",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 2,
+      "descricao": "Ensinar procedimentos e técnicas de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 3,
+      "descricao": "Simular situações atuais de trabalho",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "233215",
+    "codigo_formatado": "2332-15",
+    "titulo_cbo": "Instrutor de aprendizagem e treinamento comercial",
+    "titulo_qbq": "Instrutor de aprendizagem e treinamento comercial",
+    "familia": {
+     "codigo": "2332",
+     "titulo": "Instrutores de ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 566
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2209
+     }
+    },
+    "total_casadas": 117,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 1,
+      "descricao": "Desenvolver atividades de ensino em situações práticas de trabalho",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 2,
+      "descricao": "Ensinar procedimentos e técnicas de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 3,
+      "descricao": "Simular situações atuais de trabalho",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234510",
+    "codigo_formatado": "2345-10",
+    "titulo_cbo": "Professor de ensino superior na área de orientação educacional",
+    "titulo_qbq": "Professor de ensino superior na área de orientação educacional",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 594
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2253
+     }
+    },
+    "total_casadas": 117,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 1,
+      "descricao": "Proporcionar situações de ensino-aprendizagem diversificadas aos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 2,
+      "descricao": "Promover situações de ensino-aprendizagem a partir de fontes diversificadas de conhecimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 3,
+      "descricao": "Desenvolver situações de ensino-aprendizagem, com base na heterogeniedade dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234520",
+    "codigo_formatado": "2345-20",
+    "titulo_cbo": "Professor de ensino superior na área de prática de ensino",
+    "titulo_qbq": "Professor de ensino superior na área de prática de ensino",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 596
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2255
+     }
+    },
+    "total_casadas": 117,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 1,
+      "descricao": "Proporcionar situações de ensino-aprendizagem diversificadas aos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 2,
+      "descricao": "Promover situações de ensino-aprendizagem a partir de fontes diversificadas de conhecimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 3,
+      "descricao": "Desenvolver situações de ensino-aprendizagem, com base na heterogeniedade dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "725605",
+    "codigo_formatado": "7256-05",
+    "titulo_cbo": "Montador de estruturas de aeronaves",
+    "titulo_qbq": "Montador de estruturas de aeronaves",
+    "familia": {
+     "codigo": "7256",
+     "titulo": "Montadores de sistemas e estruturas de aeronaves"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1978
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1529
+     }
+    },
+    "total_casadas": 117,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LER E INTERPRETAR DOCUMENTAÇÃO TÉCNICA",
+      "numero": 4,
+      "descricao": "Aplicar procedimentos conforme normas técnicas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "FABRICAR COMPONENTES DA ESTRUTURA DA AERONAVE",
+      "numero": 1,
+      "descricao": "Fabricar peças primárias para montagem dos subconjuntos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "FABRICAR COMPONENTES DA ESTRUTURA DA AERONAVE",
+      "numero": 2,
+      "descricao": "Fabricar peças para montagem da asa",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "113005",
+    "codigo_formatado": "1130-05",
+    "titulo_cbo": "Cacique",
+    "titulo_qbq": "Cacique",
+    "familia": {
+     "codigo": "1130",
+     "titulo": "Dirigentes de povos indígenas, de quilombolas e caiçaras"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "sem_nivel_sem_justificativa",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 59
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2473
+     }
+    },
+    "total_casadas": 116,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+      "numero": 1,
+      "descricao": "Nomear as lideranças por grupos de atividades",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+      "numero": 2,
+      "descricao": "Coordenar as atividades dos guerreiros e dos chefes dos guerreiros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+      "numero": 3,
+      "descricao": "Discutir problemas da aldeia",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "233225",
+    "codigo_formatado": "2332-25",
+    "titulo_cbo": "Professor instrutor de ensino e aprendizagem em serviços",
+    "titulo_qbq": "Professor instrutor de ensino e aprendizagem em serviços",
+    "familia": {
+     "codigo": "2332",
+     "titulo": "Instrutores de ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 568
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2211
+     }
+    },
+    "total_casadas": 116,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 1,
+      "descricao": "Desenvolver atividades de ensino em situações práticas de trabalho",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 2,
+      "descricao": "Ensinar procedimentos e técnicas de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SITUAÇÕES DE ENSINO QUE PROMOVAM A APRENDIZAGEM PROFISSIONAL",
+      "numero": 3,
+      "descricao": "Simular situações atuais de trabalho",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261305",
+    "codigo_formatado": "2613-05",
+    "titulo_cbo": "Arquivista",
+    "titulo_qbq": "Arquivista",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 778
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2410
+     }
+    },
+    "total_casadas": 116,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR DOCUMENTAÇÃO DE ARQUIVOS INSTITUCIONAIS E PESSOAIS",
+      "numero": 1,
+      "descricao": "Classificar documentos de arquivo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR DOCUMENTAÇÃO DE ARQUIVOS INSTITUCIONAIS E PESSOAIS",
+      "numero": 2,
+      "descricao": "Codificar documentos de arquivo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR DOCUMENTAÇÃO DE ARQUIVOS INSTITUCIONAIS E PESSOAIS",
+      "numero": 3,
+      "descricao": "Decidir o suporte do registro de informação",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "231110",
+    "codigo_formatado": "2311-10",
+    "titulo_cbo": "Professor de nível superior na educação infantil (zero a três anos)",
+    "titulo_qbq": "Professor de nível superior na educação infantil (zero a três anos)",
+    "familia": {
+     "codigo": "2311",
+     "titulo": "Professores de nível superior na educação infantil"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 532
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2177
+     }
+    },
+    "total_casadas": 115,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 1,
+      "descricao": "Estabelecer normas e regras de conduta",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 2,
+      "descricao": "Estabelecer limites",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 3,
+      "descricao": "Estabelecer rotinas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "623015",
+    "codigo_formatado": "6230-15",
+    "titulo_cbo": "Trabalhador de pecuária polivalente",
+    "titulo_qbq": "Trabalhador de pecuária polivalente",
+    "familia": {
+     "codigo": "6230",
+     "titulo": "Tratadores polivalentes de animais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1652
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 798
+     }
+    },
+    "total_casadas": 115,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 1,
+      "descricao": "Conferir plantel",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 2,
+      "descricao": "Orientar proprietários de animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 3,
+      "descricao": "Conferir estado físico de animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "223310",
+    "codigo_formatado": "2233-10",
+    "titulo_cbo": "Zootecnista",
+    "titulo_qbq": "Zootecnista",
+    "familia": {
+     "codigo": "2233",
+     "titulo": "Veterinários e zootecnistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 406
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2060
+     }
+    },
+    "total_casadas": 114,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 1,
+      "descricao": "Dimensionar plantel",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 2,
+      "descricao": "Estudar viabilidade econômica da atividade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 3,
+      "descricao": "Estabelecer interface entre informática e produção animal",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239205",
+    "codigo_formatado": "2392-05",
+    "titulo_cbo": "Professor de alunos com deficiência auditiva e surdos",
+    "titulo_qbq": "Professor de alunos com deficiência auditiva e surdos",
+    "familia": {
+     "codigo": "2392",
+     "titulo": "Professores de educação especial"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 639
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2297
+     }
+    },
+    "total_casadas": 114,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 1,
+      "descricao": "Ensinar as atividades de vida diária (AVD)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 2,
+      "descricao": "Ensinar as atividades de vida autônoma",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 3,
+      "descricao": "Ministrar aulas de orientação para o trabalho",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234505",
+    "codigo_formatado": "2345-05",
+    "titulo_cbo": "Professor de ensino superior na área de didática",
+    "titulo_qbq": "Professor de ensino superior na área de didática",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 593
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2252
+     }
+    },
+    "total_casadas": 112,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 1,
+      "descricao": "Proporcionar situações de ensino-aprendizagem diversificadas aos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 2,
+      "descricao": "Promover situações de ensino-aprendizagem a partir de fontes diversificadas de conhecimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 3,
+      "descricao": "Desenvolver situações de ensino-aprendizagem, com base na heterogeniedade dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234515",
+    "codigo_formatado": "2345-15",
+    "titulo_cbo": "Professor de ensino superior na área de pesquisa educacional",
+    "titulo_qbq": "Professor de ensino superior na área de pesquisa educacional",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 8,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 595
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2254
+     }
+    },
+    "total_casadas": 111,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 1,
+      "descricao": "Proporcionar situações de ensino-aprendizagem diversificadas aos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 2,
+      "descricao": "Promover situações de ensino-aprendizagem a partir de fontes diversificadas de conhecimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 3,
+      "descricao": "Desenvolver situações de ensino-aprendizagem, com base na heterogeniedade dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231105",
+    "codigo_formatado": "2311-05",
+    "titulo_cbo": "Professor de nível superior na educação infantil (quatro a seis anos)",
+    "titulo_qbq": "Professor de nível superior na educação infantil (quatro a seis anos)",
+    "familia": {
+     "codigo": "2311",
+     "titulo": "Professores de nível superior na educação infantil"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 531
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2176
+     }
+    },
+    "total_casadas": 110,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 1,
+      "descricao": "Estabelecer normas e regras de conduta",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 2,
+      "descricao": "Estabelecer limites",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 3,
+      "descricao": "Estabelecer rotinas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234604",
+    "codigo_formatado": "2346-04",
+    "titulo_cbo": "Professor de língua alemã",
+    "titulo_qbq": "Professor de língua alemã",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 597
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2256
+     }
+    },
+    "total_casadas": 110,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 1,
+      "descricao": "Preparar aulas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 3,
+      "descricao": "Selecionar textos para estudo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234608",
+    "codigo_formatado": "2346-08",
+    "titulo_cbo": "Professor de língua italiana",
+    "titulo_qbq": "Professor de língua italiana",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 598
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2257
+     }
+    },
+    "total_casadas": 110,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 1,
+      "descricao": "Preparar aulas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 3,
+      "descricao": "Selecionar textos para estudo",
+      "casou_em": "area"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 2669,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=a&agrupar_por=ocupacao",
+   "proxima": "/api/v1/atividades?q=a&agrupar_por=ocupacao&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "url": "/api/v1/atividades?q=direito+ambiental&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 0,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=direito+ambiental&limite=100&deslocamento=100",
+   "proxima": null,
+   "anterior": "/api/v1/atividades?q=direito+ambiental&limite=100&deslocamento=0"
+  }
+ }
+}

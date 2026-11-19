@@ -1,0 +1,1522 @@
+{
+ "url": "/api/v1/atividades?q=programa&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "123205",
+    "titulo": "Diretor de recursos humanos",
+    "sigla": "F",
+    "area": "CONDUZIR AS ATIVIDADES DE INTEGRAÇÃO DE RECURSOS HUMANOS, EM PROCESSOS DE FUSÃO E AQUISIÇÃO",
+    "numero": 6,
+    "descricao": "Promover programas de integração entre as empresas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 5927
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas de integração entre as empresas"
+   },
+   {
+    "ocupacao": "123210",
+    "titulo": "Diretor de relações de trabalho",
+    "sigla": "C",
+    "area": "DESENVOLVER ESTRATÉGIAS DE SELEÇÃO, TREINAMENTO E DESENVOLVIMENTO DE PESSOAL",
+    "numero": 5,
+    "descricao": "Desenvolver programas de qualificação do efetivo de pessoal para manutenção dos requisitos operacionais",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 5988
+    },
+    "casou_em": "atividade",
+    "trecho": "Desenvolver programas de qualificação do efetivo de pessoal para manutenção dos re…"
+   },
+   {
+    "ocupacao": "123210",
+    "titulo": "Diretor de relações de trabalho",
+    "sigla": "C",
+    "area": "DESENVOLVER ESTRATÉGIAS DE SELEÇÃO, TREINAMENTO E DESENVOLVIMENTO DE PESSOAL",
+    "numero": 9,
+    "descricao": "Formular diretrizes, objetivos e programas para desenvolvimento profissional dos funcionários",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 5988
+    },
+    "casou_em": "atividade",
+    "trecho": "Formular diretrizes, objetivos e programas para desenvolvimento profissional dos funcionários"
+   },
+   {
+    "ocupacao": "123210",
+    "titulo": "Diretor de relações de trabalho",
+    "sigla": "F",
+    "area": "CONDUZIR AS ATIVIDADES DE INTEGRAÇÃO DE RECURSOS HUMANOS, EM PROCESSOS DE FUSÃO E AQUISIÇÃO",
+    "numero": 6,
+    "descricao": "Promover programas de integração entre as empresas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 5988
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas de integração entre as empresas"
+   },
+   {
+    "ocupacao": "123805",
+    "titulo": "Diretor de manutenção",
+    "sigla": "B",
+    "area": "IMPLEMENTAR ATIVIDADES DE MANUTENÇÃO",
+    "numero": 5,
+    "descricao": "Negociar programação de paradas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6555
+    },
+    "casou_em": "atividade",
+    "trecho": "Negociar programação de paradas"
+   },
+   {
+    "ocupacao": "123805",
+    "titulo": "Diretor de manutenção",
+    "sigla": "C",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 7,
+    "descricao": "Propor programa de treinamento e capacitação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6555
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor programa de treinamento e capacitação"
+   },
+   {
+    "ocupacao": "131115",
+    "titulo": "Gerente de serviços culturais",
+    "sigla": "B",
+    "area": "PLANEJAR ATIVIDADES",
+    "numero": 2,
+    "descricao": "Elaborar programa anual de trabalho",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6776
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar programa anual de trabalho"
+   },
+   {
+    "ocupacao": "131120",
+    "titulo": "Gerente de serviços sociais",
+    "sigla": "B",
+    "area": "PLANEJAR ATIVIDADES",
+    "numero": 2,
+    "descricao": "Elaborar programa anual de trabalho",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6844
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar programa anual de trabalho"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 10,
+    "descricao": "Implementar programas de saúde",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de saúde"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 15,
+    "descricao": "Coordenar projetos e/ou programas de saúde",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar projetos e/ou programas de saúde"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 1,
+    "descricao": "Elaborar plano estratégico",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 2,
+    "descricao": "Definir padrão de qualidade do serviço de saúde",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 3,
+    "descricao": "Analisar demanda dos serviços de saúde",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 4,
+    "descricao": "Definir público-alvo de atendimento",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 6,
+    "descricao": "Definir aquisição de equipamentos, materiais e insumos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 7,
+    "descricao": "Definir investimentos e custeio",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 8,
+    "descricao": "Definir capacidade operacional da instituição",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 9,
+    "descricao": "Definir instalação física em função dos serviços",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 10,
+    "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "sigla": "G",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 5,
+    "descricao": "Promover programa de qualidade de vida no trabalho",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6904
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programa de qualidade de vida no trabalho"
+   },
+   {
+    "ocupacao": "131210",
+    "titulo": "Gerente de serviços de saúde",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 10,
+    "descricao": "Implementar programas de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6983
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de saúde"
+   },
+   {
+    "ocupacao": "131210",
+    "titulo": "Gerente de serviços de saúde",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 11,
+    "descricao": "Elaborar estudos de viabilidade técnica e econômica",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6983
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131210",
+    "titulo": "Gerente de serviços de saúde",
+    "sigla": "G",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 5,
+    "descricao": "Promover programa de qualidade de vida no trabalho",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6983
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programa de qualidade de vida no trabalho"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 10,
+    "descricao": "Implementar programas de saúde",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de saúde"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 15,
+    "descricao": "Coordenar projetos e/ou programas de saúde",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar projetos e/ou programas de saúde"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 10,
+    "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 11,
+    "descricao": "Elaborar estudos de viabilidade técnica e econômica",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 12,
+    "descricao": "Determinar destinação dos residuos hospitalares",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 14,
+    "descricao": "Avaliar necessidades de aquisição/ contratação de equipamentos, materiais e serviços",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "sigla": "G",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 5,
+    "descricao": "Promover programa de qualidade de vida no trabalho",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7044
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programa de qualidade de vida no trabalho"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 11,
+    "descricao": "Implementar programas de atendimento biopsicossocial",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de atendimento biopsicossocial"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 6,
+    "descricao": "Definir aquisição de equipamentos, materiais e insumos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 10,
+    "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 14,
+    "descricao": "Avaliar necessidades de aquisição/ contratação de equipamentos, materiais e serviços",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 15,
+    "descricao": "Participar das discussões estratégicas para unidades de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 16,
+    "descricao": "Realizar pesquisas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "sigla": "E",
+    "area": "AVALIAR AÇÕES DE SAÚDE",
+    "numero": 13,
+    "descricao": "Avaliar programas implementados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7120
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar programas implementados"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 10,
+    "descricao": "Implementar programas de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de saúde"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 11,
+    "descricao": "Implementar programas de atendimento biopsicossocial",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de atendimento biopsicossocial"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "B",
+    "area": "COORDENAR AÇÕES DE SAÚDE",
+    "numero": 15,
+    "descricao": "Coordenar projetos e/ou programas de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar projetos e/ou programas de saúde"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 1,
+    "descricao": "Elaborar plano estratégico",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 2,
+    "descricao": "Definir padrão de qualidade do serviço de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 3,
+    "descricao": "Analisar demanda dos serviços de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 5,
+    "descricao": "Definir público alvo para serviços e ações de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 6,
+    "descricao": "Definir aquisição de equipamentos, materiais e insumos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 7,
+    "descricao": "Definir investimentos e custeio",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 8,
+    "descricao": "Definir capacidade operacional da instituição",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 9,
+    "descricao": "Definir instalação física em função dos serviços",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 10,
+    "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 11,
+    "descricao": "Elaborar estudos de viabilidade técnica e econômica",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 13,
+    "descricao": "Participar da elaboração de plano de destinação de resíduos hospitalares",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 14,
+    "descricao": "Avaliar necessidades de aquisição/ contratação de equipamentos, materiais e serviços",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 15,
+    "descricao": "Participar das discussões estratégicas para unidades de saúde",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "C",
+    "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+    "numero": 16,
+    "descricao": "Realizar pesquisas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "E",
+    "area": "AVALIAR AÇÕES DE SAÚDE",
+    "numero": 13,
+    "descricao": "Avaliar programas implementados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar programas implementados"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "sigla": "G",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 5,
+    "descricao": "Promover programa de qualidade de vida no trabalho",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7201
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programa de qualidade de vida no trabalho"
+   },
+   {
+    "ocupacao": "131305",
+    "titulo": "Diretor de instituição educacional da área privada",
+    "sigla": "C",
+    "area": "COORDENAR ATIVIDADES PEDAGÓGICAS",
+    "numero": 8,
+    "descricao": "Instituir programas de treinamento e desenvolvimento",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7331
+    },
+    "casou_em": "atividade",
+    "trecho": "Instituir programas de treinamento e desenvolvimento"
+   },
+   {
+    "ocupacao": "131315",
+    "titulo": "Gerente de instituição educacional da área privada",
+    "sigla": "C",
+    "area": "COORDENAR ATIVIDADES PEDAGÓGICAS",
+    "numero": 2,
+    "descricao": "Acompanhar cumprimento do programa educacional",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7437
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar cumprimento do programa educacional"
+   },
+   {
+    "ocupacao": "131320",
+    "titulo": "Gerente de serviços educacionais da área pública",
+    "sigla": "C",
+    "area": "COORDENAR ATIVIDADES PEDAGÓGICAS",
+    "numero": 2,
+    "descricao": "Acompanhar cumprimento do programa educacional",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7491
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar cumprimento do programa educacional"
+   },
+   {
+    "ocupacao": "141105",
+    "titulo": "Gerente de produção e operações  aqüícolas",
+    "sigla": "D",
+    "area": "GERENCIAR EQUIPES",
+    "numero": 7,
+    "descricao": "Estimular a criação de programas de melhoria contínua",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7538
+    },
+    "casou_em": "atividade",
+    "trecho": "Estimular a criação de programas de melhoria contínua"
+   },
+   {
+    "ocupacao": "141105",
+    "titulo": "Gerente de produção e operações  aqüícolas",
+    "sigla": "E",
+    "area": "ADMINISTRAR PRODUÇÃO E OPERAÇÃO",
+    "numero": 2,
+    "descricao": "Administrar programas de manutenção de máquinas e equipamentos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7538
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar programas de manutenção de máquinas e equipamentos"
+   },
+   {
+    "ocupacao": "141105",
+    "titulo": "Gerente de produção e operações  aqüícolas",
+    "sigla": "F",
+    "area": "ADMINISTRAR ATIVIDADES DE SEGURANÇA, HIGIENE E SAÚDE DO TRABALHO",
+    "numero": 8,
+    "descricao": "Implementar programas de segurança e saúde do trabalhador e sua família fora da empresa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7538
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de segurança e saúde do trabalhador e sua família fora da em…"
+   },
+   {
+    "ocupacao": "141105",
+    "titulo": "Gerente de produção e operações  aqüícolas",
+    "sigla": "G",
+    "area": "PARTICIPAR DO SISTEMA DE GESTÃO AMBIENTAL E QUALIDADE DA PRODUÇÃO",
+    "numero": 6,
+    "descricao": "Gerenciar programas de controle ambiental",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7538
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas de controle ambiental"
+   },
+   {
+    "ocupacao": "141110",
+    "titulo": "Gerente de produção e operações  florestais",
+    "sigla": "D",
+    "area": "GERENCIAR EQUIPES",
+    "numero": 7,
+    "descricao": "Estimular a criação de programas de melhoria contínua",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7625
+    },
+    "casou_em": "atividade",
+    "trecho": "Estimular a criação de programas de melhoria contínua"
+   },
+   {
+    "ocupacao": "141110",
+    "titulo": "Gerente de produção e operações  florestais",
+    "sigla": "E",
+    "area": "ADMINISTRAR PRODUÇÃO E OPERAÇÃO",
+    "numero": 2,
+    "descricao": "Administrar programas de manutenção de máquinas e equipamentos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7625
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar programas de manutenção de máquinas e equipamentos"
+   },
+   {
+    "ocupacao": "141110",
+    "titulo": "Gerente de produção e operações  florestais",
+    "sigla": "F",
+    "area": "ADMINISTRAR ATIVIDADES DE SEGURANÇA, HIGIENE E SAÚDE DO TRABALHO",
+    "numero": 8,
+    "descricao": "Implementar programas de segurança e saúde do trabalhador e sua família fora da empresa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7625
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de segurança e saúde do trabalhador e sua família fora da em…"
+   },
+   {
+    "ocupacao": "141110",
+    "titulo": "Gerente de produção e operações  florestais",
+    "sigla": "G",
+    "area": "PARTICIPAR DO SISTEMA DE GESTÃO AMBIENTAL E QUALIDADE DA PRODUÇÃO",
+    "numero": 6,
+    "descricao": "Gerenciar programas de controle ambiental",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7625
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas de controle ambiental"
+   },
+   {
+    "ocupacao": "141115",
+    "titulo": "Gerente de produção e operações agropecuárias",
+    "sigla": "D",
+    "area": "GERENCIAR EQUIPES",
+    "numero": 7,
+    "descricao": "Estimular a criação de programas de melhoria contínua",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7712
+    },
+    "casou_em": "atividade",
+    "trecho": "Estimular a criação de programas de melhoria contínua"
+   },
+   {
+    "ocupacao": "141115",
+    "titulo": "Gerente de produção e operações agropecuárias",
+    "sigla": "E",
+    "area": "ADMINISTRAR PRODUÇÃO E OPERAÇÃO",
+    "numero": 2,
+    "descricao": "Administrar programas de manutenção de máquinas e equipamentos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7712
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar programas de manutenção de máquinas e equipamentos"
+   },
+   {
+    "ocupacao": "141115",
+    "titulo": "Gerente de produção e operações agropecuárias",
+    "sigla": "F",
+    "area": "ADMINISTRAR ATIVIDADES DE SEGURANÇA, HIGIENE E SAÚDE DO TRABALHO",
+    "numero": 8,
+    "descricao": "Implementar programas de segurança e saúde do trabalhador e sua família fora da empresa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7712
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de segurança e saúde do trabalhador e sua família fora da em…"
+   },
+   {
+    "ocupacao": "141115",
+    "titulo": "Gerente de produção e operações agropecuárias",
+    "sigla": "G",
+    "area": "PARTICIPAR DO SISTEMA DE GESTÃO AMBIENTAL E QUALIDADE DA PRODUÇÃO",
+    "numero": 6,
+    "descricao": "Gerenciar programas de controle ambiental",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7712
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas de controle ambiental"
+   },
+   {
+    "ocupacao": "141120",
+    "titulo": "Gerente de produção e operações pesqueiras",
+    "sigla": "D",
+    "area": "GERENCIAR EQUIPES",
+    "numero": 7,
+    "descricao": "Estimular a criação de programas de melhoria contínua",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7799
+    },
+    "casou_em": "atividade",
+    "trecho": "Estimular a criação de programas de melhoria contínua"
+   },
+   {
+    "ocupacao": "141120",
+    "titulo": "Gerente de produção e operações pesqueiras",
+    "sigla": "E",
+    "area": "ADMINISTRAR PRODUÇÃO E OPERAÇÃO",
+    "numero": 2,
+    "descricao": "Administrar programas de manutenção de máquinas e equipamentos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7799
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar programas de manutenção de máquinas e equipamentos"
+   },
+   {
+    "ocupacao": "141120",
+    "titulo": "Gerente de produção e operações pesqueiras",
+    "sigla": "F",
+    "area": "ADMINISTRAR ATIVIDADES DE SEGURANÇA, HIGIENE E SAÚDE DO TRABALHO",
+    "numero": 8,
+    "descricao": "Implementar programas de segurança e saúde do trabalhador e sua família fora da empresa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7799
+    },
+    "casou_em": "atividade",
+    "trecho": "Implementar programas de segurança e saúde do trabalhador e sua família fora da em…"
+   },
+   {
+    "ocupacao": "141120",
+    "titulo": "Gerente de produção e operações pesqueiras",
+    "sigla": "G",
+    "area": "PARTICIPAR DO SISTEMA DE GESTÃO AMBIENTAL E QUALIDADE DA PRODUÇÃO",
+    "numero": 6,
+    "descricao": "Gerenciar programas de controle ambiental",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7799
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas de controle ambiental"
+   },
+   {
+    "ocupacao": "141205",
+    "titulo": "Gerente de produção e operações",
+    "sigla": "B",
+    "area": "PLANEJAR A PRODUÇÃO",
+    "numero": 2,
+    "descricao": "Programar mão-de-obra",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7886
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar mão-de-obra"
+   },
+   {
+    "ocupacao": "141205",
+    "titulo": "Gerente de produção e operações",
+    "sigla": "B",
+    "area": "PLANEJAR A PRODUÇÃO",
+    "numero": 3,
+    "descricao": "Programar paradas ou intervenções em máquinas, equipamentos e inst. Industriais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7886
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar paradas ou intervenções em máquinas, equipamentos e inst. In…"
+   },
+   {
+    "ocupacao": "141305",
+    "titulo": "Gerente de produção e operações da construção civil e obras públicas",
+    "sigla": "E",
+    "area": "SUPRIR OBRAS",
+    "numero": 1,
+    "descricao": "Programar compras de materiais",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7963
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar compras de materiais"
+   },
+   {
+    "ocupacao": "141305",
+    "titulo": "Gerente de produção e operações da construção civil e obras públicas",
+    "sigla": "E",
+    "area": "SUPRIR OBRAS",
+    "numero": 2,
+    "descricao": "Programar compra e locação de equipamentos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 7963
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar compra e locação de equipamentos"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "sigla": "D",
+    "area": "ESTRUTURAR EQUIPES DE TRABALHO",
+    "numero": 8,
+    "descricao": "Programar treinamento e desenvolvimento profissionais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8029
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar treinamento e desenvolvimento profissionais"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "sigla": "G",
+    "area": "PROMOVER CONDIÇÕES DE SEGURANÇA, SAÚDE, MEIO AMBIENTE E QUALIDADE",
+    "numero": 3,
+    "descricao": "Promover programas prevencionistas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8029
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas prevencionistas"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "sigla": "D",
+    "area": "ESTRUTURAR EQUIPES DE TRABALHO",
+    "numero": 8,
+    "descricao": "Programar treinamento e desenvolvimento profissionais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8131
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar treinamento e desenvolvimento profissionais"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "sigla": "G",
+    "area": "PROMOVER CONDIÇÕES DE SEGURANÇA, SAÚDE, MEIO AMBIENTE E QUALIDADE",
+    "numero": 3,
+    "descricao": "Promover programas prevencionistas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8131
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas prevencionistas"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "sigla": "D",
+    "area": "ESTRUTURAR EQUIPES DE TRABALHO",
+    "numero": 8,
+    "descricao": "Programar treinamento e desenvolvimento profissionais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8233
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar treinamento e desenvolvimento profissionais"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "sigla": "G",
+    "area": "PROMOVER CONDIÇÕES DE SEGURANÇA, SAÚDE, MEIO AMBIENTE E QUALIDADE",
+    "numero": 3,
+    "descricao": "Promover programas prevencionistas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8233
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas prevencionistas"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "sigla": "D",
+    "area": "ESTRUTURAR EQUIPES DE TRABALHO",
+    "numero": 8,
+    "descricao": "Programar treinamento e desenvolvimento profissionais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8339
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar treinamento e desenvolvimento profissionais"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "sigla": "G",
+    "area": "PROMOVER CONDIÇÕES DE SEGURANÇA, SAÚDE, MEIO AMBIENTE E QUALIDADE",
+    "numero": 3,
+    "descricao": "Promover programas prevencionistas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8339
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover programas prevencionistas"
+   },
+   {
+    "ocupacao": "141505",
+    "titulo": "Gerente de hotel",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 4,
+    "descricao": "Programar serviços de manutenção de equipamentos e instalações",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8446
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar serviços de manutenção de equipamentos e instalações"
+   },
+   {
+    "ocupacao": "141505",
+    "titulo": "Gerente de hotel",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 6,
+    "descricao": "Definir programação de atividades de lazer, recreação e eventos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8446
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programação de atividades de lazer, recreação e eventos"
+   },
+   {
+    "ocupacao": "141510",
+    "titulo": "Gerente de restaurante",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 4,
+    "descricao": "Programar serviços de manutenção de equipamentos e instalações",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8533
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar serviços de manutenção de equipamentos e instalações"
+   },
+   {
+    "ocupacao": "141510",
+    "titulo": "Gerente de restaurante",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 6,
+    "descricao": "Definir programação de atividades de lazer, recreação e eventos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8533
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programação de atividades de lazer, recreação e eventos"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 4,
+    "descricao": "Programar serviços de manutenção de equipamentos e instalações",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8621
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar serviços de manutenção de equipamentos e instalações"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 6,
+    "descricao": "Definir programação de atividades de lazer, recreação e eventos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8621
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programação de atividades de lazer, recreação e eventos"
+   },
+   {
+    "ocupacao": "141520",
+    "titulo": "Gerente de pensão",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 4,
+    "descricao": "Programar serviços de manutenção de equipamentos e instalações",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8706
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar serviços de manutenção de equipamentos e instalações"
+   },
+   {
+    "ocupacao": "141520",
+    "titulo": "Gerente de pensão",
+    "sigla": "C",
+    "area": "COORDENAR ÁREAS OPERACIONAIS DE HOTÉIS E RESTAURANTES",
+    "numero": 6,
+    "descricao": "Definir programação de atividades de lazer, recreação e eventos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8706
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programação de atividades de lazer, recreação e eventos"
+   },
+   {
+    "ocupacao": "141605",
+    "titulo": "Gerente de operações de transportes",
+    "sigla": "B",
+    "area": "ADMINISTRAR EQUIPES",
+    "numero": 10,
+    "descricao": "Programar escala de férias",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8860
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar escala de férias"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "sigla": "B",
+    "area": "ADMINISTRAR EQUIPES",
+    "numero": 10,
+    "descricao": "Programar escala de férias",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 8966
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar escala de férias"
+   },
+   {
+    "ocupacao": "141615",
+    "titulo": "Gerente de logística (armazenagem e distribuição)",
+    "sigla": "B",
+    "area": "ADMINISTRAR EQUIPES",
+    "numero": 10,
+    "descricao": "Programar escala de férias",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 9061
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar escala de férias"
+   },
+   {
+    "ocupacao": "141705",
+    "titulo": "Gerente de produtos bancários",
+    "sigla": "E",
+    "area": "GERENCIAR PESSOAS",
+    "numero": 12,
+    "descricao": "Programar desenvolvimento de equipes",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 9158
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar desenvolvimento de equipes"
+   },
+   {
+    "ocupacao": "141705",
+    "titulo": "Gerente de produtos bancários",
+    "sigla": "E",
+    "area": "GERENCIAR PESSOAS",
+    "numero": 15,
+    "descricao": "Programar férias da equipe",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 9158
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar férias da equipe"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 3775,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=programa&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=programa&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=programa&limite=100&deslocamento=0"
+  }
+ }
+}

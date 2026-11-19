@@ -1,0 +1,25 @@
+{
+ "url": "/api/v1/busca?q=direito+ambiental",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [],
+   "sinonimo": [],
+   "familia": [],
+   "atividade": [],
+   "termo": [],
+   "conceito": []
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=direito+ambiental",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

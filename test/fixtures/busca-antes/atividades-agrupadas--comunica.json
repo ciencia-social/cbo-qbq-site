@@ -1,0 +1,962 @@
+{
+ "url": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "732105",
+    "codigo_formatado": "7321-05",
+    "titulo_cbo": "Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",
+    "titulo_qbq": "Eletricista de manutenção de linhas elétricas, telefônicas e de comunicação de dados",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2005
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 450
+     }
+    },
+    "total_casadas": 53,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Implantar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732120",
+    "codigo_formatado": "7321-20",
+    "titulo_cbo": "Instalador de linhas elétricas de alta e baixa - tensão (rede aérea e subterrânea)",
+    "titulo_qbq": "Instalador de linhas elétricas de alta e baixa - tensão (rede aérea e subterrânea)",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2008
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 453
+     }
+    },
+    "total_casadas": 50,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Implantar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732130",
+    "codigo_formatado": "7321-30",
+    "titulo_cbo": "Instalador-reparador de redes telefônicas e de comunicação de dados",
+    "titulo_qbq": "Instalador-reparador de redes telefônicas e de comunicação de dados",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2010
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 455
+     }
+    },
+    "total_casadas": 45,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Implantar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732140",
+    "codigo_formatado": "7321-40",
+    "titulo_cbo": "Instalador de sistemas fotovoltaicos",
+    "titulo_qbq": "Instalador de sistemas fotovoltaicos",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2012
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 457
+     }
+    },
+    "total_casadas": 45,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 4,
+      "descricao": "Equipar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732125",
+    "codigo_formatado": "7321-25",
+    "titulo_cbo": "Instalador eletricista (tração de veículos)",
+    "titulo_qbq": "Instalador eletricista (tração de veículos)",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2009
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 454
+     }
+    },
+    "total_casadas": 43,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Implantar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732110",
+    "codigo_formatado": "7321-10",
+    "titulo_cbo": "Emendador de cabos elétricos e telefônicos (aéreos e subterrâneos)",
+    "titulo_qbq": "Emendador de cabos elétricos e telefônicos (aéreos e subterrâneos)",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2006
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 451
+     }
+    },
+    "total_casadas": 38,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 4,
+      "descricao": "Equipar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732115",
+    "codigo_formatado": "7321-15",
+    "titulo_cbo": "Examinador de cabos, linhas elétricas e telefônicas",
+    "titulo_qbq": "Examinador de cabos, linhas elétricas e telefônicas",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2007
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 452
+     }
+    },
+    "total_casadas": 37,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 4,
+      "descricao": "Equipar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "732135",
+    "codigo_formatado": "7321-35",
+    "titulo_cbo": "Ligador de linhas telefônicas",
+    "titulo_qbq": "Ligador de linhas telefônicas",
+    "familia": {
+     "codigo": "7321",
+     "titulo": "Instaladores e reparadores de linhas e cabos elétricos, telefônicos e de comunicação de dados"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2011
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 456
+     }
+    },
+    "total_casadas": 34,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Interpretar projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Selecionar equipamentos e ferramentas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONSTRUIR REDES ELÉTRICAS E DE COMUNICAÇÃO",
+      "numero": 4,
+      "descricao": "Equipar postes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "372205",
+    "codigo_formatado": "3722-05",
+    "titulo_cbo": "Operador de rede de teleprocessamento",
+    "titulo_qbq": "Operador de rede de teleprocessamento",
+    "familia": {
+     "codigo": "3722",
+     "titulo": "Operadores de rede de teleprocessamento e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1181
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1330
+     }
+    },
+    "total_casadas": 23,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Testar funcionamento dos aplicativos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Priorizar operações emergenciais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Priorizar execução de sistemas críticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232130",
+    "codigo_formatado": "2321-30",
+    "titulo_cbo": "Professor de física no ensino médio",
+    "titulo_qbq": "Professor de física no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 548
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2192
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232135",
+    "codigo_formatado": "2321-35",
+    "titulo_cbo": "Professor de geografia no ensino médio",
+    "titulo_qbq": "Professor de geografia no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 549
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2193
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232145",
+    "codigo_formatado": "2321-45",
+    "titulo_cbo": "Professor de língua e literatura brasileira no ensino médio",
+    "titulo_qbq": "Professor de língua e literatura brasileira no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 551
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2195
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232170",
+    "codigo_formatado": "2321-70",
+    "titulo_cbo": "Professor de sociologia no ensino médio",
+    "titulo_qbq": "Professor de sociologia no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 556
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2199
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "141605",
+    "codigo_formatado": "1416-05",
+    "titulo_cbo": "Gerente de operações de transportes",
+    "titulo_qbq": "Gerente de operações de transportes",
+    "familia": {
+     "codigo": "1416",
+     "titulo": "Gerentes de operações de serviços em empresa de transporte, de comunicação e de logística (armazenagem e distribuição)"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 135
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2549
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 1,
+      "descricao": "Definir metas (redução de custos, ganhos de produtividade, renovação de frota....)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 2,
+      "descricao": "Definir processos de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 3,
+      "descricao": "Definir plano operacional e de manutenção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232105",
+    "codigo_formatado": "2321-05",
+    "titulo_cbo": "Professor de artes no ensino médio",
+    "titulo_qbq": "Professor de artes no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 543
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2188
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232125",
+    "codigo_formatado": "2321-25",
+    "titulo_cbo": "Professor de filosofia no ensino médio",
+    "titulo_qbq": "Professor de filosofia no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 547
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2191
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "232155",
+    "codigo_formatado": "2321-55",
+    "titulo_cbo": "Professor de matemática no ensino médio",
+    "titulo_qbq": "Professor de matemática no ensino médio",
+    "familia": {
+     "codigo": "2321",
+     "titulo": "Professores do ensino médio"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 553
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2197
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Relacionar-se com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir questões pedagógicas com os pares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "372210",
+    "codigo_formatado": "3722-10",
+    "titulo_cbo": "Radiotelegrafista",
+    "titulo_qbq": "Radiotelegrafista",
+    "familia": {
+     "codigo": "3722",
+     "titulo": "Operadores de rede de teleprocessamento e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1182
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1331
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Priorizar operações emergenciais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 4,
+      "descricao": "Executar cronograma de atividades",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "OPERAR SISTEMAS DE COMUNICAÇÃO",
+      "numero": 5,
+      "descricao": "Executar plano de contingência",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "324125",
+    "codigo_formatado": "3241-25",
+    "titulo_cbo": "Tecnólogo oftálmico",
+    "titulo_qbq": "Tecnólogo oftálmico",
+    "familia": {
+     "codigo": "3241",
+     "titulo": "Tecnólogos e técnicos em métodos de diagnósticos e terapêutica"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1025
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 48
+     }
+    },
+    "total_casadas": 20,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Confirmar identidade do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Obter informações do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Descrever condições e reações do paciente durante o exame",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "324140",
+    "codigo_formatado": "3241-40",
+    "titulo_cbo": "Dosimetrista clínico",
+    "titulo_qbq": "Dosimetrista clínico",
+    "familia": {
+     "codigo": "3241",
+     "titulo": "Tecnólogos e técnicos em métodos de diagnósticos e terapêutica"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1028
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2653
+     }
+    },
+    "total_casadas": 20,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Confirmar identidade do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Obter informações do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Registrar exames realizados",
+      "casou_em": "area"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 1597,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao",
+   "proxima": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

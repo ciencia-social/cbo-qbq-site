@@ -1,0 +1,4706 @@
+{
+ "url": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "223825",
+    "codigo_formatado": "2238-25",
+    "titulo_cbo": "Fonoaudiólogo em disfagia",
+    "titulo_qbq": "Fonoaudiólogo em disfagia",
+    "familia": {
+     "codigo": "2238",
+     "titulo": "Fonoaudiólogos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 446
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2097
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Discutir casos com outros profissionais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados em prontuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "223835",
+    "codigo_formatado": "2238-35",
+    "titulo_cbo": "Fonoaudiólogo em motricidade orofacial",
+    "titulo_qbq": "Fonoaudiólogo em motricidade orofacial",
+    "familia": {
+     "codigo": "2238",
+     "titulo": "Fonoaudiólogos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 448
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2099
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Discutir casos com outros profissionais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados em prontuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "231205",
+    "codigo_formatado": "2312-05",
+    "titulo_cbo": "Professor da  educação de jovens e adultos do ensino fundamental (primeira a quarta série)",
+    "titulo_qbq": "Professor da  educação de jovens e adultos do ensino fundamental (primeira a quarta série)",
+    "familia": {
+     "codigo": "2312",
+     "titulo": "Professores de nível superior do ensino fundamental (primeira a quarta séries)"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 533
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2178
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS",
+      "numero": 11,
+      "descricao": "Propor atividades de comunicação oral ao aluno",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Interagir com a comunidade escolar",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Dialogar com os alunos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "239445",
+    "codigo_formatado": "2394-45",
+    "titulo_cbo": "Neuropsicopedagogo institucional",
+    "titulo_qbq": "Neuropsicopedagogo institucional",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 652
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2310
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Atuar em conselhos de classe e de escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "262415",
+    "codigo_formatado": "2624-15",
+    "titulo_cbo": "Conservador-restaurador de bens  culturais",
+    "titulo_qbq": "Conservador-restaurador de bens  culturais",
+    "familia": {
+     "codigo": "2624",
+     "titulo": "Artistas visuais,desenhistas industriais e conservadores-restauradores de bens culturais"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 829
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2449
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Apresentar trabalhos em congressos, seminários",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Participar de ações de educação patrimonial",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar profissionais sobre uso correto de equipamentos de segurança",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322125",
+    "codigo_formatado": "3221-25",
+    "titulo_cbo": "Terapeuta holístico",
+    "titulo_qbq": "Terapeuta holístico",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 996
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 655
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322135",
+    "codigo_formatado": "3221-35",
+    "titulo_cbo": "Doula",
+    "titulo_qbq": "Doula",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 998
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 657
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322140",
+    "codigo_formatado": "3221-40",
+    "titulo_cbo": "Instrutor de pilates",
+    "titulo_qbq": "Instrutor de pilates",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 999
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2662
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322205",
+    "codigo_formatado": "3222-05",
+    "titulo_cbo": "Técnico de enfermagem",
+    "titulo_qbq": "Técnico de enfermagem",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1000
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 28
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar familiares, paciente e comunidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Trocar informações técnicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Comunicar ao médico efeitos adversos dos medicamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322210",
+    "codigo_formatado": "3222-10",
+    "titulo_cbo": "Técnico de enfermagem de terapia intensiva",
+    "titulo_qbq": "Técnico de enfermagem de terapia intensiva",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1001
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 29
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar familiares, paciente e comunidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Trocar informações técnicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Comunicar ao médico efeitos adversos dos medicamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322240",
+    "codigo_formatado": "3222-40",
+    "titulo_cbo": "Auxiliar de saúde (navegação marítima)",
+    "titulo_qbq": "Auxiliar de saúde (navegação marítima)",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1007
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 35
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar familiares, paciente e comunidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Trocar informações técnicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Comunicar ao médico efeitos adversos dos medicamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "324120",
+    "codigo_formatado": "3241-20",
+    "titulo_cbo": "Tecnólogo em radiologia",
+    "titulo_qbq": "Tecnólogo em radiologia",
+    "familia": {
+     "codigo": "3241",
+     "titulo": "Tecnólogos e técnicos em métodos de diagnósticos e terapêutica"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1024
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 47
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Confirmar identidade do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Obter informações do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Descrever condições e reações do paciente durante o exame",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "324135",
+    "codigo_formatado": "3241-35",
+    "titulo_cbo": "Técnico em polissonografia",
+    "titulo_qbq": "Técnico em polissonografia",
+    "familia": {
+     "codigo": "3241",
+     "titulo": "Tecnólogos e técnicos em métodos de diagnósticos e terapêutica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1027
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 602
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Confirmar identidade do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Obter informações do paciente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Descrever condições e reações do paciente durante o exame",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "331105",
+    "codigo_formatado": "3311-05",
+    "titulo_cbo": "Professor de nível médio na educação infantil",
+    "titulo_qbq": "Professor de nível médio na educação infantil",
+    "familia": {
+     "codigo": "3311",
+     "titulo": "Professores de nível médio na educação infantil"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1044
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 53
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Reunir-se com a coordenação e a direção",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Participar de reuniões com demais profissionais da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Discutir plano de aula com coordenação e direção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342515",
+    "codigo_formatado": "3425-15",
+    "titulo_cbo": "Fiscal de aviação civil (fac)",
+    "titulo_qbq": "Fiscal de aviação civil (fac)",
+    "familia": {
+     "codigo": "3425",
+     "titulo": "Técnicos em transportes aéreos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1090
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 669
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Falar em público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 5,
+      "descricao": "Registrar ocorrências de incidentes e acidentes aeronáuticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342555",
+    "codigo_formatado": "3425-55",
+    "titulo_cbo": "Fiscal de pista de aeroporto",
+    "titulo_qbq": "Fiscal de pista de aeroporto",
+    "familia": {
+     "codigo": "3425",
+     "titulo": "Técnicos em transportes aéreos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1096
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1187
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Registrar ocorrências em ars",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Falar em público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "373140",
+    "codigo_formatado": "3731-40",
+    "titulo_cbo": "Coordenador de programação",
+    "titulo_qbq": "Coordenador de programação",
+    "familia": {
+     "codigo": "3731",
+     "titulo": "Técnicos de operação de registros sonoro/audiovisuais"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1186
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 699
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Verificar agenda de rotina de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Interagir com áreas afins",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Registrar medidas e/ou ocorrências",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377220",
+    "codigo_formatado": "3772-20",
+    "titulo_cbo": "Árbitro de futebol",
+    "titulo_qbq": "Árbitro de futebol",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1252
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1362
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Executar gestos/ sinais técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Utilizar equipamentos sonoros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Utilizar equipamentos visuais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "515305",
+    "codigo_formatado": "5153-05",
+    "titulo_cbo": "Educador social",
+    "titulo_qbq": "Educador social",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1448
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 248
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Abrir procedimento de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relatórios de atendimento e acompanhamento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Cadastrar assistidos/usuários/educandos/ internos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "515310",
+    "codigo_formatado": "5153-10",
+    "titulo_cbo": "Agente de ação social",
+    "titulo_qbq": "Agente de ação social",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1449
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 249
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Abrir procedimento de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relatórios de atendimento e acompanhamento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Cadastrar assistidos/usuários/educandos/ internos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "515315",
+    "codigo_formatado": "5153-15",
+    "titulo_cbo": "Monitor de dependente químico",
+    "titulo_qbq": "Monitor de dependente químico",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1450
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 250
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Abrir procedimento de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relatórios de atendimento e acompanhamento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Cadastrar assistidos/usuários/educandos/ internos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "516145",
+    "codigo_formatado": "5161-45",
+    "titulo_cbo": "Designer de unhas",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "5161",
+     "titulo": "Trabalhadores nos serviços de embelezamento e higiene"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1459
+     },
+     "qbq": null
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar cliente sobre estética",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Orientar cliente sobre cuidados especiais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar cliente sobre serviços disponíveis",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "516150",
+    "codigo_formatado": "5161-50",
+    "titulo_cbo": "Designer de sobrancelhas",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "5161",
+     "titulo": "Trabalhadores nos serviços de embelezamento e higiene"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1460
+     },
+     "qbq": null
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar cliente sobre estética",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Orientar cliente sobre cuidados especiais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar cliente sobre serviços disponíveis",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "516155",
+    "codigo_formatado": "5161-55",
+    "titulo_cbo": "Designer de cílios",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "5161",
+     "titulo": "Trabalhadores nos serviços de embelezamento e higiene"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1461
+     },
+     "qbq": null
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar cliente sobre estética",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Orientar cliente sobre cuidados especiais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar cliente sobre serviços disponíveis",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "517235",
+    "codigo_formatado": "5172-35",
+    "titulo_cbo": "Guarda portuário",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "5172",
+     "titulo": "Policiais, guardas-civis municipais e agentes de trânsito"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1500
+     },
+     "qbq": null
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Redigir relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Preencher formulários",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Alimentar banco de dados",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "782320",
+    "codigo_formatado": "7823-20",
+    "titulo_cbo": "Condutor de ambulância",
+    "titulo_qbq": "Condutor de ambulância",
+    "familia": {
+     "codigo": "7823",
+     "titulo": "Motoristas de veículos de pequeno e médio porte"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2303
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 502
+     }
+    },
+    "total_casadas": 12,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "USAR EQUIPAMENTOS E DISPOSITIVOS ESPECIAIS",
+      "numero": 7,
+      "descricao": "Verificar equipamentos de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Preencher relatórios de controle",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Orientar acompanhante no transporte de paciente",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122405",
+    "codigo_formatado": "1224-05",
+    "titulo_cbo": "Diretor de operações comerciais (comércio atacadista e varejista)",
+    "titulo_qbq": "Diretor de operações comerciais (comércio atacadista e varejista)",
+    "familia": {
+     "codigo": "1224",
+     "titulo": "Diretores de operações em empresa do comércio"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 75
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2489
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "PARTICIPAR DE ATIVIDADES DE MARKETING",
+      "numero": 9,
+      "descricao": "Decidir sobre meios de comunicação com o mercado",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Realizar seminários e palestras",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Contatar clientes e distribuidores",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122705",
+    "codigo_formatado": "1227-05",
+    "titulo_cbo": "Diretor comercial em operações de intermediação financeira",
+    "titulo_qbq": "Diretor comercial em operações de intermediação financeira",
+    "familia": {
+     "codigo": "1227",
+     "titulo": "Diretores de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 84
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2498
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Divulgar metas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar estratégias, políticas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Divulgar decisões dos comitês",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122730",
+    "codigo_formatado": "1227-30",
+    "titulo_cbo": "Diretor de crédito (exceto crédito imobiliário)",
+    "titulo_qbq": "Diretor de crédito (exceto crédito imobiliário)",
+    "familia": {
+     "codigo": "1227",
+     "titulo": "Diretores de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 89
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2503
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Divulgar metas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar estratégias, políticas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Divulgar decisões dos comitês",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "141705",
+    "codigo_formatado": "1417-05",
+    "titulo_cbo": "Gerente de produtos bancários",
+    "titulo_qbq": "Gerente de produtos bancários",
+    "familia": {
+     "codigo": "1417",
+     "titulo": "Gerentes de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 138
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2552
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Consolidar informações gerenciais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Comunicar alterações de taxas e tarifas ao bacen e a clientes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Atender auditoria interna e externa",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "142405",
+    "codigo_formatado": "1424-05",
+    "titulo_cbo": "Gerente de compras",
+    "titulo_qbq": "Gerente de compras",
+    "familia": {
+     "codigo": "1424",
+     "titulo": "Gerentes de suprimentos e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 172
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2584
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Demonstrar clareza na comunicação oral e escrita",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Relacionar-se com os departamentos da empresa",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar-se com fornecedores",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "142410",
+    "codigo_formatado": "1424-10",
+    "titulo_cbo": "Gerente de suprimentos",
+    "titulo_qbq": "Gerente de suprimentos",
+    "familia": {
+     "codigo": "1424",
+     "titulo": "Gerentes de suprimentos e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 173
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2585
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Demonstrar clareza na comunicação oral e escrita",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Relacionar-se com os departamentos da empresa",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar-se com fornecedores",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "142415",
+    "codigo_formatado": "1424-15",
+    "titulo_cbo": "Gerente de almoxarifado",
+    "titulo_qbq": "Gerente de almoxarifado",
+    "familia": {
+     "codigo": "1424",
+     "titulo": "Gerentes de suprimentos e afins"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 174
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2586
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Demonstrar clareza na comunicação oral e escrita",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Relacionar-se com os departamentos da empresa",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar-se com fornecedores",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "212405",
+    "codigo_formatado": "2124-05",
+    "titulo_cbo": "Analista de desenvolvimento de sistemas",
+    "titulo_qbq": "Analista de desenvolvimento de sistemas",
+    "familia": {
+     "codigo": "2124",
+     "titulo": "Analistas de tecnologia da informação"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 244
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1916
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Registrar ocorrências",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relátorios técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir pareceres técnicos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "212425",
+    "codigo_formatado": "2124-25",
+    "titulo_cbo": "Arquiteto de soluções de tecnologia da informação",
+    "titulo_qbq": "Arquiteto de soluções de tecnologia da informação",
+    "familia": {
+     "codigo": "2124",
+     "titulo": "Analistas de tecnologia da informação"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 248
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1920
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Registrar ocorrências",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relátorios técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir pareceres técnicos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "215305",
+    "codigo_formatado": "2153-05",
+    "titulo_cbo": "Piloto de aeronaves",
+    "titulo_qbq": "Piloto de aeronaves",
+    "familia": {
+     "codigo": "2153",
+     "titulo": "Profissionais da pilotagem aeronáutica"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 370
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2026
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Utilizar fraseologia padrão",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Estabelecer comunicação com orgãos de tráfego aéreo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Solicitar autorização de tráfego aéreo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "215310",
+    "codigo_formatado": "2153-10",
+    "titulo_cbo": "Piloto de ensaios em vôo",
+    "titulo_qbq": "Piloto de ensaios em voo",
+    "familia": {
+     "codigo": "2153",
+     "titulo": "Profissionais da pilotagem aeronáutica"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 371
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2027
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Utilizar fraseologia padrão",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Estabelecer comunicação com orgãos de tráfego aéreo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Solicitar autorização de tráfego aéreo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "215315",
+    "codigo_formatado": "2153-15",
+    "titulo_cbo": "Instrutor de vôo",
+    "titulo_qbq": "Instrutor de voo",
+    "familia": {
+     "codigo": "2153",
+     "titulo": "Profissionais da pilotagem aeronáutica"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 372
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2028
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Utilizar fraseologia padrão",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Estabelecer comunicação com orgãos de tráfego aéreo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "ESTABELECER COMUNICAÇÃO",
+      "numero": 3,
+      "descricao": "Solicitar autorização de tráfego aéreo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226305",
+    "codigo_formatado": "2263-05",
+    "titulo_cbo": "Musicoterapeuta",
+    "titulo_qbq": "Musicoterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 527
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1825
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar ficha terapêutica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226310",
+    "codigo_formatado": "2263-10",
+    "titulo_cbo": "Arteterapeuta",
+    "titulo_qbq": "Arteterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 528
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1826
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar ficha terapêutica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226315",
+    "codigo_formatado": "2263-15",
+    "titulo_cbo": "Equoterapeuta",
+    "titulo_qbq": "Equoterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 529
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1827
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar ficha terapêutica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226320",
+    "codigo_formatado": "2263-20",
+    "titulo_cbo": "Naturólogo",
+    "titulo_qbq": "Naturólogo",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 530
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1828
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar ficha terapêutica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Registrar dados de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "239405",
+    "codigo_formatado": "2394-05",
+    "titulo_cbo": "Coordenador pedagógico",
+    "titulo_qbq": "Coordenador pedagógico",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 644
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2302
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Atuar em conselhos de classe e de escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "239410",
+    "codigo_formatado": "2394-10",
+    "titulo_cbo": "Orientador educacional",
+    "titulo_qbq": "Orientador educacional",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 645
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2303
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Atuar em conselhos de classe e de escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "239425",
+    "codigo_formatado": "2394-25",
+    "titulo_cbo": "Psicopedagogo",
+    "titulo_qbq": "Psicopedagogo",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 648
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2306
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Atuar em conselhos de classe e de escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "239430",
+    "codigo_formatado": "2394-30",
+    "titulo_cbo": "Supervisor de ensino",
+    "titulo_qbq": "Supervisor de ensino",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 649
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2307
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 5,
+      "descricao": "Sistematizar registros administrativos e pedagógicos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "252550",
+    "codigo_formatado": "2525-50",
+    "titulo_cbo": "Profissional de relações com investidores",
+    "titulo_qbq": "Profissional de relações com investidores",
+    "familia": {
+     "codigo": "2525",
+     "titulo": "Profissionais de administração ecônomico-financeira"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 735
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2376
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Atender clientes internos e externos e públicos de interesse",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 8,
+      "descricao": "Consultar mídia impressa e eletrônica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 10,
+      "descricao": "Participar da organização de assembléia de acionistas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "253305",
+    "codigo_formatado": "2533-05",
+    "titulo_cbo": "Corretor de valores, ativos financeiros, mercadorias e derivativos",
+    "titulo_qbq": "Corretor de valores, ativos financeiros, mercadorias e derivativos",
+    "familia": {
+     "codigo": "2533",
+     "titulo": "Corretores de valores, ativos financeiros, mercadorias e derivativos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 754
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2395
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Contatar clientes",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Inteirar-se das atividades do dia",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Apresentar estrutura de cálculos ao cliente",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "261905",
+    "codigo_formatado": "2619-05",
+    "titulo_cbo": "Continuista",
+    "titulo_qbq": "Continuista",
+    "familia": {
+     "codigo": "2619",
+     "titulo": "Assistentes de direção (tv) e continuístas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 805
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2433
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Participar de reuniões",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Fazer atas de reuniões",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Supervisionar equipe",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322115",
+    "codigo_formatado": "3221-15",
+    "titulo_cbo": "Técnico em quiropraxia",
+    "titulo_qbq": "Técnico em quiropraxia",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 994
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 653
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322425",
+    "codigo_formatado": "3224-25",
+    "titulo_cbo": "Técnico em saúde bucal da estratégia de saúde da família",
+    "titulo_qbq": "Técnico em saúde bucal da estratégia de saúde da família",
+    "familia": {
+     "codigo": "3224",
+     "titulo": "Técnicos de odontologia"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1016
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 42
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ministrar palestras educativas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir técnicas de execução de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Registrar informações técnicas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322430",
+    "codigo_formatado": "3224-30",
+    "titulo_cbo": "Auxiliar em saúde bucal da estratégia de saúde da família",
+    "titulo_qbq": "Auxiliar em saúde bucal da estratégia de saúde da família",
+    "familia": {
+     "codigo": "3224",
+     "titulo": "Técnicos de odontologia"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1017
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 43
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ministrar palestras educativas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Discutir técnicas de execução de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Registrar informações técnicas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322605",
+    "codigo_formatado": "3226-05",
+    "titulo_cbo": "Técnico de imobilização ortopédica",
+    "titulo_qbq": "Técnico de imobilização ortopédica",
+    "familia": {
+     "codigo": "3226",
+     "titulo": "Técnicos de imobilizações ortopédicas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1019
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1275
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ler a prescrição médica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Saber ouvir",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar o paciente sobre o uso e conservação da imobilização",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "324220",
+    "codigo_formatado": "3242-20",
+    "titulo_cbo": "Técnico em hemoterapia",
+    "titulo_qbq": "Técnico em hemoterapia",
+    "familia": {
+     "codigo": "3242",
+     "titulo": "Técnicos de laboratórios de saúde e bancos de sangue"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1031
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 52
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com o doador",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Orientar paciente/doador sobre os procedimentos da coleta do material",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Registrar a ação da coleta",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342505",
+    "codigo_formatado": "3425-05",
+    "titulo_cbo": "Controlador de tráfego aéreo",
+    "titulo_qbq": "Controlador de tráfego aéreo",
+    "familia": {
+     "codigo": "3425",
+     "titulo": "Técnicos em transportes aéreos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1088
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 667
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Falar em público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 5,
+      "descricao": "Registrar ocorrências de incidentes e acidentes aeronáuticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342530",
+    "codigo_formatado": "3425-30",
+    "titulo_cbo": "Inspetor de aviação civil",
+    "titulo_qbq": "Inspetor de aviação civil",
+    "familia": {
+     "codigo": "3425",
+     "titulo": "Técnicos em transportes aéreos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1091
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 670
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Falar em público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 5,
+      "descricao": "Registrar ocorrências de incidentes e acidentes aeronáuticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "351610",
+    "codigo_formatado": "3516-10",
+    "titulo_cbo": "Técnico em higiene ocupacional",
+    "titulo_qbq": "Técnico em higiene ocupacional",
+    "familia": {
+     "codigo": "3516",
+     "titulo": "Técnicos em segurança do trabalho"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1118
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 83
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "DESENVOLVER AÇÕES EDUCATIVAS NA ÁREA DE SST",
+      "numero": 8,
+      "descricao": "Utilizar métodos e técnicas de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Gerar relatórios de resultados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Documentar procedimentos e normas de sistemas de segurança",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377215",
+    "codigo_formatado": "3772-15",
+    "titulo_cbo": "Árbitro de basquete",
+    "titulo_qbq": "Árbitro de basquete",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1251
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1361
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Executar gestos/ sinais técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Utilizar equipamentos sonoros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Utilizar equipamentos visuais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377235",
+    "codigo_formatado": "3772-35",
+    "titulo_cbo": "Árbitro de karatê",
+    "titulo_qbq": "Árbitro de caratê",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1255
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1365
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Executar gestos/ sinais técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Utilizar equipamentos sonoros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Utilizar equipamentos visuais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "410105",
+    "codigo_formatado": "4101-05",
+    "titulo_cbo": "Supervisor administrativo",
+    "titulo_qbq": "Supervisor administrativo",
+    "familia": {
+     "codigo": "4101",
+     "titulo": "Supervisores administrativos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1275
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 121
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Triar informações",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar informações",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Esclarecer dúvidas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "413225",
+    "codigo_formatado": "4132-25",
+    "titulo_cbo": "Escriturário de banco",
+    "titulo_qbq": "Escriturário de banco",
+    "familia": {
+     "codigo": "4132",
+     "titulo": "Escriturários de serviços bancários"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1307
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 152
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar usuários",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Emitir carta de anuência",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir carta de idoneidade financeira",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "515320",
+    "codigo_formatado": "5153-20",
+    "titulo_cbo": "Conselheiro tutelar",
+    "titulo_qbq": "Conselheiro tutelar",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1451
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 251
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Abrir procedimento de atendimento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relatórios de atendimento e acompanhamento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Cadastrar assistidos/usuários/educandos/ internos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "517105",
+    "codigo_formatado": "5171-05",
+    "titulo_cbo": "Bombeiro de aeródromo",
+    "titulo_qbq": "Bombeiro de aeródromo",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1488
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 758
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Conversar com a vítima",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Ouvir relatos da vítima e testemunhas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "517115",
+    "codigo_formatado": "5171-15",
+    "titulo_cbo": "Salva-vidas",
+    "titulo_qbq": "Salva-vidas",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1490
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 760
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Conversar com a vítima",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Ouvir relatos da vítima e testemunhas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "517120",
+    "codigo_formatado": "5171-20",
+    "titulo_cbo": "Brigadista florestal",
+    "titulo_qbq": "Brigadista florestal",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1491
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1196
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar público",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Conversar com a vítima",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Ouvir relatos da vítima e testemunhas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "114105",
+    "codigo_formatado": "1141-05",
+    "titulo_cbo": "Dirigente de partido político",
+    "titulo_qbq": "Dirigente de partido político",
+    "familia": {
+     "codigo": "1141",
+     "titulo": "Dirigentes de partidos políticos"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 62
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2476
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "COORDENAR CAMPANHAS ELEITORAIS",
+      "numero": 4,
+      "descricao": "Organizar comunicação da campanha",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "H",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Difundir ações políticas do partido",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar eventos do partido",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122520",
+    "codigo_formatado": "1225-20",
+    "titulo_cbo": "Turismólogo",
+    "titulo_qbq": "Turismólogo",
+    "familia": {
+     "codigo": "1225",
+     "titulo": "Diretores de serviços de turismo, de alojamento e de alimentação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 79
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2493
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Conceder entrevistas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Receber visitantes",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Representar empresa em eventos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122720",
+    "codigo_formatado": "1227-20",
+    "titulo_cbo": "Diretor de câmbio e comércio exterior",
+    "titulo_qbq": "Diretor de câmbio e comércio exterior",
+    "familia": {
+     "codigo": "1227",
+     "titulo": "Diretores de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 87
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2501
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Divulgar metas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar estratégias, políticas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "I",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Divulgar decisões dos comitês",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "141725",
+    "codigo_formatado": "1417-25",
+    "titulo_cbo": "Gerente de crédito imobiliário",
+    "titulo_qbq": "Gerente de crédito imobiliário",
+    "familia": {
+     "codigo": "1417",
+     "titulo": "Gerentes de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 142
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2556
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Consolidar informações gerenciais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Comunicar alterações de taxas e tarifas ao bacen e a clientes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Atender auditoria interna e externa",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "141730",
+    "codigo_formatado": "1417-30",
+    "titulo_cbo": "Gerente de crédito rural",
+    "titulo_qbq": "Gerente de crédito rural",
+    "familia": {
+     "codigo": "1417",
+     "titulo": "Gerentes de operações de serviços em instituição de intermediação financeira"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 143
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2557
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Consolidar informações gerenciais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Comunicar alterações de taxas e tarifas ao bacen e a clientes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Atender auditoria interna e externa",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "211220",
+    "codigo_formatado": "2112-20",
+    "titulo_cbo": "Cientista de dados",
+    "titulo_qbq": "Cientista de dados",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 236
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2655
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Interpretar resultados das análises de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Identificar padrões espaço-temporais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Identificar oportunidades de negócios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "212415",
+    "codigo_formatado": "2124-15",
+    "titulo_cbo": "Analista de sistemas de automação",
+    "titulo_qbq": "Analista de sistemas de automação",
+    "familia": {
+     "codigo": "2124",
+     "titulo": "Analistas de tecnologia da informação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 246
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1918
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Registrar ocorrências",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relátorios técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir pareceres técnicos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "212430",
+    "codigo_formatado": "2124-30",
+    "titulo_cbo": "Analista de testes de tecnologia da informação",
+    "titulo_qbq": "Analista de testes de tecnologia da informação",
+    "familia": {
+     "codigo": "2124",
+     "titulo": "Analistas de tecnologia da informação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 249
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1921
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Registrar ocorrências",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar relátorios técnicos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir pareceres técnicos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "224140",
+    "codigo_formatado": "2241-40",
+    "titulo_cbo": "Profissional de educação física na saúde",
+    "titulo_qbq": "Profissional de educação física na saúde",
+    "familia": {
+     "codigo": "2241",
+     "titulo": "Profissionais da educação física"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 461
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2112
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR ATIVIDADE FÍSICA E ESPORTIVA",
+      "numero": 7,
+      "descricao": "Comunicar a data e o local dos eventos aos interessados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Participar de reuniões",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Participar de reuniões multidisciplinares",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226105",
+    "codigo_formatado": "2261-05",
+    "titulo_cbo": "Quiropraxista",
+    "titulo_qbq": "Quiropraxista",
+    "familia": {
+     "codigo": "2261",
+     "titulo": "Osteopatas e quiropraxistas"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 525
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1823
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Emitir laudos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir atestados",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "226110",
+    "codigo_formatado": "2261-10",
+    "titulo_cbo": "Osteopata",
+    "titulo_qbq": "Osteopata",
+    "familia": {
+     "codigo": "2261",
+     "titulo": "Osteopatas e quiropraxistas"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 526
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1824
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Emitir laudos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Emitir atestados",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "231310",
+    "codigo_formatado": "2313-10",
+    "titulo_cbo": "Professor de educação artística do ensino fundamental",
+    "titulo_qbq": "Professor de educação artística do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 536
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2181
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231315",
+    "codigo_formatado": "2313-15",
+    "titulo_cbo": "Professor de educação física do ensino fundamental",
+    "titulo_qbq": "Professor de educação física do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 537
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2182
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231320",
+    "codigo_formatado": "2313-20",
+    "titulo_cbo": "Professor de geografia do ensino fundamental",
+    "titulo_qbq": "Professor de geografia do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 538
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2183
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231330",
+    "codigo_formatado": "2313-30",
+    "titulo_cbo": "Professor de língua estrangeira moderna do ensino fundamental",
+    "titulo_qbq": "Professor de língua estrangeira moderna do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 540
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2185
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231335",
+    "codigo_formatado": "2313-35",
+    "titulo_cbo": "Professor de língua portuguesa do ensino fundamental",
+    "titulo_qbq": "Professor de língua portuguesa do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 541
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2186
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231340",
+    "codigo_formatado": "2313-40",
+    "titulo_cbo": "Professor de matemática do ensino fundamental",
+    "titulo_qbq": "Professor de matemática do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 542
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2187
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Dialogar com a direção e coordenações da escola",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Esclarecer os critérios de avaliação para os alunos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Comunicar os resultados da avaliação aos pais e aos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234505",
+    "codigo_formatado": "2345-05",
+    "titulo_cbo": "Professor de ensino superior na área de didática",
+    "titulo_qbq": "Professor de ensino superior na área de didática",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 593
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2252
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 15,
+      "descricao": "Analisar implicações do uso de novas tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 2,
+      "descricao": "Estudar diferentes formas de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 3,
+      "descricao": "Estudar implicações do uso de tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234510",
+    "codigo_formatado": "2345-10",
+    "titulo_cbo": "Professor de ensino superior na área de orientação educacional",
+    "titulo_qbq": "Professor de ensino superior na área de orientação educacional",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 594
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2253
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 15,
+      "descricao": "Analisar implicações do uso de novas tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 2,
+      "descricao": "Estudar diferentes formas de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 3,
+      "descricao": "Estudar implicações do uso de tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234515",
+    "codigo_formatado": "2345-15",
+    "titulo_cbo": "Professor de ensino superior na área de pesquisa educacional",
+    "titulo_qbq": "Professor de ensino superior na área de pesquisa educacional",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 8,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 595
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2254
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 15,
+      "descricao": "Analisar implicações do uso de novas tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 2,
+      "descricao": "Estudar diferentes formas de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 3,
+      "descricao": "Estudar implicações do uso de tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234520",
+    "codigo_formatado": "2345-20",
+    "titulo_cbo": "Professor de ensino superior na área de prática de ensino",
+    "titulo_qbq": "Professor de ensino superior na área de prática de ensino",
+    "familia": {
+     "codigo": "2345",
+     "titulo": "Professores na área de formação pedagógica do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 596
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2255
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR, ARTICULANDO O PROCESSO DE ENSINO-APRENDIZAGEM NA FORMAÇÃO DE PROFISSIONAIS DA EDUCAÇÃO",
+      "numero": 15,
+      "descricao": "Analisar implicações do uso de novas tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 2,
+      "descricao": "Estudar diferentes formas de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ATUALIZAR-SE NA ÁREA",
+      "numero": 3,
+      "descricao": "Estudar implicações do uso de tecnologias de informação e comunicação, em situações de ensino",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239210",
+    "codigo_formatado": "2392-10",
+    "titulo_cbo": "Professor de alunos com deficiência física",
+    "titulo_qbq": "Professor de alunos com deficiência física",
+    "familia": {
+     "codigo": "2392",
+     "titulo": "Professores de educação especial"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 640
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2298
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 13,
+      "descricao": "Trabalhar com comunicação aumentativa e alternativa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 8,
+      "descricao": "Avaliar comunicação expressiva dos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 9,
+      "descricao": "Avaliar comunicação receptiva dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239215",
+    "codigo_formatado": "2392-15",
+    "titulo_cbo": "Professor de alunos com deficiência mental",
+    "titulo_qbq": "Professor de alunos com deficiência mental",
+    "familia": {
+     "codigo": "2392",
+     "titulo": "Professores de educação especial"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 641
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2299
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 13,
+      "descricao": "Trabalhar com comunicação aumentativa e alternativa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 8,
+      "descricao": "Avaliar comunicação expressiva dos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 9,
+      "descricao": "Avaliar comunicação receptiva dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239220",
+    "codigo_formatado": "2392-20",
+    "titulo_cbo": "Professor de alunos com deficiência múltipla",
+    "titulo_qbq": "Professor de alunos com deficiência múltipla",
+    "familia": {
+     "codigo": "2392",
+     "titulo": "Professores de educação especial"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 642
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2300
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ATUAR NO PROCESSO DE ENSINO-APRENDIZAGEM",
+      "numero": 13,
+      "descricao": "Trabalhar com comunicação aumentativa e alternativa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 8,
+      "descricao": "Avaliar comunicação expressiva dos alunos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "AVALIAR AS NECESSIDADES EDUCACIONAIS DOS ALUNOS",
+      "numero": 9,
+      "descricao": "Avaliar comunicação receptiva dos alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "239440",
+    "codigo_formatado": "2394-40",
+    "titulo_cbo": "Neuropsicopedagogo clinico",
+    "titulo_qbq": "Neuropsicopedagogo clínico",
+    "familia": {
+     "codigo": "2394",
+     "titulo": "Programadores, avaliadores e orientadores de ensino"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 651
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2309
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Elaborar textos de orientação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Elaborar relatórios",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Elaborar instrumentos de avaliação e intervenção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "253140",
+    "codigo_formatado": "2531-40",
+    "titulo_cbo": "Agenciador de propaganda",
+    "titulo_qbq": "Agenciador de propaganda",
+    "familia": {
+     "codigo": "2531",
+     "titulo": "Profissionais de publicidade"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 748
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2389
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "CONTRATAR FORNECEDORES",
+      "numero": 6,
+      "descricao": "Negociar com veículos de comunicação (espaço, custo, prazo, período, intensidade)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PESQUISAR MEIOS E VEÍCULOS DE COMUNICAÇÃO",
+      "numero": 1,
+      "descricao": "Identificar perfil dos veículos de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PESQUISAR MEIOS E VEÍCULOS DE COMUNICAÇÃO",
+      "numero": 2,
+      "descricao": "Pesquisar meios, veículos, volumes, formatos, posições",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "254505",
+    "codigo_formatado": "2545-05",
+    "titulo_cbo": "Fiscal de atividades urbanas",
+    "titulo_qbq": "Fiscal de atividades urbanas",
+    "familia": {
+     "codigo": "2545",
+     "titulo": "Profissionais da fiscalização de atividades urbanas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 766
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1832
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar população",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Cadastrar autos e termos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Encaminhar documentação para abertura de processo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "261305",
+    "codigo_formatado": "2613-05",
+    "titulo_cbo": "Arquivista",
+    "titulo_qbq": "Arquivista",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 778
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2410
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "DAR ACESSO À INFORMAÇÃO",
+      "numero": 11,
+      "descricao": "Disponibilizar os instrumentos de pesquisa na rede internacional de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Preparar material de divulgação institucional para diferentes mídias",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar o acervo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "261310",
+    "codigo_formatado": "2613-10",
+    "titulo_cbo": "Museólogo",
+    "titulo_qbq": "Museólogo",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 779
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2411
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "DAR ACESSO À INFORMAÇÃO",
+      "numero": 11,
+      "descricao": "Disponibilizar os instrumentos de pesquisa na rede internacional de comunicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Preparar material de divulgação institucional para diferentes mídias",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Divulgar o acervo",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "261910",
+    "codigo_formatado": "2619-10",
+    "titulo_cbo": "Assistente de direção (tv)",
+    "titulo_qbq": "Assistente de direção (tv)",
+    "familia": {
+     "codigo": "2619",
+     "titulo": "Assistentes de direção (tv) e continuístas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 806
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2434
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PARTICIPAR DO ENSAIO DA GRAVAÇÃO",
+      "numero": 10,
+      "descricao": "Testar o sistema de comunicação da equipe de gravação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Participar de reuniões",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Fazer atas de reuniões",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "262405",
+    "codigo_formatado": "2624-05",
+    "titulo_cbo": "Artista (artes visuais)",
+    "titulo_qbq": "Artista (artes visuais)",
+    "familia": {
+     "codigo": "2624",
+     "titulo": "Artistas visuais,desenhistas industriais e conservadores-restauradores de bens culturais"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 827
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2448
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Apresentar trabalhos em congressos, seminários",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Orientar profissionais sobre uso correto de equipamentos de segurança",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Ministrar palestras, cursos e oficinas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322105",
+    "codigo_formatado": "3221-05",
+    "titulo_cbo": "Técnico em acupuntura",
+    "titulo_qbq": "Técnico em acupuntura",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 992
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 651
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322110",
+    "codigo_formatado": "3221-10",
+    "titulo_cbo": "Podólogo",
+    "titulo_qbq": "Podólogo",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 993
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 652
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322120",
+    "codigo_formatado": "3221-20",
+    "titulo_cbo": "Massoterapeuta",
+    "titulo_qbq": "Massoterapeuta",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 995
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 654
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Ouvir paciente e/ou cliente e/ou aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 2,
+      "descricao": "Explicar técnicas e procedimentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Informar paciente e/ou cliente e/ou aluno sobre sua condição",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322215",
+    "codigo_formatado": "3222-15",
+    "titulo_cbo": "Técnico de enfermagem do trabalho",
+    "titulo_qbq": "Técnico de enfermagem do trabalho",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1002
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 30
+     }
+    },
+    "total_casadas": 10,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 1,
+      "descricao": "Orientar familiares, paciente e comunidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 3,
+      "descricao": "Trocar informações técnicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Comunicar ao médico efeitos adversos dos medicamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 1597,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=comunica&agrupar_por=ocupacao&limite=100&deslocamento=0"
+  }
+ }
+}

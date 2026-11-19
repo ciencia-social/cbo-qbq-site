@@ -1,0 +1,322 @@
+{
+ "url": "/api/v1/atividades?q=comunica",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 14,
+    "descricao": "Definir diretrizes de comunicação social",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir diretrizes de comunicação social"
+   },
+   {
+    "ocupacao": "020205",
+    "titulo": "Capitão da polícia militar",
+    "sigla": "F",
+    "area": "EXERCER PODER DISCIPLINAR",
+    "numero": 9,
+    "descricao": "Comunicar ausência de subordinado",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 329
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar ausência de subordinado"
+   },
+   {
+    "ocupacao": "020205",
+    "titulo": "Capitão da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 15,
+    "descricao": "Comunicar-se com facilidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 329
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se com facilidade"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR PELOTÃO",
+    "numero": 20,
+    "descricao": "Coordenar comunicação de rede rádio",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar comunicação de rede rádio"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "B",
+    "area": "COORDENAR POLICIAMENTO OSTENSIVO, RESERVADO E VELADO",
+    "numero": 13,
+    "descricao": "Comunicar infração disciplinar ou ação meritória",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar infração disciplinar ou ação meritória"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 1,
+    "descricao": "Coordenar campanhas educativas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 2,
+    "descricao": "Participar de conselhos com a comunidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 3,
+    "descricao": "Informar imprensa sobre ocorrências",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 4,
+    "descricao": "Realizar resenhas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 5,
+    "descricao": "Participar de eventos cívicos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 6,
+    "descricao": "Promover aproximação da comunidade civil com a militar",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 7,
+    "descricao": "Realizar endomarketing",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 8,
+    "descricao": "Promover atividades de auto valorização profissional",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 9,
+    "descricao": "Contactar autoridades locais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 10,
+    "descricao": "Participar de campanhas sociais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 11,
+    "descricao": "Realizar campanhas antidrogas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 12,
+    "descricao": "Promover educação ambiental",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 13,
+    "descricao": "Promover campanhas de prevenção à violência",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 14,
+    "descricao": "Promover educação para trânsito",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   },
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "G",
+    "area": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL",
+    "numero": 15,
+    "descricao": "Realizar palestras para prevenção de acidentes de trabalho",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "area",
+    "trecho": "ATUAR NA COORDENAÇÃO DA COMUNICAÇÃO SOCIAL"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 7135,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=comunica",
+   "proxima": "/api/v1/atividades?q=comunica&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

@@ -1,0 +1,3322 @@
+{
+ "url": "/api/v1/atividades?q=estat&agrupar_por=ocupacao&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "254205",
+    "codigo_formatado": "2542-05",
+    "titulo_cbo": "Auditor-fiscal da previdência social",
+    "titulo_qbq": "Auditor-fiscal da previdência social",
+    "familia": {
+     "codigo": "2542",
+     "titulo": "Auditores fiscais da previdência social"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 759
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2396
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "AUDITAR E FISCALIZAR ENTIDADES, FUNDOS PÚBLICOS E PRIVADOS DE PREVIDÊNCIA",
+      "numero": 8,
+      "descricao": "Apontar divergências legais, estatutárias e/ou atuariais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261305",
+    "codigo_formatado": "2613-05",
+    "titulo_cbo": "Arquivista",
+    "titulo_qbq": "Arquivista",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 778
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2410
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Construir estatísticas de freqüência e relatórios técnicos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261310",
+    "codigo_formatado": "2613-10",
+    "titulo_cbo": "Museólogo",
+    "titulo_qbq": "Museólogo",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 779
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2411
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Construir estatísticas de freqüência e relatórios técnicos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261430",
+    "codigo_formatado": "2614-30",
+    "titulo_cbo": "Audiodescritor",
+    "titulo_qbq": "Audiodescritor",
+    "familia": {
+     "codigo": "2614",
+     "titulo": "Filólogos,tradutores ,intérpretes e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 785
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2417
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "INTERPRETAR DISCURSOS ORAIS, LÍNGUA DE SINAIS E/OU IMAGENS",
+      "numero": 14,
+      "descricao": "Descrever imagens estáticas e dinâmicas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "263105",
+    "codigo_formatado": "2631-05",
+    "titulo_cbo": "Ministro de culto religioso",
+    "titulo_qbq": "Ministro de culto religioso",
+    "familia": {
+     "codigo": "2631",
+     "titulo": "Ministros de culto, missionários, teólogos e profissionais assemelhados"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 846
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2458
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+      "numero": 17,
+      "descricao": "Elaborar estatutos e regimentos internos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "263110",
+    "codigo_formatado": "2631-10",
+    "titulo_cbo": "Missionário",
+    "titulo_qbq": "Missionário",
+    "familia": {
+     "codigo": "2631",
+     "titulo": "Ministros de culto, missionários, teólogos e profissionais assemelhados"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 847
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2459
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+      "numero": 17,
+      "descricao": "Elaborar estatutos e regimentos internos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "263115",
+    "codigo_formatado": "2631-15",
+    "titulo_cbo": "Teólogo",
+    "titulo_qbq": "Teólogo",
+    "familia": {
+     "codigo": "2631",
+     "titulo": "Ministros de culto, missionários, teólogos e profissionais assemelhados"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 848
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2460
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+      "numero": 17,
+      "descricao": "Elaborar estatutos e regimentos internos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "301105",
+    "codigo_formatado": "3011-05",
+    "titulo_cbo": "Técnico de laboratório industrial",
+    "titulo_qbq": "Técnico de laboratório industrial",
+    "familia": {
+     "codigo": "3011",
+     "titulo": "Técnicos de laboratório industrial"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 854
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 604
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR A QUALIDADE",
+      "numero": 7,
+      "descricao": "Empregar estatística e metrologia de nível básico",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "301110",
+    "codigo_formatado": "3011-10",
+    "titulo_cbo": "Técnico de laboratório de análises físico-químicas (materiais de construção)",
+    "titulo_qbq": "Técnico de laboratório de análises físico-químicas (materiais de construção)",
+    "familia": {
+     "codigo": "3011",
+     "titulo": "Técnicos de laboratório industrial"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 855
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 605
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR A QUALIDADE",
+      "numero": 7,
+      "descricao": "Empregar estatística e metrologia de nível básico",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "301115",
+    "codigo_formatado": "3011-15",
+    "titulo_cbo": "Técnico químico de petróleo",
+    "titulo_qbq": "Técnico químico de petróleo",
+    "familia": {
+     "codigo": "3011",
+     "titulo": "Técnicos de laboratório industrial"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 856
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 606
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR A QUALIDADE",
+      "numero": 7,
+      "descricao": "Empregar estatística e metrologia de nível básico",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "301205",
+    "codigo_formatado": "3012-05",
+    "titulo_cbo": "Técnico de apoio à bioengenharia",
+    "titulo_qbq": "Técnico de apoio à bioengenharia",
+    "familia": {
+     "codigo": "3012",
+     "titulo": "Técnicos de apoio à bioengenharia"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 857
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1209
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "AUXILIAR PESQUISAS APLICADAS À BIOENGENHARIA",
+      "numero": 7,
+      "descricao": "Coletar estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311205",
+    "codigo_formatado": "3112-05",
+    "titulo_cbo": "Técnico em petroquímica",
+    "titulo_qbq": "Técnico em petroquímica",
+    "familia": {
+     "codigo": "3112",
+     "titulo": "Técnicos de produção de indústrias químicas, petroquímicas, refino de petróleo, gás e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 861
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1210
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "CONTROLAR A QUALIDADE DE INSUMOS E PRODUTOS",
+      "numero": 3,
+      "descricao": "Analisar dados estatísticos do processo produtivo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311305",
+    "codigo_formatado": "3113-05",
+    "titulo_cbo": "Técnico em materiais, produtos cerâmicos e vidros",
+    "titulo_qbq": "Técnico em materiais, produtos cerâmicos e vidros",
+    "familia": {
+     "codigo": "3113",
+     "titulo": "Técnicos em materiais, produtos cerâmicos e vidros"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 862
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1211
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "DESENVOLVER MELHORIAS NO PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Analisar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311405",
+    "codigo_formatado": "3114-05",
+    "titulo_cbo": "Técnico em borracha",
+    "titulo_qbq": "Técnico em borracha",
+    "familia": {
+     "codigo": "3114",
+     "titulo": "Técnicos em fabricação de produtos plásticos e de borracha"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 863
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1212
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ACOMPANHAR SISTEMA DE PRODUÇÃO",
+      "numero": 8,
+      "descricao": "Aplicar ferramentas estatísticas de controle de processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311410",
+    "codigo_formatado": "3114-10",
+    "titulo_cbo": "Técnico em plástico",
+    "titulo_qbq": "Técnico em plástico",
+    "familia": {
+     "codigo": "3114",
+     "titulo": "Técnicos em fabricação de produtos plásticos e de borracha"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 864
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1213
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ACOMPANHAR SISTEMA DE PRODUÇÃO",
+      "numero": 8,
+      "descricao": "Aplicar ferramentas estatísticas de controle de processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "313105",
+    "codigo_formatado": "3131-05",
+    "titulo_cbo": "Eletrotécnico",
+    "titulo_qbq": "Eletrotécnico",
+    "familia": {
+     "codigo": "3131",
+     "titulo": "Técnicos em eletricidade e eletrotécnica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 886
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 3
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR ESTUDOS E PROJETOS",
+      "numero": 13,
+      "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "313110",
+    "codigo_formatado": "3131-10",
+    "titulo_cbo": "Eletrotécnico (produção de energia)",
+    "titulo_qbq": "Eletrotécnico (produção de energia)",
+    "familia": {
+     "codigo": "3131",
+     "titulo": "Técnicos em eletricidade e eletrotécnica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 887
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 4
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR ESTUDOS E PROJETOS",
+      "numero": 13,
+      "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "313130",
+    "codigo_formatado": "3131-30",
+    "titulo_cbo": "Técnico eletricista",
+    "titulo_qbq": "Técnico eletricista",
+    "familia": {
+     "codigo": "3131",
+     "titulo": "Técnicos em eletricidade e eletrotécnica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 891
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 8
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR ESTUDOS E PROJETOS",
+      "numero": 13,
+      "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "313505",
+    "codigo_formatado": "3135-05",
+    "titulo_cbo": "Técnico em fotônica",
+    "titulo_qbq": "Técnico em fotônica",
+    "familia": {
+     "codigo": "3135",
+     "titulo": "Técnicos em fotônica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 903
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1219
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "INTEGRAR-SE AO SISTEMA DE GESTÃO DA QUALIDADE",
+      "numero": 3,
+      "descricao": "Aplicar técnicas estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "314305",
+    "codigo_formatado": "3143-05",
+    "titulo_cbo": "Técnico em automobilística",
+    "titulo_qbq": "Técnico em automobilística",
+    "familia": {
+     "codigo": "3143",
+     "titulo": "Técnicos em mecânica veicular"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 911
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 628
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 9,
+      "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "314310",
+    "codigo_formatado": "3143-10",
+    "titulo_cbo": "Técnico mecânico (aeronaves)",
+    "titulo_qbq": "Técnico mecânico (aeronaves)",
+    "familia": {
+     "codigo": "3143",
+     "titulo": "Técnicos em mecânica veicular"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 912
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 629
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 9,
+      "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "314315",
+    "codigo_formatado": "3143-15",
+    "titulo_cbo": "Técnico mecânico (embarcações)",
+    "titulo_qbq": "Técnico mecânico (embarcações)",
+    "familia": {
+     "codigo": "3143",
+     "titulo": "Técnicos em mecânica veicular"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 913
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 630
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 9,
+      "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "319105",
+    "codigo_formatado": "3191-05",
+    "titulo_cbo": "Técnico em calçados e artefatos de couro",
+    "titulo_qbq": "Técnico em calçados e artefatos de couro",
+    "familia": {
+     "codigo": "3191",
+     "titulo": "Técnicos do vestuário"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 979
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1262
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "CONTROLAR A PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Elaborar estatísticas de produção",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "319110",
+    "codigo_formatado": "3191-10",
+    "titulo_cbo": "Técnico em confecções do vestuário",
+    "titulo_qbq": "Técnico em confecções do vestuário",
+    "familia": {
+     "codigo": "3191",
+     "titulo": "Técnicos do vestuário"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 980
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1263
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "CONTROLAR A PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Elaborar estatísticas de produção",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322105",
+    "codigo_formatado": "3221-05",
+    "titulo_cbo": "Técnico em acupuntura",
+    "titulo_qbq": "Técnico em acupuntura",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 992
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 651
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322110",
+    "codigo_formatado": "3221-10",
+    "titulo_cbo": "Podólogo",
+    "titulo_qbq": "Podólogo",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 993
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 652
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322115",
+    "codigo_formatado": "3221-15",
+    "titulo_cbo": "Técnico em quiropraxia",
+    "titulo_qbq": "Técnico em quiropraxia",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 994
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 653
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322120",
+    "codigo_formatado": "3221-20",
+    "titulo_cbo": "Massoterapeuta",
+    "titulo_qbq": "Massoterapeuta",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 995
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 654
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322125",
+    "codigo_formatado": "3221-25",
+    "titulo_cbo": "Terapeuta holístico",
+    "titulo_qbq": "Terapeuta holístico",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 996
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 655
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322130",
+    "codigo_formatado": "3221-30",
+    "titulo_cbo": "Esteticista",
+    "titulo_qbq": "Esteticista",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 997
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 656
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322135",
+    "codigo_formatado": "3221-35",
+    "titulo_cbo": "Doula",
+    "titulo_qbq": "Doula",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 998
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 657
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "322140",
+    "codigo_formatado": "3221-40",
+    "titulo_cbo": "Instrutor de pilates",
+    "titulo_qbq": "Instrutor de pilates",
+    "familia": {
+     "codigo": "3221",
+     "titulo": "Tecnólogos e técnicos em terapias complementares e estéticas"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 999
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2662
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 4,
+      "descricao": "Orientar sobre postura estática e dinâmica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "324205",
+    "codigo_formatado": "3242-05",
+    "titulo_cbo": "Técnico em patologia clínica",
+    "titulo_qbq": "Técnico em patologia clínica",
+    "familia": {
+     "codigo": "3242",
+     "titulo": "Técnicos de laboratórios de saúde e bancos de sangue"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1029
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 50
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+      "numero": 12,
+      "descricao": "Fornecer dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "324215",
+    "codigo_formatado": "3242-15",
+    "titulo_cbo": "Citotécnico",
+    "titulo_qbq": "Citotécnico",
+    "familia": {
+     "codigo": "3242",
+     "titulo": "Técnicos de laboratórios de saúde e bancos de sangue"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1030
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 51
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+      "numero": 12,
+      "descricao": "Fornecer dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "324220",
+    "codigo_formatado": "3242-20",
+    "titulo_cbo": "Técnico em hemoterapia",
+    "titulo_qbq": "Técnico em hemoterapia",
+    "familia": {
+     "codigo": "3242",
+     "titulo": "Técnicos de laboratórios de saúde e bancos de sangue"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1031
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 52
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+      "numero": 12,
+      "descricao": "Fornecer dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "342605",
+    "codigo_formatado": "3426-05",
+    "titulo_cbo": "Chefe de estação portuária",
+    "titulo_qbq": "Chefe de estação portuária",
+    "familia": {
+     "codigo": "3426",
+     "titulo": "Técnicos em transportes por vias navegáveis e operações portuárias"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1098
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1307
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "ELABORAR DOCUMENTOS",
+      "numero": 6,
+      "descricao": "Elaborar planilhas de estatísticas operacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "342610",
+    "codigo_formatado": "3426-10",
+    "titulo_cbo": "Supervisor de operações portuárias",
+    "titulo_qbq": "Supervisor de operações portuárias",
+    "familia": {
+     "codigo": "3426",
+     "titulo": "Técnicos em transportes por vias navegáveis e operações portuárias"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1099
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1308
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "ELABORAR DOCUMENTOS",
+      "numero": 6,
+      "descricao": "Elaborar planilhas de estatísticas operacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351310",
+    "codigo_formatado": "3513-10",
+    "titulo_cbo": "Técnico em administração de comércio exterior",
+    "titulo_qbq": "Técnico em administração de comércio exterior",
+    "familia": {
+     "codigo": "3513",
+     "titulo": "Técnicos em administração"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1104
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 71
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+      "numero": 11,
+      "descricao": "Controlar atividades através de dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351315",
+    "codigo_formatado": "3513-15",
+    "titulo_cbo": "Agente de recrutamento e seleção",
+    "titulo_qbq": "Agente de recrutamento e seleção",
+    "familia": {
+     "codigo": "3513",
+     "titulo": "Técnicos em administração"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1105
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 72
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+      "numero": 11,
+      "descricao": "Controlar atividades através de dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351405",
+    "codigo_formatado": "3514-05",
+    "titulo_cbo": "Escrevente",
+    "titulo_qbq": "Escrevente",
+    "familia": {
+     "codigo": "3514",
+     "titulo": "Serventuários da justiça e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1106
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 73
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUMPRIR DETERMINAÇÕES LEGAIS E JUDICIAIS",
+      "numero": 7,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351410",
+    "codigo_formatado": "3514-10",
+    "titulo_cbo": "Escrivão judicial",
+    "titulo_qbq": "Escrivão judicial",
+    "familia": {
+     "codigo": "3514",
+     "titulo": "Serventuários da justiça e afins"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1107
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 74
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUMPRIR DETERMINAÇÕES LEGAIS E JUDICIAIS",
+      "numero": 7,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351415",
+    "codigo_formatado": "3514-15",
+    "titulo_cbo": "Escrivão extra - judicial",
+    "titulo_qbq": "Escrivão extrajudicial",
+    "familia": {
+     "codigo": "3514",
+     "titulo": "Serventuários da justiça e afins"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1108
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 75
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUMPRIR DETERMINAÇÕES LEGAIS E JUDICIAIS",
+      "numero": 7,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351420",
+    "codigo_formatado": "3514-20",
+    "titulo_cbo": "Escrivão de polícia",
+    "titulo_qbq": "Escrivão de polícia",
+    "familia": {
+     "codigo": "3514",
+     "titulo": "Serventuários da justiça e afins"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1109
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 76
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUMPRIR DETERMINAÇÕES LEGAIS E JUDICIAIS",
+      "numero": 7,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351430",
+    "codigo_formatado": "3514-30",
+    "titulo_cbo": "Auxiliar de serviços jurídicos",
+    "titulo_qbq": "Auxiliar de serviços jurídicos",
+    "familia": {
+     "codigo": "3514",
+     "titulo": "Serventuários da justiça e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1111
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 78
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUMPRIR DETERMINAÇÕES LEGAIS E JUDICIAIS",
+      "numero": 7,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351805",
+    "codigo_formatado": "3518-05",
+    "titulo_cbo": "Detetive profissional",
+    "titulo_qbq": "Detetive profissional",
+    "familia": {
+     "codigo": "3518",
+     "titulo": "Agentes de investigação e identificação"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1127
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 92
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PLANEJAR INVESTIGAÇÃO",
+      "numero": 3,
+      "descricao": "Produzir estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351810",
+    "codigo_formatado": "3518-10",
+    "titulo_cbo": "Investigador de polícia",
+    "titulo_qbq": "Investigador de polícia",
+    "familia": {
+     "codigo": "3518",
+     "titulo": "Agentes de investigação e identificação"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1128
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 93
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PLANEJAR INVESTIGAÇÃO",
+      "numero": 3,
+      "descricao": "Produzir estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351815",
+    "codigo_formatado": "3518-15",
+    "titulo_cbo": "Papiloscopista policial",
+    "titulo_qbq": "Papiloscopista policial",
+    "familia": {
+     "codigo": "3518",
+     "titulo": "Agentes de investigação e identificação"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1129
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 94
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PLANEJAR INVESTIGAÇÃO",
+      "numero": 3,
+      "descricao": "Produzir estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354120",
+    "codigo_formatado": "3541-20",
+    "titulo_cbo": "Agente de vendas de serviços",
+    "titulo_qbq": "Agente de vendas de serviços",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1148
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 97
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354125",
+    "codigo_formatado": "3541-25",
+    "titulo_cbo": "Assistente de vendas",
+    "titulo_qbq": "Assistente de vendas",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1149
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 98
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354130",
+    "codigo_formatado": "3541-30",
+    "titulo_cbo": "Promotor de vendas especializado",
+    "titulo_qbq": "Promotor de vendas especializado",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1150
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 99
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354135",
+    "codigo_formatado": "3541-35",
+    "titulo_cbo": "Técnico de vendas",
+    "titulo_qbq": "Técnico de vendas",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1151
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 100
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354140",
+    "codigo_formatado": "3541-40",
+    "titulo_cbo": "Técnico em atendimento e vendas",
+    "titulo_qbq": "Técnico em atendimento e vendas",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1152
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 101
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354145",
+    "codigo_formatado": "3541-45",
+    "titulo_cbo": "Vendedor pracista",
+    "titulo_qbq": "Vendedor pracista",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1153
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 102
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "354150",
+    "codigo_formatado": "3541-50",
+    "titulo_cbo": "Propagandista de produtos famacêuticos",
+    "titulo_qbq": "Propagandista de produtos farmacêuticos",
+    "familia": {
+     "codigo": "3541",
+     "titulo": "Especialistas em promoção de produtos e vendas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1154
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 103
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTATAR ÁREAS INTERNAS DA EMPRESA",
+      "numero": 6,
+      "descricao": "Elaborar relatórios e estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "371210",
+    "codigo_formatado": "3712-10",
+    "titulo_cbo": "Técnico em museologia",
+    "titulo_qbq": "Técnico em museologia",
+    "familia": {
+     "codigo": "3712",
+     "titulo": "Técnicos em museologia e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1173
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1324
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "REALIZAR ATIVIDADES ADMINISTRATIVAS",
+      "numero": 13,
+      "descricao": "Elaborar estatísticas de visitação e consultas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "372205",
+    "codigo_formatado": "3722-05",
+    "titulo_cbo": "Operador de rede de teleprocessamento",
+    "titulo_qbq": "Operador de rede de teleprocessamento",
+    "familia": {
+     "codigo": "3722",
+     "titulo": "Operadores de rede de teleprocessamento e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1181
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1330
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "EFETUAR PROCEDIMENTOS DE TRABALHO",
+      "numero": 9,
+      "descricao": "Emitir relatórios estatísticos de atendimento ao usuário",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "376405",
+    "codigo_formatado": "3764-05",
+    "titulo_cbo": "Modelo artístico",
+    "titulo_qbq": "Modelo artístico",
+    "familia": {
+     "codigo": "3764",
+     "titulo": "Modelos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1237
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1356
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "POSAR PARA FOTÓGRAFOS E ARTISTAS PLÁSTICOS",
+      "numero": 8,
+      "descricao": "Interpretar estátua viva em eventos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "395105",
+    "codigo_formatado": "3951-05",
+    "titulo_cbo": "Técnico de apoio em pesquisa e desenvolvimento (exceto agropecuário e florestal)",
+    "titulo_qbq": "Técnico de apoio em pesquisa e desenvolvimento (exceto agropecuário e florestal)",
+    "familia": {
+     "codigo": "3951",
+     "titulo": "Técnicos de apoio em pesquisa e desenvolvimento"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1273
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 731
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "ANALISAR RESULTADOS DE ENSAIOS",
+      "numero": 3,
+      "descricao": "Realizar cálculos estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "395110",
+    "codigo_formatado": "3951-10",
+    "titulo_cbo": "Técnico de apoio em pesquisa e desenvolvimento agropecuário florestal",
+    "titulo_qbq": "Técnico de apoio em pesquisa e desenvolvimento agropecuário florestal",
+    "familia": {
+     "codigo": "3951",
+     "titulo": "Técnicos de apoio em pesquisa e desenvolvimento"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1274
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 732
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "ANALISAR RESULTADOS DE ENSAIOS",
+      "numero": 3,
+      "descricao": "Realizar cálculos estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "412120",
+    "codigo_formatado": "4121-20",
+    "titulo_cbo": "Supervisor de digitação e operação",
+    "titulo_qbq": "Supervisor de digitação e operação",
+    "familia": {
+     "codigo": "4121",
+     "titulo": "Operadores de equipamentos de entrada e transmissão de dados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1298
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 143
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "SUPERVISIONAR TRABALHO E EQUIPE",
+      "numero": 6,
+      "descricao": "Analisar relatórios estatísticos de produtividade",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "510130",
+    "codigo_formatado": "5101-30",
+    "titulo_cbo": "Chefe de bar",
+    "titulo_qbq": "Chefe de bar",
+    "familia": {
+     "codigo": "5101",
+     "titulo": "Supervisores dos serviços de transporte, turismo, hotelaria e administração de edifícios"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1376
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 750
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "ELABORAR RELATÓRIOS DE OPERAÇÃO E DE AVALIAÇÃO",
+      "numero": 9,
+      "descricao": "Elaborar relatório estatístico de vendas dos restaurantes",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "510135",
+    "codigo_formatado": "5101-35",
+    "titulo_cbo": "Maître",
+    "titulo_qbq": "Maître",
+    "familia": {
+     "codigo": "5101",
+     "titulo": "Supervisores dos serviços de transporte, turismo, hotelaria e administração de edifícios"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1377
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 751
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "ELABORAR RELATÓRIOS DE OPERAÇÃO E DE AVALIAÇÃO",
+      "numero": 9,
+      "descricao": "Elaborar relatório estatístico de vendas dos restaurantes",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "515305",
+    "codigo_formatado": "5153-05",
+    "titulo_cbo": "Educador social",
+    "titulo_qbq": "Educador social",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1448
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 248
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "IDENTIFICAR NECESSIDADES/DEMANDAS",
+      "numero": 6,
+      "descricao": "Levantar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "515310",
+    "codigo_formatado": "5153-10",
+    "titulo_cbo": "Agente de ação social",
+    "titulo_qbq": "Agente de ação social",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1449
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 249
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "IDENTIFICAR NECESSIDADES/DEMANDAS",
+      "numero": 6,
+      "descricao": "Levantar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "515315",
+    "codigo_formatado": "5153-15",
+    "titulo_cbo": "Monitor de dependente químico",
+    "titulo_qbq": "Monitor de dependente químico",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1450
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 250
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "IDENTIFICAR NECESSIDADES/DEMANDAS",
+      "numero": 6,
+      "descricao": "Levantar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "515320",
+    "codigo_formatado": "5153-20",
+    "titulo_cbo": "Conselheiro tutelar",
+    "titulo_qbq": "Conselheiro tutelar",
+    "familia": {
+     "codigo": "5153",
+     "titulo": "Trabalhadores de atenção, defesa e proteção a pessoas em situação de risco e adolescentes em conflito com a lei"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1451
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 251
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "IDENTIFICAR NECESSIDADES/DEMANDAS",
+      "numero": 6,
+      "descricao": "Levantar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "517105",
+    "codigo_formatado": "5171-05",
+    "titulo_cbo": "Bombeiro de aeródromo",
+    "titulo_qbq": "Bombeiro de aeródromo",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1488
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 758
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 11,
+      "descricao": "Elaborar estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "517110",
+    "codigo_formatado": "5171-10",
+    "titulo_cbo": "Bombeiro civil",
+    "titulo_qbq": "Bombeiro civil",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1489
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 759
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 11,
+      "descricao": "Elaborar estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "517115",
+    "codigo_formatado": "5171-15",
+    "titulo_cbo": "Salva-vidas",
+    "titulo_qbq": "Salva-vidas",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1490
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 760
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 11,
+      "descricao": "Elaborar estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "517125",
+    "codigo_formatado": "5171-25",
+    "titulo_cbo": "Chefe de brigada",
+    "titulo_qbq": "Chefe de brigada",
+    "familia": {
+     "codigo": "5171",
+     "titulo": "Bombeiros, salva-vidas e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1492
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1197
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "Y",
+      "area": "COMUNICAR-SE",
+      "numero": 11,
+      "descricao": "Elaborar estatísticas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720105",
+    "codigo_formatado": "7201-05",
+    "titulo_cbo": "Mestre (afiador de ferramentas)",
+    "titulo_qbq": "Mestre (afiador de ferramentas)",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1853
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 866
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720110",
+    "codigo_formatado": "7201-10",
+    "titulo_cbo": "Mestre de caldeiraria",
+    "titulo_qbq": "Mestre de caldeiraria",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1854
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 867
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720115",
+    "codigo_formatado": "7201-15",
+    "titulo_cbo": "Mestre de ferramentaria",
+    "titulo_qbq": "Mestre de ferramentaria",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1855
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 868
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720125",
+    "codigo_formatado": "7201-25",
+    "titulo_cbo": "Mestre de fundição",
+    "titulo_qbq": "Mestre de fundição",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1857
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 870
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720130",
+    "codigo_formatado": "7201-30",
+    "titulo_cbo": "Mestre de galvanoplastia",
+    "titulo_qbq": "Mestre de galvanoplastia",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1858
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 871
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720145",
+    "codigo_formatado": "7201-45",
+    "titulo_cbo": "Mestre de trefilação de metais",
+    "titulo_qbq": "Mestre de trefilação de metais",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1861
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 874
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720150",
+    "codigo_formatado": "7201-50",
+    "titulo_cbo": "Mestre de usinagem",
+    "titulo_qbq": "Mestre de usinagem",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1862
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 875
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720160",
+    "codigo_formatado": "7201-60",
+    "titulo_cbo": "Supervisor de controle de tratamento térmico",
+    "titulo_qbq": "Supervisor de controle de tratamento térmico",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1864
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 877
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "MONITORAR PROCEDIMENTOS E NORMAS DO SISTEMA DE QUALIDADE DA EMPRESA",
+      "numero": 7,
+      "descricao": "Controlar estatisticamente o processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "721205",
+    "codigo_formatado": "7212-05",
+    "titulo_cbo": "Operador de máquina de eletroerosão",
+    "titulo_qbq": "Operador de máquina de eletroerosão",
+    "familia": {
+     "codigo": "7212",
+     "titulo": "Preparadores e operadores de máquinas-ferramenta convencionais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1872
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 386
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR AS PEÇAS USINADAS",
+      "numero": 7,
+      "descricao": "Utilizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "721210",
+    "codigo_formatado": "7212-10",
+    "titulo_cbo": "Operador de máquinas operatrizes",
+    "titulo_qbq": "Operador de máquinas operatrizes",
+    "familia": {
+     "codigo": "7212",
+     "titulo": "Preparadores e operadores de máquinas-ferramenta convencionais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1873
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 387
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR AS PEÇAS USINADAS",
+      "numero": 7,
+      "descricao": "Utilizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "721215",
+    "codigo_formatado": "7212-15",
+    "titulo_cbo": "Operador de máquinas-ferramenta convencionais",
+    "titulo_qbq": "Operador de máquinas-ferramenta convencionais",
+    "familia": {
+     "codigo": "7212",
+     "titulo": "Preparadores e operadores de máquinas-ferramenta convencionais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1874
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 388
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR AS PEÇAS USINADAS",
+      "numero": 7,
+      "descricao": "Utilizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "721220",
+    "codigo_formatado": "7212-20",
+    "titulo_cbo": "Operador de usinagem convencional por abrasão",
+    "titulo_qbq": "Operador de usinagem convencional por abrasão",
+    "familia": {
+     "codigo": "7212",
+     "titulo": "Preparadores e operadores de máquinas-ferramenta convencionais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1875
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 389
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONTROLAR AS PEÇAS USINADAS",
+      "numero": 7,
+      "descricao": "Utilizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "723105",
+    "codigo_formatado": "7231-05",
+    "titulo_cbo": "Cementador de metais",
+    "titulo_qbq": "Cementador de metais",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1906
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1514
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "CONTROLAR ETAPAS DO PROCESSO",
+      "numero": 8,
+      "descricao": "Realizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "723110",
+    "codigo_formatado": "7231-10",
+    "titulo_cbo": "Normalizador de metais e de compósitos",
+    "titulo_qbq": "Normalizador de metais e de compósitos",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1907
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1515
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "CONTROLAR ETAPAS DO PROCESSO",
+      "numero": 8,
+      "descricao": "Realizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "723115",
+    "codigo_formatado": "7231-15",
+    "titulo_cbo": "Operador de equipamento para resfriamento",
+    "titulo_qbq": "Operador de equipamento para resfriamento",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1908
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1516
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "CONTROLAR ETAPAS DO PROCESSO",
+      "numero": 8,
+      "descricao": "Realizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "723120",
+    "codigo_formatado": "7231-20",
+    "titulo_cbo": "Operador de forno de tratamento térmico de metais",
+    "titulo_qbq": "Operador de forno de tratamento térmico de metais",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1909
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1517
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "CONTROLAR ETAPAS DO PROCESSO",
+      "numero": 8,
+      "descricao": "Realizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "723125",
+    "codigo_formatado": "7231-25",
+    "titulo_cbo": "Temperador de metais e de compósitos",
+    "titulo_qbq": "Temperador de metais e de compósitos",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1910
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1518
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "CONTROLAR ETAPAS DO PROCESSO",
+      "numero": 8,
+      "descricao": "Realizar o controle estatístico do processo (cep)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "725605",
+    "codigo_formatado": "7256-05",
+    "titulo_cbo": "Montador de estruturas de aeronaves",
+    "titulo_qbq": "Montador de estruturas de aeronaves",
+    "familia": {
+     "codigo": "7256",
+     "titulo": "Montadores de sistemas e estruturas de aeronaves"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1978
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1529
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "MONTAR ESTRUTURA DA AERONAVE",
+      "numero": 15,
+      "descricao": "Metalizar junções da estrutura eliminando energia estática",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "731330",
+    "codigo_formatado": "7313-30",
+    "titulo_cbo": "Reparador de aparelhos de telecomunicações em laboratório",
+    "titulo_qbq": "Reparador de aparelhos de telecomunicações em laboratório",
+    "familia": {
+     "codigo": "7313",
+     "titulo": "Instaladores-reparadores de  linhas e equipamentos de telecomunicações"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2004
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 929
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "L",
+      "area": "REPARAR APARELHOS DE TELECOMUNICAÇÕES EM LABORATÓRIO",
+      "numero": 1,
+      "descricao": "Proteger equipamentos, peças e acessórios contra carga estática",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "750205",
+    "codigo_formatado": "7502-05",
+    "titulo_cbo": "Supervisor da indústria de minerais não metálicos (exceto os derivados de petróleo e carvão)",
+    "titulo_qbq": "Supervisor da indústria de minerais não metálicos (exceto os derivados de petróleo e carvão)",
+    "familia": {
+     "codigo": "7502",
+     "titulo": "Supervisores de vidraria, cerâmica e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2029
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1543
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "ZELAR PELA SAÚDE E SEGURANÇA NO TRABALHO",
+      "numero": 5,
+      "descricao": "Analisar dados estatísticos de acidentes",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "760405",
+    "codigo_formatado": "7604-05",
+    "titulo_cbo": "Supervisor  (indústria de calçados e artefatos de couro)",
+    "titulo_qbq": "Supervisor (indústria de calçados e artefatos de couro)",
+    "familia": {
+     "codigo": "7604",
+     "titulo": "Supervisores na confecção de calçados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2071
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1572
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "GERIR RECURSOS HUMANOS",
+      "numero": 10,
+      "descricao": "Avaliar desempenho de resultados (dados estatísticos)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "782410",
+    "codigo_formatado": "7824-10",
+    "titulo_cbo": "Motorista de ônibus urbano",
+    "titulo_qbq": "Motorista de ônibus urbano",
+    "familia": {
+     "codigo": "7824",
+     "titulo": "Motoristas de ônibus urbanos, metropolitanos e rodoviários"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2305
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 504
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "VISTORIAR VEÍCULO DE TRANSPORTE COLETIVO",
+      "numero": 5,
+      "descricao": "Conferir estatística da catraca",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811205",
+    "codigo_formatado": "8112-05",
+    "titulo_cbo": "Operador de calcinação (tratamento químico e afins)",
+    "titulo_qbq": "Operador de calcinação (tratamento químico e afins)",
+    "familia": {
+     "codigo": "8112",
+     "titulo": "Operadores de calcinação e de tratamentos químicos de materiais radioativos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2367
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1671
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REALIZAR MANOBRAS DE ALINHAMENTO DOS PROCESSOS",
+      "numero": 9,
+      "descricao": "Empilhar minério, cavaco, sucata e outros (para lixiviação estatística)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811710",
+    "codigo_formatado": "8117-10",
+    "titulo_cbo": "Calandrista de borracha",
+    "titulo_qbq": "Calandrista de borracha",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2395
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 524
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811715",
+    "codigo_formatado": "8117-15",
+    "titulo_cbo": "Confeccionador de pneumáticos",
+    "titulo_qbq": "Confeccionador de pneumáticos",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2396
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 525
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811725",
+    "codigo_formatado": "8117-25",
+    "titulo_cbo": "Confeccionador de velas por imersão",
+    "titulo_qbq": "Confeccionador de velas por imersão",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 1,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2397
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 526
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811735",
+    "codigo_formatado": "8117-35",
+    "titulo_cbo": "Confeccionador de velas por moldagem",
+    "titulo_qbq": "Confeccionador de velas por moldagem",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 1,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2398
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 527
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811745",
+    "codigo_formatado": "8117-45",
+    "titulo_cbo": "Laminador de plástico",
+    "titulo_qbq": "Laminador de plástico",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2399
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 528
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811750",
+    "codigo_formatado": "8117-50",
+    "titulo_cbo": "Moldador de borracha por compressão",
+    "titulo_qbq": "Moldador de borracha por compressão",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2400
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 529
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "811760",
+    "codigo_formatado": "8117-60",
+    "titulo_cbo": "Moldador de plástico por compressão",
+    "titulo_qbq": "Moldador de plástico por compressão",
+    "familia": {
+     "codigo": "8117",
+     "titulo": "Operadores de instalações e máquinas de produtos plásticos, de borracha e moldadores de parafinas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2401
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 530
+     }
+    },
+    "total_casadas": 1,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "DOCUMENTAR O PROCESSO DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Registrar o controle estatístico do processo",
+      "casou_em": "atividade"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 209,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=estat&agrupar_por=ocupacao&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=estat&agrupar_por=ocupacao&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=estat&agrupar_por=ocupacao&limite=100&deslocamento=0"
+  }
+ }
+}

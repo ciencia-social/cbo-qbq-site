@@ -1,0 +1,1822 @@
+{
+ "url": "/api/v1/qbq/itens?q=estat&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "203415",
+    "titulo": "Pesquisador em ciências da zootecnia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À ZOOTECNIA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12924
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À ZOOTECNIA"
+   },
+   {
+    "ocupacao": "203420",
+    "titulo": "Pesquisador em ciências florestais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13016
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "203520",
+    "titulo": "Pesquisador em história",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À PESQUISA EM HISTÓRIA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13377
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À PESQUISA EM HISTÓRIA"
+   },
+   {
+    "ocupacao": "204105",
+    "titulo": "Perito criminal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) FUNDAMENTOS DE ESTATÍSTICA PARA CRIMINALÍSTICA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13540
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) FUNDAMENTOS DE ESTATÍSTICA PARA CRIMINALÍSTICA"
+   },
+   {
+    "ocupacao": "204110",
+    "titulo": "Perito judicial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À PERÍCIAL JUDICIAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13609
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À PERÍCIAL JUDICIAL"
+   },
+   {
+    "ocupacao": "204110",
+    "titulo": "Perito judicial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À PERÍCIAL JUDICIAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13610
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À PERÍCIAL JUDICIAL"
+   },
+   {
+    "ocupacao": "211105",
+    "titulo": "Atuário",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13685
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211110",
+    "titulo": "Especialista em pesquisa operacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13797
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211115",
+    "titulo": "Matemático",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13891
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211120",
+    "titulo": "Matemático aplicado",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13968
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14039
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14041
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14042
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14043
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14044
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14045
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14046
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14048
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE APLICATIVOS DE ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14058
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…COMPUTAÇÃO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE APLICATIVOS DE ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE PARA MODELAGEM ESTATÍSTICA E ANÁLISE GRÁFICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14064
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE PARA MODELAGEM ESTATÍSTICA E ANÁLISE GRÁFICA"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) CONTROLE ESTATÍSTICO DE PRODUÇÃO E DE QUALIDADE",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14070
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) CONTROLE ESTATÍSTICO DE PRODUÇÃO E DE QUALIDADE"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "07.05.05.90",
+    "termo": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) REALIDADE HISTÓRICA E CONTEMPORÂNEA DO BRASIL",
+    "descricao_item": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14077
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14080
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14118
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14121
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14122
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA AMBIENTAL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14123
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14124
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EDUCACIONAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14125
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EDUCACIONAL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ESPACIAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14126
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ESPACIAL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EXPERIMENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14127
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EXPERIMENTAL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14128
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14129
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14130
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14132
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) APLICAÇÕES DA ESTATÍSTICA POR ÁREAS DE ATIVIDADES: PRODUÇÃO; COMÉRCIO; ESPORTES; SAÚDE; SEGURANÇA; OUTRAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14136
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) APLICAÇÕES DA ESTATÍSTICA POR ÁREAS DE ATIVIDAD…"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE APLICATIVOS DE ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14149
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…COMPUTAÇÃO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE APLICATIVOS DE ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE PARA MODELAGEM ESTATÍSTICA E ANÁLISE GRÁFICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14155
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE PARA MODELAGEM ESTATÍSTICA E ANÁLISE GRÁFICA"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) CONTROLE ESTATÍSTICO DE PRODUÇÃO E DE QUALIDADE",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14161
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) CONTROLE ESTATÍSTICO DE PRODUÇÃO E DE QUALIDADE"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.03.99.01",
+    "termo": "OUTROS ELEMENTOS (ECONOMIA) AVALIAÇÃO DE CENÁRIOS ECONÔMICOS",
+    "descricao_item": "OUTROS ELEMENTOS (ECONOMIA) APLICAÇÃO DE DADOS ESTATÍSTICOS NAS CIÊNCIAS ATUARIAIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14169
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ECONOMIA) APLICAÇÃO DE DADOS ESTATÍSTICOS NAS CIÊNCIAS ATUARIAIS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "07.05.05.90",
+    "termo": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) REALIDADE HISTÓRICA E CONTEMPORÂNEA DO BRASIL",
+    "descricao_item": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14171
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA APLICADA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14174
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14219
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE DESCRITIVA EM ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) APRENDIZAGEM ESTATÍSTICA EM ALTAS DIMENSÕES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14221
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) APRENDIZAGEM ESTATÍSTICA EM ALTAS DIMENSÕES"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14222
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) CÁLCULO DIFERENCIAL E INTEGRAL PARA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14223
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA ANALÍTICA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14224
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA COMPUTACIONAL"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA PARA FENÔMENOS CRÍTICOS E RECORRÊNCIA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14225
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA PARA FENÔMENOS CRÍTICOS E RECORRÊNCIA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14226
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) INTERPRETAÇÃO INTERDISCIPLINAR DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14228
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS E MODELOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14232
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) PROJEÇÕES ESTATÍSTICAS"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14234
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) TABULAÇÃO DE DADOS ESTATÍSTICOS"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) TEORIA ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14238
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) TEORIA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) TEORIA ESTATÍSTICA DA CONFIABILIDADE",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14239
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) TEORIA ESTATÍSTICA DA CONFIABILIDADE"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE E INFERÊNCIA ESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14241
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE E INFERÊNCIA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "07.05.05.90",
+    "termo": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) REALIDADE HISTÓRICA E CONTEMPORÂNEA DO BRASIL",
+    "descricao_item": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14261
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (HISTÓRIA DO BRASIL) HISTÓRIA DA ESTATÍSTICA NO BRASIL"
+   },
+   {
+    "ocupacao": "211215",
+    "titulo": "Estatístico teórico",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14264
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TERMINOLOGIAS UTILIZADAS NA ESTATÍSTICA"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE ESTATÍSTICA ESPACIAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14282
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ANÁLISE ESTATÍSTICA ESPACIAL"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À CIÊNCIA DE DADOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14286
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA APLICADA À CIÊNCIA DE DADOS"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA E PROBABILIDADE COM PROGRAMAÇÃO EM R",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14287
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA E PROBABILIDADE COM PROGRAMAÇÃO EM R"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EXPERIMENTAL E AMOSTRAGEM",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14288
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA EXPERIMENTAL E AMOSTRAGEM"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.99.01",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) PROBABILIDADE E ESTATÍSTICA APLICADAS AO COMÉRCIO ATACADISTA E VAREJISTA",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) ANÁLISE DE COMPONENTES PRINCIPAIS (PCA)",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14294
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) ANÁLISE DE COMPONENTES PRINCIPAIS (PCA)"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.99.01",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) PROBABILIDADE E ESTATÍSTICA APLICADAS AO COMÉRCIO ATACADISTA E VAREJISTA",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) ANÁLISE DE CORRESPONDÊNCIA MÚLTIPLA (MCA)",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14295
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) ANÁLISE DE CORRESPONDÊNCIA MÚLTIPLA (MCA)"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1068
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS"
+   },
+   {
+    "ocupacao": "212310",
+    "titulo": "Administrador de redes",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1140
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS"
+   },
+   {
+    "ocupacao": "212315",
+    "titulo": "Administrador de sistemas operacionais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1225
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS"
+   },
+   {
+    "ocupacao": "212320",
+    "titulo": "Administrador em segurança da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1293
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS"
+   },
+   {
+    "ocupacao": "212405",
+    "titulo": "Analista de desenvolvimento de sistemas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - PRINCÍPIOS DE ANÁLISE DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1368
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - PRINCÍPIOS DE ANÁLISE DE DADOS"
+   },
+   {
+    "ocupacao": "212405",
+    "titulo": "Analista de desenvolvimento de sistemas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS CONJUNTOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1369
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS CONJUNTOS"
+   },
+   {
+    "ocupacao": "212405",
+    "titulo": "Analista de desenvolvimento de sistemas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1370
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - TEORIA DOS GRAFOS"
+   },
+   {
+    "ocupacao": "213105",
+    "titulo": "Físico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS ESTATÍSTICOS APLICADOS À FÍSICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14910
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) MÉTODOS ESTATÍSTICOS APLICADOS À FÍSICA"
+   },
+   {
+    "ocupacao": "213105",
+    "titulo": "Físico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA GERAL DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14913
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA GERAL DOS ERROS"
+   },
+   {
+    "ocupacao": "213110",
+    "titulo": "Físico (acústica)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15003
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213115",
+    "titulo": "Físico (atômica e molecular)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15058
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213130",
+    "titulo": "Físico (fluidos)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15269
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213135",
+    "titulo": "Físico (instrumentação)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15333
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213140",
+    "titulo": "Físico (matéria condensada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15427
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213145",
+    "titulo": "Físico (materiais)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15513
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213150",
+    "titulo": "Físico (medicina)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15612
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213155",
+    "titulo": "Físico (nuclear e reatores)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15703
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213160",
+    "titulo": "Físico (óptica)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15804
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213165",
+    "titulo": "Físico (partículas e campos)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15872
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213170",
+    "titulo": "Físico (plasma)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 15961
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213175",
+    "titulo": "Físico (térmica)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16049
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213305",
+    "titulo": "Astrônomo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16306
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213310",
+    "titulo": "Geofísico espacial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16407
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213315",
+    "titulo": "Meteorologista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16507
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213405",
+    "titulo": "Geólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16574
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213405",
+    "titulo": "Geólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) MODELAGEM GEOESTATÍSTICA DE DEPÓSITOS MINERAIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16575
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) MODELAGEM GEOESTATÍSTICA DE DEPÓSITOS MINERAIS"
+   },
+   {
+    "ocupacao": "213410",
+    "titulo": "Geólogo de engenharia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16656
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213410",
+    "titulo": "Geólogo de engenharia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) MODELAGEM GEOESTATÍSTICA DE DEPÓSITOS MINERAIS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16657
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) MODELAGEM GEOESTATÍSTICA DE DEPÓSITOS MINERAIS"
+   },
+   {
+    "ocupacao": "213415",
+    "titulo": "Geofísico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16749
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213420",
+    "titulo": "Geoquímico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16834
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213420",
+    "titulo": "Geoquímico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA GERAL DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16835
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA GERAL DOS ERROS"
+   },
+   {
+    "ocupacao": "213425",
+    "titulo": "Hidrogeólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16914
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213425",
+    "titulo": "Hidrogeólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16915
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213430",
+    "titulo": "Paleontólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16983
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213430",
+    "titulo": "Paleontólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 16984
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   },
+   {
+    "ocupacao": "213435",
+    "titulo": "Petrógrafo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 17067
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) GEOESTATÍSTICA"
+   },
+   {
+    "ocupacao": "213435",
+    "titulo": "Petrógrafo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 17068
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) TEORIA DOS ERROS"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 707,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=estat&limite=100&deslocamento=100",
+   "proxima": "/api/v1/qbq/itens?q=estat&limite=100&deslocamento=200",
+   "anterior": "/api/v1/qbq/itens?q=estat&limite=100&deslocamento=0"
+  }
+ }
+}

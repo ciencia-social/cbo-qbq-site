@@ -1,0 +1,382 @@
+{
+ "url": "/api/v1/qbq/itens?q=comunica",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "111325",
+    "titulo": "Juiz de direito",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 60
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111330",
+    "titulo": "Juiz federal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 133
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111335",
+    "titulo": "Juiz auditor federal - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 206
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111340",
+    "titulo": "Juiz auditor estadual - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 279
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111345",
+    "titulo": "Juiz do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 353
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 435
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.02.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) INGLÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 438
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 505
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.02.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) INGLÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS",
+    "importancia": 3,
+    "frequencia": 2,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 508
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 575
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.02.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) INGLÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS",
+    "importancia": 3,
+    "frequencia": 2,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 578
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIA DA INFORMAÇÃO: FUNDAMENTOS DE PROCESSOS E ESPECIFICAÇÃO DE SISTEMAS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 589
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIA DA INFORMAÇÃO: FUNDAMENTOS DE PROCESSOS E ESPE…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TRANSFORMAÇÃO DIGITAL NA GESTÃO PÚBLICA",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 590
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TRANSFORMAÇÃO DIGITAL NA GESTÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 660
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 661
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.02.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) INGLÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS",
+    "importancia": 3,
+    "frequencia": 2,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 664
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUAS ESTRANGEIRAS MODERNAS) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUAS ESTRANGEIRAS MODERNAS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIA DA INFORMAÇÃO: FUNDAMENTOS DE PROCESSOS E ESPECIFICAÇÃO DE SISTEMAS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 677
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIA DA INFORMAÇÃO: FUNDAMENTOS DE PROCESSOS E ESPE…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TRANSFORMAÇÃO DIGITAL NA GESTÃO PÚBLICA",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 678
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TRANSFORMAÇÃO DIGITAL NA GESTÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 749
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO EM LÍNGUA PORTUGUESA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 750
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS…"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 2934,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=comunica",
+   "proxima": "/api/v1/qbq/itens?q=comunica&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

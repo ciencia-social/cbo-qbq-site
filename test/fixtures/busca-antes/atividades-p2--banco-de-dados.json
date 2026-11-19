@@ -1,0 +1,412 @@
+{
+ "url": "/api/v1/atividades?q=banco+de+dados&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "415310",
+    "titulo": "Analista de informação em saúde",
+    "sigla": "I",
+    "area": "AUDITAR AS INFORMAÇÕES INSERIDAS NO BANCO DE DADOS",
+    "numero": 9,
+    "descricao": "Padronizar condutas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99038
+    },
+    "casou_em": "area",
+    "trecho": "AUDITAR AS INFORMAÇÕES INSERIDAS NO BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "420105",
+    "titulo": "Supervisor de caixas e bilheteiros (exceto caixa de banco)",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99115
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420110",
+    "titulo": "Supervisor de cobrança",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99202
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420115",
+    "titulo": "Supervisor de coletadores de apostas e de jogos",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99280
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420120",
+    "titulo": "Supervisor de entrevistadores e recenseadores",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99364
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420125",
+    "titulo": "Supervisor de recepcionistas",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99443
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420130",
+    "titulo": "Supervisor de telefonistas",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99531
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "420135",
+    "titulo": "Supervisor de telemarketing e atendimento",
+    "sigla": "A",
+    "area": "SUPERVISIONAR EXECUÇÃO DOS SERVIÇOS",
+    "numero": 17,
+    "descricao": "Administrar banco de dados e listagens",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 99600
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar banco de dados e listagens"
+   },
+   {
+    "ocupacao": "422130",
+    "titulo": "Concierge",
+    "sigla": "A",
+    "area": "ORGANIZAR INFORMAÇÕES A SEREM PRESTADAS",
+    "numero": 6,
+    "descricao": "Atualizar banco de dados do estabelecimento",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 100666
+    },
+    "casou_em": "atividade",
+    "trecho": "Atualizar banco de dados do estabelecimento"
+   },
+   {
+    "ocupacao": "422205",
+    "titulo": "Telefonista",
+    "sigla": "C",
+    "area": "FORNECER INFORMAÇÕES",
+    "numero": 2,
+    "descricao": "Pesquisar banco de dados telefônico",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 100744
+    },
+    "casou_em": "atividade",
+    "trecho": "Pesquisar banco de dados telefônico"
+   },
+   {
+    "ocupacao": "422205",
+    "titulo": "Telefonista",
+    "sigla": "D",
+    "area": "OPERAR EQUIPAMENTOS",
+    "numero": 7,
+    "descricao": "Consultar banco de dados de procedimentos via internet",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 100744
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados de procedimentos via internet"
+   },
+   {
+    "ocupacao": "422210",
+    "titulo": "Teleoperador",
+    "sigla": "C",
+    "area": "FORNECER INFORMAÇÕES",
+    "numero": 2,
+    "descricao": "Pesquisar banco de dados telefônico",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 100831
+    },
+    "casou_em": "atividade",
+    "trecho": "Pesquisar banco de dados telefônico"
+   },
+   {
+    "ocupacao": "422210",
+    "titulo": "Teleoperador",
+    "sigla": "D",
+    "area": "OPERAR EQUIPAMENTOS",
+    "numero": 7,
+    "descricao": "Consultar banco de dados de procedimentos via internet",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 100831
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados de procedimentos via internet"
+   },
+   {
+    "ocupacao": "424205",
+    "titulo": "Coordenador de provas (concurso, avaliação, exame)",
+    "sigla": "E",
+    "area": "GERENCIAR EQUIPE DE COLABORADORES",
+    "numero": 1,
+    "descricao": "Gerenciar banco de dados de colaboradores",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 101823
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar banco de dados de colaboradores"
+   },
+   {
+    "ocupacao": "517205",
+    "titulo": "Agente de polícia federal",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110537
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517210",
+    "titulo": "Policial rodoviário federal",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110620
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517215",
+    "titulo": "Guarda-civil municipal",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110710
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517220",
+    "titulo": "Agente de trânsito",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110765
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517225",
+    "titulo": "Policial legislativo",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110840
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517230",
+    "titulo": "Policial penal",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110934
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517230",
+    "titulo": "Policial penal",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Alimentar banco de dados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 110934
+    },
+    "casou_em": "atividade",
+    "trecho": "Alimentar banco de dados"
+   },
+   {
+    "ocupacao": "517235",
+    "titulo": "Guarda portuário",
+    "sigla": "A",
+    "area": "INVESTIGAR INFRAÇÕES PENAIS",
+    "numero": 5,
+    "descricao": "Consultar banco de dados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 111064
+    },
+    "casou_em": "atividade",
+    "trecho": "Consultar banco de dados"
+   },
+   {
+    "ocupacao": "517235",
+    "titulo": "Guarda portuário",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Alimentar banco de dados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 111064
+    },
+    "casou_em": "atividade",
+    "trecho": "Alimentar banco de dados"
+   },
+   {
+    "ocupacao": "811305",
+    "titulo": "Operador de centrifugadora (tratamentos químicos e afins)",
+    "sigla": "F",
+    "area": "CONTROLAR ESTOQUES DE MATERIAIS E EQUIPAMENTOS",
+    "numero": 5,
+    "descricao": "Atualizar banco de dados do estoque de materiais e equipamentos",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 157053
+    },
+    "casou_em": "atividade",
+    "trecho": "Atualizar banco de dados do estoque de materiais e equipamentos"
+   },
+   {
+    "ocupacao": "811310",
+    "titulo": "Operador de exploração de petróleo",
+    "sigla": "F",
+    "area": "CONTROLAR ESTOQUES DE MATERIAIS E EQUIPAMENTOS",
+    "numero": 5,
+    "descricao": "Atualizar banco de dados do estoque de materiais e equipamentos",
+    "nivel_qualificacao": 3,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 157096
+    },
+    "casou_em": "atividade",
+    "trecho": "Atualizar banco de dados do estoque de materiais e equipamentos"
+   },
+   {
+    "ocupacao": "811320",
+    "titulo": "Operador de filtro de tambor rotativo (tratamentos químicos e afins)",
+    "sigla": "F",
+    "area": "CONTROLAR ESTOQUES DE MATERIAIS E EQUIPAMENTOS",
+    "numero": 5,
+    "descricao": "Atualizar banco de dados do estoque de materiais e equipamentos",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 157183
+    },
+    "casou_em": "atividade",
+    "trecho": "Atualizar banco de dados do estoque de materiais e equipamentos"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 126,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=banco+de+dados&limite=100&deslocamento=100",
+   "proxima": null,
+   "anterior": "/api/v1/atividades?q=banco+de+dados&limite=100&deslocamento=0"
+  }
+ }
+}

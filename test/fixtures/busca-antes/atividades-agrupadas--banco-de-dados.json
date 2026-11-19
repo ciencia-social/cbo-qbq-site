@@ -1,0 +1,864 @@
+{
+ "url": "/api/v1/atividades?q=banco+de+dados&agrupar_por=ocupacao",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "415310",
+    "codigo_formatado": "4153-10",
+    "titulo_cbo": "Analista de informação em saúde",
+    "titulo_qbq": "Analista de informações em saúde",
+    "familia": {
+     "codigo": "4153",
+     "titulo": "Trabalhadores em registros e informações em saúde"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1328
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1369
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROCESSO DE MELHORIA CONTÍNUA (GOVERNANÇA CLÍNICA)",
+      "numero": 4,
+      "descricao": "Gerenciar banco de dados de informações clínicas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROCESSO DE MELHORIA CONTÍNUA (GOVERNANÇA CLÍNICA)",
+      "numero": 11,
+      "descricao": "Participar de pesquisa utilizando banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "I",
+      "area": "AUDITAR AS INFORMAÇÕES INSERIDAS NO BANCO DE DADOS",
+      "numero": 1,
+      "descricao": "Selecionar prontuários de paciente para amostra de auditoria",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "211205",
+    "codigo_formatado": "2112-05",
+    "titulo_cbo": "Estatístico",
+    "titulo_qbq": "Estatístico",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 233
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1906
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 1,
+      "descricao": "Selecionar variáveis componentes do banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 2,
+      "descricao": "Criar dicionário de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 3,
+      "descricao": "Estabelecer nível de agregação a ser disponibilizado",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "211210",
+    "codigo_formatado": "2112-10",
+    "titulo_cbo": "Estatístico (estatística aplicada)",
+    "titulo_qbq": "Estatístico (estatística aplicada)",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 234
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1907
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 1,
+      "descricao": "Selecionar variáveis componentes do banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 2,
+      "descricao": "Criar dicionário de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "G",
+      "area": "CRIAR BANCO DE DADOS",
+      "numero": 3,
+      "descricao": "Estabelecer nível de agregação a ser disponibilizado",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "213305",
+    "codigo_formatado": "2133-05",
+    "titulo_cbo": "Astrônomo",
+    "titulo_qbq": "Astrônomo",
+    "familia": {
+     "codigo": "2133",
+     "titulo": "Profissionais das ciências atmosféricas e espaciais e de astronomia"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 268
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1939
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 8,
+      "descricao": "Criar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 9,
+      "descricao": "Gerenciar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "DISSEMINAR INFORMAÇÕES DAS ÁREAS DE ASTRONOMIA, METEOROLOGIA E DE GEOFÍSICA ESPACIAL",
+      "numero": 15,
+      "descricao": "Disponibilizar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "213310",
+    "codigo_formatado": "2133-10",
+    "titulo_cbo": "Geofísico espacial",
+    "titulo_qbq": "Geofísico espacial",
+    "familia": {
+     "codigo": "2133",
+     "titulo": "Profissionais das ciências atmosféricas e espaciais e de astronomia"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 269
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1940
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 8,
+      "descricao": "Criar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 9,
+      "descricao": "Gerenciar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "DISSEMINAR INFORMAÇÕES DAS ÁREAS DE ASTRONOMIA, METEOROLOGIA E DE GEOFÍSICA ESPACIAL",
+      "numero": 15,
+      "descricao": "Disponibilizar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "213315",
+    "codigo_formatado": "2133-15",
+    "titulo_cbo": "Meteorologista",
+    "titulo_qbq": "Meteorologista",
+    "familia": {
+     "codigo": "2133",
+     "titulo": "Profissionais das ciências atmosféricas e espaciais e de astronomia"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 270
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1941
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 8,
+      "descricao": "Criar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "TRATAR DADOS ASTRONÔMICOS, METEOROLÓGICOS E DE GEOFÍSICA ESPACIAL",
+      "numero": 9,
+      "descricao": "Gerenciar banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "DISSEMINAR INFORMAÇÕES DAS ÁREAS DE ASTRONOMIA, METEOROLOGIA E DE GEOFÍSICA ESPACIAL",
+      "numero": 15,
+      "descricao": "Disponibilizar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "212305",
+    "codigo_formatado": "2123-05",
+    "titulo_cbo": "Administrador de banco de dados",
+    "titulo_qbq": "Administrador de banco de dados",
+    "familia": {
+     "codigo": "2123",
+     "titulo": "Administradores de tecnologia da informação"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 240
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1912
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR AMBIENTE COMPUTACIONAL",
+      "numero": 6,
+      "descricao": "Implantar projeto de banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "INSTALAR RECURSOS COMPUTACIONAIS",
+      "numero": 8,
+      "descricao": "Projetar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "254105",
+    "codigo_formatado": "2541-05",
+    "titulo_cbo": "Auditor-fiscal da receita federal",
+    "titulo_qbq": "Auditor-fiscal da receita federal",
+    "familia": {
+     "codigo": "2541",
+     "titulo": "Auditores fiscais e técnicos da receita federal"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 757
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2242
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "COORDENAR SISTEMAS DE INFORMAÇÃO",
+      "numero": 7,
+      "descricao": "Desenvolver banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "H",
+      "area": "COORDENAR SISTEMAS DE INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Gerenciar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "254110",
+    "codigo_formatado": "2541-10",
+    "titulo_cbo": "Técnico da receita federal",
+    "titulo_qbq": "Técnico da receita federal",
+    "familia": {
+     "codigo": "2541",
+     "titulo": "Auditores fiscais e técnicos da receita federal"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 758
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1831
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "COORDENAR SISTEMAS DE INFORMAÇÃO",
+      "numero": 7,
+      "descricao": "Desenvolver banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "H",
+      "area": "COORDENAR SISTEMAS DE INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Gerenciar banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "254205",
+    "codigo_formatado": "2542-05",
+    "titulo_cbo": "Auditor-fiscal da previdência social",
+    "titulo_qbq": "Auditor-fiscal da previdência social",
+    "familia": {
+     "codigo": "2542",
+     "titulo": "Auditores fiscais da previdência social"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 759
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2396
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR O CUMPRIMENTO DA LEGISLAÇÃO PREVIDENCIÁRIA",
+      "numero": 1,
+      "descricao": "Analisar dados do banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "PLANEJAR AÇÃO FISCAL",
+      "numero": 3,
+      "descricao": "Pesquisar em banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261110",
+    "codigo_formatado": "2611-10",
+    "titulo_cbo": "Assessor de imprensa",
+    "titulo_qbq": "Assessor de imprensa",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 768
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2400
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261115",
+    "codigo_formatado": "2611-15",
+    "titulo_cbo": "Diretor de redação",
+    "titulo_qbq": "Diretor de redação",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 769
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2401
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261125",
+    "codigo_formatado": "2611-25",
+    "titulo_cbo": "Jornalista",
+    "titulo_qbq": "Jornalista",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 771
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2403
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261130",
+    "codigo_formatado": "2611-30",
+    "titulo_cbo": "Produtor de texto",
+    "titulo_qbq": "Produtor de texto",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 772
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2404
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261135",
+    "codigo_formatado": "2611-35",
+    "titulo_cbo": "Repórter (exclusive rádio e televisão)",
+    "titulo_qbq": "Repórter (exclusive rádio e televisão)",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 773
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2405
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261140",
+    "codigo_formatado": "2611-40",
+    "titulo_cbo": "Revisor de texto",
+    "titulo_qbq": "Revisor de texto",
+    "familia": {
+     "codigo": "2611",
+     "titulo": "Profissionais do jornalismo"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 774
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2406
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 8,
+      "descricao": "Abastecer banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "QUALIFICAR A INFORMAÇÃO",
+      "numero": 9,
+      "descricao": "Acessar banco de dados, imagens e sons",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "317105",
+    "codigo_formatado": "3171-05",
+    "titulo_cbo": "Desenvolvedor web (técnico)",
+    "titulo_qbq": "Desenvolvedor web (técnico)",
+    "familia": {
+     "codigo": "3171",
+     "titulo": "Técnicos de desenvolvimento de sistemas e aplicações"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 946
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 22
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 3,
+      "descricao": "Montar estrutura de banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROJETAR SISTEMAS E APLICAÇÕES",
+      "numero": 10,
+      "descricao": "Modelar estrutura de banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "317110",
+    "codigo_formatado": "3171-10",
+    "titulo_cbo": "Desenvolvedor de sistemas de tecnologia da informação (técnico)",
+    "titulo_qbq": "Desenvolvedor de sistemas de tecnologia da informação (técnico)",
+    "familia": {
+     "codigo": "3171",
+     "titulo": "Técnicos de desenvolvimento de sistemas e aplicações"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 947
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 23
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 3,
+      "descricao": "Montar estrutura de banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROJETAR SISTEMAS E APLICAÇÕES",
+      "numero": 10,
+      "descricao": "Modelar estrutura de banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "317115",
+    "codigo_formatado": "3171-15",
+    "titulo_cbo": "Programador de máquinas - ferramenta com comando numérico",
+    "titulo_qbq": "Programador de máquinas - ferramenta com comando numérico",
+    "familia": {
+     "codigo": "3171",
+     "titulo": "Técnicos de desenvolvimento de sistemas e aplicações"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 948
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 24
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 3,
+      "descricao": "Montar estrutura de banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROJETAR SISTEMAS E APLICAÇÕES",
+      "numero": 10,
+      "descricao": "Modelar estrutura de banco de dados",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "422205",
+    "codigo_formatado": "4222-05",
+    "titulo_cbo": "Telefonista",
+    "titulo_qbq": "Telefonista",
+    "familia": {
+     "codigo": "4222",
+     "titulo": "Operadores de telefonia"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1352
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 188
+     }
+    },
+    "total_casadas": 2,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "FORNECER INFORMAÇÕES",
+      "numero": 2,
+      "descricao": "Pesquisar banco de dados telefônico",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "OPERAR EQUIPAMENTOS",
+      "numero": 7,
+      "descricao": "Consultar banco de dados de procedimentos via internet",
+      "casou_em": "atividade"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 79,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=banco+de+dados&agrupar_por=ocupacao",
+   "proxima": "/api/v1/atividades?q=banco+de+dados&agrupar_por=ocupacao&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

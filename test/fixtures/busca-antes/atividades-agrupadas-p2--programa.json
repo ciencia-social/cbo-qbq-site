@@ -1,0 +1,4718 @@
+{
+ "url": "/api/v1/atividades?q=programa&agrupar_por=ocupacao&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "234105",
+    "codigo_formatado": "2341-05",
+    "titulo_cbo": "Professor de matemática aplicada (no ensino superior)",
+    "titulo_qbq": "Professor de matemática aplicada (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 569
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2212
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "REALIZAR PESQUISAS",
+      "numero": 10,
+      "descricao": "Desenvolver software, algoritimos, programas, linguagens, sistemas operacionais e outros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 1,
+      "descricao": "Avaliar o desempenho do aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 2,
+      "descricao": "Avaliar cursos de ensino superior para órgãos governamentais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234115",
+    "codigo_formatado": "2341-15",
+    "titulo_cbo": "Professor de estatística (no ensino superior)",
+    "titulo_qbq": "Professor de estatística (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 571
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2214
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "REALIZAR PESQUISAS",
+      "numero": 10,
+      "descricao": "Desenvolver software, algoritimos, programas, linguagens, sistemas operacionais e outros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 1,
+      "descricao": "Avaliar o desempenho do aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 2,
+      "descricao": "Avaliar cursos de ensino superior para órgãos governamentais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234120",
+    "codigo_formatado": "2341-20",
+    "titulo_cbo": "Professor de computação (no ensino superior)",
+    "titulo_qbq": "Professor de computação (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 572
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2215
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "REALIZAR PESQUISAS",
+      "numero": 10,
+      "descricao": "Desenvolver software, algoritimos, programas, linguagens, sistemas operacionais e outros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 1,
+      "descricao": "Avaliar o desempenho do aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 2,
+      "descricao": "Avaliar cursos de ensino superior para órgãos governamentais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234125",
+    "codigo_formatado": "2341-25",
+    "titulo_cbo": "Professor de pesquisa operacional (no ensino superior)",
+    "titulo_qbq": "Professor de pesquisa operacional (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 573
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2216
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "REALIZAR PESQUISAS",
+      "numero": 10,
+      "descricao": "Desenvolver software, algoritimos, programas, linguagens, sistemas operacionais e outros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 1,
+      "descricao": "Avaliar o desempenho do aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 2,
+      "descricao": "Avaliar cursos de ensino superior para órgãos governamentais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "311205",
+    "codigo_formatado": "3112-05",
+    "titulo_cbo": "Técnico em petroquímica",
+    "titulo_qbq": "Técnico em petroquímica",
+    "familia": {
+     "codigo": "3112",
+     "titulo": "Técnicos de produção de indústrias químicas, petroquímicas, refino de petróleo, gás e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 861
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1210
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES DE PRODUÇÃO PETROQUÍMICA",
+      "numero": 1,
+      "descricao": "Identificar tarefas e ações necessárias ao planejamento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES DE PRODUÇÃO PETROQUÍMICA",
+      "numero": 2,
+      "descricao": "Definir meios e recursos necessários para o cumprimento de metas e custos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES DE PRODUÇÃO PETROQUÍMICA",
+      "numero": 3,
+      "descricao": "Programar parada e partida de equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "612705",
+    "codigo_formatado": "6127-05",
+    "titulo_cbo": "Produtor da cultura de amendoim",
+    "titulo_qbq": "Produtor da cultura de amendoim",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1581
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1407
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "715420",
+    "codigo_formatado": "7154-20",
+    "titulo_cbo": "Operador de usina de asfalto",
+    "titulo_qbq": "Operador de usina de asfalto",
+    "familia": {
+     "codigo": "7154",
+     "titulo": "Trabalhadores na operação de máquinas de concreto usinado e afins"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1808
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2651
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 1,
+      "descricao": "Registrar os pedidos dos clientes",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 2,
+      "descricao": "Avaliar ordem de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 3,
+      "descricao": "Participar da avaliação da adequação das condições climáticas à produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "723105",
+    "codigo_formatado": "7231-05",
+    "titulo_cbo": "Cementador de metais",
+    "titulo_qbq": "Cementador de metais",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1906
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1514
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 1,
+      "descricao": "Utilizar ferramentas da qualidade na prevenção e combate de rejeições de peças",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 2,
+      "descricao": "Seguir procedimentos normatizados (iso-9000,14000, vda)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 3,
+      "descricao": "Propor melhorias nos processos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "723110",
+    "codigo_formatado": "7231-10",
+    "titulo_cbo": "Normalizador de metais e de compósitos",
+    "titulo_qbq": "Normalizador de metais e de compósitos",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1907
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1515
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 1,
+      "descricao": "Utilizar ferramentas da qualidade na prevenção e combate de rejeições de peças",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 2,
+      "descricao": "Seguir procedimentos normatizados (iso-9000,14000, vda)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 3,
+      "descricao": "Propor melhorias nos processos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "723115",
+    "codigo_formatado": "7231-15",
+    "titulo_cbo": "Operador de equipamento para resfriamento",
+    "titulo_qbq": "Operador de equipamento para resfriamento",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1908
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1516
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 1,
+      "descricao": "Utilizar ferramentas da qualidade na prevenção e combate de rejeições de peças",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 2,
+      "descricao": "Seguir procedimentos normatizados (iso-9000,14000, vda)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 3,
+      "descricao": "Propor melhorias nos processos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "723120",
+    "codigo_formatado": "7231-20",
+    "titulo_cbo": "Operador de forno de tratamento térmico de metais",
+    "titulo_qbq": "Operador de forno de tratamento térmico de metais",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1909
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1517
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 1,
+      "descricao": "Utilizar ferramentas da qualidade na prevenção e combate de rejeições de peças",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 2,
+      "descricao": "Seguir procedimentos normatizados (iso-9000,14000, vda)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 3,
+      "descricao": "Propor melhorias nos processos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "723125",
+    "codigo_formatado": "7231-25",
+    "titulo_cbo": "Temperador de metais e de compósitos",
+    "titulo_qbq": "Temperador de metais e de compósitos",
+    "familia": {
+     "codigo": "7231",
+     "titulo": "Trabalhadores de tratamento térmico de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1910
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1518
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 1,
+      "descricao": "Utilizar ferramentas da qualidade na prevenção e combate de rejeições de peças",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 2,
+      "descricao": "Seguir procedimentos normatizados (iso-9000,14000, vda)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "H",
+      "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+      "numero": 3,
+      "descricao": "Propor melhorias nos processos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234110",
+    "codigo_formatado": "2341-10",
+    "titulo_cbo": "Professor de matemática pura (no ensino superior)",
+    "titulo_qbq": "Professor de matemática pura (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 570
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2213
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "REALIZAR PESQUISAS",
+      "numero": 10,
+      "descricao": "Desenvolver software, algoritimos, programas, linguagens, sistemas operacionais e outros",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 1,
+      "descricao": "Avaliar o desempenho do aluno",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "AVALIAR DESEMPENHO ACADÊMICO, PROGRAMAS E INSTITUIÇÕES",
+      "numero": 2,
+      "descricao": "Avaliar cursos de ensino superior para órgãos governamentais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "252105",
+    "codigo_formatado": "2521-05",
+    "titulo_cbo": "Administrador",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "2521",
+     "titulo": "Administradores"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 718
+     },
+     "qbq": null
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ELABORAR PLANEJAMENTO ORGANIZACIONAL",
+      "numero": 6,
+      "descricao": "Apresentar proposta de programas e projetos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "IMPLEMENTAR PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Avaliar viabilidade de projetos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "IMPLEMENTAR PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Identificar fontes de recursos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "252405",
+    "codigo_formatado": "2524-05",
+    "titulo_cbo": "Analista de recursos humanos",
+    "titulo_qbq": "Analista de recursos humanos",
+    "familia": {
+     "codigo": "2524",
+     "titulo": "Profissionais de recursos humanos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 726
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2367
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXECUTAR ADMINISTRAÇÃO DE PESSOAL",
+      "numero": 4,
+      "descricao": "Coordenar programação de férias dos empregados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PROMOVER AÇÕES DE TREINAMENTO E DESENVOLVIMENTO DE PESSOAL",
+      "numero": 3,
+      "descricao": "Elaborar programas de desenvolvimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PROMOVER AÇÕES DE TREINAMENTO E DESENVOLVIMENTO DE PESSOAL",
+      "numero": 4,
+      "descricao": "Pesquisar custos envolvidos nos programas de treinamento e desenvolvimento",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261730",
+    "codigo_formatado": "2617-30",
+    "titulo_cbo": "Repórter de mídias audiovisuais",
+    "titulo_qbq": "Repórter de mídias audiovisuais",
+    "familia": {
+     "codigo": "2617",
+     "titulo": "Locutores, comentaristas e repórteres de mídias audiovisuais"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 800
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2432
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR PROGRAMAS E NOTICIÁRIOS",
+      "numero": 2,
+      "descricao": "Interpretar o conteúdo da apresentação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR PROGRAMAS E NOTICIÁRIOS",
+      "numero": 3,
+      "descricao": "Delimitar o conteúdo",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR PROGRAMAS E NOTICIÁRIOS",
+      "numero": 4,
+      "descricao": "Noticiar fatos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "311305",
+    "codigo_formatado": "3113-05",
+    "titulo_cbo": "Técnico em materiais, produtos cerâmicos e vidros",
+    "titulo_qbq": "Técnico em materiais, produtos cerâmicos e vidros",
+    "familia": {
+     "codigo": "3113",
+     "titulo": "Técnicos em materiais, produtos cerâmicos e vidros"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 862
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1211
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Avaliar informações do mercado",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Avaliar capacidade de produção da fábrica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Definir capacidade de produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342305",
+    "codigo_formatado": "3423-05",
+    "titulo_cbo": "Chefe de serviço de transporte rodoviário (passageiros e cargas)",
+    "titulo_qbq": "Chefe de serviço de transporte rodoviário (passageiros e cargas)",
+    "familia": {
+     "codigo": "3423",
+     "titulo": "Técnicos em transportes rodoviários"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1083
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 67
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "SUPERVISIONAR EMBARQUE DE CARGA E PASSAGEIROS",
+      "numero": 2,
+      "descricao": "Emitir programa de embarque por veículo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR HORÁRIOS DE VIAGEM",
+      "numero": 1,
+      "descricao": "Escalar motoristas e auxiliares",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR HORÁRIOS DE VIAGEM",
+      "numero": 2,
+      "descricao": "Verificar percurso da viagem",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342410",
+    "codigo_formatado": "3424-10",
+    "titulo_cbo": "Operador de centro de controle (ferrovia e metrô)",
+    "titulo_qbq": "Operador de centro de controle (ferrovia e metrô)",
+    "familia": {
+     "codigo": "3424",
+     "titulo": "Técnicos em transportes metroferroviários"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1087
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 666
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR CIRCULAÇÃO DE TRENS",
+      "numero": 1,
+      "descricao": "Programar horários de trens",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR CIRCULAÇÃO DE TRENS",
+      "numero": 2,
+      "descricao": "Definir prioridades para circulação de trens",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR CIRCULAÇÃO DE TRENS",
+      "numero": 3,
+      "descricao": "Planejar formação de trens",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "342610",
+    "codigo_formatado": "3426-10",
+    "titulo_cbo": "Supervisor de operações portuárias",
+    "titulo_qbq": "Supervisor de operações portuárias",
+    "familia": {
+     "codigo": "3426",
+     "titulo": "Técnicos em transportes por vias navegáveis e operações portuárias"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1099
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1308
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR ATRACAÇÃO DE EMBARCAÇÃO",
+      "numero": 1,
+      "descricao": "Participar de reuniões com representantes de autoridades portuárias, agentes e operadores",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR ATRACAÇÃO DE EMBARCAÇÃO",
+      "numero": 2,
+      "descricao": "Definir prioridades de atracação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR ATRACAÇÃO DE EMBARCAÇÃO",
+      "numero": 3,
+      "descricao": "Apresentar vantagens operacionais para clientes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612715",
+    "codigo_formatado": "6127-15",
+    "titulo_cbo": "Produtor da cultura de coco-da-baia",
+    "titulo_qbq": "Produtor da cultura de coco-da-baía",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1583
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1409
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612725",
+    "codigo_formatado": "6127-25",
+    "titulo_cbo": "Produtor da cultura de girassol",
+    "titulo_qbq": "Produtor da cultura de girassol",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1585
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1411
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "613310",
+    "codigo_formatado": "6133-10",
+    "titulo_cbo": "Cunicultor",
+    "titulo_qbq": "Cunicultor",
+    "familia": {
+     "codigo": "6133",
+     "titulo": "Produtores da avicultura e cunicultura"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1603
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1427
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR MANEJO DA PRODUÇÃO DE AVES, OVOS E COELHOS",
+      "numero": 12,
+      "descricao": "Programar acasalamento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PROGRAMAR LOGÍSTICA DE TRANSPORTE DE INSUMOS E PRODUTOS",
+      "numero": 1,
+      "descricao": "Programar meios e tipos de transportes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PROGRAMAR LOGÍSTICA DE TRANSPORTE DE INSUMOS E PRODUTOS",
+      "numero": 2,
+      "descricao": "Programar rotas de distribuição",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "773415",
+    "codigo_formatado": "7734-15",
+    "titulo_cbo": "Operador de máquina de usinagem de madeira (produção em série)",
+    "titulo_qbq": "Operador de máquina de usinagem de madeira (produção em série)",
+    "familia": {
+     "codigo": "7734",
+     "titulo": "Operadores de máquina de usinar madeira (produção em série)"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2262
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1626
+     }
+    },
+    "total_casadas": 8,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 1,
+      "descricao": "Interpretar ordens de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 2,
+      "descricao": "Interpretar desenhos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 3,
+      "descricao": "Identificar códigos de peças e produtos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "122615",
+    "codigo_formatado": "1226-15",
+    "titulo_cbo": "Diretor de operações de serviços de telecomunicações",
+    "titulo_qbq": "Diretor de operações de serviços de telecomunicações",
+    "familia": {
+     "codigo": "1226",
+     "titulo": "Diretores de operações de serviços em empresa de armazenamento, de transporte e de telecomunicação"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 82
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2496
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 1,
+      "descricao": "Estabelecer nível de execução do serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 2,
+      "descricao": "Editar normas de execução de serviços",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 3,
+      "descricao": "Implantar sistemas de qualidade",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "131215",
+    "codigo_formatado": "1312-15",
+    "titulo_cbo": "Tecnólogo em gestão hospitalar",
+    "titulo_qbq": "Tecnólogo em gestão hospitalar",
+    "familia": {
+     "codigo": "1312",
+     "titulo": "Gestores e especialistas de operações em empresas, secretarias e unidades de serviços de saúde"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 113
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2527
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 10,
+      "descricao": "Implementar programas de saúde",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 15,
+      "descricao": "Coordenar projetos e/ou programas de saúde",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+      "numero": 10,
+      "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "131220",
+    "codigo_formatado": "1312-20",
+    "titulo_cbo": "Gerontólogo",
+    "titulo_qbq": "Gerontólogo",
+    "familia": {
+     "codigo": "1312",
+     "titulo": "Gestores e especialistas de operações em empresas, secretarias e unidades de serviços de saúde"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 114
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2528
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 11,
+      "descricao": "Implementar programas de atendimento biopsicossocial",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+      "numero": 6,
+      "descricao": "Definir aquisição de equipamentos, materiais e insumos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "DEFINIR ESTRATÉGIAS PARA UNIDADES E/OU PROGRAMAS DE SAÚDE",
+      "numero": 10,
+      "descricao": "Participar na elaboração de campanhas de promoção e divulgação de serviços de saúde",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "201205",
+    "codigo_formatado": "2012-05",
+    "titulo_cbo": "Pesquisador em metrologia",
+    "titulo_qbq": "Pesquisador em metrologia",
+    "familia": {
+     "codigo": "2012",
+     "titulo": "Profissionais da metrologia"
+    },
+    "nivel_qualificacao": 8,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 189
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1865
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 9,
+      "descricao": "Participar de programas interlaboratoriais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 10,
+      "descricao": "Participar de programas de ensaios de proficiência",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 11,
+      "descricao": "Participar de programas intralaboratoriais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226315",
+    "codigo_formatado": "2263-15",
+    "titulo_cbo": "Equoterapeuta",
+    "titulo_qbq": "Equoterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 529
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1827
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "REALIZAR PLANEJAMENTO TERAPÊUTICO",
+      "numero": 10,
+      "descricao": "Selecionar programas, métodos e técnicas equoterapêuticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Elaborar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 4,
+      "descricao": "Implantar projetos e programas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234604",
+    "codigo_formatado": "2346-04",
+    "titulo_cbo": "Professor de língua alemã",
+    "titulo_qbq": "Professor de língua alemã",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 597
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2256
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234608",
+    "codigo_formatado": "2346-08",
+    "titulo_cbo": "Professor de língua italiana",
+    "titulo_qbq": "Professor de língua italiana",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 598
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2257
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234612",
+    "codigo_formatado": "2346-12",
+    "titulo_cbo": "Professor de língua francesa",
+    "titulo_qbq": "Professor de língua francesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 599
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2258
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234616",
+    "codigo_formatado": "2346-16",
+    "titulo_cbo": "Professor de língua inglesa",
+    "titulo_qbq": "Professor de língua inglesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 600
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2259
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234620",
+    "codigo_formatado": "2346-20",
+    "titulo_cbo": "Professor de língua espanhola",
+    "titulo_qbq": "Professor de língua espanhola",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 601
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2260
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234624",
+    "codigo_formatado": "2346-24",
+    "titulo_cbo": "Professor de língua portuguesa",
+    "titulo_qbq": "Professor de língua portuguesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 602
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2261
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234628",
+    "codigo_formatado": "2346-28",
+    "titulo_cbo": "Professor de literatura brasileira",
+    "titulo_qbq": "Professor de literatura brasileira",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 603
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2262
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234632",
+    "codigo_formatado": "2346-32",
+    "titulo_cbo": "Professor de literatura portuguesa",
+    "titulo_qbq": "Professor de literatura portuguesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 604
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2263
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234636",
+    "codigo_formatado": "2346-36",
+    "titulo_cbo": "Professor de literatura alemã",
+    "titulo_qbq": "Professor de literatura alemã",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 605
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2264
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234640",
+    "codigo_formatado": "2346-40",
+    "titulo_cbo": "Professor de literatura comparada",
+    "titulo_qbq": "Professor de literatura comparada",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 606
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2265
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234644",
+    "codigo_formatado": "2346-44",
+    "titulo_cbo": "Professor de literatura espanhola",
+    "titulo_qbq": "Professor de literatura espanhola",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 607
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2266
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234648",
+    "codigo_formatado": "2346-48",
+    "titulo_cbo": "Professor de literatura francesa",
+    "titulo_qbq": "Professor de literatura francesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 608
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2267
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234652",
+    "codigo_formatado": "2346-52",
+    "titulo_cbo": "Professor de literatura inglesa",
+    "titulo_qbq": "Professor de literatura inglesa",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 609
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2268
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234656",
+    "codigo_formatado": "2346-56",
+    "titulo_cbo": "Professor de literatura italiana",
+    "titulo_qbq": "Professor de literatura italiana",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 610
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2269
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234660",
+    "codigo_formatado": "2346-60",
+    "titulo_cbo": "Professor de literatura de línguas estrangeiras modernas",
+    "titulo_qbq": "Professor de literatura de línguas estrangeiras modernas",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 611
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2270
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234664",
+    "codigo_formatado": "2346-64",
+    "titulo_cbo": "Professor de outras línguas e literaturas",
+    "titulo_qbq": "Professor de outras línguas e literaturas",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 612
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2271
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234668",
+    "codigo_formatado": "2346-68",
+    "titulo_cbo": "Professor de línguas estrangeiras modernas",
+    "titulo_qbq": "Professor de línguas estrangeiras modernas",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 613
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2272
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234672",
+    "codigo_formatado": "2346-72",
+    "titulo_cbo": "Professor de lingüística e lingüística aplicada",
+    "titulo_qbq": "Professor de lingüística e lingüística aplicada",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 614
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2273
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234680",
+    "codigo_formatado": "2346-80",
+    "titulo_cbo": "Professor de semiótica",
+    "titulo_qbq": "Professor de semiótica",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 616
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2275
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234684",
+    "codigo_formatado": "2346-84",
+    "titulo_cbo": "Professor de teoria da literatura",
+    "titulo_qbq": "Professor de teoria da literatura",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 617
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2276
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234689",
+    "codigo_formatado": "2346-89",
+    "titulo_cbo": "Professor de língua brasileira de sinais (libras)",
+    "titulo_qbq": "Professor de língua brasileira de sinais (libras)",
+    "familia": {
+     "codigo": "2346",
+     "titulo": "Professores nas áreas de língua e literatura do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 618
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2658
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 2,
+      "descricao": "Definir conteúdos programáticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 7,
+      "descricao": "Programar atividades de laboratório de língua e informática",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULAS, CURSOS, SEMINÁRIOS NAS ÁREAS DE LÍNGUA, LINGUÍSTICA, LITERATURA E/OU EDUCAÇÃO DE SURDOS",
+      "numero": 8,
+      "descricao": "Programar o uso de equipamentos de apoio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261305",
+    "codigo_formatado": "2613-05",
+    "titulo_cbo": "Arquivista",
+    "titulo_qbq": "Arquivista",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 778
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2410
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONSERVAR ACERVOS",
+      "numero": 6,
+      "descricao": "Monitorar programas de conservação preventiva",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "CONSERVAR ACERVOS",
+      "numero": 11,
+      "descricao": "Desenvolver programas de controle preventivo de infestações químicas e biológicas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "G",
+      "area": "PLANEJAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 4,
+      "descricao": "Planejar programas de conservação preventiva",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "371305",
+    "codigo_formatado": "3713-05",
+    "titulo_cbo": "Técnico em programação visual",
+    "titulo_qbq": "Técnico em programação visual",
+    "familia": {
+     "codigo": "3713",
+     "titulo": "Técnicos em artes gráficas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1174
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1325
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 1,
+      "descricao": "Identificar necessidades de cliente final",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 2,
+      "descricao": "Elaborar leiaute",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 3,
+      "descricao": "Desenvolver arte-final",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612710",
+    "codigo_formatado": "6127-10",
+    "titulo_cbo": "Produtor da cultura de canola",
+    "titulo_qbq": "Produtor da cultura de canola",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1582
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1408
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612720",
+    "codigo_formatado": "6127-20",
+    "titulo_cbo": "Produtor da cultura de dendê",
+    "titulo_qbq": "Produtor da cultura de dendê",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1584
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1410
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612730",
+    "codigo_formatado": "6127-30",
+    "titulo_cbo": "Produtor da cultura de linho",
+    "titulo_qbq": "Produtor da cultura de linho",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1586
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1412
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612740",
+    "codigo_formatado": "6127-40",
+    "titulo_cbo": "Produtor da cultura de soja",
+    "titulo_qbq": "Produtor da cultura de soja",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1588
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1414
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "630105",
+    "codigo_formatado": "6301-05",
+    "titulo_cbo": "Supervisor da aqüicultura",
+    "titulo_qbq": "Supervisor da aquicultura",
+    "familia": {
+     "codigo": "6301",
+     "titulo": "Supervisores na área florestal e aqüicultura"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1673
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1441
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 1,
+      "descricao": "Programar desova",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 3,
+      "descricao": "Programar consumo de insumos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 4,
+      "descricao": "Programar povoamento de tanques de larvas e alevinos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "630110",
+    "codigo_formatado": "6301-10",
+    "titulo_cbo": "Supervisor da área florestal",
+    "titulo_qbq": "Supervisor da área florestal",
+    "familia": {
+     "codigo": "6301",
+     "titulo": "Supervisores na área florestal e aqüicultura"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1674
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1442
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 2,
+      "descricao": "Programar produção de mudas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 3,
+      "descricao": "Programar consumo de insumos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "PLANEJAR ATIVIDADES FLORESTAIS E DE AQÜICULTURA",
+      "numero": 5,
+      "descricao": "Programar implantação de florestas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "763120",
+    "codigo_formatado": "7631-20",
+    "titulo_cbo": "Riscador de roupas",
+    "titulo_qbq": "Riscador de roupas",
+    "familia": {
+     "codigo": "7631",
+     "titulo": "Trabalhadores da preparação da confecção de roupas"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2148
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 461
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR RISCOS MARCADORES",
+      "numero": 1,
+      "descricao": "Planejar ordem de risco e corte",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR RISCOS MARCADORES",
+      "numero": 2,
+      "descricao": "Encaixar moldes manualmente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR RISCOS MARCADORES",
+      "numero": 3,
+      "descricao": "Encaixar moldes por computador",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "773420",
+    "codigo_formatado": "7734-20",
+    "titulo_cbo": "Operador de prensa de alta freqüência na usinagem de madeira",
+    "titulo_qbq": "Operador de prensa de alta frequência na usinagem de madeira",
+    "familia": {
+     "codigo": "7734",
+     "titulo": "Operadores de máquina de usinar madeira (produção em série)"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2263
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1627
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 1,
+      "descricao": "Interpretar ordens de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 2,
+      "descricao": "Interpretar desenhos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 4,
+      "descricao": "Definir quantidades de peças para o processamento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "781105",
+    "codigo_formatado": "7811-05",
+    "titulo_cbo": "Condutor de processos robotizados de pintura",
+    "titulo_qbq": "Condutor de processos robotizados de pintura",
+    "familia": {
+     "codigo": "7811",
+     "titulo": "Condutores de processos robotizados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2283
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1646
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 1,
+      "descricao": "Mapear trajetórias de robôs",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 2,
+      "descricao": "Verificar referenciamento de robôs",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 3,
+      "descricao": "Estruturar programas de aplicação",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "781110",
+    "codigo_formatado": "7811-10",
+    "titulo_cbo": "Condutor de processos robotizados de soldagem",
+    "titulo_qbq": "Condutor de processos robotizados de soldagem",
+    "familia": {
+     "codigo": "7811",
+     "titulo": "Condutores de processos robotizados"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2284
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1647
+     }
+    },
+    "total_casadas": 7,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 1,
+      "descricao": "Mapear trajetórias de robôs",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 2,
+      "descricao": "Verificar referenciamento de robôs",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "E",
+      "area": "PROGRAMAR ROBÔS PARA OPERAÇÃO",
+      "numero": 3,
+      "descricao": "Estruturar programas de aplicação",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "111505",
+    "codigo_formatado": "1115-05",
+    "titulo_cbo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "titulo_qbq": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "familia": {
+     "codigo": "1115",
+     "titulo": "Gestores públicos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 57
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2471
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR PLANEJAMENTO GOVERNAMENTAL",
+      "numero": 7,
+      "descricao": "Definir programas e ações",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ELABORAR ORÇAMENTO",
+      "numero": 8,
+      "descricao": "Detalhar programação orçamentária",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "GERENCIAR A IMPLEMENTAÇÃO DE POLÍTICAS",
+      "numero": 1,
+      "descricao": "Gerenciar programas e ações",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "111510",
+    "codigo_formatado": "1115-10",
+    "titulo_cbo": "Analista de planejamento e orçamento - apo",
+    "titulo_qbq": "Analista de planejamento e orçamento - apo",
+    "familia": {
+     "codigo": "1115",
+     "titulo": "Gestores públicos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 58
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2472
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR PLANEJAMENTO GOVERNAMENTAL",
+      "numero": 7,
+      "descricao": "Definir programas e ações",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "ELABORAR ORÇAMENTO",
+      "numero": 8,
+      "descricao": "Detalhar programação orçamentária",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "GERENCIAR A IMPLEMENTAÇÃO DE POLÍTICAS",
+      "numero": 1,
+      "descricao": "Gerenciar programas e ações",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "122520",
+    "codigo_formatado": "1225-20",
+    "titulo_cbo": "Turismólogo",
+    "titulo_qbq": "Turismólogo",
+    "familia": {
+     "codigo": "1225",
+     "titulo": "Diretores de serviços de turismo, de alojamento e de alimentação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 79
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2493
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "TRAÇAR PLANO OPERACIONAL",
+      "numero": 1,
+      "descricao": "Elaborar programas turísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "TRAÇAR PLANO OPERACIONAL",
+      "numero": 12,
+      "descricao": "Programar eventos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "TRAÇAR PLANO OPERACIONAL",
+      "numero": 13,
+      "descricao": "Programar promoções",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "122605",
+    "codigo_formatado": "1226-05",
+    "titulo_cbo": "Diretor de operações de correios",
+    "titulo_qbq": "Diretor de operações de correios",
+    "familia": {
+     "codigo": "1226",
+     "titulo": "Diretores de operações de serviços em empresa de armazenamento, de transporte e de telecomunicação"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 80
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2494
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 2,
+      "descricao": "Editar normas de execução de serviços",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 3,
+      "descricao": "Implantar sistemas de qualidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "EXECUTAR PROGRAMAS E NORMAS",
+      "numero": 4,
+      "descricao": "Controlar atividades gerenciais, conforme normas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "201220",
+    "codigo_formatado": "2012-20",
+    "titulo_cbo": "Especialista em instrumentação metrológica",
+    "titulo_qbq": "Especialista em instrumentação metrológica",
+    "familia": {
+     "codigo": "2012",
+     "titulo": "Profissionais da metrologia"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 192
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1868
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 9,
+      "descricao": "Participar de programas interlaboratoriais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 10,
+      "descricao": "Participar de programas de ensaios de proficiência",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSEGURAR RASTREABILIDADE DA MEDIÇÃO",
+      "numero": 11,
+      "descricao": "Participar de programas intralaboratoriais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226305",
+    "codigo_formatado": "2263-05",
+    "titulo_cbo": "Musicoterapeuta",
+    "titulo_qbq": "Musicoterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 527
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1825
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Elaborar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 4,
+      "descricao": "Implantar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 5,
+      "descricao": "Implementar programas de prevenção e promoção da saúde",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226310",
+    "codigo_formatado": "2263-10",
+    "titulo_cbo": "Arteterapeuta",
+    "titulo_qbq": "Arteterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 528
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1826
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Elaborar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 4,
+      "descricao": "Implantar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 5,
+      "descricao": "Implementar programas de prevenção e promoção da saúde",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226320",
+    "codigo_formatado": "2263-20",
+    "titulo_cbo": "Naturólogo",
+    "titulo_qbq": "Naturólogo",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 530
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1828
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 3,
+      "descricao": "Elaborar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 4,
+      "descricao": "Implantar projetos e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "EXECUTAR ATIVIDADES TÉCNICO-CIENTÍFICAS E ADMINISTRATIVAS",
+      "numero": 5,
+      "descricao": "Implementar programas de prevenção e promoção da saúde",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234710",
+    "codigo_formatado": "2347-10",
+    "titulo_cbo": "Professor de arquivologia do ensino superior",
+    "titulo_qbq": "Professor de arquivologia do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 620
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2278
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234730",
+    "codigo_formatado": "2347-30",
+    "titulo_cbo": "Professor de direito do ensino superior",
+    "titulo_qbq": "Professor de direito do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 624
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2282
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234740",
+    "codigo_formatado": "2347-40",
+    "titulo_cbo": "Professor de geografia do ensino superior",
+    "titulo_qbq": "Professor de geografia do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 626
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2284
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234745",
+    "codigo_formatado": "2347-45",
+    "titulo_cbo": "Professor de história do ensino superior",
+    "titulo_qbq": "Professor de história do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 627
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2285
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234750",
+    "codigo_formatado": "2347-50",
+    "titulo_cbo": "Professor de jornalismo",
+    "titulo_qbq": "Professor de jornalismo",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 628
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2286
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234760",
+    "codigo_formatado": "2347-60",
+    "titulo_cbo": "Professor de psicologia do ensino superior",
+    "titulo_qbq": "Professor de psicologia do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 630
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2288
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234770",
+    "codigo_formatado": "2347-70",
+    "titulo_cbo": "Professor de sociologia do ensino superior",
+    "titulo_qbq": "Professor de sociologia do ensino superior",
+    "familia": {
+     "codigo": "2347",
+     "titulo": "Professores de ciências humanas do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 632
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2290
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 4,
+      "descricao": "Avaliar ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "ELABORAR PLANO DE ENSINO",
+      "numero": 12,
+      "descricao": "Definir ementas e programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "SUPERVISIONAR ESTÁGIOS",
+      "numero": 2,
+      "descricao": "Elaborar programas e projetos de estágio",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "261310",
+    "codigo_formatado": "2613-10",
+    "titulo_cbo": "Museólogo",
+    "titulo_qbq": "Museólogo",
+    "familia": {
+     "codigo": "2613",
+     "titulo": "Arquivistas e museólogos"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 779
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2411
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "CONSERVAR ACERVOS",
+      "numero": 6,
+      "descricao": "Monitorar programas de conservação preventiva",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "CONSERVAR ACERVOS",
+      "numero": 11,
+      "descricao": "Desenvolver programas de controle preventivo de infestações químicas e biológicas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PREPARAR AÇÕES EDUCATIVAS E/OU CULTURAIS",
+      "numero": 6,
+      "descricao": "Interagir com o programa curricular nacional",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "300110",
+    "codigo_formatado": "3001-10",
+    "titulo_cbo": "Técnico em mecatrônica - robótica",
+    "titulo_qbq": "Técnico em mecatrônica - robótica",
+    "familia": {
+     "codigo": "3001",
+     "titulo": "Técnicos em mecatrônica"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 852
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1208
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR CONTROLE DE AUTOMAÇÃO DE SISTEMAS",
+      "numero": 1,
+      "descricao": "Programar seqüência de acionamentos e controles via clp",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR CONTROLE DE AUTOMAÇÃO DE SISTEMAS",
+      "numero": 2,
+      "descricao": "Programar posicionamento de máquinas e equipamentos via cnc",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "PROGRAMAR CONTROLE DE AUTOMAÇÃO DE SISTEMAS",
+      "numero": 3,
+      "descricao": "Programar posicionamento, operação e integração de robôs em processos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311105",
+    "codigo_formatado": "3111-05",
+    "titulo_cbo": "Técnico químico",
+    "titulo_qbq": "Técnico químico",
+    "familia": {
+     "codigo": "3111",
+     "titulo": "Técnicos químicos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 858
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 607
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REALIZAR AÇÕES EDUCATIVAS",
+      "numero": 2,
+      "descricao": "Elaborar programas de treinamento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Seguir procedimentos da qualidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Utilizar ferramentas da qualidade",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "311110",
+    "codigo_formatado": "3111-10",
+    "titulo_cbo": "Técnico de celulose e papel",
+    "titulo_qbq": "Técnico de celulose e papel",
+    "familia": {
+     "codigo": "3111",
+     "titulo": "Técnicos químicos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 859
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 608
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REALIZAR AÇÕES EDUCATIVAS",
+      "numero": 2,
+      "descricao": "Elaborar programas de treinamento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Seguir procedimentos da qualidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Utilizar ferramentas da qualidade",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "311115",
+    "codigo_formatado": "3111-15",
+    "titulo_cbo": "Técnico em curtimento",
+    "titulo_qbq": "Técnico em curtimento",
+    "familia": {
+     "codigo": "3111",
+     "titulo": "Técnicos químicos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 860
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 609
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REALIZAR AÇÕES EDUCATIVAS",
+      "numero": 2,
+      "descricao": "Elaborar programas de treinamento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Seguir procedimentos da qualidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "F",
+      "area": "PARTICIPAR DE PROGRAMAS DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Utilizar ferramentas da qualidade",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "317115",
+    "codigo_formatado": "3171-15",
+    "titulo_cbo": "Programador de máquinas - ferramenta com comando numérico",
+    "titulo_qbq": "Programador de máquinas - ferramenta com comando numérico",
+    "familia": {
+     "codigo": "3171",
+     "titulo": "Técnicos de desenvolvimento de sistemas e aplicações"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 948
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 24
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 4,
+      "descricao": "Codificar programas e aplicativos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 6,
+      "descricao": "Compilar programas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER SISTEMAS E APLICAÇÕES",
+      "numero": 7,
+      "descricao": "Testar programas e aplicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351605",
+    "codigo_formatado": "3516-05",
+    "titulo_cbo": "Técnico em segurança do trabalho",
+    "titulo_qbq": "Técnico em segurança do trabalho",
+    "familia": {
+     "codigo": "3516",
+     "titulo": "Técnicos em segurança do trabalho"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1117
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 82
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 5,
+      "descricao": "Estabelecer programas, projetos e procedimentos de melhoria",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 6,
+      "descricao": "Elaborar programas preventivos e/ou corretivos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 8,
+      "descricao": "Implementar programas preventivos e/ou corretivos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351610",
+    "codigo_formatado": "3516-10",
+    "titulo_cbo": "Técnico em higiene ocupacional",
+    "titulo_qbq": "Técnico em higiene ocupacional",
+    "familia": {
+     "codigo": "3516",
+     "titulo": "Técnicos em segurança do trabalho"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1118
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 83
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 5,
+      "descricao": "Estabelecer programas, projetos e procedimentos de melhoria",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 6,
+      "descricao": "Elaborar programas preventivos e/ou corretivos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "IMPLANTAR A POLÍTICA DE SST",
+      "numero": 8,
+      "descricao": "Implementar programas preventivos e/ou corretivos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "371310",
+    "codigo_formatado": "3713-10",
+    "titulo_cbo": "Técnico gráfico",
+    "titulo_qbq": "Técnico gráfico",
+    "familia": {
+     "codigo": "3713",
+     "titulo": "Técnicos em artes gráficas"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1175
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1326
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 1,
+      "descricao": "Identificar necessidades de cliente final",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 4,
+      "descricao": "Analisar viabilidade técnica e econômica",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROGRAMAÇÃO VISUAL GRÁFICA",
+      "numero": 5,
+      "descricao": "Definir tecnologias, sistemas e processos de produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "391135",
+    "codigo_formatado": "3911-35",
+    "titulo_cbo": "Técnico de matéria-prima e material",
+    "titulo_qbq": "Técnico de matéria-prima e material",
+    "familia": {
+     "codigo": "3911",
+     "titulo": "Planejadores, programadores e controladores de produção e manutenção"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1264
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 114
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Definir cronograma de produção",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Definir prioridades de produção e/ou manutenção",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Estabelecer seqüência de produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612735",
+    "codigo_formatado": "6127-35",
+    "titulo_cbo": "Produtor da cultura de mamona",
+    "titulo_qbq": "Produtor da cultura de mamona",
+    "familia": {
+     "codigo": "6127",
+     "titulo": "Produtores agrícolas na cultura de plantas oleaginosas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1587
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1413
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 1,
+      "descricao": "Estabelecer periodicidade de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 2,
+      "descricao": "Escolher equipamentos de colheita",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PROGRAMAR COLHEITA",
+      "numero": 3,
+      "descricao": "Verificar ponto de colheita",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "715415",
+    "codigo_formatado": "7154-15",
+    "titulo_cbo": "Operador de central de concreto",
+    "titulo_qbq": "Operador de central de concreto",
+    "familia": {
+     "codigo": "7154",
+     "titulo": "Trabalhadores na operação de máquinas de concreto usinado e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1807
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 847
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 1,
+      "descricao": "Registrar os pedidos dos clientes",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 2,
+      "descricao": "Avaliar ordem de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR A PRODUÇÃO E O FORNECIMENTO DE CONCRETO E/OU MASSA ASFÁLTICA",
+      "numero": 4,
+      "descricao": "Programar os insumos do concreto e/ou massa asfáltica",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "761805",
+    "codigo_formatado": "7618-05",
+    "titulo_cbo": "Inspetor de estamparia (produção têxtil)",
+    "titulo_qbq": "Inspetor de estamparia (produção têxtil)",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2118
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 990
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 1,
+      "descricao": "Selecionar bobinas de fios têxteis e tecidos planos e de malhas para beneficiamento e expedição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 2,
+      "descricao": "Segregar produtos de qualidade inferior",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 3,
+      "descricao": "Indicar processo de beneficiamento de tecidos planos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "761820",
+    "codigo_formatado": "7618-20",
+    "titulo_cbo": "Revisor de tecidos crus",
+    "titulo_qbq": "Revisor de tecidos crus",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2121
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 993
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 1,
+      "descricao": "Selecionar bobinas de fios têxteis e tecidos planos e de malhas para beneficiamento e expedição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 2,
+      "descricao": "Segregar produtos de qualidade inferior",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "C",
+      "area": "PREPARAR LOTES DE PRODUÇÃO CONFORME PROGRAMAÇÃO PREESTABELECIDA",
+      "numero": 3,
+      "descricao": "Indicar processo de beneficiamento de tecidos planos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "772115",
+    "codigo_formatado": "7721-15",
+    "titulo_cbo": "Secador de madeira",
+    "titulo_qbq": "Secador de madeira",
+    "familia": {
+     "codigo": "7721",
+     "titulo": "Trabalhadores de tratamento e preparação da madeira"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2238
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1026
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "PREPARAR TRATAMENTO E SECAGEM DE MADEIRAS",
+      "numero": 3,
+      "descricao": "Programar cargas de madeiras em estufas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PREPARAR TRATAMENTO E SECAGEM DE MADEIRAS",
+      "numero": 12,
+      "descricao": "Analisar programas de secagem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PREPARAR TRATAMENTO E SECAGEM DE MADEIRAS",
+      "numero": 13,
+      "descricao": "Elaborar programas de secagem em função da espécie e da bitola",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "773405",
+    "codigo_formatado": "7734-05",
+    "titulo_cbo": "Operador de máquina bordatriz",
+    "titulo_qbq": "Operador de máquina bordatriz",
+    "familia": {
+     "codigo": "7734",
+     "titulo": "Operadores de máquina de usinar madeira (produção em série)"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2260
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1624
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 1,
+      "descricao": "Interpretar ordens de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 3,
+      "descricao": "Identificar códigos de peças e produtos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 4,
+      "descricao": "Definir quantidades de peças para o processamento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "773410",
+    "codigo_formatado": "7734-10",
+    "titulo_cbo": "Operador de máquina de cortina d´água (produção de móveis)",
+    "titulo_qbq": "Operador de máquina de cortina d´água (produção de móveis)",
+    "familia": {
+     "codigo": "7734",
+     "titulo": "Operadores de máquina de usinar madeira (produção em série)"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2261
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1625
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 1,
+      "descricao": "Interpretar ordens de serviço",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 3,
+      "descricao": "Identificar códigos de peças e produtos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PROGRAMAR ATIVIDADES PARA A FABRICAÇÃO DE PEÇAS DE MADEIRA",
+      "numero": 4,
+      "descricao": "Definir quantidades de peças para o processamento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "774105",
+    "codigo_formatado": "7741-05",
+    "titulo_cbo": "Montador de móveis e artefatos de madeira",
+    "titulo_qbq": "Montador de móveis e artefatos de madeira",
+    "familia": {
+     "codigo": "7741",
+     "titulo": "Montadores de móveis e artefatos de madeira"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2266
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 495
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR AS ETAPAS DE MONTAGEM",
+      "numero": 1,
+      "descricao": "Interpretar esquema e desenho do móvel ou artefato de madeira",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR AS ETAPAS DE MONTAGEM",
+      "numero": 2,
+      "descricao": "Definir as operações de montagem",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "PROGRAMAR AS ETAPAS DE MONTAGEM",
+      "numero": 3,
+      "descricao": "Estabelecer o tempo necessário para montar o móvel ou artefato de madeira",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "820105",
+    "codigo_formatado": "8201-05",
+    "titulo_cbo": "Mestre de siderurgia",
+    "titulo_qbq": "Mestre de siderurgia",
+    "familia": {
+     "codigo": "8201",
+     "titulo": "Supervisores de produção em indústrias siderúrgicas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2418
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1693
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EQUIPE DE TRABALHO DOS PROCESSOS SIDERÚRGICOS",
+      "numero": 9,
+      "descricao": "Programar folgas e férias",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 1,
+      "descricao": "Programar suprimentos e insumos metálicos e não-metálicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 7,
+      "descricao": "Programar manutenção de máquinas e equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "820110",
+    "codigo_formatado": "8201-10",
+    "titulo_cbo": "Mestre de aciaria",
+    "titulo_qbq": "Mestre de aciaria",
+    "familia": {
+     "codigo": "8201",
+     "titulo": "Supervisores de produção em indústrias siderúrgicas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2419
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1694
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EQUIPE DE TRABALHO DOS PROCESSOS SIDERÚRGICOS",
+      "numero": 9,
+      "descricao": "Programar folgas e férias",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 1,
+      "descricao": "Programar suprimentos e insumos metálicos e não-metálicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 7,
+      "descricao": "Programar manutenção de máquinas e equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "820115",
+    "codigo_formatado": "8201-15",
+    "titulo_cbo": "Mestre de alto-forno",
+    "titulo_qbq": "Mestre de alto-forno",
+    "familia": {
+     "codigo": "8201",
+     "titulo": "Supervisores de produção em indústrias siderúrgicas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2420
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1695
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EQUIPE DE TRABALHO DOS PROCESSOS SIDERÚRGICOS",
+      "numero": 9,
+      "descricao": "Programar folgas e férias",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 1,
+      "descricao": "Programar suprimentos e insumos metálicos e não-metálicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 7,
+      "descricao": "Programar manutenção de máquinas e equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "820120",
+    "codigo_formatado": "8201-20",
+    "titulo_cbo": "Mestre de forno elétrico",
+    "titulo_qbq": "Mestre de forno elétrico",
+    "familia": {
+     "codigo": "8201",
+     "titulo": "Supervisores de produção em indústrias siderúrgicas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2421
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1696
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EQUIPE DE TRABALHO DOS PROCESSOS SIDERÚRGICOS",
+      "numero": 9,
+      "descricao": "Programar folgas e férias",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 1,
+      "descricao": "Programar suprimentos e insumos metálicos e não-metálicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 7,
+      "descricao": "Programar manutenção de máquinas e equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "820125",
+    "codigo_formatado": "8201-25",
+    "titulo_cbo": "Mestre de laminação",
+    "titulo_qbq": "Mestre de laminação",
+    "familia": {
+     "codigo": "8201",
+     "titulo": "Supervisores de produção em indústrias siderúrgicas"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2422
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1697
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EQUIPE DE TRABALHO DOS PROCESSOS SIDERÚRGICOS",
+      "numero": 9,
+      "descricao": "Programar folgas e férias",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 1,
+      "descricao": "Programar suprimentos e insumos metálicos e não-metálicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "C",
+      "area": "CONTROLAR RECURSOS PARA PRODUÇÃO SIDERÚRGICA",
+      "numero": 7,
+      "descricao": "Programar manutenção de máquinas e equipamentos",
+      "casou_em": "atividade"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 1057,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=programa&agrupar_por=ocupacao&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=programa&agrupar_por=ocupacao&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=programa&agrupar_por=ocupacao&limite=100&deslocamento=0"
+  }
+ }
+}

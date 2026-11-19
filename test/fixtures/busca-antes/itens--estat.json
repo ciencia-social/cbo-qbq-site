@@ -1,0 +1,382 @@
+{
+ "url": "/api/v1/qbq/itens?q=estat",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "111325",
+    "titulo": "Juiz de direito",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 36
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL"
+   },
+   {
+    "ocupacao": "111330",
+    "titulo": "Juiz federal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 112
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL"
+   },
+   {
+    "ocupacao": "111335",
+    "titulo": "Juiz auditor federal - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 187
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL"
+   },
+   {
+    "ocupacao": "111335",
+    "titulo": "Juiz auditor federal - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTADO E GOVERNO) DEMOCRACIA E CIDADANIA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTADO E GOVERNO) FORÇAS ARMADAS: DESTINAÇÃO CONSTITUCIONAL; ESTATUTO DOS MILITARES; REGULAMENTOS DISCIPLINARES; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 216
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…EMENTOS (ESTADO E GOVERNO) FORÇAS ARMADAS: DESTINAÇÃO CONSTITUCIONAL; ESTATUTO DOS MILITARES; REGULAMENTOS DISCIPLINARES; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111340",
+    "titulo": "Juiz auditor estadual - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 261
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL"
+   },
+   {
+    "ocupacao": "111340",
+    "titulo": "Juiz auditor estadual - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTADO E GOVERNO) DEMOCRACIA E CIDADANIA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTADO E GOVERNO) POLÍCIAS MILITARES E BOMBEIROS MILITARES: DESTINAÇÃO CONSTITUCIONAL; ESTATUTO DOS MILITARES; REGULAMENTOS DISCIPLINARES; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 289
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…POLÍCIAS MILITARES E BOMBEIROS MILITARES: DESTINAÇÃO CONSTITUCIONAL; ESTATUTO DOS MILITARES; REGULAMENTOS DISCIPLINARES; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111345",
+    "titulo": "Juiz do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 329
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ESTATUTO JURÍDICO DA MAGISTRATURA NACIONAL"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA FEDERAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 373
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA FE…"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA DOS ESTADOS E DO DISTRITO FEDERAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 442
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA DO…"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA MUNICIPAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 512
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ADMINISTRAÇÃO PÚBLICA MU…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 582
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 669
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO E FUNCIONAMENTO DOS PARTIDOS POLÍTICOS: CRIAÇÃO E REGISTRO; FUNCIONAMENTO PARLAMENTAR; PROGRAMA; ESTATUTO; FILIAÇÃO PARTIDÁRIA; FIDELIDADE E DISCIPLINA PARTIDÁRIAS; FUSÃO, INCORPORAÇÃO E EXTINÇÃO DE PARTIDOS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 26
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S POLÍTICOS: CRIAÇÃO E REGISTRO; FUNCIONAMENTO PARLAMENTAR; PROGRAMA; ESTATUTO; FILIAÇÃO PARTIDÁRIA; FIDELIDADE E DISCIPLINA PARTIDÁRIAS; FU…"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) ORGANIZAÇÕES DA SOCIEDADE CIVIL DE INTERESSE PÚBLICO: QUALIFICAÇÃO; FINALIDADES; PRINCÍPIOS; ESTRUTURA; ESTATUTO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 852
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…INTERESSE PÚBLICO: QUALIFICAÇÃO; FINALIDADES; PRINCÍPIOS; ESTRUTURA; ESTATUTO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "122405",
+    "titulo": "Diretor de operações comerciais (comércio atacadista e varejista)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.99.01",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) PROBABILIDADE E ESTATÍSTICA APLICADAS AO COMÉRCIO ATACADISTA E VAREJISTA",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) PROBABILIDADE E ESTATÍSTICA APLICADAS AO COMÉRCIO ATACADISTA E VAREJISTA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 1565
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA) PROBABILIDADE E ESTATÍSTICA APLICADAS AO COMÉRCIO ATACADI…"
+   },
+   {
+    "ocupacao": "122705",
+    "titulo": "Diretor comercial em operações de intermediação financeira",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 2256
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS"
+   },
+   {
+    "ocupacao": "122705",
+    "titulo": "Diretor comercial em operações de intermediação financeira",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À ECONOMIA E FINANÇAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 2257
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À ECONOMIA E FINANÇAS"
+   },
+   {
+    "ocupacao": "122710",
+    "titulo": "Diretor de produtos bancários",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 2346
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS"
+   },
+   {
+    "ocupacao": "122710",
+    "titulo": "Diretor de produtos bancários",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À ECONOMIA E FINANÇAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 2347
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) PROBABILIDADE APLICADA À ECONOMIA E FINANÇAS"
+   },
+   {
+    "ocupacao": "122715",
+    "titulo": "Diretor de crédito rural",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 2438
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 707,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=estat",
+   "proxima": "/api/v1/qbq/itens?q=estat&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

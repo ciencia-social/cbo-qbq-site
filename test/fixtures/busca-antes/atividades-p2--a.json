@@ -1,0 +1,1522 @@
+{
+ "url": "/api/v1/atividades?q=a&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 9,
+    "descricao": "Propor alterações em planos e ordens",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor alterações em planos e ordens"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 10,
+    "descricao": "Interagir com a comunidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Interagir com a comunidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 12,
+    "descricao": "Acompanhar desempenho operacional",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar desempenho operacional"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 14,
+    "descricao": "Participar de ações cívico-militares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Participar de ações cívico-militares"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 15,
+    "descricao": "Realizar visitas e inspeções às unidades subordinadas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Realizar visitas e inspeções às unidades subordinadas"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 16,
+    "descricao": "Promover segurança dos aquartelamentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover segurança dos aquartelamentos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 1,
+    "descricao": "Identificar objetivos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 20,
+    "descricao": "Avaliar resultados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar resultados"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 2,
+    "descricao": "Elaborar plano de ensino",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 3,
+    "descricao": "Elaborar plano de instrução",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 4,
+    "descricao": "Definir missões",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 5,
+    "descricao": "Elaborar manuais de procedimentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 6,
+    "descricao": "Definir logística",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 8,
+    "descricao": "Elaborar normas de supervisão",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 9,
+    "descricao": "Elaborar orçamentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 10,
+    "descricao": "Corrigir procedimentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 1,
+    "descricao": "Coletar dados e informações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 2,
+    "descricao": "Analisar dados e informações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados e informações"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 3,
+    "descricao": "Planejar ações da tropa",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Planejar ações da tropa"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 4,
+    "descricao": "Definir comandante da operação",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 5,
+    "descricao": "Distribuir efetivo",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 6,
+    "descricao": "Alocar meios materiais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Alocar meios materiais"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 7,
+    "descricao": "Estabelecer procedimentos operacionais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 8,
+    "descricao": "Avaliar resultados das ações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar resultados das ações"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 9,
+    "descricao": "Planejar emprego de policiamento velado",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 10,
+    "descricao": "Coordenar proteção a testemunhas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar proteção a testemunhas"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 11,
+    "descricao": "Promover segurança física de dignitários",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 1,
+    "descricao": "Administrar recursos financeiros e orçamentários",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar recursos financeiros e orçamentários"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 2,
+    "descricao": "Administrar convênios e contratos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar convênios e contratos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 3,
+    "descricao": "Administrar recursos logísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar recursos logísticos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 4,
+    "descricao": "Participar de comissão de licitação",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 5,
+    "descricao": "Manutenir instalações físicas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 6,
+    "descricao": "Nomear comissões",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 7,
+    "descricao": "Fiscalizar aplicação de recursos orçamentários e financeiros",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Fiscalizar aplicação de recursos orçamentários e financeiros"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Acompanhar evolução tecnológica",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar evolução tecnológica"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 9,
+    "descricao": "Elaborar relatórios",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 10,
+    "descricao": "Analisar relatórios",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar relatórios"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 11,
+    "descricao": "Despachar expedientes",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 12,
+    "descricao": "Elaborar atos administrativos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar atos administrativos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 13,
+    "descricao": "Integrar comissões",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 14,
+    "descricao": "Informar a população",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Informar a população"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "F",
+    "area": "GERENCIAR ATIVIDADES ADMINISTRATIVAS",
+    "numero": 15,
+    "descricao": "Elaborar pareceres técnicos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "GERENCIAR ATIVIDADES ADMINISTRATIVAS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 1,
+    "descricao": "Escalar efetivo para operações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "ADMINISTRAR RECURSOS HUMANOS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 2,
+    "descricao": "Avaliar desempenho dos subordinados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar desempenho dos subordinados"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 3,
+    "descricao": "Promover bem-estar dos comandados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "ADMINISTRAR RECURSOS HUMANOS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 4,
+    "descricao": "Coordenar atividades de condicionamento físico do efetivo",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar atividades de condicionamento físico do efetivo"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 5,
+    "descricao": "Promover formação, aperfeiçoamento e especialização do efetivo",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover formação, aperfeiçoamento e especialização do efetivo"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 6,
+    "descricao": "Autorizar afastamentos regulamentares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Autorizar afastamentos regulamentares"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 7,
+    "descricao": "Orientar comandados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "area",
+    "trecho": "ADMINISTRAR RECURSOS HUMANOS"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR RECURSOS HUMANOS",
+    "numero": 8,
+    "descricao": "Promover ações de valorização do público interno",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover ações de valorização do público interno"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "H",
+    "area": "MANTER HIERARQUIA E DISCIPLINA",
+    "numero": 1,
+    "descricao": "Exercer atribuições de autoridade de polícia judiciária",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Exercer atribuições de autoridade de polícia judiciária"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "H",
+    "area": "MANTER HIERARQUIA E DISCIPLINA",
+    "numero": 3,
+    "descricao": "Fiscalizar atuação comportamental dos comandados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Fiscalizar atuação comportamental dos comandados"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "H",
+    "area": "MANTER HIERARQUIA E DISCIPLINA",
+    "numero": 5,
+    "descricao": "Apurar transgressões disciplinares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Apurar transgressões disciplinares"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "H",
+    "area": "MANTER HIERARQUIA E DISCIPLINA",
+    "numero": 6,
+    "descricao": "Aplicar punições disciplinares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Aplicar punições disciplinares"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "H",
+    "area": "MANTER HIERARQUIA E DISCIPLINA",
+    "numero": 8,
+    "descricao": "Instaurar procedimentos administrativos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Instaurar procedimentos administrativos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 1,
+    "descricao": "Primar pela correção de atitudes",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Primar pela correção de atitudes"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 4,
+    "descricao": "Demonstrar assiduidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar assiduidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 5,
+    "descricao": "Administrar conflitos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Administrar conflitos"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 6,
+    "descricao": "Agir com seriedade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com seriedade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 9,
+    "descricao": "Adaptar-se às missões",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Adaptar-se às missões"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 10,
+    "descricao": "Agir com responsabilidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com responsabilidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 12,
+    "descricao": "Manter-se atualizado",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Manter-se atualizado"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 15,
+    "descricao": "Agir com cordialidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com cordialidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 16,
+    "descricao": "Agir com marcialidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com marcialidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 18,
+    "descricao": "Agir com lealdade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com lealdade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 20,
+    "descricao": "Agir com probidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com probidade"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 21,
+    "descricao": "Agir com discrição",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com discrição"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 23,
+    "descricao": "Agir com disciplina",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com disciplina"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 27,
+    "descricao": "Agir com perspicácia",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com perspicácia"
+   },
+   {
+    "ocupacao": "020110",
+    "titulo": "Tenente-coronel da polícia militar",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 31,
+    "descricao": "Agir com iniciativa",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 129
+    },
+    "casou_em": "atividade",
+    "trecho": "Agir com iniciativa"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 1,
+    "descricao": "Desenvolver atividades de polícia ostensiva",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Desenvolver atividades de polícia ostensiva"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 3,
+    "descricao": "Coordenar atividades de inteligência",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar atividades de inteligência"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 6,
+    "descricao": "Controlar atividades de policiamento",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Controlar atividades de policiamento"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 7,
+    "descricao": "Supervisionar atividades operacionais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Supervisionar atividades operacionais"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 9,
+    "descricao": "Propor alterações em planos e ordens",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor alterações em planos e ordens"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 10,
+    "descricao": "Interagir com a comunidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Interagir com a comunidade"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 12,
+    "descricao": "Acompanhar desempenho operacional",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar desempenho operacional"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 14,
+    "descricao": "Participar de ações cívico-militares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Participar de ações cívico-militares"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 15,
+    "descricao": "Realizar visitas e inspeções às unidades subordinadas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Realizar visitas e inspeções às unidades subordinadas"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 16,
+    "descricao": "Promover segurança dos aquartelamentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover segurança dos aquartelamentos"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 1,
+    "descricao": "Identificar objetivos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 20,
+    "descricao": "Avaliar resultados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar resultados"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 2,
+    "descricao": "Elaborar plano de ensino",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 3,
+    "descricao": "Elaborar plano de instrução",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 4,
+    "descricao": "Definir missões",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 5,
+    "descricao": "Elaborar manuais de procedimentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 6,
+    "descricao": "Definir logística",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 8,
+    "descricao": "Elaborar normas de supervisão",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 9,
+    "descricao": "Elaborar orçamentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "D",
+    "area": "DEFINIR AÇÕES TÁTICAS",
+    "numero": 10,
+    "descricao": "Corrigir procedimentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "DEFINIR AÇÕES TÁTICAS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 1,
+    "descricao": "Coletar dados e informações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 2,
+    "descricao": "Analisar dados e informações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados e informações"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 3,
+    "descricao": "Planejar ações da tropa",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Planejar ações da tropa"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 4,
+    "descricao": "Definir comandante da operação",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 5,
+    "descricao": "Distribuir efetivo",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 6,
+    "descricao": "Alocar meios materiais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Alocar meios materiais"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 7,
+    "descricao": "Estabelecer procedimentos operacionais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 8,
+    "descricao": "Avaliar resultados das ações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar resultados das ações"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 9,
+    "descricao": "Planejar emprego de policiamento velado",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "area",
+    "trecho": "EXECUTAR AÇÕES OPERACIONAIS"
+   },
+   {
+    "ocupacao": "020115",
+    "titulo": "Major da polícia militar",
+    "sigla": "E",
+    "area": "EXECUTAR AÇÕES OPERACIONAIS",
+    "numero": 10,
+    "descricao": "Coordenar proteção a testemunhas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 229
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar proteção a testemunhas"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 96497,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=a&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=a&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=a&limite=100&deslocamento=0"
+  }
+ }
+}

@@ -1,0 +1,1822 @@
+{
+ "url": "/api/v1/qbq/itens?q=a&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 550
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "07.01.99.01",
+    "termo": "OUTROS ELEMENTOS (FILOSOFIA) ÉTICA E LEGISLAÇÃO EM COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (FILOSOFIA) INTRODUÇÃO À FILOSOFIA",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 557
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (FILOSOFIA) INTRODUÇÃO À FILOSOFIA"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "07.02.99.01",
+    "termo": "OUTROS ELEMENTOS (SOCIOLOGIA) RELAÇÕES DE DESIGUALDADE, DE OPRESSÃO E/OU DE EXPLORAÇÃO ÉTNICO-RACIAIS, DE CLASSE, DE GÊNERO E DE ORIENTAÇÃO SEXUAL",
+    "descricao_item": "OUTROS ELEMENTOS (SOCIOLOGIA) ACESSIBILIDADE E INCLUSÃO SOCIAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 559
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOCIOLOGIA) ACESSIBILIDADE E INCLUSÃO SOCIAL"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.04.90",
+    "termo": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA",
+    "descricao_item": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 581
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 582
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.07.99.01",
+    "termo": "OUTROS ELEMENTOS (GEOCIÊNCIAS) ECOLOGIA, MEIO AMBIENTE E SUSTENTABILIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (GEOCIÊNCIAS) MEIO AMBIENTE: ECOLOGIA, BIODIVERSIDADE, SUSTENTABILIDADE E INTERVENÇÃO HUMANA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 584
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GEOCIÊNCIAS) MEIO AMBIENTE: ECOLOGIA, BIODIVERSIDADE, SUSTENTABILIDADE E INTERVENÇÃO HUM…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) PLATAFORMAS DIGITAIS DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 587
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) PLATAFORMAS DIGITAIS DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SISTEMAS INTEGRADOS DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 588
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SISTEMAS INTEGRADOS DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÕES APLICADAS À ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 598
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÕES APLICADAS À ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) NORMAS TÉCNICAS APLICÁVEIS AO SERVIÇO PÚBLICO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 599
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) NORMAS TÉCNICAS APLICÁVEIS AO SERVIÇO PÚBLICO"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.03.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 600
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ADMINISTRAÇÃO PÚBLICA: PRINCÍPIOS; PANORAMA DA ADMINISTRAÇÃO PÚBLICA BRASILEIRA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 605
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ADMINISTRAÇÃO PÚBLICA: PRINCÍPIOS; PANORAMA DA…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E GERENCIAMENTO DE RISCOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 606
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E GERENCIAMENTO DE RISCOS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E INTERPRETAÇÃO DE INDICADORES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 607
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E INTERPRETAÇÃO DE INDICADORES"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESEMPENHO E ACCOUNTABILITY NA ADMINISTRAÇÃO PÚBLICA BRASILEIRA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 608
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESEMPENHO E ACCOUNTABILITY NA ADMINISTRAÇÃO PÚ…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESSÕES; PARCERIAS PÚBLICO-PRIVADAS; CONTRATOS DE GESTÃO; CONVÊNIOS E CONSÓRCIOS ADMINISTRATIVOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 617
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESS…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO ESTRATÉGICO: FUNDAMENTOS; COORDENADAS ESTRATÉGICAS; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 621
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO ESTRATÉGICO: FUNDAMENTOS; COORDENA…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO TÁTICO E OPERACIONAL: FUNDAMENTOS; ARTICULAÇÃO COM O PLANEJAMENTO ESTRATÉGICO; DESDOBRAMENTO EM OBJETIVOS, METAS, INDICADORES DE CONTROLE E FORMAS DE AVALIAÇÃO; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 622
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO TÁTICO E OPERACIONAL: FUNDAMENTOS;…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PROCESSO ADMINISTRATIVO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 623
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PROCESSO ADMINISTRATIVO"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) REGIME JURÍDICO DA LICITAÇÃO E DOS CONTRATOS ADMINISTRATIVOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 624
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) REGIME JURÍDICO DA LICITAÇÃO E DOS CONTRATOS AD…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 626
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA GERAL DO ATO ADMINISTRATIVO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 628
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA GERAL DO ATO ADMINISTRATIVO"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) ECONOMIA POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) ECONOMIA: CONCEITOS; ECONOMIA BRASILEIRA, INTERNACIONAL E DO SETOR PÚBLICO; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 629
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…CEITOS; ECONOMIA BRASILEIRA, INTERNACIONAL E DO SETOR PÚBLICO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.02.99.01",
+    "termo": "OUTROS ELEMENTOS (SOCIOLOGIA) RELAÇÕES DE DESIGUALDADE, DE OPRESSÃO E/OU DE EXPLORAÇÃO ÉTNICO-RACIAIS, DE CLASSE, DE GÊNERO E DE ORIENTAÇÃO SEXUAL",
+    "descricao_item": "OUTROS ELEMENTOS (SOCIOLOGIA) ACESSIBILIDADE E INCLUSÃO SOCIAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 632
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOCIOLOGIA) ACESSIBILIDADE E INCLUSÃO SOCIAL"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) ANÁLISE DE POLÍTICAS PÚBLICAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 648
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) ANÁLISE DE POLÍTICAS PÚBLICAS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) AVALIAÇÃO DE POLÍTICAS PÚBLICAS: CUSTO-BENEFÍCIO; ESCALA; EFETIVIDADE; IMPACTO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 649
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) AVALIAÇÃO DE POLÍTICAS PÚBLICAS: CUSTO-BENEFÍCIO; ESCALA; EFETIVIDADE;…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESSÕES; PARCERIAS PÚBLICO-PRIVADAS; CONTRATOS DE GESTÃO; CONVÊNIOS E CONSÓRCIOS ADMINISTRATIVOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 652
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESSÕES; PARCERIAS PÚBLICO-PRIVADAS; CONTR…"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS: CONCEITOS; PROCESSO DE ELABORAÇÃO; IMPLEMENTAÇÃO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 654
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…AS PÚBLICAS: CONCEITOS; PROCESSO DE ELABORAÇÃO; IMPLEMENTAÇÃO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA POLÍTICA) FUNDAMENTOS DE CIÊNCIA POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA POLÍTICA) REALIDADE BRASILEIRA: PERFIL DEMOGRÁFICO; INDICADORES SOCIAIS; DESENVOLVIMENTO URBANO; POLÍTICA EXTERNA; BIOMAS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 658
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…RES SOCIAIS; DESENVOLVIMENTO URBANO; POLÍTICA EXTERNA; BIOMAS; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 661
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS AS…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.04.90",
+    "termo": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA",
+    "descricao_item": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 668
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (MATEMÁTICA APLICADA) MATEMÁTICA APLICADA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.03.90",
+    "termo": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA À ECONOMIA E FINANÇAS",
+    "descricao_item": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 669
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PROBABILIDADE E ESTATÍSTICA APLICADAS) ESTATÍSTICA APLICADA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) PLATAFORMAS DIGITAIS DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 674
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) PLATAFORMAS DIGITAIS DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SISTEMAS INTEGRADOS DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 676
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SISTEMAS INTEGRADOS DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DESPESA PÚBLICA: CONCEITO; CLASSIFICAÇÃO; TÉCNICA DE EXECUÇÃO - EMPENHO, LIQUIDAÇÃO E PAGAMENTO; PRECATÓRIOS; LEI DE RESPONSABILIDADE FISCAL; REGRA DE OURO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 686
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…O; PRECATÓRIOS; LEI DE RESPONSABILIDADE FISCAL; REGRA DE OURO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DÍVIDA ATIVA DA UNIÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 688
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DÍVIDA ATIVA DA UNIÃO"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÕES APLICADAS À ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 691
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÕES APLICADAS À ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) NORMAS TÉCNICAS APLICÁVEIS AO SERVIÇO PÚBLICO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 692
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) NORMAS TÉCNICAS APLICÁVEIS AO SERVIÇO PÚBLICO"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) ORÇAMENTO: CONCEITOS; ESPÉCIES; NATUREZA JURÍDICA; PRINCÍPIOS ORÇAMENTÁRIOS; NORMAS GERAIS; FISCALIZAÇÃO E CONTROLE DOS ORÇAMENTOS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 693
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…TÁRIOS; NORMAS GERAIS; FISCALIZAÇÃO E CONTROLE DOS ORÇAMENTOS; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) RECEITA PÚBLICA: CONCEITO; CLASSIFICAÇÃO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 694
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OS (DIREITO PÚBLICO) RECEITA PÚBLICA: CONCEITO; CLASSIFICAÇÃO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.03.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 696
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ADMINISTRAÇÃO PÚBLICA: PRINCÍPIOS; PANORAMA DA ADMINISTRAÇÃO PÚBLICA BRASILEIRA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 699
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ADMINISTRAÇÃO PÚBLICA: PRINCÍPIOS; PANORAMA DA…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E GERENCIAMENTO DE RISCOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 700
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E GERENCIAMENTO DE RISCOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E INTERPRETAÇÃO DE INDICADORES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 701
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ANÁLISE E INTERPRETAÇÃO DE INDICADORES"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) CONTROLE E AVALIAÇÃO DA EXECUÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 703
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) CONTROLE E AVALIAÇÃO DA EXECUÇÃO ORÇAMENTÁRIA E…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESEMPENHO E ACCOUNTABILITY NA ADMINISTRAÇÃO PÚBLICA BRASILEIRA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 704
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESEMPENHO E ACCOUNTABILITY NA ADMINISTRAÇÃO PÚ…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MÉTODOS DE PLANEJAMENTO APLICADOS AO DESENHO DE PROGRAMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 709
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MÉTODOS DE PLANEJAMENTO APLICADOS AO DESENHO DE…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESSÕES; PARCERIAS PÚBLICO-PRIVADAS; CONTRATOS DE GESTÃO; CONVÊNIOS E CONSÓRCIOS ADMINISTRATIVOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 710
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MODALIDADES DE ACORDOS ADMINISTRATIVOS: CONCESS…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ORÇAMENTO PÚBLICO: CONCEITOS; ELEMENTOS BÁSICOS; ORÇAMENTO TRADICIONAL E DE BASE ZERO; ORÇAMENTO DE DESEMPENHO; ORÇAMENTO PROGRAMA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 711
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ORÇAMENTO PÚBLICO: CONCEITOS; ELEMENTOS BÁSICOS…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO ESTRATÉGICO: FUNDAMENTOS; COORDENADAS ESTRATÉGICAS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 715
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO ESTRATÉGICO: FUNDAMENTOS; COORDENA…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO TÁTICO E OPERACIONAL: FUNDAMENTOS; ARTICULAÇÃO COM O PLANEJAMENTO ESTRATÉGICO; DESDOBRAMENTO EM OBJETIVOS, METAS, INDICADORES DE CONTROLE E FORMAS DE AVALIAÇÃO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 716
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANEJAMENTO TÁTICO E OPERACIONAL: FUNDAMENTOS;…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANO PLURIANUAL, LEI DE DIRETRIZES ORÇAMENTÁRIAS E LEI ORÇAMENTÁRIA ANUAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 717
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PLANO PLURIANUAL, LEI DE DIRETRIZES ORÇAMENTÁRI…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PROCESSO ADMINISTRATIVO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 718
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) PROCESSO ADMINISTRATIVO"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) REGIME JURÍDICO DA LICITAÇÃO E DOS CONTRATOS ADMINISTRATIVOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 719
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) REGIME JURÍDICO DA LICITAÇÃO E DOS CONTRATOS AD…"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 723
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA DA ADMINISTRAÇÃO PÚBLICA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA GERAL DO ATO ADMINISTRATIVO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 725
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) TEORIA GERAL DO ATO ADMINISTRATIVO"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) ECONOMIA POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) DESAFIOS CONTEMPORÂNEOS DO DESENVOLVIMENTO BRASILEIRO: INFRAESTRUTURA; ASPECTO SOCIAL; OUTROS DETERMINANTES",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 726
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ESAFIOS CONTEMPORÂNEOS DO DESENVOLVIMENTO BRASILEIRO: INFRAESTRUTURA; ASPECTO SOCIAL; OUTROS DETERMINANTES"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) ECONOMIA POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA ECONÔMICA) ECONOMIA: CONCEITOS; ECONOMIA BRASILEIRA, INTERNACIONAL E DO SETOR PÚBLICO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 727
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…CEITOS; ECONOMIA BRASILEIRA, INTERNACIONAL E DO SETOR PÚBLICO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA POLÍTICA) POLÍTICAS ORGANIZACIONAIS E CULTURA INSTITUCIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA POLÍTICA) FUNDAMENTOS DE TEORIA POLÍTICA APLICADA",
+    "importancia": 2,
+    "frequencia": 2,
+    "profundidade": 2,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 738
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA POLÍTICA) FUNDAMENTOS DE TEORIA POLÍTICA APLICADA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTADO E GOVERNO) DEMOCRACIA E CIDADANIA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTADO E GOVERNO) PROCESSOS PARTICIPATIVOS DE GESTÃO PÚBLICA: ORÇAMENTO PARTICIPATIVO; PARCERIA ENTRE GOVERNO E SOCIEDADE; OUVIDORIAS; GOVERNANÇA INTERNA E EXTERNA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 742
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…GOVERNO E SOCIEDADE; OUVIDORIAS; GOVERNANÇA INTERNA E EXTERNA; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) MONITORAMENTO E AVALIAÇÃO DE POLÍTICAS PÚBLICAS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 746
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) MONITORAMENTO E AVALIAÇÃO DE POLÍTICAS PÚBLICAS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA POLÍTICA) FUNDAMENTOS DE CIÊNCIA POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA POLÍTICA) REALIDADE BRASILEIRA: PERFIL DEMOGRÁFICO; INDICADORES SOCIAIS; DESENVOLVIMENTO URBANO; POLÍTICA EXTERNA; BIOMAS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 747
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…RES SOCIAIS; DESENVOLVIMENTO URBANO; POLÍTICA EXTERNA; BIOMAS; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 750
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OMUNICAÇÃO ESCRITA EM GOVERNO: CORRESPONDÊNCIA OFICIAL; LINGUAGEM DOS ATOS NORMATIVOS; ESTRUTURA E MODELOS DE DOCUMENTOS OFICIAIS; OUTROS AS…"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "05.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO DA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES POLÍTICO-PARTIDÁRIAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 17
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES POLÍTICO-PARTIDÁRIAS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ANÁLISE DE CONJUNTURA: FUNÇÃO; ABRANGÊNCIA; METODOLOGIAS; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 21
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ANÁLISE DE CONJUNTURA: FUNÇÃO; ABRANGÊNCIA; METODOLOGIAS; OUTROS ASPEC…"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS E CONVENÇÕES PARTIDÁRIAS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 25
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS E CONVENÇÕES PARTIDÁRIAS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO E FUNCIONAMENTO DOS PARTIDOS POLÍTICOS: CRIAÇÃO E REGISTRO; FUNCIONAMENTO PARLAMENTAR; PROGRAMA; ESTATUTO; FILIAÇÃO PARTIDÁRIA; FIDELIDADE E DISCIPLINA PARTIDÁRIAS; FUSÃO, INCORPORAÇÃO E EXTINÇÃO DE PARTIDOS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 26
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…PLINA PARTIDÁRIAS; FUSÃO, INCORPORAÇÃO E EXTINÇÃO DE PARTIDOS; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO DE RECURSOS FINANCEIROS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 35
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO DE RECURSOS FINANCEI…"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO DE RECURSOS MATERIAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 36
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO DE RECURSOS MATERIAI…"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "11.06.90",
+    "termo": "OUTROS CONHECIMENTOS DE LEVANTAMENTO DE INFORMAÇÕES (ESPECIFICAR:...) - PESQUISA DE MERCADO CONSUMIDOR E DE TENDÊNCIAS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE LEVANTAMENTO DE INFORMAÇÕES (ESPECIFICAR:...) - PESQUISAS ELEITORAIS: PLANEJAMENTO; ESTRUTURA; FERRAMENTAS UTILIZADAS; ANÁLISE; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 38
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ESQUISAS ELEITORAIS: PLANEJAMENTO; ESTRUTURA; FERRAMENTAS UTILIZADAS; ANÁLISE; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "11.12.90",
+    "termo": "OUTROS CONHECIMENTOS DE PROCESSOS CONTÁBEIS E FINANCEIROS (ESPECIFICAR:...) - CONTROLE DE FLUXO DE CAIXA NA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE PROCESSOS CONTÁBEIS E FINANCEIROS (ESPECIFICAR:...) - FINANÇAS E CONTABILIDADE DOS PARTIDOS: PRESTAÇÃO DE CONTAS; FUNDO PARTIDÁRIO; FUNDO ESPECIAL DE FINANCIAMENTO DE CAMPANHA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 45
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…FUNDO PARTIDÁRIO; FUNDO ESPECIAL DE FINANCIAMENTO DE CAMPANHA; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "17.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE EVENTOS E LAZER (ESPECIFICAR:..) - TÉCNICAS DE ANIMAÇÃO SOCIOCULTURAIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE EVENTOS E LAZER (ESPECIFICAR:..) - ORGANIZAÇÃO DE EVENTOS POLÍTICOS: PLANEJAMENTO; INFRAESTRUTURA; RECEPÇÃO; CERIMONIAL E PROTOCOLO; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 57
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…LANEJAMENTO; INFRAESTRUTURA; RECEPÇÃO; CERIMONIAL E PROTOCOLO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "05.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO DA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - ACORDOS E CONVENÇÕES COLETIVAS DE TRABALHO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 77
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - ACORDOS E CONVENÇÕES COLETIVAS DE TRABALHO"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "05.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO DA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES SINDICAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 80
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES SINDICAIS"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - COORDENAÇÃO DOS SERVIÇOS DE ASSISTÊNCIA NAS ENTIDADES DE TRABALHADORES",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 83
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - COORDENAÇÃO DOS SERVIÇOS DE ASSISTÊNCIA NAS ENTIDADES DE TRABALHADORES"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ESTRATÉGIAS DE NEGOCIAÇÃO NA DEFESA DE INTERESSES DE ASSOCIADOS E REPRESENTADOS DAS ENTIDADES DE TRABALHADORES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 85
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…PECIFICAR:...) - ESTRATÉGIAS DE NEGOCIAÇÃO NA DEFESA DE INTERESSES DE ASSOCIADOS E REPRESENTADOS DAS ENTIDADES DE TRABALHADORES"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ESTRUTURAÇÃO DE SINDICATOS DE TRABALHADORES: LEGISLAÇÃO ESPECÍFICA; BASE TERRITORIAL; CATEGORIAS PROFISSIONAIS; UNICIDADE SINDICAL; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 87
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ASE TERRITORIAL; CATEGORIAS PROFISSIONAIS; UNICIDADE SINDICAL; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS SINDICAIS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 88
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS SINDICAIS"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE EDUCAÇÃO (ESPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS ASPECTOS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE EDUCAÇÃO (ESPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 93
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…SPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS AS…"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "07.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - VOCABULÁRIO TÉCNICO DA ÁREA TÊXTIL",
+    "descricao_item": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - ELABORAÇÃO DE ATAS E RELATÓRIOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 100
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - ELABORAÇÃO DE ATAS E RELATÓRIOS"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE ENTIDADES DE TRABALHADORES",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 104
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE ENTIDADES…"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO FINANCEIRA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 105
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO FINANCEIRA"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO PATRIMONIAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 106
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO PATRIMONIAL"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "11.12.90",
+    "termo": "OUTROS CONHECIMENTOS DE PROCESSOS CONTÁBEIS E FINANCEIROS (ESPECIFICAR:...) - CONTROLE DE FLUXO DE CAIXA NA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE PROCESSOS CONTÁBEIS E FINANCEIROS (ESPECIFICAR:...) - ARRECADAÇÃO DE RECURSOS FINANCEIROS PARA ENTIDADES DE TRABALHADORES",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 112
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ONHECIMENTOS DE PROCESSOS CONTÁBEIS E FINANCEIROS (ESPECIFICAR:...) - ARRECADAÇÃO DE RECURSOS FINANCEIROS PARA ENTIDADES DE TRABALHADORES"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "dimensao": "conhecimentos",
+    "codigo": "17.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE EVENTOS E LAZER (ESPECIFICAR:..) - TÉCNICAS DE ANIMAÇÃO SOCIOCULTURAIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE EVENTOS E LAZER (ESPECIFICAR:..) - ORGANIZAÇÃO DE EVENTOS SINDICAIS: PLANEJAMENTO; INFRAESTRUTURA; COORDENAÇÃO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 121
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…EVENTOS SINDICAIS: PLANEJAMENTO; INFRAESTRUTURA; COORDENAÇÃO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "02.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE ECOLOGIA E GESTÃO AMBIENTAL (ESPECIFICAR:...) - DESENVOLVIMENTO SUSTENTÁVEL",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ECOLOGIA E GESTÃO AMBIENTAL (ESPECIFICAR:...) - DESENVOLVIMENTO SUSTENTÁVEL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 127
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ECOLOGIA E GESTÃO AMBIENTAL (ESPECIFICAR:...) - DESENVOLVIMENTO SUSTENTÁVEL"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "05.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS ECONÔMICOS E DEMOGRÁFICOS (ESPECIFICAR:...) - FUNDAMENTOS DE ECONOMIA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS ECONÔMICOS E DEMOGRÁFICOS (ESPECIFICAR:...) - AGÊNCIAS DE FOMENTO À ATIVIDADE EMPRESARIAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 130
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ONHECIMENTOS DE ESTUDOS ECONÔMICOS E DEMOGRÁFICOS (ESPECIFICAR:...) - AGÊNCIAS DE FOMENTO À ATIVIDADE EMPRESARIAL"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "05.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO DA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - ACORDOS E CONVENÇÕES COLETIVAS DE TRABALHO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 145
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - ACORDOS E CONVENÇÕES COLETIVAS DE TRABALHO"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "05.04.90",
+    "termo": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO DA PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES SINDICAIS PATRONAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 150
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE DIREITO (ESPECIFICAR:...) - LEGISLAÇÃO APLICÁVEL ÀS ATIVIDADES SINDICAIS PATRONAIS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - COORDENAÇÃO DOS SERVIÇOS DE ASSISTÊNCIA NAS ENTIDADES PATRONAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 154
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - COORDENAÇÃO DOS SERVIÇOS DE ASSISTÊNCIA NAS ENTIDADES PATRONAIS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ESTRATÉGIAS DE NEGOCIAÇÃO NA DEFESA DE INTERESSES DE ASSOCIADOS E REPRESENTADOS DAS ENTIDADES PATRONAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 156
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…PECIFICAR:...) - ESTRATÉGIAS DE NEGOCIAÇÃO NA DEFESA DE INTERESSES DE ASSOCIADOS E REPRESENTADOS DAS ENTIDADES PATRONAIS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ESTRUTURAÇÃO DE SINDICATOS PATRONAIS: LEGISLAÇÃO ESPECÍFICA; BASE TERRITORIAL; CATEGORIAS ECONÔMICAS; UNICIDADE SINDICAL; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 158
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…; BASE TERRITORIAL; CATEGORIAS ECONÔMICAS; UNICIDADE SINDICAL; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS SINDICAIS PATRONAIS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 159
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO DE ASSEMBLEIAS SINDICAIS PATRONAIS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - PAPEL DAS ASSOCIAÇÕES E CENTROS DE ORGANIZAÇÃO E ATUAÇÃO PATRONAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 160
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - PAPEL DAS ASSOCIAÇÕES E CENTROS DE ORGANIZAÇÃO E ATUAÇÃO PATRONAL"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE EDUCAÇÃO (ESPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS ASPECTOS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE EDUCAÇÃO (ESPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 163
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…SPECIFICAR:...) - FUNDAMENTOS DA EDUCAÇÃO PROFISSIONAL: QUALIFICAÇÃO, APERFEIÇOAMENTO E ESPECIALIZAÇÃO PROFISSIONAL; APRENDIZAGEM; OUTROS AS…"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "07.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - VOCABULÁRIO TÉCNICO DA ÁREA TÊXTIL",
+    "descricao_item": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - ELABORAÇÃO DE ATAS E RELATÓRIOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 170
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE LÍNGUAS (ESPECIFICAR:...) - ELABORAÇÃO DE ATAS E RELATÓRIOS"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE ENTIDADES PATRONAIS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 176
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE ENTIDADES…"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ENTIDADES CORPORATIVAS VOLTADAS PARA O TREINAMENTO PROFISSIONAL, ASSISTÊNCIA SOCIAL, CONSULTORIA, PESQUISA E ASSISTÊNCIA TÉCNICA: FINALIDADES; REGIMENTOS; FORMAS DE SUSTENTAÇÃO FINANCEIRA; ADMINISTRAÇÃO; TRANSPARÊNCIA E PRESTAÇÃO DE CONTAS; OUTROS ASPECTOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 177
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - ENTIDADES CORPORATIVAS VOLT…"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO FINANCEIRA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 178
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO FINANCEIRA"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "11.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - CRONOGRAMA FÍSICO E FINANCEIRO EM PRODUÇÃO AGRÍCOLA",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO PATRIMONIAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 179
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ADMINISTRAÇÃO E GESTÃO (ESPECIFICAR:...) - GESTÃO PATRIMONIAL"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 36063,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=a&limite=100&deslocamento=100",
+   "proxima": "/api/v1/qbq/itens?q=a&limite=100&deslocamento=200",
+   "anterior": "/api/v1/qbq/itens?q=a&limite=100&deslocamento=0"
+  }
+ }
+}

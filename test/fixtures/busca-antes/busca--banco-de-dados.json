@@ -1,0 +1,157 @@
+{
+ "url": "/api/v1/busca?q=banco+de+dados",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [
+    {
+     "tipo": "ocupacao",
+     "identificador": "212305",
+     "rotulo": "Administrador de banco de dados",
+     "casou_em": "titulo",
+     "trecho": "Administrador de banco de dados",
+     "link": "/api/v1/ocupacoes/212305"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "212420",
+     "rotulo": "Analista de suporte computacional",
+     "casou_em": "sinonimo",
+     "trecho": "Analista de suporte de banco de dados",
+     "link": "/api/v1/ocupacoes/212420"
+    }
+   ],
+   "sinonimo": [
+    {
+     "tipo": "sinonimo",
+     "identificador": "212305",
+     "rotulo": "Tecnólogo em banco de dados",
+     "casou_em": "sinonimo",
+     "trecho": "Tecnólogo em banco de dados",
+     "link": "/api/v1/ocupacoes/212305"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "212420",
+     "rotulo": "Analista de suporte de banco de dados",
+     "casou_em": "sinonimo",
+     "trecho": "Analista de suporte de banco de dados",
+     "link": "/api/v1/ocupacoes/212420"
+    }
+   ],
+   "familia": [],
+   "atividade": [
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Selecionar variáveis componentes do banco de dados",
+     "casou_em": "atividade",
+     "trecho": "Selecionar variáveis componentes do banco de dados",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Criar dicionário de dados",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Estabelecer nível de agregação a ser disponibilizado",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Descrever conteúdo dos dados (meta-dados)",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Acrescentar variáveis ao banco de dados",
+     "casou_em": "atividade",
+     "trecho": "Acrescentar variáveis ao banco de dados",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Atualizar dados",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Avaliar qualidade do banco de dados",
+     "casou_em": "atividade",
+     "trecho": "Avaliar qualidade do banco de dados",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211205",
+     "rotulo": "Dar suporte na utilização dos bancos de dados",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211210",
+     "rotulo": "Selecionar variáveis componentes do banco de dados",
+     "casou_em": "atividade",
+     "trecho": "Selecionar variáveis componentes do banco de dados",
+     "link": "/api/v1/ocupacoes/211210/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "211210",
+     "rotulo": "Criar dicionário de dados",
+     "casou_em": "atividade",
+     "trecho": "CRIAR BANCO DE DADOS",
+     "link": "/api/v1/ocupacoes/211210/atividades"
+    }
+   ],
+   "termo": [
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.01.02",
+     "rotulo": "BANCO DE DADOS",
+     "casou_em": "termo",
+     "trecho": "BANCO DE DADOS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.01.02"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/elementos/01.03.03.03",
+     "rotulo": "BANCO DE DADOS",
+     "casou_em": "termo",
+     "trecho": "BANCO DE DADOS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/elementos/01.03.03.03"
+    }
+   ],
+   "conceito": []
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=banco+de+dados",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

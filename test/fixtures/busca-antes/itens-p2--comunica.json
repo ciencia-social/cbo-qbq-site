@@ -1,0 +1,1822 @@
+{
+ "url": "/api/v1/qbq/itens?q=comunica&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "131110",
+    "titulo": "Diretor de serviços sociais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS SOCIAIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4504
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS SOCIAIS"
+   },
+   {
+    "ocupacao": "131115",
+    "titulo": "Gerente de serviços culturais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO APLICADAS A SERVIÇOS CULTURAIS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4544
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO APLICADAS A SE…"
+   },
+   {
+    "ocupacao": "131115",
+    "titulo": "Gerente de serviços culturais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM RÁDIO E TELEVISÃO APLICADOS A SERVIÇOS CULTURAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4581
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM RÁDIO E TELEVISÃO APLICADOS A SERVIÇOS CUL…"
+   },
+   {
+    "ocupacao": "131115",
+    "titulo": "Gerente de serviços culturais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM REDES SOCIAIS APLICADOS A SERVIÇOS CULTURAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4582
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM REDES SOCIAIS APLICADOS A SERVIÇOS CULTURA…"
+   },
+   {
+    "ocupacao": "131115",
+    "titulo": "Gerente de serviços culturais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS CULTURAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4583
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS CULTURAIS"
+   },
+   {
+    "ocupacao": "131120",
+    "titulo": "Gerente de serviços sociais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO APLICADAS A SERVIÇOS SOCIAIS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4631
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO APLICADAS A SE…"
+   },
+   {
+    "ocupacao": "131120",
+    "titulo": "Gerente de serviços sociais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM RÁDIO E TELEVISÃO APLICADOS A SERVIÇOS SOCIAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4669
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM RÁDIO E TELEVISÃO APLICADOS A SERVIÇOS SOC…"
+   },
+   {
+    "ocupacao": "131120",
+    "titulo": "Gerente de serviços sociais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM REDES SOCIAIS APLICADOS A SERVIÇOS SOCIAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4670
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EM REDES SOCIAIS APLICADOS A SERVIÇOS SOCIAIS"
+   },
+   {
+    "ocupacao": "131120",
+    "titulo": "Gerente de serviços sociais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS SOCIAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4671
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO VISUAL URBANA APLICADA A SERVIÇOS SOCIAIS"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "dimensao": "conhecimentos",
+    "codigo": "04.01.01.90",
+    "termo": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) CLÍNICA MÉDICA - PROPEDÊUTICA APLICADA ÀS ESPECIALIDADES",
+    "descricao_item": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO DE INFORMAÇÃO DE SAÚDE",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4750
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO DE INFORMAÇÃO DE SAÚDE"
+   },
+   {
+    "ocupacao": "131205",
+    "titulo": "Diretor de serviços de saúde",
+    "dimensao": "conhecimentos",
+    "codigo": "04.01.01.90",
+    "termo": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) CLÍNICA MÉDICA - PROPEDÊUTICA APLICADA ÀS ESPECIALIDADES",
+    "descricao_item": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO E SEGURANÇA DO PACIENTE",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4751
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO E SEGURANÇA DO PACIENTE"
+   },
+   {
+    "ocupacao": "131210",
+    "titulo": "Gerente de serviços de saúde",
+    "dimensao": "conhecimentos",
+    "codigo": "04.01.01.90",
+    "termo": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) CLÍNICA MÉDICA - PROPEDÊUTICA APLICADA ÀS ESPECIALIDADES",
+    "descricao_item": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO DE INFORMAÇÃO DE SAÚDE",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4829
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CLÍNICA MÉDICA) COMUNICAÇÃO DE INFORMAÇÃO DE SAÚDE"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE APLICADO À GESTÃO DE SERVIÇOS HOSPITALARES",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 200
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE APLICADO À GESTÃO DE SERVIÇOS…"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - TÉCNICAS DE INFORMÁTICA APLICADA À GESTÃO DE SERVIÇOS HOSPITALARES",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 201
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - TÉCNICAS DE INFORMÁTICA APLICADA À GES…"
+   },
+   {
+    "ocupacao": "131215",
+    "titulo": "Tecnólogo em gestão hospitalar",
+    "dimensao": "conhecimentos",
+    "codigo": "05.03.90",
+    "termo": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - ATENDIMENTO TELEFÔNICO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - COMUNICAÇÃO EFETIVA PARA O TRABALHO EM EQUIPE",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 207
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - COMUNICAÇÃO EFETIVA PARA O TRABALHO EM…"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "07.07.05.90",
+    "termo": "OUTROS ELEMENTOS (PSICOLOGIA SOCIAL) PSICOLOGIA SOCIAL E DO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (PSICOLOGIA SOCIAL) COMUNICAÇÃO HUMANA E SOCIEDADE",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5001
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (PSICOLOGIA SOCIAL) COMUNICAÇÃO HUMANA E SOCIEDADE"
+   },
+   {
+    "ocupacao": "131220",
+    "titulo": "Gerontólogo",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TÉCNICAS DE EXPRESSÃO E COMUNICAÇÃO EM GERONTOLOGIA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5009
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) TÉCNICAS DE EXPRESSÃO E COMUNICAÇÃO EM GERONTOLOGIA"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "dimensao": "conhecimentos",
+    "codigo": "04.01.99.01",
+    "termo": "OUTROS ELEMENTOS (MEDICINA) NORMAS TÉCNICAS APLICADAS À MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (MEDICINA) COMUNICAÇÃO E PROCESSOS EDUCATIVOS EM SAÚDE",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5044
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (MEDICINA) COMUNICAÇÃO E PROCESSOS EDUCATIVOS EM SAÚDE"
+   },
+   {
+    "ocupacao": "131225",
+    "titulo": "Sanitarista",
+    "dimensao": "conhecimentos",
+    "codigo": "08.02.01.90",
+    "termo": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) PORTUGUÊS INSTRUMENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5122
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (LÍNGUA PORTUGUESA) COMUNICAÇÃO E EXPRESSÃO"
+   },
+   {
+    "ocupacao": "131305",
+    "titulo": "Diretor de instituição educacional da área privada",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS AO ENSINO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5140
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS AO E…"
+   },
+   {
+    "ocupacao": "131305",
+    "titulo": "Diretor de instituição educacional da área privada",
+    "dimensao": "conhecimentos",
+    "codigo": "07.08.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) GESTÃO E AS PRÁTICAS DE FORMAÇÃO DE PROFESSORES",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) COMUNICAÇÃO ESTRATÉGICA PARA GESTÃO DE EQUIPES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5152
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) COMUNICAÇÃO ESTRATÉGICA PARA GESTÃO DE EQUIPES"
+   },
+   {
+    "ocupacao": "131310",
+    "titulo": "Diretor de instituição educacional pública",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS AO ENSINO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5240
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS AO E…"
+   },
+   {
+    "ocupacao": "131310",
+    "titulo": "Diretor de instituição educacional pública",
+    "dimensao": "conhecimentos",
+    "codigo": "07.08.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) GESTÃO E AS PRÁTICAS DE FORMAÇÃO DE PROFESSORES",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) COMUNICAÇÃO ESTRATÉGICA PARA GESTÃO DE EQUIPES",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5254
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO EDUCACIONAL) COMUNICAÇÃO ESTRATÉGICA PARA GESTÃO DE EQUIPES"
+   },
+   {
+    "ocupacao": "131315",
+    "titulo": "Gerente de instituição educacional da área privada",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS À ADMINISTRAÇÃO ESCOLAR",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5343
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS À AD…"
+   },
+   {
+    "ocupacao": "131320",
+    "titulo": "Gerente de serviços educacionais da área pública",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS À ADMINISTRAÇÃO ESCOLAR",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5413
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TECNOLOGIAS DA COMUNICAÇÃO E DA INFORMAÇÃO APLICADAS À AD…"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5988
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5989
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 5990
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS"
+   },
+   {
+    "ocupacao": "141405",
+    "titulo": "Comerciante atacadista",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6008
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6066
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6067
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6068
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6082
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA"
+   },
+   {
+    "ocupacao": "141410",
+    "titulo": "Comerciante varejista",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.04.90",
+    "termo": "OUTROS ELEMENTOS (RELAÇÕES PÚBLICAS E PROPAGANDA) RELAÇÕES INSTITUCIONAIS, PODER E POLÍTICA",
+    "descricao_item": "OUTROS ELEMENTOS (RELAÇÕES PÚBLICAS E PROPAGANDA) PROJETOS DE MARKETING PARA COMÉRCIO VAREJISTA: SEGMENTAÇÃO DE MERCADO; USO DE GEOMARKETING; PORTFÓLIO DE PRODUTOS E SERVIÇOS; CANAIS DE VENDAS; ESTRATÉGICAS DE COMUNICAÇÃO; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6111
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…; PORTFÓLIO DE PRODUTOS E SERVIÇOS; CANAIS DE VENDAS; ESTRATÉGICAS DE COMUNICAÇÃO; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6135
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6136
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6137
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS"
+   },
+   {
+    "ocupacao": "141415",
+    "titulo": "Gerente de loja e supermercado",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6149
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6204
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) DISPOSITIVOS DE AUTOMAÇÃO"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) EQUIPAMENTOS PARA ASSISTÊNCIA TÉCNICA REMOTA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6205
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) EQUIPAMENTOS PARA ASSISTÊNCIA TÉCNICA REMOTA"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) EQUIPAMENTOS PARA REALIDADE AUMENTADA",
+    "importancia": 5,
+    "frequencia": 2,
+    "profundidade": 2,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6206
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) EQUIPAMENTOS PARA REALIDADE AUMENTADA"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6207
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ETIQUETAS DE IDENTIFICAÇÃO POR RADIOFREQUÊNCIA (RFID)"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) IMPRESSORA 3D",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6208
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) IMPRESSORA 3D"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6209
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) LEITORES DE CÓDIGO DE BARRAS"
+   },
+   {
+    "ocupacao": "141420",
+    "titulo": "Gerente de operações de serviços de assistência técnica",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6221
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA INFORMAÇÃO E COMUNICAÇÃO DA EMPRESA"
+   },
+   {
+    "ocupacao": "141505",
+    "titulo": "Gerente de hotel",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6269
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDAD…"
+   },
+   {
+    "ocupacao": "141510",
+    "titulo": "Gerente de restaurante",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 280
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELE…"
+   },
+   {
+    "ocupacao": "141510",
+    "titulo": "Gerente de restaurante",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE AUTOMAÇÃO COMERCIAL: SISTEMAS PDV; DELIVERY; CARDÁPIO DIGITAL; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 281
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE AUTOMAÇÃO COMERCIAL: SISTE…"
+   },
+   {
+    "ocupacao": "141510",
+    "titulo": "Gerente de restaurante",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 282
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANO…"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 355
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELE…"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE AUTOMAÇÃO COMERCIAL: SISTEMAS PDV; DELIVERY; CARDÁPIO DIGITAL; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 356
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE AUTOMAÇÃO COMERCIAL: SISTE…"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 357
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANO…"
+   },
+   {
+    "ocupacao": "141515",
+    "titulo": "Gerente de bar",
+    "dimensao": "conhecimentos",
+    "codigo": "14.07.90",
+    "termo": "OUTROS CONHECIMENTOS DE MARKETING (ESPECIFICAR:...) - AMBIENTE DE CALL CENTER MODERNO: AMBIÊNCIA, QUALIDADE E CONFORTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE MARKETING (ESPECIFICAR:...) - MARKETING E COMUNICAÇÃO PARA NEGÓCIOS EM BEBIDAS E ALIMENTAÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 400
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE MARKETING (ESPECIFICAR:...) - MARKETING E COMUNICAÇÃO PARA NEGÓCIOS EM BEBIDAS E ALIMENTAÇÃO"
+   },
+   {
+    "ocupacao": "141520",
+    "titulo": "Gerente de pensão",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 427
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELE…"
+   },
+   {
+    "ocupacao": "141520",
+    "titulo": "Gerente de pensão",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMA CRM (CUSTOMER RELATION MANAGEMENT)",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 428
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMA CRM (CUSTOMER RELATION MANAGEM…"
+   },
+   {
+    "ocupacao": "141520",
+    "titulo": "Gerente de pensão",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 429
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANO…"
+   },
+   {
+    "ocupacao": "141525",
+    "titulo": "Gerente de turismo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 488
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELE…"
+   },
+   {
+    "ocupacao": "141525",
+    "titulo": "Gerente de turismo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMA CRM (CUSTOMER RELATION MANAGEMENT)",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 489
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMA CRM (CUSTOMER RELATION MANAGEM…"
+   },
+   {
+    "ocupacao": "141525",
+    "titulo": "Gerente de turismo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DE NEGÓCIO EM TURISMO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 490
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DE NEGÓCIO EM TURIS…"
+   },
+   {
+    "ocupacao": "141525",
+    "titulo": "Gerente de turismo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 491
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS DE GESTÃO DOS RECURSOS HUMANO…"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "03.04.06.90",
+    "termo": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES MÓVEIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6409
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES MÓVEIS"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "03.04.06.90",
+    "termo": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES ÓPTICAS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6410
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES ÓPTICAS"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "03.04.06.90",
+    "termo": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES SEM FIO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6411
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) COMUNICAÇÕES SEM FIO"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "03.04.06.90",
+    "termo": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6413
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "141610",
+    "titulo": "Gerente de operações de correios e telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "03.04.06.90",
+    "termo": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) FUNDAMENTOS DE REDES DE COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TELECOMUNICAÇÕES) TENDÊNCIAS NA ÁREA DE OPERAÇÕES DE TELECOMUNICAÇÕES: CONVERGÊNCIA DE VOZ, DADOS E TV; COMUNICAÇÃO VIA INTERNET (VOIP); NOVAS TECNOLOGIAS EM BANDA LARGA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6420
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…EA DE OPERAÇÕES DE TELECOMUNICAÇÕES: CONVERGÊNCIA DE VOZ, DADOS E TV; COMUNICAÇÃO VIA INTERNET (VOIP); NOVAS TECNOLOGIAS EM BANDA LARGA; OUT…"
+   },
+   {
+    "ocupacao": "141705",
+    "titulo": "Gerente de produtos bancários",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) FUNDAMENTOS DO DESENVOLVIMENTO DE SISTEMAS PARA OPERACIONALIZAÇÃO DE NOVOS PRODUTOS E SERVIÇOS BANCÁRIOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6552
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) FUNDAMENTOS DO DESENVOLVIMENTO DE SISTEMAS PARA OPERACION…"
+   },
+   {
+    "ocupacao": "141725",
+    "titulo": "Gerente de crédito imobiliário",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6899
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDAD…"
+   },
+   {
+    "ocupacao": "141730",
+    "titulo": "Gerente de crédito rural",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDADE E MARKETING",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 6998
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) ESTRATÉGIAS DIGITAIS PARA COMÉRCIO ELETRÔNICO, PUBLICIDAD…"
+   },
+   {
+    "ocupacao": "141815",
+    "titulo": "Gerente de operações em aeroportos",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.03.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE SETORES ESPECÍFICOS) GESTÃO DE PESSOAS",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE SETORES ESPECÍFICOS) PRINCIPAIS SERVIÇOS AUXILIARES ÀS OPERAÇÕES DE VOO: CONTROLE DE CARGA; COMUNICAÇÕES; CONTROLE AÉREO; PLANEJAMENTO DE VOOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 7394
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…RINCIPAIS SERVIÇOS AUXILIARES ÀS OPERAÇÕES DE VOO: CONTROLE DE CARGA; COMUNICAÇÕES; CONTROLE AÉREO; PLANEJAMENTO DE VOOS"
+   },
+   {
+    "ocupacao": "142120",
+    "titulo": "Tecnólogo em gestão administrativo- financeira",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS INTEGRADOS DE APOIO À GESTÃO ADMINISTRATIVO-FINANCEIRA CORPORATIVA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 562
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SISTEMAS INTEGRADOS DE APOIO À GESTÃO…"
+   },
+   {
+    "ocupacao": "142120",
+    "titulo": "Tecnólogo em gestão administrativo- financeira",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - SISTEMAS ANALÍTICOS APLICADOS À ÁREA FINANCEIRA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 563
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - SISTEMAS ANALÍTICOS APLICAD…"
+   },
+   {
+    "ocupacao": "142120",
+    "titulo": "Tecnólogo em gestão administrativo- financeira",
+    "dimensao": "conhecimentos",
+    "codigo": "05.03.90",
+    "termo": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - ATENDIMENTO TELEFÔNICO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - COMUNICAÇÃO NO AMBIENTE CORPORATIVO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 569
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE COMUNICAÇÃO (ESPECIFICAR:...) - COMUNICAÇÃO NO AMBIENTE CORPORATIVO"
+   },
+   {
+    "ocupacao": "142135",
+    "titulo": "Oficial de proteção de dados pessoais (dpo)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) PROCEDIMENTOS PARA RECEBIMENTO E TRATAMENTO DE COMUNICAÇÕES DA AUTORIDADE NACIONAL RESPONSÁVEL PELA PROTEÇÃO DE DADOS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8055
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NISTRAÇÃO DE EMPRESAS) PROCEDIMENTOS PARA RECEBIMENTO E TRATAMENTO DE COMUNICAÇÕES DA AUTORIDADE NACIONAL RESPONSÁVEL PELA PROTEÇÃO DE DADOS"
+   },
+   {
+    "ocupacao": "142135",
+    "titulo": "Oficial de proteção de dados pessoais (dpo)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) PROCEDIMENTOS PARA TRATAMENTO DE RECLAMAÇÕES E COMUNICAÇÕES DE TITULARES DE DADOS PESSOAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8056
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NISTRAÇÃO DE EMPRESAS) PROCEDIMENTOS PARA TRATAMENTO DE RECLAMAÇÕES E COMUNICAÇÕES DE TITULARES DE DADOS PESSOAIS"
+   },
+   {
+    "ocupacao": "142140",
+    "titulo": "Gerente de facility management",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) COMUNICAÇÃO VISUAL CORPORATIVA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8101
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) COMUNICAÇÃO VISUAL CORPORATIVA"
+   },
+   {
+    "ocupacao": "142205",
+    "titulo": "Gerente de recursos humanos",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8167
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS"
+   },
+   {
+    "ocupacao": "142205",
+    "titulo": "Gerente de recursos humanos",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO DE RECURSOS HUMANOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8168
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO DE RECURSOS H…"
+   },
+   {
+    "ocupacao": "142205",
+    "titulo": "Gerente de recursos humanos",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) GESTÃO AMBIENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) FUNÇÕES ESTRATÉGICAS DE RH - COMUNICAÇÃO, VISÃO DE PROCESSOS, TECNOLOGIA E LIDERANÇA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8188
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) FUNÇÕES ESTRATÉGICAS DE RH - COMUNICAÇÃO, VISÃO DE PROCESSOS, TECNOLOGIA E LIDERANÇA"
+   },
+   {
+    "ocupacao": "142205",
+    "titulo": "Gerente de recursos humanos",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8211
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL"
+   },
+   {
+    "ocupacao": "142205",
+    "titulo": "Gerente de recursos humanos",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO INTRAORGANIZACIONAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8212
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO INTRAORGANIZACIONAL"
+   },
+   {
+    "ocupacao": "142210",
+    "titulo": "Gerente de departamento pessoal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8244
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS"
+   },
+   {
+    "ocupacao": "142210",
+    "titulo": "Gerente de departamento pessoal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DE PROTEÇÃO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8245
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DE PROTEÇÃO DE DADOS"
+   },
+   {
+    "ocupacao": "142210",
+    "titulo": "Gerente de departamento pessoal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO DE DEPARTAMENTO  PESSOAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8246
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO DE DEPARTAMEN…"
+   },
+   {
+    "ocupacao": "142210",
+    "titulo": "Gerente de departamento pessoal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8288
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8317
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DIGITAIS DE PROTEÇÃO DE DADOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8318
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DIGITAIS DE PROTEÇÃO DE DADOS"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO COMERCIAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8319
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO COMERCIAL"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) GESTÃO AMBIENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) FUNÇÕES ESTRATÉGICAS DA ADMINISTRAÇÃO COMERCIAL - COMUNICAÇÃO, VISÃO DE PROCESSOS, TECNOLOGIA E LIDERANÇA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8337
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…TOS (ADMINISTRAÇÃO) FUNÇÕES ESTRATÉGICAS DA ADMINISTRAÇÃO COMERCIAL - COMUNICAÇÃO, VISÃO DE PROCESSOS, TECNOLOGIA E LIDERANÇA"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) ELEMENTOS DA COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8355
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) COMUNICAÇÃO EMPRESARIAL"
+   },
+   {
+    "ocupacao": "142305",
+    "titulo": "Gerente comercial",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) ELEMENTOS DA COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) COMUNICAÇÃO INTRAORGANIZACIONAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8356
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMUNICAÇÃO) COMUNICAÇÃO INTRAORGANIZACIONAL"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) FERRAMENTAS DE APOIO À PRODUÇÃO DE ELEMENTOS DE COMUNICAÇÃO: SOFTWARE DE IMAGEM GRÁFICA OU FOTOGRÁFICA; SOFTWARE DE AUDIOVISUAL; SOFTWARE PARA WEB DESIGN; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8386
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…(SOFTWARE ESPECÍFICO) FERRAMENTAS DE APOIO À PRODUÇÃO DE ELEMENTOS DE COMUNICAÇÃO: SOFTWARE DE IMAGEM GRÁFICA OU FOTOGRÁFICA; SOFTWARE DE AU…"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8387
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) CANAIS DE COMUNICAÇÃO DIGITAIS"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DIGITAIS DE PROTEÇÃO DE DADOS",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8388
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SISTEMAS DIGITAIS DE PROTEÇÃO DE DADOS"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO COMUNICACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8389
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) SOFTWARES, FERRAMENTAS E SISTEMAS DE GESTÃO COMUNICACIONA…"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO NA COMUNICAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8392
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO NA COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÃO EM COMUNICAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8393
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÃO EM COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.03.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE SETORES ESPECÍFICOS) GESTÃO DE PESSOAS",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE SETORES ESPECÍFICOS) NORMAS TÉCNICAS DA ÁREA DE COMUNICAÇÃO EMPRESARIAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8399
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…TOS (ADMINISTRAÇÃO DE SETORES ESPECÍFICOS) NORMAS TÉCNICAS DA ÁREA DE COMUNICAÇÃO EMPRESARIAL"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) GESTÃO AMBIENTAL",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) INDICADORES DE DESEMPENHO COMUNICACIONAL, DESPESAS E RECEITAS, PRODUTIVIDADE, QUALIDADE, VENDAS, SATISFAÇÃO DE CLIENTES, ENTRE OUTROS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8407
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO) INDICADORES DE DESEMPENHO COMUNICACIONAL, DESPESAS E RECEITAS, PRODUTIVIDADE, QUALIDADE, VENDAS,…"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.05.90",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO VISUAL) TÉCNICAS DE EXPRESSÃO GRÁFICA",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO VISUAL) ELEMENTOS DE COMUNICAÇÃO VISUAL: CARTAZES; BANNERS; FAIXAS; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8421
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO VISUAL) ELEMENTOS DE COMUNICAÇÃO VISUAL: CARTAZES; BANNERS…"
+   },
+   {
+    "ocupacao": "142310",
+    "titulo": "Gerente de comunicação",
+    "dimensao": "conhecimentos",
+    "codigo": "06.09.99.01",
+    "termo": "OUTROS ELEMENTOS (COMUNICAÇÃO) CULTURA, ARTE E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO E INTERAÇÕES SOCIAIS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 8425
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (COMUNICAÇÃO) COMUNICAÇÃO E INTERAÇÕES SOCIAIS"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 2934,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=comunica&limite=100&deslocamento=100",
+   "proxima": "/api/v1/qbq/itens?q=comunica&limite=100&deslocamento=200",
+   "anterior": "/api/v1/qbq/itens?q=comunica&limite=100&deslocamento=0"
+  }
+ }
+}

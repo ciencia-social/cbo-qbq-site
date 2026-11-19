@@ -1,0 +1,322 @@
+{
+ "url": "/api/v1/atividades?q=programa",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "030110",
+    "titulo": "Major bombeiro militar",
+    "sigla": "D",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 14,
+    "descricao": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1264
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)"
+   },
+   {
+    "ocupacao": "030110",
+    "titulo": "Major bombeiro militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR ÁREA DE PREVENÇÃO",
+    "numero": 2,
+    "descricao": "Programar eventos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1264
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar eventos"
+   },
+   {
+    "ocupacao": "030115",
+    "titulo": "Tenente-coronel bombeiro militar",
+    "sigla": "D",
+    "area": "GERENCIAR RECURSOS HUMANOS",
+    "numero": 14,
+    "descricao": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1369
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)"
+   },
+   {
+    "ocupacao": "030115",
+    "titulo": "Tenente-coronel bombeiro militar",
+    "sigla": "G",
+    "area": "ADMINISTRAR ÁREA DE PREVENÇÃO",
+    "numero": 2,
+    "descricao": "Programar eventos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1369
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar eventos"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "B",
+    "area": "COORDENAR PLANEJAMENTO GOVERNAMENTAL",
+    "numero": 7,
+    "descricao": "Definir programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programas e ações"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "C",
+    "area": "ELABORAR ORÇAMENTO",
+    "numero": 8,
+    "descricao": "Detalhar programação orçamentária",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Detalhar programação orçamentária"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "D",
+    "area": "GERENCIAR A IMPLEMENTAÇÃO DE POLÍTICAS",
+    "numero": 1,
+    "descricao": "Gerenciar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas e ações"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "E",
+    "area": "ADMINISTRAR ORÇAMENTO",
+    "numero": 7,
+    "descricao": "Estabelecer programação orçamentária",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Estabelecer programação orçamentária"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "F",
+    "area": "AVALIAR POLÍTICAS PÚBLICAS",
+    "numero": 4,
+    "descricao": "Avaliar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar programas e ações"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "F",
+    "area": "AVALIAR POLÍTICAS PÚBLICAS",
+    "numero": 8,
+    "descricao": "Revisar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Revisar programas e ações"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "B",
+    "area": "COORDENAR PLANEJAMENTO GOVERNAMENTAL",
+    "numero": 7,
+    "descricao": "Definir programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Definir programas e ações"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "C",
+    "area": "ELABORAR ORÇAMENTO",
+    "numero": 8,
+    "descricao": "Detalhar programação orçamentária",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Detalhar programação orçamentária"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "D",
+    "area": "GERENCIAR A IMPLEMENTAÇÃO DE POLÍTICAS",
+    "numero": 1,
+    "descricao": "Gerenciar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar programas e ações"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "E",
+    "area": "ADMINISTRAR ORÇAMENTO",
+    "numero": 7,
+    "descricao": "Estabelecer programação orçamentária",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Estabelecer programação orçamentária"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "F",
+    "area": "AVALIAR POLÍTICAS PÚBLICAS",
+    "numero": 4,
+    "descricao": "Avaliar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Avaliar programas e ações"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "F",
+    "area": "AVALIAR POLÍTICAS PÚBLICAS",
+    "numero": 8,
+    "descricao": "Revisar programas e ações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Revisar programas e ações"
+   },
+   {
+    "ocupacao": "113005",
+    "titulo": "Cacique",
+    "sigla": "A",
+    "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+    "numero": 6,
+    "descricao": "Programar tarefas dos homens adultos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3106
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar tarefas dos homens adultos"
+   },
+   {
+    "ocupacao": "113005",
+    "titulo": "Cacique",
+    "sigla": "A",
+    "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+    "numero": 7,
+    "descricao": "Programar as tarefas das mulheres adultas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3106
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar as tarefas das mulheres adultas"
+   },
+   {
+    "ocupacao": "113005",
+    "titulo": "Cacique",
+    "sigla": "A",
+    "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+    "numero": 8,
+    "descricao": "Programar as tarefas dos jovens",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3106
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar as tarefas dos jovens"
+   },
+   {
+    "ocupacao": "113005",
+    "titulo": "Cacique",
+    "sigla": "A",
+    "area": "ORGANIZAR AS COMUNIDADES INDÍGENAS, QUILOMBOLAS E CAIÇARAS",
+    "numero": 9,
+    "descricao": "Programar as tarefas das crianças",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3106
+    },
+    "casou_em": "atividade",
+    "trecho": "Programar as tarefas das crianças"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 3775,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=programa",
+   "proxima": "/api/v1/atividades?q=programa&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

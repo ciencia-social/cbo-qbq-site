@@ -1,0 +1,1522 @@
+{
+ "url": "/api/v1/atividades?q=estat&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 1,
+    "descricao": "Ministrar aulas presencialmente ou à distância",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 2,
+    "descricao": "Preparar material suporte: didático, laboratório e outros",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 3,
+    "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 4,
+    "descricao": "Organizar atividades práticas (sala de aula, campo e laboratório)",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 5,
+    "descricao": "Atender extra-classe para esclarecimentos complementares",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 6,
+    "descricao": "Preparar aulas e avaliações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "B",
+    "area": "REALIZAR PESQUISAS",
+    "numero": 16,
+    "descricao": "Idealizar planejamentos estatísticos de experimentos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "atividade",
+    "trecho": "Idealizar planejamentos estatísticos de experimentos"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 12,
+    "descricao": "Divulgar na comunidade as atividades de matemática, estatística e computação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "atividade",
+    "trecho": "Divulgar na comunidade as atividades de matemática, estatística e computação"
+   },
+   {
+    "ocupacao": "234120",
+    "titulo": "Professor de computação (no ensino superior)",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 17,
+    "descricao": "Diagnosticar necessidades técnicas de alunos e usuários da matemática, estatistíca e computação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46128
+    },
+    "casou_em": "atividade",
+    "trecho": "…iagnosticar necessidades técnicas de alunos e usuários da matemática, estatistíca e computação"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 1,
+    "descricao": "Ministrar aulas presencialmente ou à distância",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 2,
+    "descricao": "Preparar material suporte: didático, laboratório e outros",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 3,
+    "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 4,
+    "descricao": "Organizar atividades práticas (sala de aula, campo e laboratório)",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 5,
+    "descricao": "Atender extra-classe para esclarecimentos complementares",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "A",
+    "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+    "numero": 6,
+    "descricao": "Preparar aulas e avaliações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "area",
+    "trecho": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "B",
+    "area": "REALIZAR PESQUISAS",
+    "numero": 16,
+    "descricao": "Idealizar planejamentos estatísticos de experimentos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "atividade",
+    "trecho": "Idealizar planejamentos estatísticos de experimentos"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 12,
+    "descricao": "Divulgar na comunidade as atividades de matemática, estatística e computação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "atividade",
+    "trecho": "Divulgar na comunidade as atividades de matemática, estatística e computação"
+   },
+   {
+    "ocupacao": "234125",
+    "titulo": "Professor de pesquisa operacional (no ensino superior)",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 17,
+    "descricao": "Diagnosticar necessidades técnicas de alunos e usuários da matemática, estatistíca e computação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 46257
+    },
+    "casou_em": "atividade",
+    "trecho": "…iagnosticar necessidades técnicas de alunos e usuários da matemática, estatistíca e computação"
+   },
+   {
+    "ocupacao": "241305",
+    "titulo": "Oficial de registro de contratos marítimos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55490
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241305",
+    "titulo": "Oficial de registro de contratos marítimos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55490
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241310",
+    "titulo": "Oficial do registro civil de pessoas jurídicas",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55544
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241310",
+    "titulo": "Oficial do registro civil de pessoas jurídicas",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55544
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241315",
+    "titulo": "Oficial do registro civil de pessoas naturais",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55597
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241315",
+    "titulo": "Oficial do registro civil de pessoas naturais",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55597
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241320",
+    "titulo": "Oficial do registro de distribuições",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55656
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241320",
+    "titulo": "Oficial do registro de distribuições",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55656
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241325",
+    "titulo": "Oficial do registro de imóveis",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55704
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241325",
+    "titulo": "Oficial do registro de imóveis",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55704
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241330",
+    "titulo": "Oficial do registro de títulos e documentos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55763
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241330",
+    "titulo": "Oficial do registro de títulos e documentos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55763
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241335",
+    "titulo": "Tabelião de notas",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55817
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241335",
+    "titulo": "Tabelião de notas",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55817
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "241340",
+    "titulo": "Tabelião de protestos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 3,
+    "descricao": "Elaborar informações estatísticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55879
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar informações estatísticas"
+   },
+   {
+    "ocupacao": "241340",
+    "titulo": "Tabelião de protestos",
+    "sigla": "F",
+    "area": "PRESTAR INFORMAÇÕES",
+    "numero": 4,
+    "descricao": "Fornecer informações estatísticas para órgãos públicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 55879
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações estatísticas para órgãos públicos"
+   },
+   {
+    "ocupacao": "242305",
+    "titulo": "Delegado de polícia",
+    "sigla": "C",
+    "area": "COORDENAR AS AÇÕES DE PREVENÇÃO ÀS INFRAÇÕES PENAIS",
+    "numero": 1,
+    "descricao": "Elaborar estatísticas criminais",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 56457
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatísticas criminais"
+   },
+   {
+    "ocupacao": "251505",
+    "titulo": "Psicólogo educacional",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 57814
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251510",
+    "titulo": "Psicólogo clínico",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 57918
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251515",
+    "titulo": "Psicólogo do esporte",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58022
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251520",
+    "titulo": "Psicólogo hospitalar",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58119
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251530",
+    "titulo": "Psicólogo social",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58327
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251535",
+    "titulo": "Psicólogo do trânsito",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58429
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251540",
+    "titulo": "Psicólogo do trabalho",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58522
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251545",
+    "titulo": "Neuropsicólogo",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58624
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251550",
+    "titulo": "Psicanalista",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58731
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251555",
+    "titulo": "Psicólogo acupunturista",
+    "sigla": "I",
+    "area": "REALIZAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer levantamentos estatísticos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58815
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer levantamentos estatísticos"
+   },
+   {
+    "ocupacao": "251605",
+    "titulo": "Assistente social",
+    "sigla": "I",
+    "area": "DESEMPENHAR TAREFAS ADMINISTRATIVAS",
+    "numero": 7,
+    "descricao": "Controlar dados estatísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58937
+    },
+    "casou_em": "atividade",
+    "trecho": "Controlar dados estatísticos"
+   },
+   {
+    "ocupacao": "251605",
+    "titulo": "Assistente social",
+    "sigla": "I",
+    "area": "DESEMPENHAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer estatísticas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 58937
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer estatísticas"
+   },
+   {
+    "ocupacao": "251610",
+    "titulo": "Economista doméstico",
+    "sigla": "I",
+    "area": "DESEMPENHAR TAREFAS ADMINISTRATIVAS",
+    "numero": 7,
+    "descricao": "Controlar dados estatísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 59071
+    },
+    "casou_em": "atividade",
+    "trecho": "Controlar dados estatísticos"
+   },
+   {
+    "ocupacao": "251610",
+    "titulo": "Economista doméstico",
+    "sigla": "I",
+    "area": "DESEMPENHAR TAREFAS ADMINISTRATIVAS",
+    "numero": 8,
+    "descricao": "Fazer estatísticas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 59071
+    },
+    "casou_em": "atividade",
+    "trecho": "Fazer estatísticas"
+   },
+   {
+    "ocupacao": "252405",
+    "titulo": "Analista de recursos humanos",
+    "sigla": "B",
+    "area": "ADMINISTRAR PLANO DE CARGOS E SALÁRIOS",
+    "numero": 4,
+    "descricao": "Analisar estatísticas de informações salariais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 59902
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar estatísticas de informações salariais"
+   },
+   {
+    "ocupacao": "253305",
+    "titulo": "Corretor de valores, ativos financeiros, mercadorias e derivativos",
+    "sigla": "D",
+    "area": "ANALISAR MERCADO",
+    "numero": 11,
+    "descricao": "Elaborar mapas estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 61362
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar mapas estatísticos"
+   },
+   {
+    "ocupacao": "253305",
+    "titulo": "Corretor de valores, ativos financeiros, mercadorias e derivativos",
+    "sigla": "D",
+    "area": "ANALISAR MERCADO",
+    "numero": 15,
+    "descricao": "Analisar gráficos e dados estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 61362
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar gráficos e dados estatísticos"
+   },
+   {
+    "ocupacao": "254105",
+    "titulo": "Auditor-fiscal da receita federal",
+    "sigla": "F",
+    "area": "REALIZAR ESTUDOS ECONÔMICO-TRIBUTÁRIOS",
+    "numero": 8,
+    "descricao": "Acompanhar estatísticas econômico-tributárias e de comércio exterior",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 61630
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar estatísticas econômico-tributárias e de comércio exterior"
+   },
+   {
+    "ocupacao": "254110",
+    "titulo": "Técnico da receita federal",
+    "sigla": "F",
+    "area": "REALIZAR ESTUDOS ECONÔMICO-TRIBUTÁRIOS",
+    "numero": 8,
+    "descricao": "Acompanhar estatísticas econômico-tributárias e de comércio exterior",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 61782
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar estatísticas econômico-tributárias e de comércio exterior"
+   },
+   {
+    "ocupacao": "254205",
+    "titulo": "Auditor-fiscal da previdência social",
+    "sigla": "F",
+    "area": "AUDITAR E FISCALIZAR ENTIDADES, FUNDOS PÚBLICOS E PRIVADOS DE PREVIDÊNCIA",
+    "numero": 8,
+    "descricao": "Apontar divergências legais, estatutárias e/ou atuariais",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 61892
+    },
+    "casou_em": "atividade",
+    "trecho": "Apontar divergências legais, estatutárias e/ou atuariais"
+   },
+   {
+    "ocupacao": "261205",
+    "titulo": "Bibliotecário",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 9,
+    "descricao": "Analisar dados estatísticos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63033
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos"
+   },
+   {
+    "ocupacao": "261205",
+    "titulo": "Bibliotecário",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 10,
+    "descricao": "Coletar dados estatísticos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63033
+    },
+    "casou_em": "atividade",
+    "trecho": "Coletar dados estatísticos"
+   },
+   {
+    "ocupacao": "261210",
+    "titulo": "Documentalista",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 9,
+    "descricao": "Analisar dados estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63151
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos"
+   },
+   {
+    "ocupacao": "261210",
+    "titulo": "Documentalista",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 10,
+    "descricao": "Coletar dados estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63151
+    },
+    "casou_em": "atividade",
+    "trecho": "Coletar dados estatísticos"
+   },
+   {
+    "ocupacao": "261215",
+    "titulo": "Analista de informações (pesquisador de informações de rede)",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 9,
+    "descricao": "Analisar dados estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63260
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos"
+   },
+   {
+    "ocupacao": "261215",
+    "titulo": "Analista de informações (pesquisador de informações de rede)",
+    "sigla": "F",
+    "area": "DESENVOLVER ESTUDOS E PESQUISAS",
+    "numero": 10,
+    "descricao": "Coletar dados estatísticos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63260
+    },
+    "casou_em": "atividade",
+    "trecho": "Coletar dados estatísticos"
+   },
+   {
+    "ocupacao": "261305",
+    "titulo": "Arquivista",
+    "sigla": "J",
+    "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+    "numero": 3,
+    "descricao": "Construir estatísticas de freqüência e relatórios técnicos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63351
+    },
+    "casou_em": "atividade",
+    "trecho": "Construir estatísticas de freqüência e relatórios técnicos"
+   },
+   {
+    "ocupacao": "261310",
+    "titulo": "Museólogo",
+    "sigla": "J",
+    "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+    "numero": 3,
+    "descricao": "Construir estatísticas de freqüência e relatórios técnicos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63479
+    },
+    "casou_em": "atividade",
+    "trecho": "Construir estatísticas de freqüência e relatórios técnicos"
+   },
+   {
+    "ocupacao": "261430",
+    "titulo": "Audiodescritor",
+    "sigla": "B",
+    "area": "INTERPRETAR DISCURSOS ORAIS, LÍNGUA DE SINAIS E/OU IMAGENS",
+    "numero": 14,
+    "descricao": "Descrever imagens estáticas e dinâmicas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 63934
+    },
+    "casou_em": "atividade",
+    "trecho": "Descrever imagens estáticas e dinâmicas"
+   },
+   {
+    "ocupacao": "263105",
+    "titulo": "Ministro de culto religioso",
+    "sigla": "B",
+    "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+    "numero": 17,
+    "descricao": "Elaborar estatutos e regimentos internos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 67901
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos e regimentos internos"
+   },
+   {
+    "ocupacao": "263110",
+    "titulo": "Missionário",
+    "sigla": "B",
+    "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+    "numero": 17,
+    "descricao": "Elaborar estatutos e regimentos internos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68040
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos e regimentos internos"
+   },
+   {
+    "ocupacao": "263115",
+    "titulo": "Teólogo",
+    "sigla": "B",
+    "area": "DIRIGIR E ADMINISTRAR COMUNIDADES",
+    "numero": 17,
+    "descricao": "Elaborar estatutos e regimentos internos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68123
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos e regimentos internos"
+   },
+   {
+    "ocupacao": "301105",
+    "titulo": "Técnico de laboratório industrial",
+    "sigla": "E",
+    "area": "CONTROLAR A QUALIDADE",
+    "numero": 7,
+    "descricao": "Empregar estatística e metrologia de nível básico",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68499
+    },
+    "casou_em": "atividade",
+    "trecho": "Empregar estatística e metrologia de nível básico"
+   },
+   {
+    "ocupacao": "301110",
+    "titulo": "Técnico de laboratório de análises físico-químicas (materiais de construção)",
+    "sigla": "E",
+    "area": "CONTROLAR A QUALIDADE",
+    "numero": 7,
+    "descricao": "Empregar estatística e metrologia de nível básico",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68576
+    },
+    "casou_em": "atividade",
+    "trecho": "Empregar estatística e metrologia de nível básico"
+   },
+   {
+    "ocupacao": "301115",
+    "titulo": "Técnico químico de petróleo",
+    "sigla": "E",
+    "area": "CONTROLAR A QUALIDADE",
+    "numero": 7,
+    "descricao": "Empregar estatística e metrologia de nível básico",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68650
+    },
+    "casou_em": "atividade",
+    "trecho": "Empregar estatística e metrologia de nível básico"
+   },
+   {
+    "ocupacao": "301205",
+    "titulo": "Técnico de apoio à bioengenharia",
+    "sigla": "D",
+    "area": "AUXILIAR PESQUISAS APLICADAS À BIOENGENHARIA",
+    "numero": 7,
+    "descricao": "Coletar estatísticas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 68727
+    },
+    "casou_em": "atividade",
+    "trecho": "Coletar estatísticas"
+   },
+   {
+    "ocupacao": "311205",
+    "titulo": "Técnico em petroquímica",
+    "sigla": "C",
+    "area": "CONTROLAR A QUALIDADE DE INSUMOS E PRODUTOS",
+    "numero": 3,
+    "descricao": "Analisar dados estatísticos do processo produtivo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 69000
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos do processo produtivo"
+   },
+   {
+    "ocupacao": "311305",
+    "titulo": "Técnico em materiais, produtos cerâmicos e vidros",
+    "sigla": "G",
+    "area": "DESENVOLVER MELHORIAS NO PROCESSO DE PRODUÇÃO",
+    "numero": 1,
+    "descricao": "Analisar dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 69080
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos"
+   },
+   {
+    "ocupacao": "311405",
+    "titulo": "Técnico em borracha",
+    "sigla": "E",
+    "area": "ACOMPANHAR SISTEMA DE PRODUÇÃO",
+    "numero": 8,
+    "descricao": "Aplicar ferramentas estatísticas de controle de processo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 69166
+    },
+    "casou_em": "atividade",
+    "trecho": "Aplicar ferramentas estatísticas de controle de processo"
+   },
+   {
+    "ocupacao": "311410",
+    "titulo": "Técnico em plástico",
+    "sigla": "E",
+    "area": "ACOMPANHAR SISTEMA DE PRODUÇÃO",
+    "numero": 8,
+    "descricao": "Aplicar ferramentas estatísticas de controle de processo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 69276
+    },
+    "casou_em": "atividade",
+    "trecho": "Aplicar ferramentas estatísticas de controle de processo"
+   },
+   {
+    "ocupacao": "313105",
+    "titulo": "Eletrotécnico",
+    "sigla": "E",
+    "area": "ELABORAR ESTUDOS E PROJETOS",
+    "numero": 13,
+    "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 70741
+    },
+    "casou_em": "atividade",
+    "trecho": "Utilizar técnicas estatísticas na previsão de falhas"
+   },
+   {
+    "ocupacao": "313110",
+    "titulo": "Eletrotécnico (produção de energia)",
+    "sigla": "E",
+    "area": "ELABORAR ESTUDOS E PROJETOS",
+    "numero": 13,
+    "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 70858
+    },
+    "casou_em": "atividade",
+    "trecho": "Utilizar técnicas estatísticas na previsão de falhas"
+   },
+   {
+    "ocupacao": "313130",
+    "titulo": "Técnico eletricista",
+    "sigla": "E",
+    "area": "ELABORAR ESTUDOS E PROJETOS",
+    "numero": 13,
+    "descricao": "Utilizar técnicas estatísticas na previsão de falhas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 71213
+    },
+    "casou_em": "atividade",
+    "trecho": "Utilizar técnicas estatísticas na previsão de falhas"
+   },
+   {
+    "ocupacao": "313505",
+    "titulo": "Técnico em fotônica",
+    "sigla": "J",
+    "area": "INTEGRAR-SE AO SISTEMA DE GESTÃO DA QUALIDADE",
+    "numero": 3,
+    "descricao": "Aplicar técnicas estatísticas",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 71964
+    },
+    "casou_em": "atividade",
+    "trecho": "Aplicar técnicas estatísticas"
+   },
+   {
+    "ocupacao": "314305",
+    "titulo": "Técnico em automobilística",
+    "sigla": "F",
+    "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+    "numero": 9,
+    "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 72498
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações técnicas para execução do controle estatístico do processo"
+   },
+   {
+    "ocupacao": "314310",
+    "titulo": "Técnico mecânico (aeronaves)",
+    "sigla": "F",
+    "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+    "numero": 9,
+    "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 72595
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações técnicas para execução do controle estatístico do processo"
+   },
+   {
+    "ocupacao": "314315",
+    "titulo": "Técnico mecânico (embarcações)",
+    "sigla": "F",
+    "area": "PARTICIPAR DO PROGRAMA DE QUALIDADE DA EMPRESA",
+    "numero": 9,
+    "descricao": "Fornecer informações técnicas para execução do controle estatístico do processo",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 72694
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer informações técnicas para execução do controle estatístico do processo"
+   },
+   {
+    "ocupacao": "319105",
+    "titulo": "Técnico em calçados e artefatos de couro",
+    "sigla": "G",
+    "area": "CONTROLAR A PRODUÇÃO",
+    "numero": 1,
+    "descricao": "Elaborar estatísticas de produção",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 76281
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatísticas de produção"
+   },
+   {
+    "ocupacao": "319110",
+    "titulo": "Técnico em confecções do vestuário",
+    "sigla": "G",
+    "area": "CONTROLAR A PRODUÇÃO",
+    "numero": 1,
+    "descricao": "Elaborar estatísticas de produção",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 76335
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatísticas de produção"
+   },
+   {
+    "ocupacao": "322105",
+    "titulo": "Técnico em acupuntura",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77382
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322110",
+    "titulo": "Podólogo",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77462
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322115",
+    "titulo": "Técnico em quiropraxia",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77536
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322120",
+    "titulo": "Massoterapeuta",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77614
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322125",
+    "titulo": "Terapeuta holístico",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77696
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322130",
+    "titulo": "Esteticista",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77774
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322135",
+    "titulo": "Doula",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 2,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77858
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "322140",
+    "titulo": "Instrutor de pilates",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Orientar sobre postura estática e dinâmica",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 77949
+    },
+    "casou_em": "atividade",
+    "trecho": "Orientar sobre postura estática e dinâmica"
+   },
+   {
+    "ocupacao": "324205",
+    "titulo": "Técnico em patologia clínica",
+    "sigla": "F",
+    "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+    "numero": 12,
+    "descricao": "Fornecer dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 80414
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer dados estatísticos"
+   },
+   {
+    "ocupacao": "324215",
+    "titulo": "Citotécnico",
+    "sigla": "F",
+    "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+    "numero": 12,
+    "descricao": "Fornecer dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 80502
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer dados estatísticos"
+   },
+   {
+    "ocupacao": "324220",
+    "titulo": "Técnico em hemoterapia",
+    "sigla": "F",
+    "area": "TRABALHAR COM SEGURANÇA E QUALIDADE",
+    "numero": 12,
+    "descricao": "Fornecer dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 80563
+    },
+    "casou_em": "atividade",
+    "trecho": "Fornecer dados estatísticos"
+   },
+   {
+    "ocupacao": "342605",
+    "titulo": "Chefe de estação portuária",
+    "sigla": "F",
+    "area": "ELABORAR DOCUMENTOS",
+    "numero": 6,
+    "descricao": "Elaborar planilhas de estatísticas operacionais",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 85248
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar planilhas de estatísticas operacionais"
+   },
+   {
+    "ocupacao": "342610",
+    "titulo": "Supervisor de operações portuárias",
+    "sigla": "F",
+    "area": "ELABORAR DOCUMENTOS",
+    "numero": 6,
+    "descricao": "Elaborar planilhas de estatísticas operacionais",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 85274
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar planilhas de estatísticas operacionais"
+   },
+   {
+    "ocupacao": "351305",
+    "titulo": "Técnico em administração",
+    "sigla": "A",
+    "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+    "numero": 10,
+    "descricao": "Efetuar cálculos estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 85510
+    },
+    "casou_em": "atividade",
+    "trecho": "Efetuar cálculos estatísticos"
+   },
+   {
+    "ocupacao": "351305",
+    "titulo": "Técnico em administração",
+    "sigla": "A",
+    "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+    "numero": 11,
+    "descricao": "Controlar atividades através de dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 85510
+    },
+    "casou_em": "atividade",
+    "trecho": "Controlar atividades através de dados estatísticos"
+   },
+   {
+    "ocupacao": "351310",
+    "titulo": "Técnico em administração de comércio exterior",
+    "sigla": "A",
+    "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+    "numero": 11,
+    "descricao": "Controlar atividades através de dados estatísticos",
+    "nivel_qualificacao": 4,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 85594
+    },
+    "casou_em": "atividade",
+    "trecho": "Controlar atividades através de dados estatísticos"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 339,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=estat&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=estat&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=estat&limite=100&deslocamento=0"
+  }
+ }
+}

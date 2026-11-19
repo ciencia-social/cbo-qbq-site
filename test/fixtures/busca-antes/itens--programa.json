@@ -1,0 +1,382 @@
+{
+ "url": "/api/v1/qbq/itens?q=programa",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 403
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 404
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 473
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 474
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 543
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 544
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESENVOLVIMENTO DE PROGRAMAS GOVERNAMENTAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 609
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) DESENVOLVIMENTO DE PROGRAMAS GOVERNAMENTAIS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 612
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) GESTÃO DE PROGRAMAS E PROJETOS PÚBLICOS"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "dimensao": "conhecimentos",
+    "codigo": "07.09.04.90",
+    "termo": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) POLÍTICAS PÚBLICAS DE SAÚDE",
+    "descricao_item": "OUTROS ELEMENTOS (POLÍTICAS PÚBLICAS) ORGANIZAÇÃO E FUNCIONAMENTO DOS SISTEMAS E PROGRAMAS NACIONAIS DE POLÍTICAS PÚBLICAS: SUS; FUNDEB; SUAS; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 653
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ENTOS (POLÍTICAS PÚBLICAS) ORGANIZAÇÃO E FUNCIONAMENTO DOS SISTEMAS E PROGRAMAS NACIONAIS DE POLÍTICAS PÚBLICAS: SUS; FUNDEB; SUAS; OUTROS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ELABORAÇÃO E PROGRAMAÇÃO ORÇAMENTÁRIA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 705
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ELABORAÇÃO E PROGRAMAÇÃO ORÇAMENTÁRIA"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) MÉTODOS DE PLANEJAMENTO APLICADOS AO DESENHO DE PROGRAMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 709
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…DMINISTRAÇÃO PÚBLICA) MÉTODOS DE PLANEJAMENTO APLICADOS AO DESENHO DE PROGRAMAS"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) FUNDAMENTOS DE ADMINISTRAÇÃO PÚBLICA",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO PÚBLICA) ORÇAMENTO PÚBLICO: CONCEITOS; ELEMENTOS BÁSICOS; ORÇAMENTO TRADICIONAL E DE BASE ZERO; ORÇAMENTO DE DESEMPENHO; ORÇAMENTO PROGRAMA; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 711
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…AMENTO TRADICIONAL E DE BASE ZERO; ORÇAMENTO DE DESEMPENHO; ORÇAMENTO PROGRAMA; OUTROS ASPECTOS"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - ORGANIZAÇÃO E FUNCIONAMENTO DOS PARTIDOS POLÍTICOS: CRIAÇÃO E REGISTRO; FUNCIONAMENTO PARLAMENTAR; PROGRAMA; ESTATUTO; FILIAÇÃO PARTIDÁRIA; FIDELIDADE E DISCIPLINA PARTIDÁRIAS; FUSÃO, INCORPORAÇÃO E EXTINÇÃO DE PARTIDOS; OUTROS ASPECTOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 26
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OS PARTIDOS POLÍTICOS: CRIAÇÃO E REGISTRO; FUNCIONAMENTO PARLAMENTAR; PROGRAMA; ESTATUTO; FILIAÇÃO PARTIDÁRIA; FIDELIDADE E DISCIPLINA PARTI…"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - CARACTERÍSTICAS CULTURAIS DE DIFERENTES PÚBLICOS PARA RECEPÇÃO E ATENDIMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - PROGRAMAS DE PROMOÇÃO E DIFUSÃO DA PARTICIPAÇÃO POLÍTICA DAS MULHERES",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 27
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE ESTUDOS SOCIAIS (ESPECIFICAR:...) - PROGRAMAS DE PROMOÇÃO E DIFUSÃO DA PARTICIPAÇÃO POLÍTICA DAS MULHERES"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "dimensao": "conhecimentos",
+    "codigo": "11.13.90",
+    "termo": "OUTROS CONHECIMENTOS DE PROCESSOS DE RECURSOS HUMANOS (ESPECIFICAR:...) - LEVANTAMENTO DE NECESSIDADES DE TREINAMENTO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE PROCESSOS DE RECURSOS HUMANOS (ESPECIFICAR:...) - ORGANIZAÇÃO DE PROGRAMAS DE INTERCÂMBIO PARA QUALIFICAÇÃO TÉCNICA DE EMPREGADORES",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 192
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S DE PROCESSOS DE RECURSOS HUMANOS (ESPECIFICAR:...) - ORGANIZAÇÃO DE PROGRAMAS DE INTERCÂMBIO PARA QUALIFICAÇÃO TÉCNICA DE EMPREGADORES"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "dimensao": "conhecimentos",
+    "codigo": "07.10.99.01",
+    "termo": "OUTROS ELEMENTOS (TEOLOGIA) TEOLOGIA, FENÔMENO HUMANO E SOCIEDADE",
+    "descricao_item": "OUTROS ELEMENTOS (TEOLOGIA) ELABORAÇÃO DE PROGRAMAS E PROJETOS MISSIONÁRIOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 798
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEOLOGIA) ELABORAÇÃO DE PROGRAMAS E PROJETOS MISSIONÁRIOS"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DE PROGRAMAS E PROJETOS CORPORATIVOS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 999
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DE PROGRAMAS E PROJETOS CORPORATIVOS"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.02.01.90",
+    "termo": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DA QUALIDADE",
+    "descricao_item": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 1000
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ADMINISTRAÇÃO DE EMPRESAS) GESTÃO DE PROGRAMAS E PROJETOS SOCIOAMBIENTAIS"
+   },
+   {
+    "ocupacao": "122205",
+    "titulo": "Diretor de produção e operações da indústria de transformação, extração mineral e utilidades",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 1422
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO"
+   },
+   {
+    "ocupacao": "122505",
+    "titulo": "Diretor de  produção e operações de alimentação",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA OPERAÇÃO DE SERVIÇOS ALIMENTÍCIOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 1676
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA OPERAÇÃO DE SERVIÇOS ALIMENTÍCIOS"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 619,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=programa",
+   "proxima": "/api/v1/qbq/itens?q=programa&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

@@ -1,0 +1,511 @@
+{
+ "url": "/api/v1/busca?q=a",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [
+    {
+     "tipo": "ocupacao",
+     "identificador": "111510",
+     "rotulo": "Analista de planejamento e orçamento - apo",
+     "casou_em": "titulo",
+     "trecho": "Analista de planejamento e orçamento - apo",
+     "link": "/api/v1/ocupacoes/111510"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142125",
+     "rotulo": "Analista de compliance",
+     "casou_em": "titulo",
+     "trecho": "Analista de compliance",
+     "link": "/api/v1/ocupacoes/142125"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142130",
+     "rotulo": "Analista de riscos",
+     "casou_em": "titulo",
+     "trecho": "Analista de riscos",
+     "link": "/api/v1/ocupacoes/142130"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142330",
+     "rotulo": "Analista de negócios",
+     "casou_em": "titulo",
+     "trecho": "Analista de negócios",
+     "link": "/api/v1/ocupacoes/142330"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142335",
+     "rotulo": "Analista de pesquisa de mercado",
+     "casou_em": "titulo",
+     "trecho": "Analista de pesquisa de mercado",
+     "link": "/api/v1/ocupacoes/142335"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "142355",
+     "rotulo": "Analista de e-commerce",
+     "casou_em": "titulo",
+     "trecho": "Analista de e-commerce",
+     "link": "/api/v1/ocupacoes/142355"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "211105",
+     "rotulo": "Atuário",
+     "casou_em": "titulo",
+     "trecho": "Atuário",
+     "link": "/api/v1/ocupacoes/211105"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "212305",
+     "rotulo": "Administrador de banco de dados",
+     "casou_em": "titulo",
+     "trecho": "Administrador de banco de dados",
+     "link": "/api/v1/ocupacoes/212305"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "212310",
+     "rotulo": "Administrador de redes",
+     "casou_em": "titulo",
+     "trecho": "Administrador de redes",
+     "link": "/api/v1/ocupacoes/212310"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "212315",
+     "rotulo": "Administrador de sistemas operacionais",
+     "casou_em": "titulo",
+     "trecho": "Administrador de sistemas operacionais",
+     "link": "/api/v1/ocupacoes/212315"
+    }
+   ],
+   "sinonimo": [
+    {
+     "tipo": "sinonimo",
+     "identificador": "010115",
+     "rotulo": "Almirante",
+     "casou_em": "sinonimo",
+     "trecho": "Almirante",
+     "link": "/api/v1/ocupacoes/010115"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "010205",
+     "rotulo": "Capitão da aeronáutica",
+     "casou_em": "sinonimo",
+     "trecho": "Capitão da aeronáutica",
+     "link": "/api/v1/ocupacoes/010205"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "010305",
+     "rotulo": "Cabo da aeronáutica",
+     "casou_em": "sinonimo",
+     "trecho": "Cabo da aeronáutica",
+     "link": "/api/v1/ocupacoes/010305"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "111325",
+     "rotulo": "Juiz de alçada",
+     "casou_em": "sinonimo",
+     "trecho": "Juiz de alçada",
+     "link": "/api/v1/ocupacoes/111325"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "111415",
+     "rotulo": "Chefe de assessoria técnica do serviço público municipal",
+     "casou_em": "sinonimo",
+     "trecho": "Chefe de assessoria técnica do serviço público municipal",
+     "link": "/api/v1/ocupacoes/111415"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "113015",
+     "rotulo": "Coordenador de associação quilombola",
+     "casou_em": "sinonimo",
+     "trecho": "Coordenador de associação quilombola",
+     "link": "/api/v1/ocupacoes/113015"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "114105",
+     "rotulo": "Assessor político partidário",
+     "casou_em": "sinonimo",
+     "trecho": "Assessor político partidário",
+     "link": "/api/v1/ocupacoes/114105"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "114205",
+     "rotulo": "Assistente sindical de entidades de trabalhadores",
+     "casou_em": "sinonimo",
+     "trecho": "Assistente sindical de entidades de trabalhadores",
+     "link": "/api/v1/ocupacoes/114205"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "114210",
+     "rotulo": "Assistente sindical de entidades patronais",
+     "casou_em": "sinonimo",
+     "trecho": "Assistente sindical de entidades patronais",
+     "link": "/api/v1/ocupacoes/114210"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "114405",
+     "rotulo": "Dirigente de clube e associação esportiva",
+     "casou_em": "sinonimo",
+     "trecho": "Dirigente de clube e associação esportiva",
+     "link": "/api/v1/ocupacoes/114405"
+    }
+   ],
+   "familia": [
+    {
+     "tipo": "familia",
+     "identificador": "0101",
+     "rotulo": "Oficiais generais das forças armadas",
+     "casou_em": "titulo",
+     "trecho": "Oficiais generais das forças armadas",
+     "link": "/api/v1/cbo/familias/0101"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "0102",
+     "rotulo": "Oficiais das forças armadas",
+     "casou_em": "titulo",
+     "trecho": "Oficiais das forças armadas",
+     "link": "/api/v1/cbo/familias/0102"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "0103",
+     "rotulo": "Praças das forças armadas",
+     "casou_em": "titulo",
+     "trecho": "Praças das forças armadas",
+     "link": "/api/v1/cbo/familias/0103"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1112",
+     "rotulo": "Dirigentes gerais da administração pública",
+     "casou_em": "titulo",
+     "trecho": "Dirigentes gerais da administração pública",
+     "link": "/api/v1/cbo/familias/1112"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1142",
+     "rotulo": "Dirigentes e administradores de entidades patronais e dos trabalhadores e de outros interesses sócioeconômicos",
+     "casou_em": "titulo",
+     "trecho": "Dirigentes e administradores de entidades patronais e dos trabalhadores e de outros…",
+     "link": "/api/v1/cbo/familias/1142"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1143",
+     "rotulo": "Dirigentes e administradores de entidades religiosas",
+     "casou_em": "titulo",
+     "trecho": "Dirigentes e administradores de entidades religiosas",
+     "link": "/api/v1/cbo/familias/1143"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1144",
+     "rotulo": "Dirigentes e administradores de organizações da sociedade civil sem fins lucrativos",
+     "casou_em": "titulo",
+     "trecho": "Dirigentes e administradores de organizações da sociedade civil sem fins lucrativos",
+     "link": "/api/v1/cbo/familias/1144"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1221",
+     "rotulo": "Diretores de produção e operações em empresa agropecuária, pesqueira , aqüícola e florestal",
+     "casou_em": "titulo",
+     "trecho": "Diretores de produção e operações em empresa agropecuária, pesqueira , aqüícola e florestal",
+     "link": "/api/v1/cbo/familias/1221"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1225",
+     "rotulo": "Diretores de serviços de turismo, de alojamento e de alimentação",
+     "casou_em": "titulo",
+     "trecho": "Diretores de serviços de turismo, de alojamento e de alimentação",
+     "link": "/api/v1/cbo/familias/1225"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "1226",
+     "rotulo": "Diretores de operações de serviços em empresa de armazenamento, de transporte e de telecomunicação",
+     "casou_em": "titulo",
+     "trecho": "Diretores de operações de serviços em empresa de armazenamento, de transporte e de telecomunicação",
+     "link": "/api/v1/cbo/familias/1226"
+    }
+   ],
+   "atividade": [
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Desenvolver atividades de polícia ostensiva",
+     "casou_em": "atividade",
+     "trecho": "Desenvolver atividades de polícia ostensiva",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Coordenar atividades de inteligência",
+     "casou_em": "atividade",
+     "trecho": "Coordenar atividades de inteligência",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Coordenar ações de defesa civil",
+     "casou_em": "atividade",
+     "trecho": "Coordenar ações de defesa civil",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Supervisionar atividades operacionais",
+     "casou_em": "atividade",
+     "trecho": "Supervisionar atividades operacionais",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Propor alterações em planos e ordens",
+     "casou_em": "atividade",
+     "trecho": "Propor alterações em planos e ordens",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Interagir com a comunidade",
+     "casou_em": "atividade",
+     "trecho": "Interagir com a comunidade",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Acompanhar desempenho operacional",
+     "casou_em": "atividade",
+     "trecho": "Acompanhar desempenho operacional",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Participar de ações cívico-militares",
+     "casou_em": "atividade",
+     "trecho": "Participar de ações cívico-militares",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Realizar visitas e inspeções às unidades subordinadas",
+     "casou_em": "atividade",
+     "trecho": "Realizar visitas e inspeções às unidades subordinadas",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020105",
+     "rotulo": "Promover segurança dos aquartelamentos",
+     "casou_em": "atividade",
+     "trecho": "Promover segurança dos aquartelamentos",
+     "link": "/api/v1/ocupacoes/020105/atividades"
+    }
+   ],
+   "termo": [
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/11",
+     "rotulo": "ADMINISTRAÇÃO, GESTÃO E NEGÓCIOS",
+     "casou_em": "termo",
+     "trecho": "ADMINISTRAÇÃO, GESTÃO E NEGÓCIOS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/11"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/12",
+     "rotulo": "PROCESSOS DE PRODUÇÃO EM AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQUICULTURA",
+     "casou_em": "termo",
+     "trecho": "PROCESSOS DE PRODUÇÃO EM AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQUICULTURA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/12"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/16",
+     "rotulo": "SERVIÇOS DE TRANSPORTES, ARMAZENAGEM E CORREIOS",
+     "casou_em": "termo",
+     "trecho": "SERVIÇOS DE TRANSPORTES, ARMAZENAGEM E CORREIOS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/16"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/17",
+     "rotulo": "TURISMO, HOSPEDAGEM, ALIMENTAÇÃO, EVENTOS, ESPORTE E LAZER",
+     "casou_em": "termo",
+     "trecho": "TURISMO, HOSPEDAGEM, ALIMENTAÇÃO, EVENTOS, ESPORTE E LAZER",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/17"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/18",
+     "rotulo": "MODA, ESTÉTICA, EMBELEZAMENTO E SERVIÇOS ÀS PESSOAS",
+     "casou_em": "termo",
+     "trecho": "MODA, ESTÉTICA, EMBELEZAMENTO E SERVIÇOS ÀS PESSOAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/18"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/19",
+     "rotulo": "SAÚDE, CUIDADOS E ADESTRAMENTO DE ANIMAIS DOMÉSTICOS",
+     "casou_em": "termo",
+     "trecho": "SAÚDE, CUIDADOS E ADESTRAMENTO DE ANIMAIS DOMÉSTICOS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/19"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/21",
+     "rotulo": "LIMPEZA, CONSERVAÇÃO, PORTARIA, VIGILÂNCIA, ZELADORIA E MANUTENÇÃO DE EDIFÍCIOS E DE ÁREAS PÚBLICAS",
+     "casou_em": "termo",
+     "trecho": "…VAÇÃO, PORTARIA, VIGILÂNCIA, ZELADORIA E MANUTENÇÃO DE EDIFÍCIOS E DE ÁREAS PÚBLICAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/21"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/23",
+     "rotulo": "SERVIÇOS FINANCEIROS E AFINS",
+     "casou_em": "termo",
+     "trecho": "SERVIÇOS FINANCEIROS E AFINS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/23"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/4",
+     "rotulo": "CIÊNCIAS AGRÁRIAS",
+     "casou_em": "termo",
+     "trecho": "CIÊNCIAS AGRÁRIAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/4"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/areas/5",
+     "rotulo": "CIÊNCIAS SOCIAIS APLICADAS",
+     "casou_em": "termo",
+     "trecho": "CIÊNCIAS SOCIAIS APLICADAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/areas/5"
+    }
+   ],
+   "conceito": [
+    {
+     "tipo": "conceito",
+     "identificador": "dominios/1",
+     "rotulo": "Habilidades Cognitivas",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas que influenciam a aquisição e aplicação de conhecimentos na resolução de problemas.",
+     "link": "/api/v1/qbq/vocabularios/habilidades/dominios/1"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "dominios/2",
+     "rotulo": "Habilidades Práticas",
+     "casou_em": "conceito",
+     "trecho": "…cia no uso de métodos, materiais, ferramentas e instrumentos, visando a aplicação dos conhecimentos adquiridos para realizar tarefas e soluc…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/dominios/2"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "dominios/3",
+     "rotulo": "Habilidades Físicas, Psicomotoras e Sensoriais",
+     "casou_em": "conceito",
+     "trecho": "Atributos físicos, psicomotores e sensoriais duradouros, inatos e ou d…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/dominios/3"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/01.01",
+     "rotulo": "Comunicação",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas que influenciam a aquisição e aplicação de conhecimentos na resolução de problemas.",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/01.01"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/01.02",
+     "rotulo": "Trabalho com Números",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas de usar a linguagem de números, expressões numéricas, algébricas e geométricas…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/01.02"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/01.03",
+     "rotulo": "Raciocínio",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas para usar a razão, especialmente para formular conclusões, inferências ou julgam…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/01.03"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/02.01",
+     "rotulo": "Habilidades Operacionais",
+     "casou_em": "conceito",
+     "trecho": "…os, técnicas, materiais, instrumentos, procedimentos e conhecimentos, ao colocar em operação um determinado trabalho.",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/02.01"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/02.03",
+     "rotulo": "Habilidades Interpessoais",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas para interagir com as pessoas, individualmente e em grupo.",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/02.03"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/03.01",
+     "rotulo": "Habilidades Físicas",
+     "casou_em": "conceito",
+     "trecho": "Capacidades relacionadas à força, à resistência, à flexibilidade, ao equilíbrio e à coordenação…",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/03.01"
+    },
+    {
+     "tipo": "conceito",
+     "identificador": "categorias/03.02",
+     "rotulo": "Habilidades Psicomotoras",
+     "casou_em": "conceito",
+     "trecho": "Capacidades desenvolvidas que influenciam a habilidade de manipular e controlar objetos.",
+     "link": "/api/v1/qbq/vocabularios/habilidades/categorias/03.02"
+    }
+   ]
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=a",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

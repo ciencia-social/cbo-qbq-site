@@ -1,0 +1,4718 @@
+{
+ "url": "/api/v1/atividades?q=a&agrupar_por=ocupacao&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "331305",
+    "codigo_formatado": "3313-05",
+    "titulo_cbo": "Professor de nível médio no ensino profissionalizante",
+    "titulo_qbq": "Professor de nível médio no ensino profissionalizante",
+    "familia": {
+     "codigo": "3313",
+     "titulo": "Professores de nível médio no ensino profissionalizante"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1047
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 663
+     }
+    },
+    "total_casadas": 88,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 1,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 2,
+      "descricao": "Desenvolver atividades em salas de aula",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 3,
+      "descricao": "Desenvolver atividades práticas em oficinas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "021210",
+    "codigo_formatado": "0212-10",
+    "titulo_cbo": "Soldado da polícia militar",
+    "titulo_qbq": "Soldado da polícia militar",
+    "familia": {
+     "codigo": "0212",
+     "titulo": "Cabos e soldados da polícia militar"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "nao_classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 20
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2607
+     }
+    },
+    "total_casadas": 87,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR POLICIAMENTO OSTENSIVO PREVENTIVO FARDADO",
+      "numero": 6,
+      "descricao": "Abordar pessoas em atitudes suspeitas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR POLICIAMENTO OSTENSIVO PREVENTIVO FARDADO",
+      "numero": 7,
+      "descricao": "Abordar veículo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR POLICIAMENTO OSTENSIVO PREVENTIVO FARDADO",
+      "numero": 12,
+      "descricao": "Executar patrulhamento intensificado em áreas com alto índice de criminalidade",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "223575",
+    "codigo_formatado": "2235-75",
+    "titulo_cbo": "Obstetriz",
+    "titulo_qbq": "Obstetriz",
+    "familia": {
+     "codigo": "2235",
+     "titulo": "Enfermeiros e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 429
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2663
+     }
+    },
+    "total_casadas": 87,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 1,
+      "descricao": "Realizar consultas de enfermagem e/ou obstetrícia",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 2,
+      "descricao": "Realizar anamnese",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 3,
+      "descricao": "Realizar exame físico e obstétrico e/ou puerperal e/ou recém nascido",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "231305",
+    "codigo_formatado": "2313-05",
+    "titulo_cbo": "Professor de ciências exatas e naturais do ensino fundamental",
+    "titulo_qbq": "Professor de ciências exatas e naturais do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 535
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2180
+     }
+    },
+    "total_casadas": 87,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 1,
+      "descricao": "Ministrar aulas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 2,
+      "descricao": "Desenvolver atividades para reflexão sobre a questão da cidadania",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 3,
+      "descricao": "Desenvolver temas tranversais por intermédio de diferentes atividades",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "223905",
+    "codigo_formatado": "2239-05",
+    "titulo_cbo": "Terapeuta ocupacional",
+    "titulo_qbq": "Terapeuta ocupacional",
+    "familia": {
+     "codigo": "2239",
+     "titulo": "Terapeutas ocupacionais, ortoptistas e psicomotricistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 451
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2102
+     }
+    },
+    "total_casadas": 86,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 4,
+      "descricao": "Ensinar técnicas de independência em a.v.d. e a.i.v.d.",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 5,
+      "descricao": "Ensinar técnicas de autonomia em atividade de vida diária (a.v.d.) e atividades instrumentais de vida diária (a.i.v.d.)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 9,
+      "descricao": "Adaptar atividades",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234210",
+    "codigo_formatado": "2342-10",
+    "titulo_cbo": "Professor de química (ensino superior)",
+    "titulo_qbq": "Professor de química (ensino superior)",
+    "familia": {
+     "codigo": "2342",
+     "titulo": "Professores de ciências físicas, químicas e afins do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 575
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2218
+     }
+    },
+    "total_casadas": 86,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Elaborar plano de ensino",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Planejar aula teórica",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Planejar aula experimental",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "613005",
+    "codigo_formatado": "6130-05",
+    "titulo_cbo": "Criador em pecuária polivalente",
+    "titulo_qbq": "Criador em pecuária polivalente",
+    "familia": {
+     "codigo": "6130",
+     "titulo": "Produtores em pecuária polivalente"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1591
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1415
+     }
+    },
+    "total_casadas": 86,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS DE PEQUENO, MÉDIO E GRANDE PORTE",
+      "numero": 1,
+      "descricao": "Observar temperamento, comportamento e condição corporal de animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS DE PEQUENO, MÉDIO E GRANDE PORTE",
+      "numero": 2,
+      "descricao": "Ordenhar bovinos e caprinos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS DE PEQUENO, MÉDIO E GRANDE PORTE",
+      "numero": 3,
+      "descricao": "Soltar aves em terreiro",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "242235",
+    "codigo_formatado": "2422-35",
+    "titulo_cbo": "Promotor de justiça",
+    "titulo_qbq": "Promotor de justiça",
+    "familia": {
+     "codigo": "2422",
+     "titulo": "Membros do ministério público"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 683
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2341
+     }
+    },
+    "total_casadas": 85,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 1,
+      "descricao": "Instaurar procedimentos de investigação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 2,
+      "descricao": "Promover, com exclusividade, ação penal pública nas justiças estaduais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 5,
+      "descricao": "Promover, com exclusividade, ação penal pública na justiça eleitoral",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "231330",
+    "codigo_formatado": "2313-30",
+    "titulo_cbo": "Professor de língua estrangeira moderna do ensino fundamental",
+    "titulo_qbq": "Professor de língua estrangeira moderna do ensino fundamental",
+    "familia": {
+     "codigo": "2313",
+     "titulo": "Professores de nível superior no ensino fundamental de quinta a oitava série"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 540
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2185
+     }
+    },
+    "total_casadas": 84,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 1,
+      "descricao": "Ministrar aulas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 2,
+      "descricao": "Desenvolver atividades para reflexão sobre a questão da cidadania",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PROMOVER A EDUCAÇÃO DOS ALUNOS",
+      "numero": 3,
+      "descricao": "Desenvolver temas tranversais por intermédio de diferentes atividades",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234205",
+    "codigo_formatado": "2342-05",
+    "titulo_cbo": "Professor de física (ensino superior)",
+    "titulo_qbq": "Professor de física (ensino superior)",
+    "familia": {
+     "codigo": "2342",
+     "titulo": "Professores de ciências físicas, químicas e afins do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 574
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2217
+     }
+    },
+    "total_casadas": 84,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Elaborar plano de ensino",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Planejar aula teórica",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Planejar aula experimental",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "021105",
+    "codigo_formatado": "0211-05",
+    "titulo_cbo": "Subtenente da policia militar",
+    "titulo_qbq": "Subtenente da policia militar",
+    "familia": {
+     "codigo": "0211",
+     "titulo": "Subtenentes e sargentos da policia militar"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "nao_classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 17
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2629
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COMANDAR O GRUPO",
+      "numero": 4,
+      "descricao": "Identificar a necessidade de aumento de efetivo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR O GRUPO",
+      "numero": 9,
+      "descricao": "Avaliar desempenho dos subordinados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSESSORAR O COMANDO",
+      "numero": 1,
+      "descricao": "Relatar as deficiências do grupo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "021110",
+    "codigo_formatado": "0211-10",
+    "titulo_cbo": "Sargento da policia militar",
+    "titulo_qbq": "Sargento da policia militar",
+    "familia": {
+     "codigo": "0211",
+     "titulo": "Subtenentes e sargentos da policia militar"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "nao_classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 18
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2640
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COMANDAR O GRUPO",
+      "numero": 4,
+      "descricao": "Identificar a necessidade de aumento de efetivo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR O GRUPO",
+      "numero": 9,
+      "descricao": "Avaliar desempenho dos subordinados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ASSESSORAR O COMANDO",
+      "numero": 1,
+      "descricao": "Relatar as deficiências do grupo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "141605",
+    "codigo_formatado": "1416-05",
+    "titulo_cbo": "Gerente de operações de transportes",
+    "titulo_qbq": "Gerente de operações de transportes",
+    "familia": {
+     "codigo": "1416",
+     "titulo": "Gerentes de operações de serviços em empresa de transporte, de comunicação e de logística (armazenagem e distribuição)"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 135
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2549
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 1,
+      "descricao": "Definir metas (redução de custos, ganhos de produtividade, renovação de frota....)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 2,
+      "descricao": "Definir processos de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 3,
+      "descricao": "Definir plano operacional e de manutenção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234215",
+    "codigo_formatado": "2342-15",
+    "titulo_cbo": "Professor de astronomia (ensino superior)",
+    "titulo_qbq": "Professor de astronomia (ensino superior)",
+    "familia": {
+     "codigo": "2342",
+     "titulo": "Professores de ciências físicas, químicas e afins do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 576
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2219
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Elaborar plano de ensino",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Planejar aula teórica",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Planejar aula experimental",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "515125",
+    "codigo_formatado": "5151-25",
+    "titulo_cbo": "Agente indígena de saúde",
+    "titulo_qbq": "Agente indígena de saúde",
+    "familia": {
+     "codigo": "5151",
+     "titulo": "Trabalhadores em serviços de promoção e apoio à saúde"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1439
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 239
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "VISITAR DOMICÍLIOS",
+      "numero": 1,
+      "descricao": "Dialogar com a população",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "VISITAR DOMICÍLIOS",
+      "numero": 2,
+      "descricao": "Verificar a existência de animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "VISITAR DOMICÍLIOS",
+      "numero": 3,
+      "descricao": "Analisar relacionamento entre os membros da família",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "631325",
+    "codigo_formatado": "6313-25",
+    "titulo_cbo": "Criador de peixes",
+    "titulo_qbq": "Criador de peixes",
+    "familia": {
+     "codigo": "6313",
+     "titulo": "Criadores de animais aquáticos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1686
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1454
+     }
+    },
+    "total_casadas": 83,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 1,
+      "descricao": "Transferir animais entre tanques, viveiros e redes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 2,
+      "descricao": "Medir animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 3,
+      "descricao": "Pesar animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226320",
+    "codigo_formatado": "2263-20",
+    "titulo_cbo": "Naturólogo",
+    "titulo_qbq": "Naturólogo",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 530
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1828
+     }
+    },
+    "total_casadas": 82,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 1,
+      "descricao": "Estabelecer contrato terapêutico",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 5,
+      "descricao": "Organizar grupos terapêuticos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 6,
+      "descricao": "Realizar sessões temáticas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "325210",
+    "codigo_formatado": "3252-10",
+    "titulo_cbo": "Técnico em nutrição e dietética",
+    "titulo_qbq": "Técnico em nutrição e dietética",
+    "familia": {
+     "codigo": "3252",
+     "titulo": "Técnicos em produção, conservação  e de qualidade de alimentos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1039
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 662
+     }
+    },
+    "total_casadas": 82,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONTROLAR A QUALIDADE NAS ETAPAS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Preencher check-list (verificação de rotinas)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONTROLAR A QUALIDADE NAS ETAPAS DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Identificar pontos críticos de controle",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONTROLAR A QUALIDADE NAS ETAPAS DE PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Corrigir os pontos críticos de controle",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "331105",
+    "codigo_formatado": "3311-05",
+    "titulo_cbo": "Professor de nível médio na educação infantil",
+    "titulo_qbq": "Professor de nível médio na educação infantil",
+    "familia": {
+     "codigo": "3311",
+     "titulo": "Professores de nível médio na educação infantil"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1044
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 53
+     }
+    },
+    "total_casadas": 82,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 1,
+      "descricao": "Cantar músicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 2,
+      "descricao": "Criar espaço para brincadeiras",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 3,
+      "descricao": "Brincar com os alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "233115",
+    "codigo_formatado": "2331-15",
+    "titulo_cbo": "Professor de técnicas agrícolas",
+    "titulo_qbq": "Professor de técnicas agrícolas",
+    "familia": {
+     "codigo": "2331",
+     "titulo": "Professores do ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 559
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2202
+     }
+    },
+    "total_casadas": 81,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 1,
+      "descricao": "Ministrar aulas teórico-práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 2,
+      "descricao": "Orientar a leitura e a interpretação de textos, esquemas, gráficos, normas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 3,
+      "descricao": "Apresentar esquemas e painéis explicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "334110",
+    "codigo_formatado": "3341-10",
+    "titulo_cbo": "Inspetor de alunos de escola pública",
+    "titulo_qbq": "Inspetor de alunos de escola pública",
+    "familia": {
+     "codigo": "3341",
+     "titulo": "Inspetores de alunos e afins"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1054
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 60
+     }
+    },
+    "total_casadas": 81,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CUIDAR DA SEGURANÇA DOS ALUNOS",
+      "numero": 1,
+      "descricao": "Auxiliar alunos na travessia de ruas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "CUIDAR DA SEGURANÇA DOS ALUNOS",
+      "numero": 2,
+      "descricao": "Auxiliar alunos com deficiência ( fisica, visual, mental)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "CUIDAR DA SEGURANÇA DOS ALUNOS",
+      "numero": 3,
+      "descricao": "Identificar pessoas suspeitas nas imediações da escola",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377210",
+    "codigo_formatado": "3772-10",
+    "titulo_cbo": "Árbitro de atletismo",
+    "titulo_qbq": "Árbitro de atletismo",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1250
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1360
+     }
+    },
+    "total_casadas": 81,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "631305",
+    "codigo_formatado": "6313-05",
+    "titulo_cbo": "Criador de camarões",
+    "titulo_qbq": "Criador de camarões",
+    "familia": {
+     "codigo": "6313",
+     "titulo": "Criadores de animais aquáticos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1682
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1450
+     }
+    },
+    "total_casadas": 81,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 1,
+      "descricao": "Transferir animais entre tanques, viveiros e redes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 2,
+      "descricao": "Medir animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 3,
+      "descricao": "Pesar animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720110",
+    "codigo_formatado": "7201-10",
+    "titulo_cbo": "Mestre de caldeiraria",
+    "titulo_qbq": "Mestre de caldeiraria",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1854
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 867
+     }
+    },
+    "total_casadas": 81,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Orientar a equipe nos métodos, processos e qualidade na soldagem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Orientar a equipe nos métodos, processos produtivos e qualidade de conformação de metais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Orientar a equipe nos processos produtivos, métodos e qualidade na fundição",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "222205",
+    "codigo_formatado": "2222-05",
+    "titulo_cbo": "Engenheiro de alimentos",
+    "titulo_qbq": "Engenheiro de alimentos",
+    "familia": {
+     "codigo": "2222",
+     "titulo": "Engenheiros de alimentos e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 380
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2035
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS E PROCESSOS DE PRODUÇÃO DE ALIMENTOS",
+      "numero": 1,
+      "descricao": "Determinar características fisico-químicas dos produtos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS E PROCESSOS DE PRODUÇÃO DE ALIMENTOS",
+      "numero": 2,
+      "descricao": "Pesquisar mercado",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS E PROCESSOS DE PRODUÇÃO DE ALIMENTOS",
+      "numero": 3,
+      "descricao": "Prospectar soluções tecnológicas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "233110",
+    "codigo_formatado": "2331-10",
+    "titulo_cbo": "Professor de desenho técnico",
+    "titulo_qbq": "Professor de desenho técnico",
+    "familia": {
+     "codigo": "2331",
+     "titulo": "Professores do ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 558
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2201
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 1,
+      "descricao": "Ministrar aulas teórico-práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 2,
+      "descricao": "Orientar a leitura e a interpretação de textos, esquemas, gráficos, normas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 3,
+      "descricao": "Apresentar esquemas e painéis explicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "233125",
+    "codigo_formatado": "2331-25",
+    "titulo_cbo": "Professor de técnicas de enfermagem",
+    "titulo_qbq": "Professor de técnicas de enfermagem",
+    "familia": {
+     "codigo": "2331",
+     "titulo": "Professores do ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 561
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2204
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 1,
+      "descricao": "Ministrar aulas teórico-práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 2,
+      "descricao": "Orientar a leitura e a interpretação de textos, esquemas, gráficos, normas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 3,
+      "descricao": "Apresentar esquemas e painéis explicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "233130",
+    "codigo_formatado": "2331-30",
+    "titulo_cbo": "Professor de técnicas industriais",
+    "titulo_qbq": "Professor de técnicas industriais",
+    "familia": {
+     "codigo": "2331",
+     "titulo": "Professores do ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 562
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2205
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 1,
+      "descricao": "Ministrar aulas teórico-práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 2,
+      "descricao": "Orientar a leitura e a interpretação de textos, esquemas, gráficos, normas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 3,
+      "descricao": "Apresentar esquemas e painéis explicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234420",
+    "codigo_formatado": "2344-20",
+    "titulo_cbo": "Professor de farmácia e bioquímica",
+    "titulo_qbq": "Professor de farmácia e bioquímica",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 584
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2227
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251545",
+    "codigo_formatado": "2515-45",
+    "titulo_cbo": "Neuropsicólogo",
+    "titulo_qbq": "Neuropsicólogo",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 713
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2358
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377215",
+    "codigo_formatado": "3772-15",
+    "titulo_cbo": "Árbitro de basquete",
+    "titulo_qbq": "Árbitro de basquete",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1251
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1361
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377220",
+    "codigo_formatado": "3772-20",
+    "titulo_cbo": "Árbitro de futebol",
+    "titulo_qbq": "Árbitro de futebol",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1252
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1362
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377225",
+    "codigo_formatado": "3772-25",
+    "titulo_cbo": "Árbitro de futebol de salão",
+    "titulo_qbq": "Árbitro de futebol de salão",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1253
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1363
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377240",
+    "codigo_formatado": "3772-40",
+    "titulo_cbo": "Árbitro de poló aquático",
+    "titulo_qbq": "Árbitro de polo aquático",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1256
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1366
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612810",
+    "codigo_formatado": "6128-10",
+    "titulo_cbo": "Produtor de plantas aromáticas e medicinais",
+    "titulo_qbq": "Produtor de plantas aromáticas e medicinais",
+    "familia": {
+     "codigo": "6128",
+     "titulo": "Produtores de especiarias e de plantas aromáticas e medicinais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1590
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1853
+     }
+    },
+    "total_casadas": 80,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 1,
+      "descricao": "Legalizar documentação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 2,
+      "descricao": "Captar recursos financeiros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 3,
+      "descricao": "Contratar e demitir mão-de-obra",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "020305",
+    "codigo_formatado": "0203-05",
+    "titulo_cbo": "Primeiro tenente de polícia militar",
+    "titulo_qbq": "Primeiro tenente de polícia militar",
+    "familia": {
+     "codigo": "0203",
+     "titulo": "Tenentes da polícia militar"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "nao_classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 15
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2602
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 2,
+      "descricao": "Buscar informações sobre área de responsabilidade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 3,
+      "descricao": "Inteirar-se sobre a situação pessoal dos subordinados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 7,
+      "descricao": "Promover convênios de cooperação com as autoridades locais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "020310",
+    "codigo_formatado": "0203-10",
+    "titulo_cbo": "Segundo tenente de polícia militar",
+    "titulo_qbq": "Segundo tenente de polícia militar",
+    "familia": {
+     "codigo": "0203",
+     "titulo": "Tenentes da polícia militar"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "nao_classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 16
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2615
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 2,
+      "descricao": "Buscar informações sobre área de responsabilidade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 3,
+      "descricao": "Inteirar-se sobre a situação pessoal dos subordinados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "COMANDAR PELOTÃO",
+      "numero": 7,
+      "descricao": "Promover convênios de cooperação com as autoridades locais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "223915",
+    "codigo_formatado": "2239-15",
+    "titulo_cbo": "Psicomotricista",
+    "titulo_qbq": "Psicomotricista",
+    "familia": {
+     "codigo": "2239",
+     "titulo": "Terapeutas ocupacionais, ortoptistas e psicomotricistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 453
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2104
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 4,
+      "descricao": "Ensinar técnicas de independência em a.v.d. e a.i.v.d.",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 5,
+      "descricao": "Ensinar técnicas de autonomia em atividade de vida diária (a.v.d.) e atividades instrumentais de vida diária (a.i.v.d.)",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR INTERVENÇÕES/TRATAMENTO",
+      "numero": 9,
+      "descricao": "Adaptar atividades",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226310",
+    "codigo_formatado": "2263-10",
+    "titulo_cbo": "Arteterapeuta",
+    "titulo_qbq": "Arteterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 528
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1826
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 1,
+      "descricao": "Estabelecer contrato terapêutico",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 2,
+      "descricao": "Estabelecer vínculo arte-terapêutico",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 5,
+      "descricao": "Organizar grupos terapêuticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234110",
+    "codigo_formatado": "2341-10",
+    "titulo_cbo": "Professor de matemática pura (no ensino superior)",
+    "titulo_qbq": "Professor de matemática pura (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 570
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2213
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 4,
+      "descricao": "Organizar atividades práticas (sala de aula, campo e laboratório)",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234405",
+    "codigo_formatado": "2344-05",
+    "titulo_cbo": "Professor de ciências biológicas do ensino superior",
+    "titulo_qbq": "Professor de ciências biológicas do ensino superior",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 581
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2224
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234415",
+    "codigo_formatado": "2344-15",
+    "titulo_cbo": "Professor de enfermagem do ensino superior",
+    "titulo_qbq": "Professor de enfermagem do ensino superior",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 583
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2226
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234425",
+    "codigo_formatado": "2344-25",
+    "titulo_cbo": "Professor de fisioterapia",
+    "titulo_qbq": "Professor de fisioterapia",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 585
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2228
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234430",
+    "codigo_formatado": "2344-30",
+    "titulo_cbo": "Professor de fonoaudiologia",
+    "titulo_qbq": "Professor de fonoaudiologia",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 586
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2229
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234435",
+    "codigo_formatado": "2344-35",
+    "titulo_cbo": "Professor de medicina",
+    "titulo_qbq": "Professor de medicina",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 587
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2230
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234440",
+    "codigo_formatado": "2344-40",
+    "titulo_cbo": "Professor de medicina veterinária",
+    "titulo_qbq": "Professor de medicina veterinária",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 588
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2231
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234445",
+    "codigo_formatado": "2344-45",
+    "titulo_cbo": "Professor de nutrição",
+    "titulo_qbq": "Professor de nutrição",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 589
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2232
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234450",
+    "codigo_formatado": "2344-50",
+    "titulo_cbo": "Professor de odontologia",
+    "titulo_qbq": "Professor de odontologia",
+    "familia": {
+     "codigo": "2344",
+     "titulo": "Professores de ciências biológicas e da saúde do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 590
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2233
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 1,
+      "descricao": "Ministrar aulas práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 2,
+      "descricao": "Ministrar aulas expositivas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR ATIVIDADES DIDÁTICAS",
+      "numero": 3,
+      "descricao": "Ministrar atividades de campo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "242205",
+    "codigo_formatado": "2422-05",
+    "titulo_cbo": "Procurador da república",
+    "titulo_qbq": "Procurador da república",
+    "familia": {
+     "codigo": "2422",
+     "titulo": "Membros do ministério público"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 677
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2335
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 1,
+      "descricao": "Instaurar procedimentos de investigação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 3,
+      "descricao": "Promover, com exclusividade, ação penal pública na justiça federal",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REPRIMIR A CRIMINALIDADE",
+      "numero": 5,
+      "descricao": "Promover, com exclusividade, ação penal pública na justiça eleitoral",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251520",
+    "codigo_formatado": "2515-20",
+    "titulo_cbo": "Psicólogo hospitalar",
+    "titulo_qbq": "Psicólogo hospitalar",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 708
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2353
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "254110",
+    "codigo_formatado": "2541-10",
+    "titulo_cbo": "Técnico da receita federal",
+    "titulo_qbq": "Técnico da receita federal",
+    "familia": {
+     "codigo": "2541",
+     "titulo": "Auditores fiscais e técnicos da receita federal"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 758
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1831
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR OBRIGAÇÕES TRIBUTÁRIAS FEDERAIS E OPERAÇÕES DE COMÉRCIO EXTERIOR",
+      "numero": 5,
+      "descricao": "Analisar informações e dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR OBRIGAÇÕES TRIBUTÁRIAS FEDERAIS E OPERAÇÕES DE COMÉRCIO EXTERIOR",
+      "numero": 13,
+      "descricao": "Auxiliar na revisão de declaração de imposto de renda",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR OBRIGAÇÕES TRIBUTÁRIAS FEDERAIS E OPERAÇÕES DE COMÉRCIO EXTERIOR",
+      "numero": 28,
+      "descricao": "Conferir documentação e formalidades administrativas",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "351305",
+    "codigo_formatado": "3513-05",
+    "titulo_cbo": "Técnico em administração",
+    "titulo_qbq": "Técnico em administração",
+    "familia": {
+     "codigo": "3513",
+     "titulo": "Técnicos em administração"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1103
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 70
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+      "numero": 1,
+      "descricao": "Organizar rotina diária",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+      "numero": 2,
+      "descricao": "Protocolar documentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "CONTROLAR ROTINA ADMINISTRATIVA",
+      "numero": 3,
+      "descricao": "Elaborar documentos administrativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "612805",
+    "codigo_formatado": "6128-05",
+    "titulo_cbo": "Produtor de especiarias",
+    "titulo_qbq": "Produtor de especiarias",
+    "familia": {
+     "codigo": "6128",
+     "titulo": "Produtores de especiarias e de plantas aromáticas e medicinais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1589
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1852
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 1,
+      "descricao": "Legalizar documentação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 2,
+      "descricao": "Captar recursos financeiros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE",
+      "numero": 3,
+      "descricao": "Contratar e demitir mão-de-obra",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "623005",
+    "codigo_formatado": "6230-05",
+    "titulo_cbo": "Adestrador de animais",
+    "titulo_qbq": "Adestrador de animais",
+    "familia": {
+     "codigo": "6230",
+     "titulo": "Tratadores polivalentes de animais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1650
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 796
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 1,
+      "descricao": "Conferir plantel",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 2,
+      "descricao": "Orientar proprietários de animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 3,
+      "descricao": "Conferir estado físico de animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "631335",
+    "codigo_formatado": "6313-35",
+    "titulo_cbo": "Criador de rãs",
+    "titulo_qbq": "Criador de rãs",
+    "familia": {
+     "codigo": "6313",
+     "titulo": "Criadores de animais aquáticos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1688
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1456
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 1,
+      "descricao": "Transferir animais entre tanques, viveiros e redes",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 2,
+      "descricao": "Medir animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS AQUÁTICOS",
+      "numero": 3,
+      "descricao": "Pesar animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720125",
+    "codigo_formatado": "7201-25",
+    "titulo_cbo": "Mestre de fundição",
+    "titulo_qbq": "Mestre de fundição",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1857
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 870
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Orientar a equipe nos métodos, processos produtivos e qualidade de conformação de metais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Determinar o local adequado para a execução do processo de fabricação de equipamentos e produtos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720150",
+    "codigo_formatado": "7201-50",
+    "titulo_cbo": "Mestre de usinagem",
+    "titulo_qbq": "Mestre de usinagem",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1862
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 875
+     }
+    },
+    "total_casadas": 79,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 4,
+      "descricao": "Orientar a equipe nos métodos, processos produtivos e qualidade dos tratamentos de metais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Determinar o local adequado para a execução do processo de fabricação de equipamentos e produtos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "223293",
+    "codigo_formatado": "2232-93",
+    "titulo_cbo": "Cirurgião-dentista da estratégia de saúde da família",
+    "titulo_qbq": "Cirurgião-dentista da estratégia de saúde da família",
+    "familia": {
+     "codigo": "2232",
+     "titulo": "Cirurgiões-dentistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 404
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2058
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROCEDIMENTO ODONTOLÓGICO",
+      "numero": 4,
+      "descricao": "Avaliar fatores de risco da atividade da cárie dental",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROCEDIMENTO ODONTOLÓGICO",
+      "numero": 14,
+      "descricao": "Tratar  alterações de tecidos da cavidade oral",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR PROCEDIMENTO ODONTOLÓGICO",
+      "numero": 16,
+      "descricao": "Realizar ajuste oclusal",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "226305",
+    "codigo_formatado": "2263-05",
+    "titulo_cbo": "Musicoterapeuta",
+    "titulo_qbq": "Musicoterapeuta",
+    "familia": {
+     "codigo": "2263",
+     "titulo": "Profissionais das terapias criativas,equoterápicas e naturológicas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 527
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1825
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 1,
+      "descricao": "Estabelecer contrato terapêutico",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 4,
+      "descricao": "Estabelecer vínculo sonoro-musical",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "REALIZAR ATENDIMENTO TERAPÊUTICO",
+      "numero": 5,
+      "descricao": "Organizar grupos terapêuticos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "233120",
+    "codigo_formatado": "2331-20",
+    "titulo_cbo": "Professor de técnicas comerciais e secretariais",
+    "titulo_qbq": "Professor de técnicas comerciais e secretariais",
+    "familia": {
+     "codigo": "2331",
+     "titulo": "Professores do ensino profissional"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 560
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2203
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 1,
+      "descricao": "Ministrar aulas teórico-práticas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 2,
+      "descricao": "Orientar a leitura e a interpretação de textos, esquemas, gráficos, normas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR",
+      "numero": 3,
+      "descricao": "Apresentar esquemas e painéis explicativos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251605",
+    "codigo_formatado": "2516-05",
+    "titulo_cbo": "Assistente social",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "2516",
+     "titulo": "Assistentes sociais e economistas domésticos"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 716
+     },
+     "qbq": null
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER CAPACIDADES E POSSIBILIDADES INDIVIDUAIS E COLETIVAS",
+      "numero": 19,
+      "descricao": "Desenvolver grupos e atividades socioeducativas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER CAPACIDADES E POSSIBILIDADES INDIVIDUAIS E COLETIVAS",
+      "numero": 20,
+      "descricao": "Encaminhar para acesso a direitos instituidos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER CAPACIDADES E POSSIBILIDADES INDIVIDUAIS E COLETIVAS",
+      "numero": 21,
+      "descricao": "Avaliar capacidades,possibilidades e limitações",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "331110",
+    "codigo_formatado": "3311-10",
+    "titulo_cbo": "Auxiliar de desenvolvimento infantil",
+    "titulo_qbq": "Auxiliar de desenvolvimento infantil",
+    "familia": {
+     "codigo": "3311",
+     "titulo": "Professores de nível médio na educação infantil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1045
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 54
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 1,
+      "descricao": "Cantar músicas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 2,
+      "descricao": "Criar espaço para brincadeiras",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ENSINAR ALUNOS",
+      "numero": 3,
+      "descricao": "Brincar com os alunos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "377230",
+    "codigo_formatado": "3772-30",
+    "titulo_cbo": "Árbitro de judô",
+    "titulo_qbq": "Árbitro de judô",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1254
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1364
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377235",
+    "codigo_formatado": "3772-35",
+    "titulo_cbo": "Árbitro de karatê",
+    "titulo_qbq": "Árbitro de caratê",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1255
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1365
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377245",
+    "codigo_formatado": "3772-45",
+    "titulo_cbo": "Árbitro de vôlei",
+    "titulo_qbq": "Árbitro de vôlei",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1257
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1367
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "623010",
+    "codigo_formatado": "6230-10",
+    "titulo_cbo": "Inseminador",
+    "titulo_qbq": "Inseminador",
+    "familia": {
+     "codigo": "6230",
+     "titulo": "Tratadores polivalentes de animais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1651
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 797
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 1,
+      "descricao": "Conferir plantel",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 3,
+      "descricao": "Conferir estado físico de animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "MANEJAR ANIMAIS",
+      "numero": 4,
+      "descricao": "Marcar plantel",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "720145",
+    "codigo_formatado": "7201-45",
+    "titulo_cbo": "Mestre de trefilação de metais",
+    "titulo_qbq": "Mestre de trefilação de metais",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1861
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 874
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Orientar a equipe nos métodos, processos produtivos e qualidade de conformação de metais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 5,
+      "descricao": "Estruturar o arranjo físico do setor",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720160",
+    "codigo_formatado": "7201-60",
+    "titulo_cbo": "Supervisor de controle de tratamento térmico",
+    "titulo_qbq": "Supervisor de controle de tratamento térmico",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1864
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 877
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "COORDENAR AS ATIVIDADES TÉCNICAS DA EQUIPE DE PRODUÇÃO",
+      "numero": 4,
+      "descricao": "Orientar a equipe nos métodos, processos produtivos e qualidade dos tratamentos de metais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 5,
+      "descricao": "Estruturar o arranjo físico do setor",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "810105",
+    "codigo_formatado": "8101-05",
+    "titulo_cbo": "Mestre (indústria petroquímica e carboquímica)",
+    "titulo_qbq": "Mestre (indústria petroquímica e carboquímica)",
+    "familia": {
+     "codigo": "8101",
+     "titulo": "Supervisores de produção em indústrias químicas, petroquímicas e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2355
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1667
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Manter a continuidade operacional",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Assegurar o cumprimento das instruções, pela equipe de trabalho",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Identificar as rotinas operacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "810110",
+    "codigo_formatado": "8101-10",
+    "titulo_cbo": "Mestre de produção química",
+    "titulo_qbq": "Mestre de produção química",
+    "familia": {
+     "codigo": "8101",
+     "titulo": "Supervisores de produção em indústrias químicas, petroquímicas e afins"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2356
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1668
+     }
+    },
+    "total_casadas": 78,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Manter a continuidade operacional",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Assegurar o cumprimento das instruções, pela equipe de trabalho",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR PROCESSOS CONTÍNUOS DE PRODUÇÃO",
+      "numero": 3,
+      "descricao": "Identificar as rotinas operacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "142505",
+    "codigo_formatado": "1425-05",
+    "titulo_cbo": "Gerente de infraestrutura de tecnologia da informação",
+    "titulo_qbq": "Gerente de infraestrutura de tecnologia da informação",
+    "familia": {
+     "codigo": "1425",
+     "titulo": "Gerentes de tecnologia da informação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 175
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2587
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "GERENCIAR OPERAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+      "numero": 2,
+      "descricao": "Analisar demandas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR OPERAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+      "numero": 3,
+      "descricao": "Participar da definição das metodologias de aplicação",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "GERENCIAR OPERAÇÃO DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+      "numero": 5,
+      "descricao": "Aplicar melhorias nos processos operacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251505",
+    "codigo_formatado": "2515-05",
+    "titulo_cbo": "Psicólogo educacional",
+    "titulo_qbq": "Psicólogo educacional",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 705
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2350
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "251510",
+    "codigo_formatado": "2515-10",
+    "titulo_cbo": "Psicólogo clínico",
+    "titulo_qbq": "Psicólogo clínico",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 706
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2351
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "251525",
+    "codigo_formatado": "2515-25",
+    "titulo_cbo": "Psicólogo jurídico",
+    "titulo_qbq": "Psicólogo jurídico",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 709
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2354
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "321305",
+    "codigo_formatado": "3213-05",
+    "titulo_cbo": "Técnico em piscicultura",
+    "titulo_qbq": "Técnico em piscicultura",
+    "familia": {
+     "codigo": "3213",
+     "titulo": "Técnicos em aqüicultura"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 988
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1269
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR REPRODUÇÃO DE ANIMAIS AQUÁTICOS",
+      "numero": 1,
+      "descricao": "Selecionar reprodutores",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR REPRODUÇÃO DE ANIMAIS AQUÁTICOS",
+      "numero": 2,
+      "descricao": "Testar grau de maturação de óvulos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ORGANIZAR REPRODUÇÃO DE ANIMAIS AQUÁTICOS",
+      "numero": 3,
+      "descricao": "Mensurar reprodutores e ovos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "377205",
+    "codigo_formatado": "3772-05",
+    "titulo_cbo": "Árbitro desportivo",
+    "titulo_qbq": "Árbitro desportivo",
+    "familia": {
+     "codigo": "3772",
+     "titulo": "Árbitros desportivos"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1249
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1359
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 1,
+      "descricao": "Realizar provas teóricas e práticas de habilitação de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 2,
+      "descricao": "Participar de cursos de arbitragem",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PARTICIPAR DE ATIVIDADES DE CONHECIMENTO E ATUALIZAÇÃO DE REGRAS DE ARBITRAGEM",
+      "numero": 3,
+      "descricao": "Participar de estágios",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "510135",
+    "codigo_formatado": "5101-35",
+    "titulo_cbo": "Maître",
+    "titulo_qbq": "Maître",
+    "familia": {
+     "codigo": "5101",
+     "titulo": "Supervisores dos serviços de transporte, turismo, hotelaria e administração de edifícios"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1377
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 751
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 1,
+      "descricao": "Descrever procedimentos de execução dos serviços",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 2,
+      "descricao": "Elaborar cronogramas de execução de tarefas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 3,
+      "descricao": "Definir funções da equipe de trabalho",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "720105",
+    "codigo_formatado": "7201-05",
+    "titulo_cbo": "Mestre (afiador de ferramentas)",
+    "titulo_qbq": "Mestre (afiador de ferramentas)",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1853
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 866
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 5,
+      "descricao": "Estruturar o arranjo físico do setor",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 7,
+      "descricao": "Avaliar a eficácia dos serviços de manutenção",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720115",
+    "codigo_formatado": "7201-15",
+    "titulo_cbo": "Mestre de ferramentaria",
+    "titulo_qbq": "Mestre de ferramentaria",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1855
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 868
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 5,
+      "descricao": "Estruturar o arranjo físico do setor",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 7,
+      "descricao": "Avaliar a eficácia dos serviços de manutenção",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720130",
+    "codigo_formatado": "7201-30",
+    "titulo_cbo": "Mestre de galvanoplastia",
+    "titulo_qbq": "Mestre de galvanoplastia",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1858
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 871
+     }
+    },
+    "total_casadas": 77,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Planejar a disponibilidade dos equipamentos em função do fluxo de produção",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 5,
+      "descricao": "Estruturar o arranjo físico do setor",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 7,
+      "descricao": "Avaliar a eficácia dos serviços de manutenção",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "142355",
+    "codigo_formatado": "1423-55",
+    "titulo_cbo": "Analista de e-commerce",
+    "titulo_qbq": "Analista de e-commerce",
+    "familia": {
+     "codigo": "1423",
+     "titulo": "Gerentes de comercialização, marketing e comunicação"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 171
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2583
+     }
+    },
+    "total_casadas": 76,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANO ESTRATÉGICO DAS ÁREAS DE NEGÓCIOS E /OU RELACIONAMENTOS",
+      "numero": 3,
+      "descricao": "Pesquisar mercado",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANO ESTRATÉGICO DAS ÁREAS DE NEGÓCIOS E /OU RELACIONAMENTOS",
+      "numero": 4,
+      "descricao": "Estabelecer metas e indicadores de desempenho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANO ESTRATÉGICO DAS ÁREAS DE NEGÓCIOS E /OU RELACIONAMENTOS",
+      "numero": 6,
+      "descricao": "Planejar campanhas publicitárias",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "242405",
+    "codigo_formatado": "2424-05",
+    "titulo_cbo": "Defensor público",
+    "titulo_qbq": "Defensor público",
+    "familia": {
+     "codigo": "2424",
+     "titulo": "Defensores públicos e procuradores da assistência judiciária"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 688
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2346
+     }
+    },
+    "total_casadas": 76,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 3,
+      "descricao": "Acompanhar ações propostas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 4,
+      "descricao": "Recorrer das decisões contrárias nas ações propostas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 5,
+      "descricao": "Sustentar oralmente a posição processual",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "510130",
+    "codigo_formatado": "5101-30",
+    "titulo_cbo": "Chefe de bar",
+    "titulo_qbq": "Chefe de bar",
+    "familia": {
+     "codigo": "5101",
+     "titulo": "Supervisores dos serviços de transporte, turismo, hotelaria e administração de edifícios"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1376
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 750
+     }
+    },
+    "total_casadas": 76,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 1,
+      "descricao": "Descrever procedimentos de execução dos serviços",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 2,
+      "descricao": "Elaborar cronogramas de execução de tarefas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ROTINAS DE TRABALHO EM RESTAURANTES, HOTÉIS, TRANSPORTES E ADMINISTRAÇÃO DE EDIFÍCIOS",
+      "numero": 3,
+      "descricao": "Definir funções da equipe de trabalho",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "621005",
+    "codigo_formatado": "6210-05",
+    "titulo_cbo": "Trabalhador agropecuário em geral",
+    "titulo_qbq": "Trabalhador agropecuário em geral",
+    "familia": {
+     "codigo": "6210",
+     "titulo": "Trabalhadores agropecuários em geral"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1611
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 313
+     }
+    },
+    "total_casadas": 76,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "TRATAR ANIMAIS",
+      "numero": 1,
+      "descricao": "Recolher animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "TRATAR ANIMAIS",
+      "numero": 2,
+      "descricao": "Monitorar animais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "TRATAR ANIMAIS",
+      "numero": 3,
+      "descricao": "Alimentar animais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "114205",
+    "codigo_formatado": "1142-05",
+    "titulo_cbo": "Dirigente de entidade de trabalhadores",
+    "titulo_qbq": "Dirigente de entidade de trabalhadores",
+    "familia": {
+     "codigo": "1142",
+     "titulo": "Dirigentes e administradores de entidades patronais e dos trabalhadores e de outros interesses sócioeconômicos"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 63
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2477
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DEFENDER INTERESSES DOS ASSOCIADOS E REPRESENTADOS",
+      "numero": 1,
+      "descricao": "Definir pauta de reivindicações",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DEFENDER INTERESSES DOS ASSOCIADOS E REPRESENTADOS",
+      "numero": 2,
+      "descricao": "Definir estratégias de negociação",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "DEFENDER INTERESSES DOS ASSOCIADOS E REPRESENTADOS",
+      "numero": 3,
+      "descricao": "Negociar condições de trabalho",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "141615",
+    "codigo_formatado": "1416-15",
+    "titulo_cbo": "Gerente de logística (armazenagem e distribuição)",
+    "titulo_qbq": "Gerente de logística (armazenagem e distribuição)",
+    "familia": {
+     "codigo": "1416",
+     "titulo": "Gerentes de operações de serviços em empresa de transporte, de comunicação e de logística (armazenagem e distribuição)"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 137
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2551
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 1,
+      "descricao": "Definir metas (redução de custos, ganhos de produtividade, renovação de frota....)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 2,
+      "descricao": "Definir processos de trabalho",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PLANEJAR ATIVIDADES DE ARMAZENAMENTO, DISTRIBUIÇÃO, TRANSPORTES E COMUNICAÇÕES",
+      "numero": 3,
+      "descricao": "Definir plano operacional e de manutenção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "223580",
+    "codigo_formatado": "2235-80",
+    "titulo_cbo": "Enfermeiro estomaterapeuta",
+    "titulo_qbq": "Enfermeiro estomaterapeuta",
+    "familia": {
+     "codigo": "2235",
+     "titulo": "Enfermeiros e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 430
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2674
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 1,
+      "descricao": "Realizar consultas de enfermagem e/ou obstetrícia",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 2,
+      "descricao": "Realizar anamnese",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 3,
+      "descricao": "Realizar exame físico e obstétrico e/ou puerperal e/ou recém nascido",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "223585",
+    "codigo_formatado": "2235-85",
+    "titulo_cbo": "Enfermeiro forense",
+    "titulo_qbq": "Enfermeiro forense",
+    "familia": {
+     "codigo": "2235",
+     "titulo": "Enfermeiros e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 431
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2657
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 1,
+      "descricao": "Realizar consultas de enfermagem e/ou obstetrícia",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 2,
+      "descricao": "Realizar anamnese",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "PRESTAR ASSISTÊNCIA AO PACIENTE/CLIENTE",
+      "numero": 3,
+      "descricao": "Realizar exame físico e obstétrico e/ou puerperal e/ou recém nascido",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "242410",
+    "codigo_formatado": "2424-10",
+    "titulo_cbo": "Procurador da assistência judiciária",
+    "titulo_qbq": "Procurador da assistência judiciária",
+    "familia": {
+     "codigo": "2424",
+     "titulo": "Defensores públicos e procuradores da assistência judiciária"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 689
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2347
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 3,
+      "descricao": "Acompanhar ações propostas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 4,
+      "descricao": "Recorrer das decisões contrárias nas ações propostas",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXERCER FUNÇÕES ORDINÁRIAS",
+      "numero": 5,
+      "descricao": "Sustentar oralmente a posição processual",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251530",
+    "codigo_formatado": "2515-30",
+    "titulo_cbo": "Psicólogo social",
+    "titulo_qbq": "Psicólogo social",
+    "familia": {
+     "codigo": "2515",
+     "titulo": "Psicólogos e psicanalistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 710
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2355
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 1,
+      "descricao": "Triar casos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 2,
+      "descricao": "Entrevistar pessoas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "AVALIAR COMPORTAMENTOS PSÍQUICOS",
+      "numero": 3,
+      "descricao": "Levantar dados pertinentes",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "254205",
+    "codigo_formatado": "2542-05",
+    "titulo_cbo": "Auditor-fiscal da previdência social",
+    "titulo_qbq": "Auditor-fiscal da previdência social",
+    "familia": {
+     "codigo": "2542",
+     "titulo": "Auditores fiscais da previdência social"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 759
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2396
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR O CUMPRIMENTO DA LEGISLAÇÃO PREVIDENCIÁRIA",
+      "numero": 1,
+      "descricao": "Analisar dados do banco de dados",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR O CUMPRIMENTO DA LEGISLAÇÃO PREVIDENCIÁRIA",
+      "numero": 5,
+      "descricao": "Analisar sistemas informatizados da empresa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FISCALIZAR O CUMPRIMENTO DA LEGISLAÇÃO PREVIDENCIÁRIA",
+      "numero": 6,
+      "descricao": "Examinar a contabilidade",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "311410",
+    "codigo_formatado": "3114-10",
+    "titulo_cbo": "Técnico em plástico",
+    "titulo_qbq": "Técnico em plástico",
+    "familia": {
+     "codigo": "3114",
+     "titulo": "Técnicos em fabricação de produtos plásticos e de borracha"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 864
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1213
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS",
+      "numero": 1,
+      "descricao": "Definir a viabilidade técnico-econômica",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS",
+      "numero": 3,
+      "descricao": "Identificar materiais e aplicações",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "DESENVOLVER PRODUTOS",
+      "numero": 4,
+      "descricao": "Adequar o produto às necessidades do cliente",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "321210",
+    "codigo_formatado": "3212-10",
+    "titulo_cbo": "Técnico florestal",
+    "titulo_qbq": "Técnico florestal",
+    "familia": {
+     "codigo": "3212",
+     "titulo": "Técnicos florestais"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 987
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1268
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EXECUÇÃO DE ATIVIDADES FLORESTAIS",
+      "numero": 1,
+      "descricao": "Supervisionar construção e conservação de infra-estrutura",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EXECUÇÃO DE ATIVIDADES FLORESTAIS",
+      "numero": 2,
+      "descricao": "Supervisionar construção de viveiros florestais",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "SUPERVISIONAR EXECUÇÃO DE ATIVIDADES FLORESTAIS",
+      "numero": 3,
+      "descricao": "Efetuar levantamentos topográficos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322205",
+    "codigo_formatado": "3222-05",
+    "titulo_cbo": "Técnico de enfermagem",
+    "titulo_qbq": "Técnico de enfermagem",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1000
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 28
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 1,
+      "descricao": "Apresentar-se situando paciente no ambiente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 2,
+      "descricao": "Arrolar pertences de paciente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 3,
+      "descricao": "Controlar sinais vitais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322210",
+    "codigo_formatado": "3222-10",
+    "titulo_cbo": "Técnico de enfermagem de terapia intensiva",
+    "titulo_qbq": "Técnico de enfermagem de terapia intensiva",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1001
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 29
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 1,
+      "descricao": "Apresentar-se situando paciente no ambiente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 2,
+      "descricao": "Arrolar pertences de paciente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 3,
+      "descricao": "Controlar sinais vitais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "322230",
+    "codigo_formatado": "3222-30",
+    "titulo_cbo": "Auxiliar de enfermagem",
+    "titulo_qbq": "Auxiliar de enfermagem",
+    "familia": {
+     "codigo": "3222",
+     "titulo": "Técnicos e auxiliares de enfermagem"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1005
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 33
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 1,
+      "descricao": "Apresentar-se situando paciente no ambiente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 2,
+      "descricao": "Arrolar pertences de paciente",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EFETUAR PROCEDIMENTOS DE ADMISSÃO DE PACIENTE",
+      "numero": 3,
+      "descricao": "Controlar sinais vitais",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "331205",
+    "codigo_formatado": "3312-05",
+    "titulo_cbo": "Professor de nível médio no ensino fundamental",
+    "titulo_qbq": "Professor de nível médio no ensino fundamental",
+    "familia": {
+     "codigo": "3312",
+     "titulo": "Professores de nível médio no ensino fundamental"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1046
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 55
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 1,
+      "descricao": "Expor oralmente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 2,
+      "descricao": "Distribuir material",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "MINISTRAR AULA",
+      "numero": 3,
+      "descricao": "Debater idéias e temas",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "512105",
+    "codigo_formatado": "5121-05",
+    "titulo_cbo": "Empregado  doméstico  nos serviços gerais",
+    "titulo_qbq": "Empregado  doméstico  nos serviços gerais",
+    "familia": {
+     "codigo": "5121",
+     "titulo": "Trabalhadores dos serviços domésticos em geral"
+    },
+    "nivel_qualificacao": 1,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1392
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1373
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "PREPARAR REFEIÇÕES (CAFÉ, ALMOÇO E JANTAR)",
+      "numero": 1,
+      "descricao": "Selecionar receitas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PREPARAR REFEIÇÕES (CAFÉ, ALMOÇO E JANTAR)",
+      "numero": 2,
+      "descricao": "Organizar cardápio do dia-a-dia",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "PREPARAR REFEIÇÕES (CAFÉ, ALMOÇO E JANTAR)",
+      "numero": 3,
+      "descricao": "Separar os ingredientes para preparação das refeições",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "612505",
+    "codigo_formatado": "6125-05",
+    "titulo_cbo": "Produtor de árvores frutíferas",
+    "titulo_qbq": "Produtor de árvores frutíferas",
+    "familia": {
+     "codigo": "6125",
+     "titulo": "Produtores agrícolas na fruticultura"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1573
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1404
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE AGRÍCOLA",
+      "numero": 1,
+      "descricao": "Registrar propriedade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE AGRÍCOLA",
+      "numero": 2,
+      "descricao": "Elaborar planilha de custo",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ADMINISTRAR PROPRIEDADE AGRÍCOLA",
+      "numero": 3,
+      "descricao": "Captar recursos financeiros",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "622805",
+    "codigo_formatado": "6228-05",
+    "titulo_cbo": "Trabalhador da cultura de especiarias",
+    "titulo_qbq": "Trabalhador da cultura de especiarias",
+    "familia": {
+     "codigo": "6228",
+     "titulo": "Trabalhadores agrícolas da cultura de especiarias e de plantas aromáticas e medicinais"
+    },
+    "nivel_qualificacao": 2,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1648
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1435
+     }
+    },
+    "total_casadas": 75,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "EXECUTAR PLANTIO DE ESPECIARIAS, PLANTAS AROMÁTICAS E MEDICINAIS",
+      "numero": 1,
+      "descricao": "Capinar área de plantio",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "EXECUTAR PLANTIO DE ESPECIARIAS, PLANTAS AROMÁTICAS E MEDICINAIS",
+      "numero": 2,
+      "descricao": "Selecionar plantas",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "EXECUTAR PLANTIO DE ESPECIARIAS, PLANTAS AROMÁTICAS E MEDICINAIS",
+      "numero": 3,
+      "descricao": "Plantar mudas em solo",
+      "casou_em": "area"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 2669,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=a&agrupar_por=ocupacao&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=a&agrupar_por=ocupacao&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=a&agrupar_por=ocupacao&limite=100&deslocamento=0"
+  }
+ }
+}

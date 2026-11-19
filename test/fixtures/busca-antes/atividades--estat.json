@@ -1,0 +1,322 @@
+{
+ "url": "/api/v1/atividades?q=estat",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "020305",
+    "titulo": "Primeiro tenente de polícia militar",
+    "sigla": "H",
+    "area": "PROMOVER ESTUDOS TÉCNICOS E CAPACITAÇÃO PROFISSIONAL",
+    "numero": 1,
+    "descricao": "Elaborar estatísticas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 446
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatísticas"
+   },
+   {
+    "ocupacao": "020310",
+    "titulo": "Segundo tenente de polícia militar",
+    "sigla": "H",
+    "area": "PROMOVER ESTUDOS TÉCNICOS E CAPACITAÇÃO PROFISSIONAL",
+    "numero": 1,
+    "descricao": "Elaborar estatísticas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 569
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatísticas"
+   },
+   {
+    "ocupacao": "021105",
+    "titulo": "Subtenente da policia militar",
+    "sigla": "B",
+    "area": "ASSESSORAR O COMANDO",
+    "numero": 5,
+    "descricao": "Elaborar relatórios estatísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 692
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar relatórios estatísticos"
+   },
+   {
+    "ocupacao": "021110",
+    "titulo": "Sargento da policia militar",
+    "sigla": "B",
+    "area": "ASSESSORAR O COMANDO",
+    "numero": 5,
+    "descricao": "Elaborar relatórios estatísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 808
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar relatórios estatísticos"
+   },
+   {
+    "ocupacao": "030205",
+    "titulo": "Capitão bombeiro militar",
+    "sigla": "C",
+    "area": "PLANEJAR ATIVIDADES OPERACIONAIS E ADMINISTRATIVAS",
+    "numero": 1,
+    "descricao": "Analisar dados estatísticos de operações",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1476
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos de operações"
+   },
+   {
+    "ocupacao": "030305",
+    "titulo": "Tenente do corpo de bombeiros militar",
+    "sigla": "H",
+    "area": "GERIR INFORMAÇÕES",
+    "numero": 5,
+    "descricao": "Coordenar a elaboração de estatísticas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1560
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar a elaboração de estatísticas"
+   },
+   {
+    "ocupacao": "030305",
+    "titulo": "Tenente do corpo de bombeiros militar",
+    "sigla": "H",
+    "area": "GERIR INFORMAÇÕES",
+    "numero": 6,
+    "descricao": "Analisar dados estatísticos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1560
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar dados estatísticos"
+   },
+   {
+    "ocupacao": "111325",
+    "titulo": "Juiz de direito",
+    "sigla": "E",
+    "area": "GERIR ATIVIDADES ADMINISTRATIVAS DO JUDICIÁRIO",
+    "numero": 7,
+    "descricao": "Organizar o conselho tutelar para a aplicação do estatuto da criança e do adolescente",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2300
+    },
+    "casou_em": "atividade",
+    "trecho": "Organizar o conselho tutelar para a aplicação do estatuto da criança e do adolescente"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "D",
+    "area": "ESTRUTURAR O PARTIDO",
+    "numero": 7,
+    "descricao": "Elaborar estatutos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 6,
+    "descricao": "Zelar pelo cumprimento das políticas, estatutos e regulamentos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "atividade",
+    "trecho": "Zelar pelo cumprimento das políticas, estatutos e regulamentos"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 7,
+    "descricao": "Elaborar estatutos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3534
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 8,
+    "descricao": "Propor modificações nos estatutos da entidade",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3534
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor modificações nos estatutos da entidade"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 9,
+    "descricao": "Elaborar editais de convocação, segundo legislação e estatuto",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3534
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar editais de convocação, segundo legislação e estatuto"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 7,
+    "descricao": "Elaborar estatutos",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3630
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 8,
+    "descricao": "Propor modificações nos estatutos da entidade",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3630
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor modificações nos estatutos da entidade"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "sigla": "F",
+    "area": "ADMINISTRAR ENTIDADE",
+    "numero": 9,
+    "descricao": "Elaborar editais de convocação, segundo legislação e estatuto",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3630
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar editais de convocação, segundo legislação e estatuto"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "C",
+    "area": "GERENCIAR OPERAÇÕES ADMINISTRATIVAS E FINANCEIRAS",
+    "numero": 3,
+    "descricao": "Elaborar estatutos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estatutos"
+   },
+   {
+    "ocupacao": "122305",
+    "titulo": "Diretor de operações de obras pública e civil",
+    "sigla": "C",
+    "area": "PARTICIPAR DO PLANEJAMENTO ESTRATÉGICO DA EMPRESA",
+    "numero": 6,
+    "descricao": "Monitorar indicadores estatísticos da empresa",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4459
+    },
+    "casou_em": "atividade",
+    "trecho": "Monitorar indicadores estatísticos da empresa"
+   },
+   {
+    "ocupacao": "123405",
+    "titulo": "Diretor de suprimentos",
+    "sigla": "E",
+    "area": "ADMINISTRAR MATERIAIS",
+    "numero": 4,
+    "descricao": "Analisar indicadores estatísticos de entrega",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6192
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar indicadores estatísticos de entrega"
+   },
+   {
+    "ocupacao": "123410",
+    "titulo": "Diretor de suprimentos no serviço público",
+    "sigla": "E",
+    "area": "ADMINISTRAR MATERIAIS",
+    "numero": 4,
+    "descricao": "Analisar indicadores estatísticos de entrega",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 6288
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar indicadores estatísticos de entrega"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 339,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=estat",
+   "proxima": "/api/v1/atividades?q=estat&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

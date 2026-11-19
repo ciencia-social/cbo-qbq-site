@@ -1,0 +1,382 @@
+{
+ "url": "/api/v1/qbq/itens?q=banco+de+dados",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "123605",
+    "titulo": "Diretor de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) ÁREAS ESPECIAIS DE APLICAÇÃO EM SEGURANÇA DA INFORMAÇÃO: SERVIÇOS EM NUVENS; CONTROLE DE TRANSAÇÕES EM BANCO DE DADOS; SEGURANÇA DE REDES E SISTEMAS OPERACIONAIS; OUTRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 4129
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…TROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) ÁREAS ESPECIAIS DE APLICAÇÃO EM SEGURANÇA DA INFORMAÇÃO: SERVIÇOS EM NUVENS; CONTROLE…"
+   },
+   {
+    "ocupacao": "142525",
+    "titulo": "Gerente de segurança da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) ÁREAS ESPECIAIS DE APLICAÇÃO EM SEGURANÇA DA INFORMAÇÃO: SERVIÇOS EM NUVENS; CONTROLE DE TRANSAÇÕES EM BANCO DE DADOS; SEGURANÇA DE REDES E SISTEMAS OPERACIONAIS; OUTRAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 9720
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…TROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) ÁREAS ESPECIAIS DE APLICAÇÃO EM SEGURANÇA DA INFORMAÇÃO: SERVIÇOS EM NUVENS; CONTROLE…"
+   },
+   {
+    "ocupacao": "211110",
+    "titulo": "Especialista em pesquisa operacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13812
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211115",
+    "titulo": "Matemático",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13901
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211120",
+    "titulo": "Matemático aplicado",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13984
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211205",
+    "titulo": "Estatístico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14063
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211210",
+    "titulo": "Estatístico (estatística aplicada)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14154
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SOFTWARE DE SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) BANCO DE DADOS NA LINGUAGEM DE CONSULTA ESTRUTURADA (STRUCTURED QUERY LANGUAGE – SQL)",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14300
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) BANCO DE DADOS NA LINGUAGEM DE CONSULTA ESTRUTURADA (STRUCTURED QUERY…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1030
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ADMINISTRAÇÃO DE BANCO DE…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ANÁLISE DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1031
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ANÁLISE DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ARQUITETURA E MODELAGEM DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1032
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - ARQUITETURA E MODELAGEM D…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - AUDITORIA DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1033
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - AUDITORIA DE BANCO DE DAD…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - DESIGN DE INTERFACES DE USUÁRIO PARA APLICAÇÕES DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1037
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - DESIGN DE INTERFACES DE U…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - MANUTENÇÃO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1043
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - MANUTENÇÃO DE BANCO DE DA…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - METODOLOGIAS E PROCESSOS DE OTIMIZAÇÃO E BALANCEAMENTO DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1044
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - METODOLOGIAS E PROCESSOS…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - NORMAS TÉCNICAS DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1046
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - NORMAS TÉCNICAS DE BANCO…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1047
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE BANCO DE D…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TECNOLOGIAS EMERGENTES EM BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1048
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TECNOLOGIAS EMERGENTES EM…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TIPOS DE LINGUAGENS DE CONSULTA DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1049
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TIPOS DE LINGUAGENS DE CO…"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TIPOS DE SERVIÇOS DE BANCO DE DADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1050
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - TIPOS DE SERVIÇOS DE BANC…"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 55,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=banco+de+dados",
+   "proxima": "/api/v1/qbq/itens?q=banco+de+dados&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

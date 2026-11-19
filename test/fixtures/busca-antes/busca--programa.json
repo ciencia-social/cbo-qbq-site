@@ -1,0 +1,391 @@
+{
+ "url": "/api/v1/busca?q=programa",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [
+    {
+     "tipo": "ocupacao",
+     "identificador": "317115",
+     "rotulo": "Programador de máquinas - ferramenta com comando numérico",
+     "casou_em": "titulo",
+     "trecho": "Programador de máquinas - ferramenta com comando numérico",
+     "link": "/api/v1/ocupacoes/317115"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "766155",
+     "rotulo": "Programador visual gráfico",
+     "casou_em": "titulo",
+     "trecho": "Programador visual gráfico",
+     "link": "/api/v1/ocupacoes/766155"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "262210",
+     "rotulo": "Diretor de programas de rádio",
+     "casou_em": "titulo",
+     "trecho": "Diretor de programas de rádio",
+     "link": "/api/v1/ocupacoes/262210"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "262215",
+     "rotulo": "Diretor de programas de televisão",
+     "casou_em": "titulo",
+     "trecho": "Diretor de programas de televisão",
+     "link": "/api/v1/ocupacoes/262215"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "262225",
+     "rotulo": "Diretor de programação",
+     "casou_em": "titulo",
+     "trecho": "Diretor de programação",
+     "link": "/api/v1/ocupacoes/262225"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "371305",
+     "rotulo": "Técnico em programação visual",
+     "casou_em": "titulo",
+     "trecho": "Técnico em programação visual",
+     "link": "/api/v1/ocupacoes/371305"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "373140",
+     "rotulo": "Coordenador de programação",
+     "casou_em": "titulo",
+     "trecho": "Coordenador de programação",
+     "link": "/api/v1/ocupacoes/373140"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "376315",
+     "rotulo": "Apresentador de programas de rádio",
+     "casou_em": "titulo",
+     "trecho": "Apresentador de programas de rádio",
+     "link": "/api/v1/ocupacoes/376315"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "376320",
+     "rotulo": "Apresentador de programas de televisão",
+     "casou_em": "titulo",
+     "trecho": "Apresentador de programas de televisão",
+     "link": "/api/v1/ocupacoes/376320"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "391130",
+     "rotulo": "Técnico de planejamento e programação da manutenção",
+     "casou_em": "titulo",
+     "trecho": "Técnico de planejamento e programação da manutenção",
+     "link": "/api/v1/ocupacoes/391130"
+    }
+   ],
+   "sinonimo": [
+    {
+     "tipo": "sinonimo",
+     "identificador": "131115",
+     "rotulo": "Superintendente de seção de estudos e programação",
+     "casou_em": "sinonimo",
+     "trecho": "Superintendente de seção de estudos e programação",
+     "link": "/api/v1/ocupacoes/131115"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "131210",
+     "rotulo": "Gerente de programas de saúde",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de programas de saúde",
+     "link": "/api/v1/ocupacoes/131210"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "142520",
+     "rotulo": "Gerente de programas de ti",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de programas de ti",
+     "link": "/api/v1/ocupacoes/142520"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "262125",
+     "rotulo": "Produtor de programa",
+     "casou_em": "sinonimo",
+     "trecho": "Produtor de programa",
+     "link": "/api/v1/ocupacoes/262125"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "262225",
+     "rotulo": "Gerente de programação",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de programação",
+     "link": "/api/v1/ocupacoes/262225"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "314110",
+     "rotulo": "Programador de usinagem",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de usinagem",
+     "link": "/api/v1/ocupacoes/314110"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "317105",
+     "rotulo": "Programador de internet",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de internet",
+     "link": "/api/v1/ocupacoes/317105"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "317110",
+     "rotulo": "Programador de sistemas de computador",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de sistemas de computador",
+     "link": "/api/v1/ocupacoes/317110"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "317120",
+     "rotulo": "Programador de aplicativos educacionais e de entretenimento",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de aplicativos educacionais e de entretenimento",
+     "link": "/api/v1/ocupacoes/317120"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "342110",
+     "rotulo": "Programador de transporte multimodal",
+     "casou_em": "sinonimo",
+     "trecho": "Programador de transporte multimodal",
+     "link": "/api/v1/ocupacoes/342110"
+    }
+   ],
+   "familia": [
+    {
+     "tipo": "familia",
+     "identificador": "2394",
+     "rotulo": "Programadores, avaliadores e orientadores de ensino",
+     "casou_em": "titulo",
+     "trecho": "Programadores, avaliadores e orientadores de ensino",
+     "link": "/api/v1/cbo/familias/2394"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "2527",
+     "rotulo": "Profissionais de planejamento, programação e controles logisticos",
+     "casou_em": "titulo",
+     "trecho": "Profissionais de planejamento, programação e controles logisticos",
+     "link": "/api/v1/cbo/familias/2527"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "3763",
+     "rotulo": "Apresentadores de eventos, programas e espetáculos",
+     "casou_em": "titulo",
+     "trecho": "Apresentadores de eventos, programas e espetáculos",
+     "link": "/api/v1/cbo/familias/3763"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "3911",
+     "rotulo": "Planejadores, programadores e controladores de produção e manutenção",
+     "casou_em": "titulo",
+     "trecho": "Planejadores, programadores e controladores de produção e manutenção",
+     "link": "/api/v1/cbo/familias/3911"
+    }
+   ],
+   "atividade": [
+    {
+     "tipo": "atividade",
+     "identificador": "030110",
+     "rotulo": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+     "casou_em": "atividade",
+     "trecho": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+     "link": "/api/v1/ocupacoes/030110/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030110",
+     "rotulo": "Programar eventos",
+     "casou_em": "atividade",
+     "trecho": "Programar eventos",
+     "link": "/api/v1/ocupacoes/030110/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030115",
+     "rotulo": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+     "casou_em": "atividade",
+     "trecho": "Gerenciar pessoal de programas especiais (estagiários, bombeiros-mirins, voluntários)",
+     "link": "/api/v1/ocupacoes/030115/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030115",
+     "rotulo": "Programar eventos",
+     "casou_em": "atividade",
+     "trecho": "Programar eventos",
+     "link": "/api/v1/ocupacoes/030115/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Definir programas e ações",
+     "casou_em": "atividade",
+     "trecho": "Definir programas e ações",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Detalhar programação orçamentária",
+     "casou_em": "atividade",
+     "trecho": "Detalhar programação orçamentária",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Gerenciar programas e ações",
+     "casou_em": "atividade",
+     "trecho": "Gerenciar programas e ações",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Estabelecer programação orçamentária",
+     "casou_em": "atividade",
+     "trecho": "Estabelecer programação orçamentária",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Avaliar programas e ações",
+     "casou_em": "atividade",
+     "trecho": "Avaliar programas e ações",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111505",
+     "rotulo": "Revisar programas e ações",
+     "casou_em": "atividade",
+     "trecho": "Revisar programas e ações",
+     "link": "/api/v1/ocupacoes/111505/atividades"
+    }
+   ],
+   "termo": [
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/campos/20.10.00",
+     "rotulo": "PROPRIEDADE INTELECTUAL E AVALIAÇÃO DE PROGRAMAS DOS MEIOS DE COMUNICAÇÃO",
+     "casou_em": "termo",
+     "trecho": "PROPRIEDADE INTELECTUAL E AVALIAÇÃO DE PROGRAMAS DOS MEIOS DE COMUNICAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/campos/20.10.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.01.07",
+     "rotulo": "LINGUAGEM DE PROGRAMAÇÃO",
+     "casou_em": "termo",
+     "trecho": "LINGUAGEM DE PROGRAMAÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.01.07"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/05.04.05",
+     "rotulo": "LEI E NORMAS RELACIONADAS AOS PROGRAMAS DE APRENDIZAGEM",
+     "casou_em": "termo",
+     "trecho": "LEI E NORMAS RELACIONADAS AOS PROGRAMAS DE APRENDIZAGEM",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/05.04.05"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/13.01.04",
+     "rotulo": "CONTROLADOR LÓGICO PROGRAMÁVEL (CLP)",
+     "casou_em": "termo",
+     "trecho": "CONTROLADOR LÓGICO PROGRAMÁVEL (CLP)",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/13.01.04"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/13.22.09",
+     "rotulo": "PROGRAMAÇÃO DA MANUTENÇÃO",
+     "casou_em": "termo",
+     "trecho": "PROGRAMAÇÃO DA MANUTENÇÃO",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/13.22.09"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/13.23.20",
+     "rotulo": "PROCESSOS PROGRAMÁVEIS DE USINAGEM",
+     "casou_em": "termo",
+     "trecho": "PROCESSOS PROGRAMÁVEIS DE USINAGEM",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/13.23.20"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/13.23.21",
+     "rotulo": "PROGRAMAÇÃO DE MÁQUINAS MECÂNICAS",
+     "casou_em": "termo",
+     "trecho": "PROGRAMAÇÃO DE MÁQUINAS MECÂNICAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/13.23.21"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/13.30.03",
+     "rotulo": "PROGRAMAÇÃO DE ROBÔS",
+     "casou_em": "termo",
+     "trecho": "PROGRAMAÇÃO DE ROBÔS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/13.30.03"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/15.09.09",
+     "rotulo": "PROGRAMA DE ALIMENTOS SEGUROS (PAS)",
+     "casou_em": "termo",
+     "trecho": "PROGRAMA DE ALIMENTOS SEGUROS (PAS)",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/15.09.09"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/20.10.01",
+     "rotulo": "CLASSIFICAÇÃO INDICATIVA DE PROGRAMAS AUDIOVISUAIS",
+     "casou_em": "termo",
+     "trecho": "CLASSIFICAÇÃO INDICATIVA DE PROGRAMAS AUDIOVISUAIS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/20.10.01"
+    }
+   ],
+   "conceito": [
+    {
+     "tipo": "conceito",
+     "identificador": "habilidades/02.02.02",
+     "rotulo": "Programação de operações",
+     "casou_em": "conceito",
+     "trecho": "Programação de operações",
+     "link": "/api/v1/qbq/vocabularios/habilidades/habilidades/02.02.02"
+    }
+   ]
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=programa",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

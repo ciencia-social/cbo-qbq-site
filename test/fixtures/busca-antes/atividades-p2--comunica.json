@@ -1,0 +1,1522 @@
+{
+ "url": "/api/v1/atividades?q=comunica&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 9,
+    "descricao": "Solicitar apoio a órgãos públicos e privados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 10,
+    "descricao": "Solicitar apoio logístico",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 11,
+    "descricao": "Informar alterações ao superior imediato",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 12,
+    "descricao": "Atuar em campanhas filantrópicas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 13,
+    "descricao": "Comunicar-se por códigos e sinais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se por códigos e sinais"
+   },
+   {
+    "ocupacao": "031205",
+    "titulo": "Cabo bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 14,
+    "descricao": "Elaborar relatórios",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1820
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 1,
+    "descricao": "Triar informações sobre ocorrências",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 2,
+    "descricao": "Transmitir mensagens via rádio",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 3,
+    "descricao": "Receber mensagens via rádio",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 4,
+    "descricao": "Liberar viaturas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 5,
+    "descricao": "Informar condições da vítima",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 6,
+    "descricao": "Informar condições do acidente",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 7,
+    "descricao": "Informar população sobre área contaminada",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 8,
+    "descricao": "Informar dados de ocorrências para órgãos competentes",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 9,
+    "descricao": "Solicitar apoio a órgãos públicos e privados",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 10,
+    "descricao": "Solicitar apoio logístico",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 12,
+    "descricao": "Atuar em campanhas filantrópicas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 13,
+    "descricao": "Comunicar-se por códigos e sinais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se por códigos e sinais"
+   },
+   {
+    "ocupacao": "031210",
+    "titulo": "Soldado bombeiro militar",
+    "sigla": "G",
+    "area": "ESTABELECER COMUNICAÇÃO",
+    "numero": 14,
+    "descricao": "Elaborar relatórios",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 1922
+    },
+    "casou_em": "area",
+    "trecho": "ESTABELECER COMUNICAÇÃO"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Divulgar normas e procedimentos",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Divulgar diretrizes",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Divulgar resultados",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Comunicar-se com demais setores da organização",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se com demais setores da organização"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Esclarecer normas à equipe",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Estabelecer rede de relacionamento e parcerias",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111405",
+    "titulo": "Dirigente do serviço público federal",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 13,
+    "descricao": "Demonstrar capacidade de comunicação oral e escrita",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2688
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação oral e escrita"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Divulgar normas e procedimentos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Divulgar diretrizes",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Divulgar resultados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Comunicar-se com demais setores da organização",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se com demais setores da organização"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Esclarecer normas à equipe",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Estabelecer rede de relacionamento e parcerias",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111410",
+    "titulo": "Dirigente do serviço público estadual e distrital",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 13,
+    "descricao": "Demonstrar capacidade de comunicação oral e escrita",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2775
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação oral e escrita"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Divulgar normas e procedimentos",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Divulgar diretrizes",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Divulgar resultados",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Comunicar-se com demais setores da organização",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "atividade",
+    "trecho": "Comunicar-se com demais setores da organização"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Esclarecer normas à equipe",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "G",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Estabelecer rede de relacionamento e parcerias",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "111415",
+    "titulo": "Dirigente do serviço público municipal",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 13,
+    "descricao": "Demonstrar capacidade de comunicação oral e escrita",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2862
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação oral e escrita"
+   },
+   {
+    "ocupacao": "111505",
+    "titulo": "Especialista de políticas públicas e gestão governamental - eppgg",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 9,
+    "descricao": "Demonstrar capacidade de comunicação verbal e escrita",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2949
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação verbal e escrita"
+   },
+   {
+    "ocupacao": "111510",
+    "titulo": "Analista de planejamento e orçamento - apo",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 9,
+    "descricao": "Demonstrar capacidade de comunicação verbal e escrita",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3020
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação verbal e escrita"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "C",
+    "area": "COORDENAR CAMPANHAS ELEITORAIS",
+    "numero": 4,
+    "descricao": "Organizar comunicação da campanha",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "atividade",
+    "trecho": "Organizar comunicação da campanha"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Difundir ações políticas do partido",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Divulgar eventos do partido",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Divulgar informações internas e externas",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Avaliar imagem do partido",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Atender a população",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Elaborar correspondência e relatórios",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 7,
+    "descricao": "Confeccionar manuais de orientação",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 8,
+    "descricao": "Coordenar edição de material de divulgação",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114105",
+    "titulo": "Dirigente de partido político",
+    "sigla": "H",
+    "area": "COMUNICAR-SE",
+    "numero": 9,
+    "descricao": "Estabelecer relações com a mídia",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3433
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114205",
+    "titulo": "Dirigente de entidade de trabalhadores",
+    "sigla": "E",
+    "area": "MOBILIZAR ASSOCIADOS E REPRESENTADOS",
+    "numero": 3,
+    "descricao": "Produzir comunicados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3534
+    },
+    "casou_em": "atividade",
+    "trecho": "Produzir comunicados"
+   },
+   {
+    "ocupacao": "114210",
+    "titulo": "Dirigente de entidade patronal",
+    "sigla": "E",
+    "area": "MOBILIZAR ASSOCIADOS E REPRESENTADOS",
+    "numero": 3,
+    "descricao": "Produzir comunicados",
+    "nivel_qualificacao": 5,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3630
+    },
+    "casou_em": "atividade",
+    "trecho": "Produzir comunicados"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Elaborar estratégias e plano de comunicação da entidade",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "atividade",
+    "trecho": "Elaborar estratégias e plano de comunicação da entidade"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Gerenciar plano de comunicação",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "atividade",
+    "trecho": "Gerenciar plano de comunicação"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Promover campanhas religiosas, sociais e institucionais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Promover festas e eventos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Desenvolver material de divulgação",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Publicar boletins internos e periódicos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 7,
+    "descricao": "Publicar artigos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 8,
+    "descricao": "Participar de campanhas de utilidade pública",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 9,
+    "descricao": "Promover orientação espiritual nas escolas",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 10,
+    "descricao": "Participar de programas de rádio e tv",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 11,
+    "descricao": "Atender órgãos de imprensa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "F",
+    "area": "COMUNICAR-SE",
+    "numero": 12,
+    "descricao": "Atender o público",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114305",
+    "titulo": "Dirigente e administrador de organização religiosa",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 3,
+    "descricao": "Demonstrar comunicabilidade",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3721
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar comunicabilidade"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Divulgar o trabalho da instituição",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Manter fluxo de comunicação interna",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "atividade",
+    "trecho": "Manter fluxo de comunicação interna"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Atender os órgãos de imprensa",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Promover a conscientização do público",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Mobilizar a sociedade (comunidade, órgãos públicos, etc.)",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 6,
+    "descricao": "Promover campanhas institucionais e sociais",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 7,
+    "descricao": "Ministrar palestras",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 8,
+    "descricao": "Desenvolver material de divulgação",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 9,
+    "descricao": "Orientar o público",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 10,
+    "descricao": "Disponibilizar informação para a sociedade (dados, acervo técnico, relatórios)",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 11,
+    "descricao": "Promover a publicação de artigos especializados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 12,
+    "descricao": "Promover a sistematização de experiências",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 13,
+    "descricao": "Disseminar  experiências e conhecimentos",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "E",
+    "area": "COMUNICAR-SE",
+    "numero": 14,
+    "descricao": "Interagir com associados e filiados",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "114405",
+    "titulo": "Dirigente e administrador de organização da sociedade civil sem fins lucrativos",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 14,
+    "descricao": "Demonstrar comunicabilidade",
+    "nivel_qualificacao": 6,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3808
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar comunicabilidade"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "G",
+    "area": "PRESERVAR A IMAGEM DA EMPRESA",
+    "numero": 6,
+    "descricao": "Aprovar meios de comunicação com o mercado",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "atividade",
+    "trecho": "Aprovar meios de comunicação com o mercado"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Participar de seminários e palestras",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Atuar em reunião com demais diretores",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Conceder entrevistas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Negociar soluções políticas",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Apresentar idéias e inovações",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121005",
+    "titulo": "Diretor de planejamento estratégico",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 7,
+    "descricao": "Demonstrar capacidade de comunicação verbal em língua estrangeira",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 3908
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação verbal em língua estrangeira"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "G",
+    "area": "PRESERVAR A IMAGEM DA EMPRESA",
+    "numero": 6,
+    "descricao": "Aprovar meios de comunicação com o mercado",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "atividade",
+    "trecho": "Aprovar meios de comunicação com o mercado"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Participar de seminários e palestras",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Atuar em reunião com demais diretores",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Conceder entrevistas",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Negociar soluções políticas",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "I",
+    "area": "COMUNICAR-SE",
+    "numero": 5,
+    "descricao": "Apresentar idéias e inovações",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "121010",
+    "titulo": "Diretor geral de empresa e organizações (exceto de interesse público)",
+    "sigla": "Z",
+    "area": "DEMONSTRAR COMPETÊNCIAS PESSOAIS",
+    "numero": 7,
+    "descricao": "Demonstrar capacidade de comunicação verbal em língua estrangeira",
+    "nivel_qualificacao": 8,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4004
+    },
+    "casou_em": "atividade",
+    "trecho": "Demonstrar capacidade de comunicação verbal em língua estrangeira"
+   },
+   {
+    "ocupacao": "122205",
+    "titulo": "Diretor de produção e operações da indústria de transformação, extração mineral e utilidades",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 1,
+    "descricao": "Registrar atividades de treinamento",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4376
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "122205",
+    "titulo": "Diretor de produção e operações da indústria de transformação, extração mineral e utilidades",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 2,
+    "descricao": "Dialogar com órgãos de controle ambiental",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4376
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   },
+   {
+    "ocupacao": "122205",
+    "titulo": "Diretor de produção e operações da indústria de transformação, extração mineral e utilidades",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 3,
+    "descricao": "Estimular processo de comunicação",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4376
+    },
+    "casou_em": "atividade",
+    "trecho": "Estimular processo de comunicação"
+   },
+   {
+    "ocupacao": "122205",
+    "titulo": "Diretor de produção e operações da indústria de transformação, extração mineral e utilidades",
+    "sigla": "Y",
+    "area": "COMUNICAR-SE",
+    "numero": 4,
+    "descricao": "Interpretar relatórios",
+    "nivel_qualificacao": 7,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 4376
+    },
+    "casou_em": "area",
+    "trecho": "COMUNICAR-SE"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 7135,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=comunica&limite=100&deslocamento=100",
+   "proxima": "/api/v1/atividades?q=comunica&limite=100&deslocamento=200",
+   "anterior": "/api/v1/atividades?q=comunica&limite=100&deslocamento=0"
+  }
+ }
+}

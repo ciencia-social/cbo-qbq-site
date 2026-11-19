@@ -1,0 +1,962 @@
+{
+ "url": "/api/v1/atividades?q=estat&agrupar_por=ocupacao",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "211220",
+    "codigo_formatado": "2112-20",
+    "titulo_cbo": "Cientista de dados",
+    "titulo_qbq": "Cientista de dados",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 236
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2655
+     }
+    },
+    "total_casadas": 11,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 1,
+      "descricao": "Selecionar métodos para análise estatística",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 2,
+      "descricao": "Utilizar técnicas estatísticas, matemáticas e/ou computacionais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 5,
+      "descricao": "Realizar controle estatístico de processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "234105",
+    "codigo_formatado": "2341-05",
+    "titulo_cbo": "Professor de matemática aplicada (no ensino superior)",
+    "titulo_qbq": "Professor de matemática aplicada (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 569
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2212
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 2,
+      "descricao": "Preparar material suporte: didático, laboratório e outros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234110",
+    "codigo_formatado": "2341-10",
+    "titulo_cbo": "Professor de matemática pura (no ensino superior)",
+    "titulo_qbq": "Professor de matemática pura (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 570
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2213
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 2,
+      "descricao": "Preparar material suporte: didático, laboratório e outros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234115",
+    "codigo_formatado": "2341-15",
+    "titulo_cbo": "Professor de estatística (no ensino superior)",
+    "titulo_qbq": "Professor de estatística (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 571
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2214
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 2,
+      "descricao": "Preparar material suporte: didático, laboratório e outros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234120",
+    "codigo_formatado": "2341-20",
+    "titulo_cbo": "Professor de computação (no ensino superior)",
+    "titulo_qbq": "Professor de computação (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 572
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2215
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 2,
+      "descricao": "Preparar material suporte: didático, laboratório e outros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "234125",
+    "codigo_formatado": "2341-25",
+    "titulo_cbo": "Professor de pesquisa operacional (no ensino superior)",
+    "titulo_qbq": "Professor de pesquisa operacional (no ensino superior)",
+    "familia": {
+     "codigo": "2341",
+     "titulo": "Professores de matemática, estatística e informática do ensino superior"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 573
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2216
+     }
+    },
+    "total_casadas": 9,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 1,
+      "descricao": "Ministrar aulas presencialmente ou à distância",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 2,
+      "descricao": "Preparar material suporte: didático, laboratório e outros",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "LECIONAR MATEMÁTICA, ESTATÍSTICA, COMPUTAÇÃO",
+      "numero": 3,
+      "descricao": "Recorrer a exemplos, conteúdos e aplicações de várias áreas do conhecimento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "415105",
+    "codigo_formatado": "4151-05",
+    "titulo_cbo": "Arquivista de documentos",
+    "titulo_qbq": "Arquivista de documentos",
+    "familia": {
+     "codigo": "4151",
+     "titulo": "Auxiliares de serviços de documentação, informação e pesquisa"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1319
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 733
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 1,
+      "descricao": "Coletar dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 2,
+      "descricao": "Revisar coleta de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 3,
+      "descricao": "Acrescentar dados à planilha pré-existente",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "415115",
+    "codigo_formatado": "4151-15",
+    "titulo_cbo": "Codificador de dados",
+    "titulo_qbq": "Codificador de dados",
+    "familia": {
+     "codigo": "4151",
+     "titulo": "Auxiliares de serviços de documentação, informação e pesquisa"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1320
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 734
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 1,
+      "descricao": "Coletar dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 2,
+      "descricao": "Revisar coleta de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 3,
+      "descricao": "Acrescentar dados à planilha pré-existente",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "415120",
+    "codigo_formatado": "4151-20",
+    "titulo_cbo": "Fitotecário",
+    "titulo_qbq": "Fitotecário",
+    "familia": {
+     "codigo": "4151",
+     "titulo": "Auxiliares de serviços de documentação, informação e pesquisa"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1321
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 735
+     }
+    },
+    "total_casadas": 6,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 1,
+      "descricao": "Coletar dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 2,
+      "descricao": "Revisar coleta de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 3,
+      "descricao": "Acrescentar dados à planilha pré-existente",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "211205",
+    "codigo_formatado": "2112-05",
+    "titulo_cbo": "Estatístico",
+    "titulo_qbq": "Estatístico",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 233
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1906
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 1,
+      "descricao": "Selecionar métodos para análise estatística",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 2,
+      "descricao": "Utilizar técnicas estatísticas, matemáticas e/ou computacionais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 5,
+      "descricao": "Realizar controle estatístico de processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "211210",
+    "codigo_formatado": "2112-10",
+    "titulo_cbo": "Estatístico (estatística aplicada)",
+    "titulo_qbq": "Estatístico (estatística aplicada)",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 234
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1907
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 1,
+      "descricao": "Selecionar métodos para análise estatística",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 2,
+      "descricao": "Utilizar técnicas estatísticas, matemáticas e/ou computacionais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 5,
+      "descricao": "Realizar controle estatístico de processo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "415125",
+    "codigo_formatado": "4151-25",
+    "titulo_cbo": "Kardexista",
+    "titulo_qbq": "Kardexista",
+    "familia": {
+     "codigo": "4151",
+     "titulo": "Auxiliares de serviços de documentação, informação e pesquisa"
+    },
+    "nivel_qualificacao": 1,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1322
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 736
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 2,
+      "descricao": "Revisar coleta de dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 3,
+      "descricao": "Acrescentar dados à planilha pré-existente",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "J",
+      "area": "ELABORAR ESTATÍSTICAS",
+      "numero": 4,
+      "descricao": "Organizar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "761805",
+    "codigo_formatado": "7618-05",
+    "titulo_cbo": "Inspetor de estamparia (produção têxtil)",
+    "titulo_qbq": "Inspetor de estamparia (produção têxtil)",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2118
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 990
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Registrar defeito de bobina de fios têxteis crus e tinto , tecido  plano e de malha (cru e acabado)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Calcular número de defeitos em valores estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 3,
+      "descricao": "Emitir relatórios de não conformidade para avaliação da produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "761810",
+    "codigo_formatado": "7618-10",
+    "titulo_cbo": "Revisor de fios (produção têxtil)",
+    "titulo_qbq": "Revisor de fios (produção têxtil)",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2119
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 991
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Registrar defeito de bobina de fios têxteis crus e tinto , tecido  plano e de malha (cru e acabado)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Calcular número de defeitos em valores estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 3,
+      "descricao": "Emitir relatórios de não conformidade para avaliação da produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "761815",
+    "codigo_formatado": "7618-15",
+    "titulo_cbo": "Revisor de tecidos acabados",
+    "titulo_qbq": "Revisor de tecidos acabados",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2120
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 992
+     }
+    },
+    "total_casadas": 5,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Registrar defeito de bobina de fios têxteis crus e tinto , tecido  plano e de malha (cru e acabado)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Calcular número de defeitos em valores estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 3,
+      "descricao": "Emitir relatórios de não conformidade para avaliação da produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "371110",
+    "codigo_formatado": "3711-10",
+    "titulo_cbo": "Técnico em biblioteconomia",
+    "titulo_qbq": "Técnico em biblioteconomia",
+    "familia": {
+     "codigo": "3711",
+     "titulo": "Técnicos em biblioteconomia"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1171
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 696
+     }
+    },
+    "total_casadas": 4,
+    "atividades": [
+     {
+      "sigla": "E",
+      "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 9,
+      "descricao": "Elaborar relatórios estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 11,
+      "descricao": "Preencher planillhas de dados estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "E",
+      "area": "REALIZAR ATIVIDADES TÉCNICO-ADMINISTRATIVAS",
+      "numero": 14,
+      "descricao": "Coletar dados estatísticos",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "761820",
+    "codigo_formatado": "7618-20",
+    "titulo_cbo": "Revisor de tecidos crus",
+    "titulo_qbq": "Revisor de tecidos crus",
+    "familia": {
+     "codigo": "7618",
+     "titulo": "Inspetores e revisores de produção têxtil"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 2121
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 993
+     }
+    },
+    "total_casadas": 4,
+    "atividades": [
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 1,
+      "descricao": "Registrar defeito de bobina de fios têxteis crus e tinto , tecido  plano e de malha (cru e acabado)",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 2,
+      "descricao": "Calcular número de defeitos em valores estatísticos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "REGISTRAR DADOS PARA CONTROLE ESTATÍSTICO E DE QUALIDADE",
+      "numero": 3,
+      "descricao": "Emitir relatórios de não conformidade para avaliação da produção",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "114205",
+    "codigo_formatado": "1142-05",
+    "titulo_cbo": "Dirigente de entidade de trabalhadores",
+    "titulo_qbq": "Dirigente de entidade de trabalhadores",
+    "familia": {
+     "codigo": "1142",
+     "titulo": "Dirigentes e administradores de entidades patronais e dos trabalhadores e de outros interesses sócioeconômicos"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 63
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2477
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 7,
+      "descricao": "Elaborar estatutos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 8,
+      "descricao": "Propor modificações nos estatutos da entidade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 9,
+      "descricao": "Elaborar editais de convocação, segundo legislação e estatuto",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "114210",
+    "codigo_formatado": "1142-10",
+    "titulo_cbo": "Dirigente de entidade patronal",
+    "titulo_qbq": "Dirigentes de entidades patronais",
+    "familia": {
+     "codigo": "1142",
+     "titulo": "Dirigentes e administradores de entidades patronais e dos trabalhadores e de outros interesses sócioeconômicos"
+    },
+    "nivel_qualificacao": 5,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 64
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2478
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 7,
+      "descricao": "Elaborar estatutos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 8,
+      "descricao": "Propor modificações nos estatutos da entidade",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "F",
+      "area": "ADMINISTRAR ENTIDADE",
+      "numero": 9,
+      "descricao": "Elaborar editais de convocação, segundo legislação e estatuto",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "211215",
+    "codigo_formatado": "2112-15",
+    "titulo_cbo": "Estatístico teórico",
+    "titulo_qbq": "Estatístico teórico",
+    "familia": {
+     "codigo": "2112",
+     "titulo": "Profissionais de estatística e afins"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 235
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1908
+     }
+    },
+    "total_casadas": 3,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 1,
+      "descricao": "Selecionar métodos para análise estatística",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 2,
+      "descricao": "Utilizar técnicas estatísticas, matemáticas e/ou computacionais",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "ANALISAR DADOS",
+      "numero": 7,
+      "descricao": "Aprimorar técnicas estatísticas, matemáticas e/ou computacionais",
+      "casou_em": "atividade"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 209,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=estat&agrupar_por=ocupacao",
+   "proxima": "/api/v1/atividades?q=estat&agrupar_por=ocupacao&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

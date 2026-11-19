@@ -1,0 +1,322 @@
+{
+ "url": "/api/v1/atividades?q=a",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 1,
+    "descricao": "Desenvolver atividades de polícia ostensiva",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Desenvolver atividades de polícia ostensiva"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 3,
+    "descricao": "Coordenar atividades de inteligência",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar atividades de inteligência"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 4,
+    "descricao": "Coordenar ações de defesa civil",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Coordenar ações de defesa civil"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 7,
+    "descricao": "Supervisionar atividades operacionais",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Supervisionar atividades operacionais"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 9,
+    "descricao": "Propor alterações em planos e ordens",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Propor alterações em planos e ordens"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 10,
+    "descricao": "Interagir com a comunidade",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Interagir com a comunidade"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 12,
+    "descricao": "Acompanhar desempenho operacional",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Acompanhar desempenho operacional"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 14,
+    "descricao": "Participar de ações cívico-militares",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Participar de ações cívico-militares"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 15,
+    "descricao": "Realizar visitas e inspeções às unidades subordinadas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Realizar visitas e inspeções às unidades subordinadas"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "A",
+    "area": "COMANDAR UNIDADES DE POLÍCIA MILITAR",
+    "numero": 16,
+    "descricao": "Promover segurança dos aquartelamentos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Promover segurança dos aquartelamentos"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "B",
+    "area": "ELABORAR PLANO DIRETOR DA INSTITUIÇÃO",
+    "numero": 6,
+    "descricao": "Traçar estratégias através de planos táticos diretivos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Traçar estratégias através de planos táticos diretivos"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "B",
+    "area": "ELABORAR PLANO DIRETOR DA INSTITUIÇÃO",
+    "numero": 7,
+    "descricao": "Analisar cenários",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Analisar cenários"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 1,
+    "descricao": "Identificar objetivos",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 2,
+    "descricao": "Estabelecer metas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 3,
+    "descricao": "Estabelecer doutrinas",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 4,
+    "descricao": "Estabelecer política de pessoal",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 5,
+    "descricao": "Definir quadro de organização e distribuição de efetivo",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 6,
+    "descricao": "Formular políticas remuneratórias",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 7,
+    "descricao": "Estabelecer política assistencial",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "atividade",
+    "trecho": "Estabelecer política assistencial"
+   },
+   {
+    "ocupacao": "020105",
+    "titulo": "Coronel da polícia militar",
+    "sigla": "C",
+    "area": "PLANEJAR AÇÕES ESTRATÉGICAS",
+    "numero": 8,
+    "descricao": "Definir diretrizes de ensino",
+    "nivel_qualificacao": null,
+    "fonte": {
+     "arquivo": "fontes/cbo/cbo2002-perfilocupacional.csv",
+     "linha": 2
+    },
+    "casou_em": "area",
+    "trecho": "PLANEJAR AÇÕES ESTRATÉGICAS"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 96497,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=a",
+   "proxima": "/api/v1/atividades?q=a&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

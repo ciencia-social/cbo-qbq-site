@@ -1,0 +1,1822 @@
+{
+ "url": "/api/v1/qbq/itens?q=programa&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "202120",
+    "titulo": "Tecnólogo em automação industrial",
+    "dimensao": "conhecimentos",
+    "codigo": "13.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE AUTOMAÇÃO NOS PROCESSOS DE PRODUÇÃO (ESPECIFICAR:...) - AUTOMAÇÃO DE MÁQUINAS TÊXTEIS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE AUTOMAÇÃO NOS PROCESSOS DE PRODUÇÃO (ESPECIFICAR:...) - SISTEMAS SUPERVISÓRIOS: INTERFACE HOMEM-MÁQUINA, PARAMETRIZAÇÃO, PROGRAMAÇÃO, INTEGRAÇÃO DE EQUIPAMENTOS E TECNOLOGIA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 994
+    },
+    "casou_em": "descricao_item",
+    "trecho": "….) - SISTEMAS SUPERVISÓRIOS: INTERFACE HOMEM-MÁQUINA, PARAMETRIZAÇÃO, PROGRAMAÇÃO, INTEGRAÇÃO DE EQUIPAMENTOS E TECNOLOGIA"
+   },
+   {
+    "ocupacao": "203105",
+    "titulo": "Pesquisador em ciências da computação e informática",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 11394
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "203320",
+    "titulo": "Pesquisador em saúde coletiva",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS SAÚDE",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12698
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS SAÚDE"
+   },
+   {
+    "ocupacao": "203405",
+    "titulo": "Pesquisador em ciências agronômicas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.02.90",
+    "termo": "OUTROS ELEMENTOS (INFORMÁTICA) INFORMÁTICA, INTERNET E TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA AGRONOMIA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12746
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA AGRONOMIA"
+   },
+   {
+    "ocupacao": "203410",
+    "titulo": "Pesquisador em ciências da pesca e aqüicultura",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.02.90",
+    "termo": "OUTROS ELEMENTOS (INFORMÁTICA) INFORMÁTICA, INTERNET E TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA DE PESCA E AQUICULTURA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12840
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA DE PESCA E AQUICULTURA"
+   },
+   {
+    "ocupacao": "203410",
+    "titulo": "Pesquisador em ciências da pesca e aqüicultura",
+    "dimensao": "conhecimentos",
+    "codigo": "05.06.99.01",
+    "termo": "OUTROS ELEMENTOS (RECURSOS PESQUEIROS E ENGENHARIA DE PESCA) ACORDOS MULTILATERAIS DE ORDENAMENTO PESQUEIRO",
+    "descricao_item": "OUTROS ELEMENTOS (RECURSOS PESQUEIROS E ENGENHARIA DE PESCA) EXTENSÃO EM PROJETOS E PROGRAMAS DE PESCA E AQUICULTURA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12887
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…OS (RECURSOS PESQUEIROS E ENGENHARIA DE PESCA) EXTENSÃO EM PROJETOS E PROGRAMAS DE PESCA E AQUICULTURA"
+   },
+   {
+    "ocupacao": "203415",
+    "titulo": "Pesquisador em ciências da zootecnia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.02.90",
+    "termo": "OUTROS ELEMENTOS (INFORMÁTICA) INFORMÁTICA, INTERNET E TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ZOOTECNIA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 12927
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ZOOTECNIA"
+   },
+   {
+    "ocupacao": "203420",
+    "titulo": "Pesquisador em ciências florestais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.02.90",
+    "termo": "OUTROS ELEMENTOS (INFORMÁTICA) INFORMÁTICA, INTERNET E TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO",
+    "descricao_item": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA SILVICULTURA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13021
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (INFORMÁTICA) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA SILVICULTURA"
+   },
+   {
+    "ocupacao": "211105",
+    "titulo": "Atuário",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO E MODELAGEM COMPUTACIONAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13693
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…EMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO E MODELAGEM COMPUTACIONAL"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA E PROBABILIDADE COM PROGRAMAÇÃO EM R",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14287
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ESTATÍSTICA) ESTATÍSTICA E PROBABILIDADE COM PROGRAMAÇÃO EM R"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) LINGUAGEM DE PROGRAMAÇÃO EM PYTHON",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14333
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) LINGUAGEM DE PROGRAMAÇÃO EM PYTHON"
+   },
+   {
+    "ocupacao": "211220",
+    "titulo": "Cientista de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) PROGRAMAÇÃO ORIENTADA A OBJETOS EM JAVA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14345
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) PROGRAMAÇÃO ORIENTADA A OBJETOS EM JAVA"
+   },
+   {
+    "ocupacao": "212205",
+    "titulo": "Engenheiro de aplicativos em computação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14385
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212210",
+    "titulo": "Engenheiro de equipamentos em computação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14457
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212215",
+    "titulo": "Engenheiros de sistemas operacionais em computação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14531
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1047
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "212305",
+    "titulo": "Administrador de banco de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE: AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS PARA BANCO DE DADOS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1057
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…UNICAÇÃO (ESPECIFICAR:...) - SOFTWARE: AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS PARA BANCO DE DADOS"
+   },
+   {
+    "ocupacao": "212315",
+    "titulo": "Administrador de sistemas operacionais",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SCRIPTS PARA SISTEMAS OPERACIONAIS",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1203
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SCRIPTS PARA SISTEMAS OPERACIONAIS"
+   },
+   {
+    "ocupacao": "212320",
+    "titulo": "Administrador em segurança da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SISTEMAS DE SEGURANÇA DA INFORMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1274
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SISTEMAS DE SEGURANÇA DA INFORMAÇÃO"
+   },
+   {
+    "ocupacao": "212405",
+    "titulo": "Analista de desenvolvimento de sistemas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1357
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ICAÇÃO (ESPECIFICAR:...) - SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212405",
+    "titulo": "Analista de desenvolvimento de sistemas",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.90",
+    "termo": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE - CAD",
+    "descricao_item": "OUTROS CONHECIMENTOS DE TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1360
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…DA INFORMAÇÃO E COMUNICAÇÃO (ESPECIFICAR:...) - SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212410",
+    "titulo": "Analista de redes e de comunicação de dados",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14612
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212415",
+    "titulo": "Analista de sistemas de automação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14671
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212415",
+    "titulo": "Analista de sistemas de automação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14687
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212415",
+    "titulo": "Analista de sistemas de automação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14689
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14729
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) INSTALAÇÃO DE EQUIPAMENTOS, PERIFÉRICOS, REDES, PROGRAMAS E SISTEMAS COMPUTACIONAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14736
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ISTEMA DE COMPUTAÇÃO) INSTALAÇÃO DE EQUIPAMENTOS, PERIFÉRICOS, REDES, PROGRAMAS E SISTEMAS COMPUTACIONAIS"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) MANUTENÇÃO DE EQUIPAMENTOS, PERIFÉRICOS, REDES, PROGRAMAS E SISTEMAS COMPUTACIONAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14737
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ISTEMA DE COMPUTAÇÃO) MANUTENÇÃO DE EQUIPAMENTOS, PERIFÉRICOS, REDES, PROGRAMAS E SISTEMAS COMPUTACIONAIS"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ROTINAS DE TESTES, MONITORAMENTO E MANUTENÇÃO DE PROGRAMAS E SISTEMAS COMPUTACIONAIS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14739
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…STEMA DE COMPUTAÇÃO) ROTINAS DE TESTES, MONITORAMENTO E MANUTENÇÃO DE PROGRAMAS E SISTEMAS COMPUTACIONAIS"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) TÉCNICAS DE IDENTIFICAÇÃO E DE SOLUÇÃO DE PROBLEMAS DE FALHAS DE FUNCIONAMENTO DE EQUIPAMENTOS, PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14741
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…E DE SOLUÇÃO DE PROBLEMAS DE FALHAS DE FUNCIONAMENTO DE EQUIPAMENTOS, PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212420",
+    "titulo": "Analista de suporte computacional",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14745
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212425",
+    "titulo": "Arquiteto de soluções de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14788
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14847
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS E TÉCNICAS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) AVALIAÇÃO DE USABILIDADE DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14851
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) AVALIAÇÃO DE USABILIDADE DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) PARÂMETROS DE AVALIAÇÃO DE PROGRAMAS E SISTEMAS EM TESTES DE CARGA E DE STRESS: CAPACIDADE; DISPONIBILIDADE; ESCALABILIDADE; DESEMPENHO; OUTROS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14852
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) PARÂMETROS DE AVALIAÇÃO DE PROGRAMAS E SISTEMAS EM TESTES DE CARGA E DE STRESS: CAPACIDADE; DISPO…"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) TESTES ESPECIAIS DE CARGA E DE STRESS DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14855
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (SISTEMA DE COMPUTAÇÃO) TESTES ESPECIAIS DE CARGA E DE STRESS DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14857
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…NTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE AMBIENTE DE DESENVOLVIMENTO DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.04.90",
+    "termo": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE ESPECÍFICO PARA MEDICINA",
+    "descricao_item": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14858
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SOFTWARE ESPECÍFICO) SOFTWARE DE TESTE DE PROGRAMAS E SISTEMAS"
+   },
+   {
+    "ocupacao": "212430",
+    "titulo": "Analista de testes de tecnologia da informação",
+    "dimensao": "conhecimentos",
+    "codigo": "01.09.99.01",
+    "termo": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) REALIDADE VIRTUAL",
+    "descricao_item": "OUTROS ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TIPOS DE TESTE DE PROGRAMAS, SISTEMAS, EQUIPAMENTOS E OUTROS RECURSOS DE TECNOLOGIA DA INFORMAÇÃO: TESTES DE FLUXO DE DADOS; TESTES VISUAIS; TESTES DE CÓDIGO-FONTE; TESTES DE GARANTIA DE CONFIABILIDADE DE SITES DE INTERNET; OUTROS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 14870
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…ELEMENTOS (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO) TIPOS DE TESTE DE PROGRAMAS, SISTEMAS, EQUIPAMENTOS E OUTROS RECURSOS DE TECNOLOGIA DA I…"
+   },
+   {
+    "ocupacao": "214255",
+    "titulo": "Engenheiro civil (rodovias)",
+    "dimensao": "conhecimentos",
+    "codigo": "03.11.99.01",
+    "termo": "OUTROS ELEMENTOS (ENGENHARIA DE TRANSPORTES) OPERAÇÕES LOGÍSTICAS",
+    "descricao_item": "OUTROS ELEMENTOS (ENGENHARIA DE TRANSPORTES) IRAP – PROGRAMA INTERNACIONAL DE AVALIAÇÃO DE RODOVIAS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 18724
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ENGENHARIA DE TRANSPORTES) IRAP – PROGRAMA INTERNACIONAL DE AVALIAÇÃO DE RODOVIAS"
+   },
+   {
+    "ocupacao": "214335",
+    "titulo": "Engenheiro de manutenção de telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 19519
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS"
+   },
+   {
+    "ocupacao": "214340",
+    "titulo": "Engenheiro de telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 19614
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS"
+   },
+   {
+    "ocupacao": "214345",
+    "titulo": "Engenheiro projetista de telecomunicações",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 19709
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS"
+   },
+   {
+    "ocupacao": "214365",
+    "titulo": "Tecnólogo em eletrônica",
+    "dimensao": "conhecimentos",
+    "codigo": "01.01.90",
+    "termo": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PERIFÉRICOS DE COMPUTADOR PARA ENTRADA E SAÍDA DE DESENHOS - MESAS DIGITALIZADORAS, IMPRESSORAS E PLOTTERS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SISTEMAS EMBARCADOS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 1671
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE CIÊNCIA DA COMPUTAÇÃO (ESPECIFICAR:...) - PROGRAMAÇÃO DE SISTEMAS EMBARCADOS"
+   },
+   {
+    "ocupacao": "214375",
+    "titulo": "Engenheiro de energia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 19903
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…UTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214375",
+    "titulo": "Engenheiro de energia",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) ALGORITMOS E PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 19904
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) ALGORITMOS E PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214380",
+    "titulo": "Engenheiro biomédico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO APLICADA À ENGENHARIA BIOMÉDICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20001
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO APLICADA À ENGENHARIA BIOMÉDICA"
+   },
+   {
+    "ocupacao": "214380",
+    "titulo": "Engenheiro biomédico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO SCRIPT",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20002
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO SCRIPT"
+   },
+   {
+    "ocupacao": "214505",
+    "titulo": "Engenheiro químico",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20574
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214510",
+    "titulo": "Engenheiro químico (indústria química)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20662
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214515",
+    "titulo": "Engenheiro químico (mineração, metalurgia, siderurgia, cimenteira e cerâmica)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20759
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214520",
+    "titulo": "Engenheiro químico (papel e celulose)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20851
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214525",
+    "titulo": "Engenheiro químico (petróleo e borracha)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 20949
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214530",
+    "titulo": "Engenheiro químico (utilidades e meio ambiente)",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.01.90",
+    "termo": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) INTERAÇÃO HUMANO-COMPUTADOR",
+    "descricao_item": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 21049
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (TEORIA DA COMPUTAÇÃO) LÓGICA DE PROGRAMAÇÃO"
+   },
+   {
+    "ocupacao": "214540",
+    "titulo": "Engenheiro têxtil",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS DA PROGRAMAÇÃO, DE TECNOLOGIA E DE SISTEMAS DE INFORMAÇÃO",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 21146
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…UTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) FUNDAMENTOS DA PROGRAMAÇÃO, DE TECNOLOGIA E DE SISTEMAS DE INFORMAÇÃO"
+   },
+   {
+    "ocupacao": "214540",
+    "titulo": "Engenheiro têxtil",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.99.01",
+    "termo": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) ALGORITMO E PROGRAMACAO DE COMPUTADORES",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 21148
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (CIÊNCIA DA COMPUTAÇÃO) ALGORITMO E PROGRAMACAO DE COMPUTADORES"
+   },
+   {
+    "ocupacao": "214805",
+    "titulo": "Engenheiro agrimensor",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.03.90",
+    "termo": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) INTELIGÊNCIA ARTIFICIAL",
+    "descricao_item": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO APLICADA À ENGENHARIA DE AGRIMENSURA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22160
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (METODOLOGIA E TÉCNICAS DA COMPUTAÇÃO) PROGRAMAÇÃO APLICADA À ENGENHARIA DE AGRIMENSURA"
+   },
+   {
+    "ocupacao": "214905",
+    "titulo": "Engenheiro de produção",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22367
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO"
+   },
+   {
+    "ocupacao": "214910",
+    "titulo": "Engenheiro de controle de qualidade",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22452
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO"
+   },
+   {
+    "ocupacao": "214920",
+    "titulo": "Engenheiro de riscos",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMAS DE PREVENÇÃO E COMBATE A INCÊNDIOS (PPCI)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22598
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMAS DE PREVENÇÃO E COMBATE A INCÊNDIOS (PPCI)"
+   },
+   {
+    "ocupacao": "214930",
+    "titulo": "Tecnólogo em produção industrial",
+    "dimensao": "conhecimentos",
+    "codigo": "11.10.90",
+    "termo": "OUTROS CONHECIMENTOS DE PLANEJAMENTO E CONTROLE DA PRODUÇÃO - PCP (ESPECIFICAR:...) - ADMINISTRAÇÃO DO TEMPO DE TRABALHO EM SERVIÇOS DOMÉSTICOS",
+    "descricao_item": "OUTROS CONHECIMENTOS DE PLANEJAMENTO E CONTROLE DA PRODUÇÃO - PCP (ESPECIFICAR:...) - PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 2261
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…AMENTO E CONTROLE DA PRODUÇÃO - PCP (ESPECIFICAR:...) - PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO"
+   },
+   {
+    "ocupacao": "214935",
+    "titulo": "Tecnólogo em segurança do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "11.16.90",
+    "termo": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PREVENÇÃO E COMBATE A INCÊNDIO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PROGRAMA DE PREVENÇÃO DE RISCOS AMBIENTAIS (PPRA)",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 2367
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PROGRAMA DE PREVENÇÃO DE RISCOS AMBIENTAIS (PPRA)"
+   },
+   {
+    "ocupacao": "214935",
+    "titulo": "Tecnólogo em segurança do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "11.16.90",
+    "termo": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PREVENÇÃO E COMBATE A INCÊNDIO",
+    "descricao_item": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PROGRAMAS E SISTEMAS DE SEGURANÇA DO TRABALHO",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento I",
+     "linha": 2368
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS CONHECIMENTOS DE SAÚDE E SEGURANÇA (ESPECIFICAR:...) - PROGRAMAS E SISTEMAS DE SEGURANÇA DO TRABALHO"
+   },
+   {
+    "ocupacao": "214940",
+    "titulo": "Higienista ocupacional",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) ELABORAÇÃO DE PROGRAMAS DE PREVENÇÃO DE RISCO AMBIENTAL (PPRA) E OUTROS PROGRAMAS DE PREVENÇÃO CONTRA FATORES DE RISCO À SAÚDE OCUPACIONAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22734
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) ELABORAÇÃO DE PROGRAMAS DE PREVENÇÃO DE RISCO AMBIENTAL (PPRA) E OUTROS PROGRAMAS DE…"
+   },
+   {
+    "ocupacao": "214940",
+    "titulo": "Higienista ocupacional",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) GERENCIAMENTO DE PROGRAMAS DE HIGIENE OCUPACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22737
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) GERENCIAMENTO DE PROGRAMAS DE HIGIENE OCUPACIONAL"
+   },
+   {
+    "ocupacao": "214945",
+    "titulo": "Engenheiro de logistica",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO",
+    "importancia": 3,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 22810
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PLANEJAMENTO, PROGRAMAÇÃO E CONTROLE DA PRODUÇÃO"
+   },
+   {
+    "ocupacao": "222105",
+    "titulo": "Engenheiro agrícola",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA AGRÍCOLA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24385
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA AGRÍCOLA"
+   },
+   {
+    "ocupacao": "222110",
+    "titulo": "Engenheiro agrônomo",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA AGRONOMIA",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24494
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA AGRONOMIA"
+   },
+   {
+    "ocupacao": "222115",
+    "titulo": "Engenheiro de pesca",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA DE PESCA E AQUICULTURA",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24621
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA DE PESCA E AQUICULTURA"
+   },
+   {
+    "ocupacao": "222115",
+    "titulo": "Engenheiro de pesca",
+    "dimensao": "conhecimentos",
+    "codigo": "05.06.04.90",
+    "termo": "OUTROS ELEMENTOS (ENGENHARIA DE PESCA) FUNDAMENTOS DE ENGENHARIA DE PESCA",
+    "descricao_item": "OUTROS ELEMENTOS (ENGENHARIA DE PESCA) EXTENSÃO EM PROJETOS E PROGRAMAS DE PESCA E AQUICULTURA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24672
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ENGENHARIA DE PESCA) EXTENSÃO EM PROJETOS E PROGRAMAS DE PESCA E AQUICULTURA"
+   },
+   {
+    "ocupacao": "222120",
+    "titulo": "Engenheiro florestal",
+    "dimensao": "conhecimentos",
+    "codigo": "01.03.04.90",
+    "termo": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) SISTEMAS OPERACIONAIS",
+    "descricao_item": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA FLORESTAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24720
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SISTEMA DE COMPUTAÇÃO) ALGORITMOS, SOFTWARES E PROGRAMAÇÃO PARA ENGENHARIA FLORESTAL"
+   },
+   {
+    "ocupacao": "223204",
+    "titulo": "Cirurgião dentista - auditor",
+    "dimensao": "conhecimentos",
+    "codigo": "04.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ODONTOLOGIA) CÓDIGO DE ÉTICA E BIOÉTICA ODONTOLÓGICA",
+    "descricao_item": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 24983
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL"
+   },
+   {
+    "ocupacao": "223216",
+    "titulo": "Cirurgião dentista - epidemiologista",
+    "dimensao": "conhecimentos",
+    "codigo": "04.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ODONTOLOGIA) CÓDIGO DE ÉTICA E BIOÉTICA ODONTOLÓGICA",
+    "descricao_item": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL COLETIVA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 25263
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL COLETIVA"
+   },
+   {
+    "ocupacao": "223272",
+    "titulo": "Cirurgião dentista de saúde coletiva",
+    "dimensao": "conhecimentos",
+    "codigo": "04.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ODONTOLOGIA) CÓDIGO DE ÉTICA E BIOÉTICA ODONTOLÓGICA",
+    "descricao_item": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS, CAMPANHAS E AÇÕES PARA SAÚDE BUCAL COLETIVA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 26506
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS, CAMPANHAS E AÇÕES PARA SAÚDE BUCAL COLETIVA"
+   },
+   {
+    "ocupacao": "223276",
+    "titulo": "Cirurgião dentista - odontologia do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "04.02.99.01",
+    "termo": "OUTROS ELEMENTOS (ODONTOLOGIA) CÓDIGO DE ÉTICA E BIOÉTICA ODONTOLÓGICA",
+    "descricao_item": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL OCUPACIONAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 26609
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (ODONTOLOGIA) PROJETOS, PROGRAMAS E AÇÕES PARA SAÚDE BUCAL OCUPACIONAL"
+   },
+   {
+    "ocupacao": "223293",
+    "titulo": "Cirurgião-dentista da estratégia de saúde da família",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMA SAÚDE DA FAMÍLIA E REDE DE ATENÇÃO BÁSICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 26965
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMA SAÚDE DA FAMÍLIA E REDE DE ATENÇÃO BÁSICA"
+   },
+   {
+    "ocupacao": "223530",
+    "titulo": "Enfermeiro do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "01.02.02.90",
+    "termo": "OUTROS ELEMENTOS (ESTATÍSTICA) BIOESTATÍSTICA",
+    "descricao_item": "OUTROS ELEMENTOS (ESTATÍSTICA) FUNDAMENTOS DE ESTATÍSTICA PARA EXECUÇÃO E CONTROLE DE PROGRAMAS DE SAÚDE E SEGURANÇA DO TRABALHADOR",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 28332
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…(ESTATÍSTICA) FUNDAMENTOS DE ESTATÍSTICA PARA EXECUÇÃO E CONTROLE DE PROGRAMAS DE SAÚDE E SEGURANÇA DO TRABALHADOR"
+   },
+   {
+    "ocupacao": "223530",
+    "titulo": "Enfermeiro do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL (PCMSO): ESTRUTURA; ABORDAGENS; AÇÕES; MONITORAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 28364
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL (PCMSO): ESTRUTURA; A…"
+   },
+   {
+    "ocupacao": "223530",
+    "titulo": "Enfermeiro do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMA DE GERENCIAMENTO DE RISCOS (PGR): ESTRUTURA; ABORDAGENS; MONITORAÇÃO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 28365
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) PROGRAMA DE GERENCIAMENTO DE RISCOS (PGR): ESTRUTURA; ABORDAGENS; MONI…"
+   },
+   {
+    "ocupacao": "223575",
+    "titulo": "Obstetriz",
+    "dimensao": "conhecimentos",
+    "codigo": "04.01.03.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE MATERNO-INFANTIL) POLÍTICAS NACIONAIS DE SAÚDE MATERNO-INFANTIL E ALEITAMENTO",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE MATERNO-INFANTIL) POLÍTICAS E PROGRAMAS DE SAÚDE DA MULHER",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 29099
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE MATERNO-INFANTIL) POLÍTICAS E PROGRAMAS DE SAÚDE DA MULHER"
+   },
+   {
+    "ocupacao": "223660",
+    "titulo": "Fisioterapeuta  do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "03.09.01.90",
+    "termo": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) HIGIENE, SAÚDE E SEGURANÇA NO TRABALHO",
+    "descricao_item": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) ELABORAÇÃO DE PROGRAMAS DE PREVENÇÃO DE RISCOS AMBIENTAIS (PPRA)",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30127
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (GERÊNCIA DE PRODUÇÃO) ELABORAÇÃO DE PROGRAMAS DE PREVENÇÃO DE RISCOS AMBIENTAIS (PPRA)"
+   },
+   {
+    "ocupacao": "223810",
+    "titulo": "Fonoaudiólogo geral",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30403
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "223815",
+    "titulo": "Fonoaudiólogo educacional",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA DA COMUNIDADE ESCOLAR",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30470
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA DA COMUN…"
+   },
+   {
+    "ocupacao": "223820",
+    "titulo": "Fonoaudiólogo em audiologia",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE AUDITIVA E QUALIDADE DE VIDA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30549
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE AUDITIVA E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "223825",
+    "titulo": "Fonoaudiólogo em disfagia",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30633
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "223830",
+    "titulo": "Fonoaudiólogo em linguagem",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30710
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "223840",
+    "titulo": "Fonoaudiólogo em saúde coletiva",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30867
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "223845",
+    "titulo": "Fonoaudiólogo em voz",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30936
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "224105",
+    "titulo": "Avaliador físico",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31206
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224110",
+    "titulo": "Ludomotricista",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) ATIVIDADES FÍSICAS DE CARÁTER LÚDICO E RECREATIVO: ESTRUTURAÇÃO; PLANEJAMENTO, PROGRAMAÇÃO E ORIENTAÇÃO; CONTRIBUIÇÃO PARA OS ASPECTOS RELACIONAL, AFETIVO, COGNITIVO E MOTRIZ; OUTRAS ABORDAGENS",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31265
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…S FÍSICAS DE CARÁTER LÚDICO E RECREATIVO: ESTRUTURAÇÃO; PLANEJAMENTO, PROGRAMAÇÃO E ORIENTAÇÃO; CONTRIBUIÇÃO PARA OS ASPECTOS RELACIONAL, AF…"
+   },
+   {
+    "ocupacao": "224110",
+    "titulo": "Ludomotricista",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31281
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224115",
+    "titulo": "Preparador de atleta",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31375
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224120",
+    "titulo": "Preparador físico",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31469
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224125",
+    "titulo": "Técnico de desporto individual e coletivo (exceto futebol)",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31556
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224130",
+    "titulo": "Técnico de laboratório e fiscalização desportiva",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31648
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224135",
+    "titulo": "Treinador profissional de futebol",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31737
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "224140",
+    "titulo": "Profissional de educação física na saúde",
+    "dimensao": "conhecimentos",
+    "codigo": "04.06.02.90",
+    "termo": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) POLÍTICAS DE SAÚDE DO SUS",
+    "descricao_item": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31808
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (SAÚDE PÚBLICA) PROGRAMAS DE PREVENÇÃO, PROMOÇÃO DE SAÚDE E QUALIDADE DE VIDA"
+   },
+   {
+    "ocupacao": "224140",
+    "titulo": "Profissional de educação física na saúde",
+    "dimensao": "conhecimentos",
+    "codigo": "04.09.99.01",
+    "termo": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) DIMENSÕES MORFOFUNCIONAIS E CONHECIMENTO DO CORPO",
+    "descricao_item": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROFISSIONAL DA EDUCAÇÃO FÍSICA",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 31833
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (EDUCAÇÃO FÍSICA) TECNOLOGIAS, PROGRAMAS, PROJETOS E MÉTODOS DE GESTÃO NOS CAMPOS DE INTERVENÇÃO PROF…"
+   },
+   {
+    "ocupacao": "225122",
+    "titulo": "Médico cancerologista pediátrico",
+    "dimensao": "conhecimentos",
+    "codigo": "02.11.99.01",
+    "termo": "OUTROS ELEMENTOS (IMUNOLOGIA) IMUNOLOGIA DO PACIENTE OPERADO",
+    "descricao_item": "OUTROS ELEMENTOS (IMUNOLOGIA) VACINAÇÃO DURANTE E APÓS TRATAMENTO DE CÂNCER PEDIÁTRICO: PROGRAMA NACIONAL DE IMUNIZAÇÕES, INDICAÇÕES, CONTRAINDICAÇÕES E EVENTOS ADVERSOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 32873
+    },
+    "casou_em": "descricao_item",
+    "trecho": "…IMUNOLOGIA) VACINAÇÃO DURANTE E APÓS TRATAMENTO DE CÂNCER PEDIÁTRICO: PROGRAMA NACIONAL DE IMUNIZAÇÕES, INDICAÇÕES, CONTRAINDICAÇÕES E EVENT…"
+   },
+   {
+    "ocupacao": "225124",
+    "titulo": "Médico pediatra",
+    "dimensao": "conhecimentos",
+    "codigo": "02.11.04.90",
+    "termo": "OUTROS ELEMENTOS (IMUNOLOGIA APLICADA) IMUNOPATOLOGIA",
+    "descricao_item": "OUTROS ELEMENTOS (IMUNOLOGIA APLICADA) VACINAS: PROGRAMA NACIONAL DE IMUNIZAÇÕES, INDICAÇÕES, CONTRAINDICAÇÕES E EVENTOS ADVERSOS",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 32971
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (IMUNOLOGIA APLICADA) VACINAS: PROGRAMA NACIONAL DE IMUNIZAÇÕES, INDICAÇÕES, CONTRAINDICAÇÕES E EVENT…"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 619,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=programa&limite=100&deslocamento=100",
+   "proxima": "/api/v1/qbq/itens?q=programa&limite=100&deslocamento=200",
+   "anterior": "/api/v1/qbq/itens?q=programa&limite=100&deslocamento=0"
+  }
+ }
+}

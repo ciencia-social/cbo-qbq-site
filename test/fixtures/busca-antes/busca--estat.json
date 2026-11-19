@@ -1,0 +1,367 @@
+{
+ "url": "/api/v1/busca?q=estat",
+ "status": 200,
+ "corpo": {
+  "dados": {
+   "ocupacao": [
+    {
+     "tipo": "ocupacao",
+     "identificador": "211205",
+     "rotulo": "Estatístico",
+     "casou_em": "titulo",
+     "trecho": "Estatístico",
+     "link": "/api/v1/ocupacoes/211205"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "211210",
+     "rotulo": "Estatístico (estatística aplicada)",
+     "casou_em": "titulo",
+     "trecho": "Estatístico (estatística aplicada)",
+     "link": "/api/v1/ocupacoes/211210"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "211215",
+     "rotulo": "Estatístico teórico",
+     "casou_em": "titulo",
+     "trecho": "Estatístico teórico",
+     "link": "/api/v1/ocupacoes/211215"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "234115",
+     "rotulo": "Professor de estatística (no ensino superior)",
+     "casou_em": "titulo",
+     "trecho": "Professor de estatística (no ensino superior)",
+     "link": "/api/v1/ocupacoes/234115"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "411035",
+     "rotulo": "Auxiliar de estatística",
+     "casou_em": "titulo",
+     "trecho": "Auxiliar de estatística",
+     "link": "/api/v1/ocupacoes/411035"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "424125",
+     "rotulo": "Escriturário  em  estatística",
+     "casou_em": "titulo",
+     "trecho": "Escriturário  em  estatística",
+     "link": "/api/v1/ocupacoes/424125"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "642010",
+     "rotulo": "Operador de máquinas florestais estáticas",
+     "casou_em": "titulo",
+     "trecho": "Operador de máquinas florestais estáticas",
+     "link": "/api/v1/ocupacoes/642010"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "131115",
+     "rotulo": "Gerente de serviços culturais",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de planejamento e estatística",
+     "link": "/api/v1/ocupacoes/131115"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "131120",
+     "rotulo": "Gerente de serviços sociais",
+     "casou_em": "sinonimo",
+     "trecho": "Chefe de serviço de pesquisa e estatística",
+     "link": "/api/v1/ocupacoes/131120"
+    },
+    {
+     "tipo": "ocupacao",
+     "identificador": "261305",
+     "rotulo": "Arquivista",
+     "casou_em": "sinonimo",
+     "trecho": "Encarregado de serviço de arquivo médico e estatística",
+     "link": "/api/v1/ocupacoes/261305"
+    }
+   ],
+   "sinonimo": [
+    {
+     "tipo": "sinonimo",
+     "identificador": "131115",
+     "rotulo": "Gerente de planejamento e estatística",
+     "casou_em": "sinonimo",
+     "trecho": "Gerente de planejamento e estatística",
+     "link": "/api/v1/ocupacoes/131115"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "131120",
+     "rotulo": "Chefe de serviço de pesquisa e estatística",
+     "casou_em": "sinonimo",
+     "trecho": "Chefe de serviço de pesquisa e estatística",
+     "link": "/api/v1/ocupacoes/131120"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "211205",
+     "rotulo": "Estatístico - analista",
+     "casou_em": "sinonimo",
+     "trecho": "Estatístico - analista",
+     "link": "/api/v1/ocupacoes/211205"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "234115",
+     "rotulo": "Professor de amostragem estatística (no ensino superior)",
+     "casou_em": "sinonimo",
+     "trecho": "Professor de amostragem estatística (no ensino superior)",
+     "link": "/api/v1/ocupacoes/234115"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "261305",
+     "rotulo": "Encarregado de serviço de arquivo médico e estatística",
+     "casou_em": "sinonimo",
+     "trecho": "Encarregado de serviço de arquivo médico e estatística",
+     "link": "/api/v1/ocupacoes/261305"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "376405",
+     "rotulo": "Estátua viva",
+     "casou_em": "sinonimo",
+     "trecho": "Estátua viva",
+     "link": "/api/v1/ocupacoes/376405"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "391210",
+     "rotulo": "Técnico analista de controle estatístico de qualidade",
+     "casou_em": "sinonimo",
+     "trecho": "Técnico analista de controle estatístico de qualidade",
+     "link": "/api/v1/ocupacoes/391210"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "411035",
+     "rotulo": "Controlador de estatística",
+     "casou_em": "sinonimo",
+     "trecho": "Controlador de estatística",
+     "link": "/api/v1/ocupacoes/411035"
+    },
+    {
+     "tipo": "sinonimo",
+     "identificador": "424125",
+     "rotulo": "Técnico em estatística (escriturário)",
+     "casou_em": "sinonimo",
+     "trecho": "Técnico em estatística (escriturário)",
+     "link": "/api/v1/ocupacoes/424125"
+    }
+   ],
+   "familia": [
+    {
+     "tipo": "familia",
+     "identificador": "2112",
+     "rotulo": "Profissionais de estatística e afins",
+     "casou_em": "titulo",
+     "trecho": "Profissionais de estatística e afins",
+     "link": "/api/v1/cbo/familias/2112"
+    },
+    {
+     "tipo": "familia",
+     "identificador": "2341",
+     "rotulo": "Professores de matemática, estatística e informática do ensino superior",
+     "casou_em": "titulo",
+     "trecho": "Professores de matemática, estatística e informática do ensino superior",
+     "link": "/api/v1/cbo/familias/2341"
+    }
+   ],
+   "atividade": [
+    {
+     "tipo": "atividade",
+     "identificador": "020305",
+     "rotulo": "Elaborar estatísticas",
+     "casou_em": "atividade",
+     "trecho": "Elaborar estatísticas",
+     "link": "/api/v1/ocupacoes/020305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "020310",
+     "rotulo": "Elaborar estatísticas",
+     "casou_em": "atividade",
+     "trecho": "Elaborar estatísticas",
+     "link": "/api/v1/ocupacoes/020310/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "021105",
+     "rotulo": "Elaborar relatórios estatísticos",
+     "casou_em": "atividade",
+     "trecho": "Elaborar relatórios estatísticos",
+     "link": "/api/v1/ocupacoes/021105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "021110",
+     "rotulo": "Elaborar relatórios estatísticos",
+     "casou_em": "atividade",
+     "trecho": "Elaborar relatórios estatísticos",
+     "link": "/api/v1/ocupacoes/021110/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030205",
+     "rotulo": "Analisar dados estatísticos de operações",
+     "casou_em": "atividade",
+     "trecho": "Analisar dados estatísticos de operações",
+     "link": "/api/v1/ocupacoes/030205/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030305",
+     "rotulo": "Coordenar a elaboração de estatísticas",
+     "casou_em": "atividade",
+     "trecho": "Coordenar a elaboração de estatísticas",
+     "link": "/api/v1/ocupacoes/030305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "030305",
+     "rotulo": "Analisar dados estatísticos",
+     "casou_em": "atividade",
+     "trecho": "Analisar dados estatísticos",
+     "link": "/api/v1/ocupacoes/030305/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "111325",
+     "rotulo": "Organizar o conselho tutelar para a aplicação do estatuto da criança e do adolescente",
+     "casou_em": "atividade",
+     "trecho": "Organizar o conselho tutelar para a aplicação do estatuto da criança e do adolescente",
+     "link": "/api/v1/ocupacoes/111325/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "114105",
+     "rotulo": "Elaborar estatutos",
+     "casou_em": "atividade",
+     "trecho": "Elaborar estatutos",
+     "link": "/api/v1/ocupacoes/114105/atividades"
+    },
+    {
+     "tipo": "atividade",
+     "identificador": "114105",
+     "rotulo": "Zelar pelo cumprimento das políticas, estatutos e regulamentos",
+     "casou_em": "atividade",
+     "trecho": "Zelar pelo cumprimento das políticas, estatutos e regulamentos",
+     "link": "/api/v1/ocupacoes/114105/atividades"
+    }
+   ],
+   "termo": [
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/campos/01.07.00",
+     "rotulo": "MATEMÁTICA E ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "MATEMÁTICA E ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/campos/01.07.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.07.08",
+     "rotulo": "ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.07.08"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/01.07.90",
+     "rotulo": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXTEIS",
+     "casou_em": "termo",
+     "trecho": "OUTROS CONHECIMENTOS DE MATEMÁTICA E ESTATÍSTICA (ESPECIFICAR:...) - MATEMÁTICA APLICADA AOS PROCESSOS TÊXT…",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/01.07.90"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/11.15.04",
+     "rotulo": "CONTROLE ESTATÍSTICO DE PROCESSO (CEP)",
+     "casou_em": "termo",
+     "trecho": "CONTROLE ESTATÍSTICO DE PROCESSO (CEP)",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/11.15.04"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-i/conhecimentos/15.02.01",
+     "rotulo": "SERVIÇO DE ARQUIVO MÉDICO E ESTATÍSTICA (SAME)",
+     "casou_em": "termo",
+     "trecho": "SERVIÇO DE ARQUIVO MÉDICO E ESTATÍSTICA (SAME)",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-i/conhecimentos/15.02.01"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/campos/01.02.00.00",
+     "rotulo": "PROBABILIDADE E ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "PROBABILIDADE E ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/campos/01.02.00.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/conhecimentos/01.02.02.00",
+     "rotulo": "ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/conhecimentos/01.02.02.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/conhecimentos/01.02.03.00",
+     "rotulo": "PROBABILIDADE E ESTATÍSTICA APLICADAS",
+     "casou_em": "termo",
+     "trecho": "PROBABILIDADE E ESTATÍSTICA APLICADAS",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/conhecimentos/01.02.03.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/conhecimentos/01.02.99.00",
+     "rotulo": "OUTROS ELEMENTOS DO CAMPO PROBABILIDADE E ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "OUTROS ELEMENTOS DO CAMPO PROBABILIDADE E ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/conhecimentos/01.02.99.00"
+    },
+    {
+     "tipo": "termo",
+     "identificador": "conhecimentos-ii/elementos/01.02.02.01",
+     "rotulo": "FUNDAMENTOS DA ESTATÍSTICA",
+     "casou_em": "termo",
+     "trecho": "FUNDAMENTOS DA ESTATÍSTICA",
+     "link": "/api/v1/qbq/vocabularios/conhecimentos-ii/elementos/01.02.02.01"
+    }
+   ],
+   "conceito": [
+    {
+     "tipo": "conceito",
+     "identificador": "habilidades/03.01.07",
+     "rotulo": "Força estática",
+     "casou_em": "conceito",
+     "trecho": "Força estática",
+     "link": "/api/v1/qbq/vocabularios/habilidades/habilidades/03.01.07"
+    }
+   ]
+  },
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/busca?q=estat",
+   "proxima": null,
+   "anterior": null
+  }
+ }
+}

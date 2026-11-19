@@ -1,0 +1,21 @@
+{
+ "url": "/api/v1/qbq/itens?q=banco+de+dados&limite=100&deslocamento=100",
+ "status": 200,
+ "corpo": {
+  "dados": [],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 55,
+   "limite": 100,
+   "deslocamento": 100,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=banco+de+dados&limite=100&deslocamento=100",
+   "proxima": null,
+   "anterior": "/api/v1/qbq/itens?q=banco+de+dados&limite=100&deslocamento=0"
+  }
+ }
+}

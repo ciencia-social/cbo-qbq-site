@@ -1,0 +1,954 @@
+{
+ "url": "/api/v1/atividades?q=programa&agrupar_por=ocupacao",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "codigo": "376320",
+    "codigo_formatado": "3763-20",
+    "titulo_cbo": "Apresentador de programas de televisão",
+    "titulo_qbq": "Apresentador de programas de televisão",
+    "familia": {
+     "codigo": "3763",
+     "titulo": "Apresentadores de eventos, programas e espetáculos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1234
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1353
+     }
+    },
+    "total_casadas": 30,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 1,
+      "descricao": "Interpretar o texto",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 2,
+      "descricao": "Dar o tom da solenidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 4,
+      "descricao": "Ficar atento aos tempos das reportagens e entradas nos programas e eventos ao vivo",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "376305",
+    "codigo_formatado": "3763-05",
+    "titulo_cbo": "Apresentador de eventos",
+    "titulo_qbq": "Apresentador de eventos",
+    "familia": {
+     "codigo": "3763",
+     "titulo": "Apresentadores de eventos, programas e espetáculos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1231
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1350
+     }
+    },
+    "total_casadas": 29,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 1,
+      "descricao": "Interpretar o texto",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 2,
+      "descricao": "Dar o tom da solenidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 5,
+      "descricao": "Receber instruções dos organizadores do evento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "373140",
+    "codigo_formatado": "3731-40",
+    "titulo_cbo": "Coordenador de programação",
+    "titulo_qbq": "Coordenador de programação",
+    "familia": {
+     "codigo": "3731",
+     "titulo": "Técnicos de operação de registros sonoro/audiovisuais"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1186
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 699
+     }
+    },
+    "total_casadas": 28,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 1,
+      "descricao": "Consolidar roteiro de exibição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 2,
+      "descricao": "Checar roteiro de exibição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 3,
+      "descricao": "Planejar mídia",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "376310",
+    "codigo_formatado": "3763-10",
+    "titulo_cbo": "Apresentador de festas populares",
+    "titulo_qbq": "Apresentador de festas populares",
+    "familia": {
+     "codigo": "3763",
+     "titulo": "Apresentadores de eventos, programas e espetáculos"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1232
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1351
+     }
+    },
+    "total_casadas": 27,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 2,
+      "descricao": "Dar o tom da solenidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 5,
+      "descricao": "Receber instruções dos organizadores do evento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 6,
+      "descricao": "Gravar locuções em ´off´",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "376315",
+    "codigo_formatado": "3763-15",
+    "titulo_cbo": "Apresentador de programas de rádio",
+    "titulo_qbq": "Apresentador de programas de rádio",
+    "familia": {
+     "codigo": "3763",
+     "titulo": "Apresentadores de eventos, programas e espetáculos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1233
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1352
+     }
+    },
+    "total_casadas": 27,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 2,
+      "descricao": "Dar o tom da solenidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 4,
+      "descricao": "Ficar atento aos tempos das reportagens e entradas nos programas e eventos ao vivo",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 5,
+      "descricao": "Receber instruções dos organizadores do evento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "376325",
+    "codigo_formatado": "3763-25",
+    "titulo_cbo": "Apresentador de circo",
+    "titulo_qbq": "Apresentador de circo",
+    "familia": {
+     "codigo": "3763",
+     "titulo": "Apresentadores de eventos, programas e espetáculos"
+    },
+    "nivel_qualificacao": 4,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1235
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1354
+     }
+    },
+    "total_casadas": 27,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 2,
+      "descricao": "Dar o tom da solenidade",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 5,
+      "descricao": "Receber instruções dos organizadores do evento",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "APRESENTAR ATRAÇÕES, PROGRAMAS E EVENTOS",
+      "numero": 6,
+      "descricao": "Gravar locuções em ´off´",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "142135",
+    "codigo_formatado": "1421-35",
+    "titulo_cbo": "Oficial de proteção de dados pessoais (dpo)",
+    "titulo_qbq": "Oficial de proteção de dados pessoais (dpo)",
+    "familia": {
+     "codigo": "1421",
+     "titulo": "Gerentes administrativos, financeiros, de riscos e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 157
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2571
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 1,
+      "descricao": "Participar da estruturação do programa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 3,
+      "descricao": "Participar da elaboração de políticas de controles internos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 5,
+      "descricao": "Participar da definição dos mecanismos de monitoramento",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "214115",
+    "codigo_formatado": "2141-15",
+    "titulo_cbo": "Arquiteto de patrimônio",
+    "titulo_qbq": "Arquiteto de patrimônio",
+    "familia": {
+     "codigo": "2141",
+     "titulo": "Arquitetos e urbanistas"
+    },
+    "nivel_qualificacao": 7,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 283
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1953
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Identificar necessidades do cliente/usuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Coletar informações e dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 3,
+      "descricao": "Analisar dados e informações",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "214125",
+    "codigo_formatado": "2141-25",
+    "titulo_cbo": "Arquiteto urbanista",
+    "titulo_qbq": "Arquiteto urbanista",
+    "familia": {
+     "codigo": "2141",
+     "titulo": "Arquitetos e urbanistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 285
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1955
+     }
+    },
+    "total_casadas": 22,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Identificar necessidades do cliente/usuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Coletar informações e dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 3,
+      "descricao": "Analisar dados e informações",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "142125",
+    "codigo_formatado": "1421-25",
+    "titulo_cbo": "Analista de compliance",
+    "titulo_qbq": "Analista de compliance",
+    "familia": {
+     "codigo": "1421",
+     "titulo": "Gerentes administrativos, financeiros, de riscos e afins"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 155
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2569
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 1,
+      "descricao": "Participar da estruturação do programa",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 2,
+      "descricao": "Auxiliar na elaboração das atribuições",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "K",
+      "area": "PARTICIPAR DA IMPLEMENTAÇÃO DO PROGRAMA DE COMPLIANCE E/OU DE GOVERNANÇA EM PRIVACIDADE",
+      "numero": 3,
+      "descricao": "Participar da elaboração de políticas de controles internos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "214105",
+    "codigo_formatado": "2141-05",
+    "titulo_cbo": "Arquiteto de edificações",
+    "titulo_qbq": "Arquiteto de edificações",
+    "familia": {
+     "codigo": "2141",
+     "titulo": "Arquitetos e urbanistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 281
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1951
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Identificar necessidades do cliente/usuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Coletar informações e dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 3,
+      "descricao": "Analisar dados e informações",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "214110",
+    "codigo_formatado": "2141-10",
+    "titulo_cbo": "Arquiteto de interiores",
+    "titulo_qbq": "Arquiteto de interiores",
+    "familia": {
+     "codigo": "2141",
+     "titulo": "Arquitetos e urbanistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 282
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1952
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Identificar necessidades do cliente/usuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Coletar informações e dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 3,
+      "descricao": "Analisar dados e informações",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "214120",
+    "codigo_formatado": "2141-20",
+    "titulo_cbo": "Arquiteto paisagista",
+    "titulo_qbq": "Arquiteto paisagista",
+    "familia": {
+     "codigo": "2141",
+     "titulo": "Arquitetos e urbanistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 284
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 1954
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 1,
+      "descricao": "Identificar necessidades do cliente/usuário",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 2,
+      "descricao": "Coletar informações e dados",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "A",
+      "area": "ELABORAR PLANOS, PROGRAMAS E PROJETOS",
+      "numero": 3,
+      "descricao": "Analisar dados e informações",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "223305",
+    "codigo_formatado": "2233-05",
+    "titulo_cbo": "Médico veterinário",
+    "titulo_qbq": "Médico-veterinário",
+    "familia": {
+     "codigo": "2233",
+     "titulo": "Veterinários e zootecnistas"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 405
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2059
+     }
+    },
+    "total_casadas": 21,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 6,
+      "descricao": "Desenvolver programas de controle sanitário de plantéis",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 8,
+      "descricao": "Desenvolver programas de melhoramento genético",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "A",
+      "area": "FOMENTAR PRODUÇÃO ANIMAL",
+      "numero": 10,
+      "descricao": "Elaborar programas de nutrição animal",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "373135",
+    "codigo_formatado": "3731-35",
+    "titulo_cbo": "Operador de controle mestre",
+    "titulo_qbq": "Operador de controle mestre",
+    "familia": {
+     "codigo": "3731",
+     "titulo": "Técnicos de operação de registros sonoro/audiovisuais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1185
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 698
+     }
+    },
+    "total_casadas": 20,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 1,
+      "descricao": "Consolidar roteiro de exibição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 2,
+      "descricao": "Checar roteiro de exibição",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR GRADE DE PROGRAMAÇÃO",
+      "numero": 5,
+      "descricao": "Checar conteúdos a serem exibidos",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "131225",
+    "codigo_formatado": "1312-25",
+    "titulo_cbo": "Sanitarista",
+    "titulo_qbq": "Sanitarista",
+    "familia": {
+     "codigo": "1312",
+     "titulo": "Gestores e especialistas de operações em empresas, secretarias e unidades de serviços de saúde"
+    },
+    "nivel_qualificacao": 6,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 115
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 2529
+     }
+    },
+    "total_casadas": 19,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 10,
+      "descricao": "Implementar programas de saúde",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 11,
+      "descricao": "Implementar programas de atendimento biopsicossocial",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "COORDENAR AÇÕES DE SAÚDE",
+      "numero": 15,
+      "descricao": "Coordenar projetos e/ou programas de saúde",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251105",
+    "codigo_formatado": "2511-05",
+    "titulo_cbo": "Antropólogo",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "2511",
+     "titulo": "Profissionais em pesquisa e análise antropológica sociológica"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 692
+     },
+     "qbq": null
+    },
+    "total_casadas": 19,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR ESTUDOS E PESQUISAS SOCIAIS, ECONÔMICAS E POLÍTICAS",
+      "numero": 14,
+      "descricao": "Identificar perfil sócio-econômico de usuários de programas públicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PARTICIPAR DA GESTÃO TERRITORIAL E SÓCIO-AMBIENTAL",
+      "numero": 5,
+      "descricao": "Fornecer subsídios para programas de zoneamento ecológico-econômico cultural",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PARTICIPAR DA GESTÃO TERRITORIAL E SÓCIO-AMBIENTAL",
+      "numero": 9,
+      "descricao": "Participar de programas de fiscalização de territórios tradicionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "251120",
+    "codigo_formatado": "2511-20",
+    "titulo_cbo": "Sociólogo",
+    "titulo_qbq": null,
+    "familia": {
+     "codigo": "2511",
+     "titulo": "Profissionais em pesquisa e análise antropológica sociológica"
+    },
+    "nivel_qualificacao": null,
+    "situacao_qbq": "ausente_no_qbq",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 695
+     },
+     "qbq": null
+    },
+    "total_casadas": 19,
+    "atividades": [
+     {
+      "sigla": "A",
+      "area": "REALIZAR ESTUDOS E PESQUISAS SOCIAIS, ECONÔMICAS E POLÍTICAS",
+      "numero": 14,
+      "descricao": "Identificar perfil sócio-econômico de usuários de programas públicos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PARTICIPAR DA GESTÃO TERRITORIAL E SÓCIO-AMBIENTAL",
+      "numero": 5,
+      "descricao": "Fornecer subsídios para programas de zoneamento ecológico-econômico cultural",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "B",
+      "area": "PARTICIPAR DA GESTÃO TERRITORIAL E SÓCIO-AMBIENTAL",
+      "numero": 9,
+      "descricao": "Participar de programas de fiscalização de territórios tradicionais",
+      "casou_em": "atividade"
+     }
+    ]
+   },
+   {
+    "codigo": "720105",
+    "codigo_formatado": "7201-05",
+    "titulo_cbo": "Mestre (afiador de ferramentas)",
+    "titulo_qbq": "Mestre (afiador de ferramentas)",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1853
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 866
+     }
+    },
+    "total_casadas": 19,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 6,
+      "descricao": "Elaborar programa de manutenção de equipamentos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "GARANTIR A PROGRAMAÇÃO DA PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Dimensionar a disponibilidade dos equipamentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "GARANTIR A PROGRAMAÇÃO DA PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Prever recursos humanos em função da carga de trabalho",
+      "casou_em": "area"
+     }
+    ]
+   },
+   {
+    "codigo": "720110",
+    "codigo_formatado": "7201-10",
+    "titulo_cbo": "Mestre de caldeiraria",
+    "titulo_qbq": "Mestre de caldeiraria",
+    "familia": {
+     "codigo": "7201",
+     "titulo": "Supervisores de usinagem, conformação e tratamento de metais"
+    },
+    "nivel_qualificacao": 3,
+    "situacao_qbq": "classificada",
+    "fonte": {
+     "cbo": {
+      "arquivo": "fontes/cbo/cbo2002-ocupacao.csv",
+      "linha": 1854
+     },
+     "qbq": {
+      "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+      "aba": "Ocupação",
+      "linha": 867
+     }
+    },
+    "total_casadas": 19,
+    "atividades": [
+     {
+      "sigla": "B",
+      "area": "ORGANIZAR EQUIPAMENTOS UTILIZADOS NOS PROCESSOS DE PRODUÇÃO",
+      "numero": 6,
+      "descricao": "Elaborar programa de manutenção de equipamentos",
+      "casou_em": "atividade"
+     },
+     {
+      "sigla": "D",
+      "area": "GARANTIR A PROGRAMAÇÃO DA PRODUÇÃO",
+      "numero": 1,
+      "descricao": "Dimensionar a disponibilidade dos equipamentos",
+      "casou_em": "area"
+     },
+     {
+      "sigla": "D",
+      "area": "GARANTIR A PROGRAMAÇÃO DA PRODUÇÃO",
+      "numero": 2,
+      "descricao": "Prever recursos humanos em função da carga de trabalho",
+      "casou_em": "area"
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 1057,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/atividades?q=programa&agrupar_por=ocupacao",
+   "proxima": "/api/v1/atividades?q=programa&agrupar_por=ocupacao&deslocamento=20",
+   "anterior": null
+  }
+ }
+}

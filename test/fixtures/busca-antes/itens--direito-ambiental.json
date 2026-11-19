@@ -1,0 +1,382 @@
+{
+ "url": "/api/v1/qbq/itens?q=direito+ambiental",
+ "status": 200,
+ "corpo": {
+  "dados": [
+   {
+    "ocupacao": "111325",
+    "titulo": "Juiz de direito",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 30
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "111330",
+    "titulo": "Juiz federal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 107
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "111335",
+    "titulo": "Juiz auditor federal - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL",
+    "importancia": 2,
+    "frequencia": 2,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 182
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "111340",
+    "titulo": "Juiz auditor estadual - justiça militar",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL",
+    "importancia": 2,
+    "frequencia": 2,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 256
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "111345",
+    "titulo": "Juiz do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.02.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PÚBLICO) LEGISLAÇÃO E POLÍTICAS PÚBLICAS EDUCACIONAIS PARA O ENSINO SUPERIOR",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 326
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PÚBLICO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "111345",
+    "titulo": "Juiz do trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.03.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PRIVADO) DIREITO AMBIENTAL DO TRABALHO",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 338
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PRIVADO) DIREITO AMBIENTAL DO TRABALHO"
+   },
+   {
+    "ocupacao": "123210",
+    "titulo": "Diretor de relações de trabalho",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.03.90",
+    "termo": "OUTROS ELEMENTOS (DIREITO PRIVADO) LEGISLAÇÃO APLICADA À ÁREA OCUPACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO PRIVADO) DIREITO AMBIENTAL DO TRABALHO",
+    "importancia": 5,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 3699
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO PRIVADO) DIREITO AMBIENTAL DO TRABALHO"
+   },
+   {
+    "ocupacao": "142350",
+    "titulo": "Profissonal de relações internacionais",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 9092
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "204105",
+    "titulo": "Perito criminal",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL APLICADO À PERÍCIA CRIMINAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 13580
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL APLICADO À PERÍCIA CRIMINAL"
+   },
+   {
+    "ocupacao": "234730",
+    "titulo": "Professor de direito do ensino superior",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.04.90",
+    "termo": "OUTROS ELEMENTOS (DIREITOS ESPECIAIS) DIREITOS HUMANOS",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITOS ESPECIAIS) DIREITO AGRÁRIO, AGROAMBIENTAL E AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 46547
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITOS ESPECIAIS) DIREITO AGRÁRIO, AGROAMBIENTAL E AMBIENTAL"
+   },
+   {
+    "ocupacao": "241005",
+    "titulo": "Advogado",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49098
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241010",
+    "titulo": "Advogado de empresa",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49182
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241020",
+    "titulo": "Advogado (direito público)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49379
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241025",
+    "titulo": "Advogado (direito penal)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49473
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241035",
+    "titulo": "Advogado (direito do trabalho)",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 3,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49639
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241040",
+    "titulo": "Consultor jurídico",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49715
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241205",
+    "titulo": "Advogado da união",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49795
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241210",
+    "titulo": "Procurador autárquico",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 4,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49879
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241215",
+    "titulo": "Procurador da fazenda nacional",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 4,
+    "frequencia": 4,
+    "profundidade": 3,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 49966
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   },
+   {
+    "ocupacao": "241220",
+    "titulo": "Procurador do estado",
+    "dimensao": "conhecimentos",
+    "codigo": "06.01.99.01",
+    "termo": "OUTROS ELEMENTOS (DIREITO) LEGISLAÇÕES DO SISTEMA FINANCEIRO NACIONAL",
+    "descricao_item": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL",
+    "importancia": 5,
+    "frequencia": 5,
+    "profundidade": 5,
+    "fonte": {
+     "arquivo": "fontes/qbq/qbq-2025-03.xlsx",
+     "aba": "Conhecimento II",
+     "linha": 50058
+    },
+    "casou_em": "descricao_item",
+    "trecho": "OUTROS ELEMENTOS (DIREITO) DIREITO AMBIENTAL"
+   }
+  ],
+  "meta": {
+   "versao_dados": "dados-2026.11.1",
+   "versao_schema": "schema-v0.3.0",
+   "total": 62,
+   "limite": 20,
+   "deslocamento": 0,
+   "derivado": false,
+   "avisos": []
+  },
+  "links": {
+   "proprio": "/api/v1/qbq/itens?q=direito+ambiental",
+   "proxima": "/api/v1/qbq/itens?q=direito+ambiental&deslocamento=20",
+   "anterior": null
+  }
+ }
+}
