@@ -7,3 +7,6 @@ data/*.sqlite-*
 *.tsbuildinfo
 .DS_Store
 .env*
+
+# Avaliação de 2026-11: descreve consultas caras e proteções (P0). Remover para publicar.
+docs/avaliacao-2026-11/
