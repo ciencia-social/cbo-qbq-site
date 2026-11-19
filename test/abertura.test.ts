@@ -7,7 +7,7 @@ import { describe, expect, it } from "vitest";
 import { tratar } from "@/http/dispatcher";
 import { carregarSobre } from "@/site/sobre";
 import { PaginaSobre } from "@/site/sobre-view";
-import { CITACAO_DADOS, CITACAO_SOFTWARE } from "@/versao";
+import { CITACAO_DADOS, CITACAO_SOFTWARE, DECLARACAO_IA } from "@/versao";
 import pacote from "../package.json";
 
 /**
@@ -133,5 +133,15 @@ describe("P6 citação unificada", () => {
     expect(html).toContain(CITACAO_DADOS);
     for (const arquivo of ["public/llms.txt", "public/llms-full.txt", "README.md"]) expect(ler(arquivo), arquivo).toContain(CITACAO_DADOS);
     expect(ler("README.md")).toContain(CITACAO_SOFTWARE);
+  });
+});
+
+describe("P4 declaração de uso de IA", () => {
+  it("a constante de /sobre é o texto da seção 7 de docs/USO-DE-IA.md", () => {
+    const doc = fs.readFileSync(path.resolve(import.meta.dirname, "../docs/USO-DE-IA.md"), "utf8");
+    const secao = doc.split("## 7.")[1]?.split("\n## ")[0] ?? "";
+    const citado = secao.split("\n").find((linha) => linha.startsWith("> "))?.slice(2);
+    expect(citado).toBe(DECLARACAO_IA);
+    expect(DECLARACAO_IA).not.toMatch(/\[|<DECLARACAO_IA>/);
   });
 });

@@ -110,7 +110,8 @@ export const LICENCA = {
 };
 
 /**
- * Declaração de uso de IA, escrita pelo mantenedor (P4). Aparece em /sobre e em docs/USO-DE-IA.md.
- * O teste test/abertura.test.ts falha enquanto o marcador estiver aqui.
+ * Declaração de uso de IA (P4), conforme o art. 9º, I, "c", da Portaria CNPq nº 2.664/2026.
+ * Aparece em /sobre. É o mesmo texto da seção 7 de docs/USO-DE-IA.md; ao mudar um, mude o outro.
  */
-export const DECLARACAO_IA = "<DECLARACAO_IA>";
+export const DECLARACAO_IA =
+  "Em conformidade com o art. 9º, I, \"c\", da Portaria CNPq nº 2.664/2026, declaro o uso de ferramentas de IA generativa neste projeto. No conjunto de dados cbo-qbq-dados, o Claude Science apoiou a busca das fontes oficiais, o pipeline de extração e validação, a documentação e a revisão dos dados. Neste serviço, o Claude Science, o Claude Design, o Cursor e o Claude Code apoiaram o planejamento, o design das telas, o código e os testes, os textos e as avaliações do projeto. Revisei cada resultado por inteiro antes de publicá-lo. Os dados são regenerados das publicações oficiais e validados automaticamente, e os números que o serviço devolve são conferidos por testes contra os dados. O escopo, as decisões de arquitetura e a modelagem dos dados não foram delegados à IA. A IA não é autora deste trabalho, e a responsabilidade pelo conteúdo é minha. Detalhes em docs/USO-DE-IA.md, no repositório.";
