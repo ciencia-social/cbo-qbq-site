@@ -3,7 +3,8 @@ import { Problema, parametro } from "@/http/erros";
 import { limitar } from "@/http/limite";
 import { ConsultaRota, lista, PARAMETROS_GLOBAIS, validarPedido } from "@/http/parametros";
 import { rotas, type Ctx } from "@/http/rotas";
-import { api, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import { api, GERADOR, PREFIXO_API, VERSAO_DADOS, VERSAO_SCHEMA } from "@/versao";
+import pacote from "../../package.json";
 import type { Saida } from "@/tipos";
 
 const CORS = {
@@ -137,10 +138,17 @@ function aplicarCampos(dados: unknown, campos: string[]): unknown {
   return Array.isArray(dados) ? dados.map(filtrar) : filtrar(dados);
 }
 
-function etagDe(url: URL) {
+/** Identifica o código que gerou a resposta: o commit na Vercel, a versão do pacote fora dela. */
+export function identificadorBuild() {
+  return process.env.VERCEL_GIT_COMMIT_SHA || `pacote-${pacote.version}`;
+}
+
+/** Muda quando mudam os dados, o gerador do banco ou o código (I7). */
+export function etagDe(url: URL) {
   const chaves = [...url.searchParams.keys()].sort();
   const consulta = chaves.map((chave) => `${chave}=${url.searchParams.getAll(chave).join(",")}`).join("&");
-  const hash = createHash("sha256").update(`${VERSAO_DADOS} ${url.pathname}?${consulta}`).digest("hex");
+  const base = [VERSAO_DADOS, GERADOR, identificadorBuild(), `${url.pathname}?${consulta}`].join(" ");
+  const hash = createHash("sha256").update(base).digest("hex");
   return `"${hash}"`;
 }
 
